@@ -1,5 +1,7 @@
 export type Mood = "eat" | "fun" | "calm" | "active" | "surprise";
 export type Budget = "low" | "mid" | "high";
+export type PlaceSource = "TWO_GIS" | "OPENSTREETMAP" | "WIKIMEDIA" | "OFFICIAL_SITE" | "MANUAL" | "OTHER";
+export type ImageRights = "OFFICIAL_SOURCE" | "THIRD_PARTY_UNKNOWN" | "NEEDS_REVIEW" | "APPROVED";
 
 export type Place = {
   id: string;
@@ -21,8 +23,13 @@ export type Place = {
   longitude: number | null;
   imageUrl: string | null;
   imageSourceUrl: string | null;
-  imageRights: "OFFICIAL_SOURCE" | "THIRD_PARTY_UNKNOWN" | "NEEDS_REVIEW" | "APPROVED" | null;
+  imageSource: PlaceSource | null;
+  imageRights: ImageRights | null;
+  imageAuthor: string | null;
+  imageLicense: string | null;
+  imageLicenseUrl: string | null;
   sourceUrl: string | null;
+  source: PlaceSource | null;
   verifiedAt: string | null;
   website: string | null;
   phone: string | null;

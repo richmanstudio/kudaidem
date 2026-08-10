@@ -16,6 +16,7 @@ on:
       - scripts/deep-official-photos.ts
       - scripts/enrich-2gis-api.ts
       - scripts/enrich-place-details.ts
+      - scripts/enrich-search-details.ts
       - scripts/sanitize-photo-catalog.ts
       - scripts/validate-places.ts
       - scripts/audit-catalog.ts
@@ -89,10 +90,15 @@ jobs:
         continue-on-error: true
         run: npm run data:2gis
 
-      - name: Enrich contacts, hours, descriptions, prices and ratings
+      - name: Enrich details from official venue websites
         id: details
         continue-on-error: true
         run: npx tsx scripts/enrich-place-details.ts
+
+      - name: Fill remaining details from matched search results
+        id: search_details
+        continue-on-error: true
+        run: npx tsx scripts/enrich-search-details.ts
 
       - name: Remove invalid, non-raster and unmatched provider media
         id: sanitize_photos
@@ -152,7 +158,8 @@ jobs:
           echo "- KudaGo coordinate match: ${{ steps.kudago.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- deep official photo scan: ${{ steps.official_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- licensed 2GIS API enrichment: ${{ steps.dgis.outcome }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "- details enrichment: ${{ steps.details.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- official-site details enrichment: ${{ steps.details.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- search details enrichment: ${{ steps.search_details.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- media sanitizer: ${{ steps.sanitize_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- exact 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- catalog audit: ${{ steps.audit.outcome }}" >> "$GITHUB_STEP_SUMMARY"

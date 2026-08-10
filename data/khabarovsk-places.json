@@ -1,65 +1,5 @@
 [
   {
-    "id": "osm-node-4481017690",
-    "sourceId": "node-4481017690",
-    "slug": "osm-node-4481017690",
-    "city": "Хабаровск",
-    "name": "Luga",
-    "category": "Ресторан",
-    "subcategories": [
-      "restaurant"
-    ],
-    "tags": [
-      "surprise",
-      "eat",
-      "calm"
-    ],
-    "description": "LUGA - ресторан с 10-летней историей, в самом центре г. Хабаровск. Хорошие порции, изобилие вин в винной карте, радушный персонал и прекрасный сервис. Мы сделаем любое событие незабываемым!",
-    "address": "улица Лазо, 86Б",
-    "latitude": 48.5089411,
-    "longitude": 135.0963535,
-    "phone": "+7 421 269-36-92",
-    "website": "https://www.lugarest.ru/",
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/4481017690",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": "Mo-Su,PH 12:00-24:00",
-    "openingHoursText": "Mo-Su,PH 12:00-24:00",
-    "closesAt": "24:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 4,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
-    "detailsSources": {}
-  },
-  {
     "id": "osm-way-181380618",
     "sourceId": "way-181380618",
     "slug": "osm-way-181380618",
@@ -116,8 +56,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
     "detailsSources": {}
   },
   {
@@ -178,8 +118,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
     "detailsSources": {}
   },
   {
@@ -238,8 +178,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -298,8 +238,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -358,8 +298,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -418,8 +358,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -437,7 +377,7 @@
       "eat",
       "calm"
     ],
-    "description": null,
+    "description": "Общепит – самый аппетитный раздел нашего сайта, созданный для того, чтобы вы могли легко найти идеальное место для любого повода. Здесь собраны все заведения города: от...",
     "address": "Хабаровск",
     "latitude": 48.4731368,
     "longitude": 135.0581184,
@@ -478,8 +418,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -538,8 +478,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -598,8 +538,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -658,8 +598,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -718,8 +658,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -778,8 +718,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -838,68 +778,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
-    "detailsSources": {}
-  },
-  {
-    "id": "osm-node-6029568285",
-    "sourceId": "node-6029568285",
-    "slug": "osm-node-6029568285",
-    "city": "Хабаровск",
-    "name": "Тепло",
-    "category": "Ресторан",
-    "subcategories": [
-      "restaurant"
-    ],
-    "tags": [
-      "surprise",
-      "eat",
-      "calm"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4732048,
-    "longitude": 135.0598643,
-    "phone": "+7 4212 253638",
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/6029568285",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": "Mo-Su 11:00-23:00",
-    "openingHoursText": "Mo-Su 11:00-23:00",
-    "closesAt": "23:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 4,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -958,8 +838,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -1018,8 +898,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.818Z",
+    "scrapedAt": "2026-08-10T07:49:15.818Z",
     "detailsSources": {}
   },
   {
@@ -1079,8 +959,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -1139,8 +1019,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -1158,7 +1038,7 @@
       "eat",
       "calm"
     ],
-    "description": "Китайская Республика была основана в 1912 году и управлялась партией Гоминьдан как однопартийное государство. Она контролировала значительную часть материкового Китая и …",
+    "description": null,
     "address": "улица Ухтомского, 57Б",
     "latitude": 48.4992604,
     "longitude": 135.0669746,
@@ -1199,18 +1079,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
-    "detailsSources": {
-      "description": [
-        {
-          "url": "https://www.bing.com/ck/a?!&&p=8b727faf0d07ea49e31b9616acb532729858a4af35cb234d0a0176b657310b1dJmltdHM9MTc4NjMyMDAwMA&ptn=3&ver=2&hsh=4&fclid=1ef3fbbb-eae9-647a-3512-ec0aebaa65eb&u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlBJUQwJUI4JUQxJTgyJUQwJUIwJUQwJUI5JUQxJTgxJUQwJUJBJUQwJUIwJUQxJThGXyVEMCVBMCVEMCVCNSVEMSU4MSVEMCVCRiVEMSU4MyVEMCVCMSVEMCVCQiVEMCVCOCVEMCVCQSVEMCVCMF8oJUQwJUEyJUQwJUIwJUQwJUI5JUQwJUIyJUQwJUIwJUQwJUJEJUQxJThDKQ&ntb=1",
-          "query": "\"Тайвань\" улица Ухтомского, 57Б Хабаровск рейтинг отзывы средний чек часы телефон",
-          "snippet": "Китайская Республика была основана в 1912 году и управлялась партией Гоминьдан как однопартийное государство. Она контролировала значительную часть материкового Китая и …",
-          "collectedAt": "2026-08-10T07:42:36.926Z"
-        }
-      ]
-    }
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4405496637",
@@ -1268,8 +1139,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -1328,8 +1199,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.811Z",
+    "scrapedAt": "2026-08-10T07:49:15.811Z",
     "detailsSources": {}
   },
   {
@@ -1388,8 +1259,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.812Z",
+    "scrapedAt": "2026-08-10T07:49:15.812Z",
     "detailsSources": {}
   },
   {
@@ -1448,8 +1319,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -1508,8 +1379,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.992Z",
-    "scrapedAt": "2026-08-10T07:41:08.992Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -1568,8 +1439,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.991Z",
-    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -1628,8 +1499,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.991Z",
-    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -1688,8 +1559,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.991Z",
-    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -1748,8 +1619,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -1808,8 +1679,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -1868,8 +1739,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.990Z",
-    "scrapedAt": "2026-08-10T07:41:08.990Z",
+    "verifiedAt": "2026-08-10T07:49:15.806Z",
+    "scrapedAt": "2026-08-10T07:49:15.806Z",
     "detailsSources": {}
   },
   {
@@ -1928,8 +1799,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -1988,8 +1859,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.995Z",
-    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -2048,8 +1919,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.995Z",
-    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -2108,8 +1979,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -2168,8 +2039,68 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-4481017690",
+    "sourceId": "node-4481017690",
+    "slug": "osm-node-4481017690",
+    "city": "Хабаровск",
+    "name": "Luga",
+    "category": "Ресторан",
+    "subcategories": [
+      "restaurant"
+    ],
+    "tags": [
+      "surprise",
+      "eat",
+      "calm"
+    ],
+    "description": "LUGA - ресторан с 10-летней историей, в самом центре г. Хабаровск. Хорошие порции, изобилие вин в винной карте, радушный персонал и прекрасный сервис. Мы сделаем любое событие незабываемым!",
+    "address": "улица Лазо, 86Б",
+    "latitude": 48.5089411,
+    "longitude": 135.0963535,
+    "phone": "+7 421 269-36-92",
+    "website": "https://www.lugarest.ru/",
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/4481017690",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://static.tildacdn.com/tild6232-3034-4838-b765-343635306564/1__1.jpg",
+    "imageSourceUrl": "https://www.lugarest.ru/",
+    "imageSource": "OFFICIAL_SITE",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": "Mo-Su,PH 12:00-24:00",
+    "openingHoursText": "Mo-Su,PH 12:00-24:00",
+    "closesAt": "24:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 4,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -2228,8 +2159,68 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-6029568285",
+    "sourceId": "node-6029568285",
+    "slug": "osm-node-6029568285",
+    "city": "Хабаровск",
+    "name": "Тепло",
+    "category": "Ресторан",
+    "subcategories": [
+      "restaurant"
+    ],
+    "tags": [
+      "surprise",
+      "eat",
+      "calm"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4732048,
+    "longitude": 135.0598643,
+    "phone": "+7 4212 253638",
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/6029568285",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": "Mo-Su 11:00-23:00",
+    "openingHoursText": "Mo-Su 11:00-23:00",
+    "closesAt": "23:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 4,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -2288,8 +2279,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -2348,8 +2339,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -2408,8 +2399,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -2468,8 +2459,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.991Z",
-    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -2528,8 +2519,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -2588,8 +2579,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -2648,8 +2639,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -2708,8 +2699,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.811Z",
+    "scrapedAt": "2026-08-10T07:49:15.811Z",
     "detailsSources": {}
   },
   {
@@ -2768,8 +2759,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -2828,8 +2819,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -2888,8 +2879,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -2948,8 +2939,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.811Z",
+    "scrapedAt": "2026-08-10T07:49:15.811Z",
     "detailsSources": {}
   },
   {
@@ -3008,8 +2999,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -3068,8 +3059,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -3087,7 +3078,7 @@
       "eat",
       "calm"
     ],
-    "description": "Кафе Корея - это множество любимых блюд корейской кухни, два этажа комфорта, удобная парковка",
+    "description": null,
     "address": "Хабаровск",
     "latitude": 48.4776228,
     "longitude": 135.0847775,
@@ -3128,8 +3119,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.811Z",
+    "scrapedAt": "2026-08-10T07:49:15.811Z",
     "detailsSources": {}
   },
   {
@@ -3188,8 +3179,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.995Z",
-    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -3248,8 +3239,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -3308,8 +3299,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -3368,8 +3359,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.818Z",
+    "scrapedAt": "2026-08-10T07:49:15.818Z",
     "detailsSources": {}
   },
   {
@@ -3428,8 +3419,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -3488,8 +3479,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -3548,8 +3539,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -3608,8 +3599,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -3668,8 +3659,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -3728,8 +3719,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.990Z",
-    "scrapedAt": "2026-08-10T07:41:08.990Z",
+    "verifiedAt": "2026-08-10T07:49:15.806Z",
+    "scrapedAt": "2026-08-10T07:49:15.806Z",
     "detailsSources": {}
   },
   {
@@ -3788,8 +3779,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -3848,8 +3839,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -3908,8 +3899,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -3968,8 +3959,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.811Z",
+    "scrapedAt": "2026-08-10T07:49:15.811Z",
     "detailsSources": {}
   },
   {
@@ -4028,8 +4019,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -4047,7 +4038,7 @@
       "eat",
       "calm"
     ],
-    "description": "Купить билет на поезд без комиссии. Акции и скидки. Расписание поездов и электричек по всем направлениям.",
+    "description": null,
     "address": "Хабаровск",
     "latitude": 48.4743764,
     "longitude": 135.0618242,
@@ -4088,18 +4079,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
-    "detailsSources": {
-      "description": [
-        {
-          "url": "https://www.bing.com/ck/a?!&&p=799c72325d87cbaa54f0f51e11f34cd793a516b47b38f12423014bb7668c069bJmltdHM9MTc4NjMyMDAwMA&ptn=3&ver=2&hsh=4&fclid=3ee97288-4e4a-6e9f-111a-65394fc36fa4&u=a1aHR0cHM6Ly90aWNrZXQucnpkLnJ1Lw&ntb=1",
-          "query": "\"РЖД ОАО\" Хабаровск Хабаровск рейтинг отзывы средний чек часы телефон",
-          "snippet": "Купить билет на поезд без комиссии. Акции и скидки. Расписание поездов и электричек по всем направлениям.",
-          "collectedAt": "2026-08-10T07:42:36.927Z"
-        }
-      ]
-    }
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12070992815",
@@ -4156,8 +4138,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -4215,8 +4197,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -4274,8 +4256,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -4333,8 +4315,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.812Z",
+    "scrapedAt": "2026-08-10T07:49:15.812Z",
     "detailsSources": {}
   },
   {
@@ -4392,8 +4374,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -4451,8 +4433,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -4510,8 +4492,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.991Z",
-    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -4569,8 +4551,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -4628,8 +4610,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -4687,8 +4669,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -4746,8 +4728,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -4805,8 +4787,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -4864,8 +4846,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -4923,8 +4905,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -4982,8 +4964,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.812Z",
+    "scrapedAt": "2026-08-10T07:49:15.812Z",
     "detailsSources": {}
   },
   {
@@ -5042,8 +5024,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -5101,8 +5083,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -5160,8 +5142,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -5220,8 +5202,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -5280,8 +5262,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -5340,8 +5322,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -5399,8 +5381,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -5459,8 +5441,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -5519,8 +5501,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -5579,8 +5561,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -5638,8 +5620,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -5698,8 +5680,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -5758,8 +5740,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -5817,8 +5799,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -5877,8 +5859,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -5936,8 +5918,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.990Z",
-    "scrapedAt": "2026-08-10T07:41:08.990Z",
+    "verifiedAt": "2026-08-10T07:49:15.806Z",
+    "scrapedAt": "2026-08-10T07:49:15.806Z",
     "detailsSources": {}
   },
   {
@@ -5995,8 +5977,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.992Z",
-    "scrapedAt": "2026-08-10T07:41:08.992Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -6054,8 +6036,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -6113,8 +6095,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -6172,8 +6154,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -6231,8 +6213,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.811Z",
+    "scrapedAt": "2026-08-10T07:49:15.811Z",
     "detailsSources": {}
   },
   {
@@ -6290,8 +6272,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.991Z",
-    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -6349,8 +6331,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -6408,8 +6390,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -6467,8 +6449,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -6526,8 +6508,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -6585,8 +6567,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -6644,8 +6626,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -6703,8 +6685,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -6763,8 +6745,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -6822,8 +6804,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -6881,8 +6863,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
     "detailsSources": {}
   },
   {
@@ -6940,8 +6922,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -6999,8 +6981,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.995Z",
-    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -7058,8 +7040,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -7117,8 +7099,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -7176,8 +7158,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -7235,8 +7217,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -7294,8 +7276,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -7353,8 +7335,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.991Z",
-    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -7412,8 +7394,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -7471,8 +7453,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -7530,8 +7512,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.811Z",
+    "scrapedAt": "2026-08-10T07:49:15.811Z",
     "detailsSources": {}
   },
   {
@@ -7589,8 +7571,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -7648,8 +7630,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -7707,8 +7689,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.995Z",
-    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -7766,8 +7748,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.991Z",
-    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -7825,8 +7807,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.995Z",
-    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -7884,8 +7866,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.809Z",
+    "scrapedAt": "2026-08-10T07:49:15.809Z",
     "detailsSources": {}
   },
   {
@@ -7943,8 +7925,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.992Z",
-    "scrapedAt": "2026-08-10T07:41:08.992Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -8002,8 +7984,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -8061,8 +8043,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
     "detailsSources": {}
   },
   {
@@ -8120,8 +8102,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
     "detailsSources": {}
   },
   {
@@ -8179,8 +8161,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -8238,8 +8220,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -8297,8 +8279,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -8356,8 +8338,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.992Z",
-    "scrapedAt": "2026-08-10T07:41:08.992Z",
+    "verifiedAt": "2026-08-10T07:49:15.807Z",
+    "scrapedAt": "2026-08-10T07:49:15.807Z",
     "detailsSources": {}
   },
   {
@@ -8415,8 +8397,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.812Z",
+    "scrapedAt": "2026-08-10T07:49:15.812Z",
     "detailsSources": {}
   },
   {
@@ -8474,8 +8456,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -8533,8 +8515,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -8592,8 +8574,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -8653,8 +8635,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -8711,8 +8693,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -8772,8 +8754,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -8831,8 +8813,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.993Z",
-    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -8889,8 +8871,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.811Z",
+    "scrapedAt": "2026-08-10T07:49:15.811Z",
     "detailsSources": {}
   },
   {
@@ -8947,8 +8929,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.811Z",
+    "scrapedAt": "2026-08-10T07:49:15.811Z",
     "detailsSources": {}
   },
   {
@@ -9006,8 +8988,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -9064,8 +9046,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -9122,8 +9104,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.812Z",
+    "scrapedAt": "2026-08-10T07:49:15.812Z",
     "detailsSources": {}
   },
   {
@@ -9180,8 +9162,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.812Z",
+    "scrapedAt": "2026-08-10T07:49:15.812Z",
     "detailsSources": {}
   },
   {
@@ -9238,8 +9220,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.812Z",
+    "scrapedAt": "2026-08-10T07:49:15.812Z",
     "detailsSources": {}
   },
   {
@@ -9296,8 +9278,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.812Z",
+    "scrapedAt": "2026-08-10T07:49:15.812Z",
     "detailsSources": {}
   },
   {
@@ -9354,8 +9336,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -9412,8 +9394,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.812Z",
+    "scrapedAt": "2026-08-10T07:49:15.812Z",
     "detailsSources": {}
   },
   {
@@ -9472,8 +9454,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -9532,8 +9514,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.818Z",
+    "scrapedAt": "2026-08-10T07:49:15.818Z",
     "detailsSources": {}
   },
   {
@@ -9592,8 +9574,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.818Z",
+    "scrapedAt": "2026-08-10T07:49:15.818Z",
     "detailsSources": {}
   },
   {
@@ -9652,8 +9634,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.818Z",
+    "scrapedAt": "2026-08-10T07:49:15.818Z",
     "detailsSources": {}
   },
   {
@@ -9712,8 +9694,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.818Z",
+    "scrapedAt": "2026-08-10T07:49:15.818Z",
     "detailsSources": {}
   },
   {
@@ -9772,8 +9754,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.818Z",
+    "scrapedAt": "2026-08-10T07:49:15.818Z",
     "detailsSources": {}
   },
   {
@@ -9831,8 +9813,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -9890,8 +9872,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -9950,8 +9932,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -10010,8 +9992,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -10070,8 +10052,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.818Z",
+    "scrapedAt": "2026-08-10T07:49:15.818Z",
     "detailsSources": {}
   },
   {
@@ -10130,8 +10112,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -10188,8 +10170,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
     "detailsSources": {}
   },
   {
@@ -10205,7 +10187,7 @@
     "tags": [
       "surprise"
     ],
-    "description": "ЦУМ — интернет-магазин брендовой одежды, обуви, сумок и аксессуаров премиум-класса. Более 700 модных брендов. Доставка в ПВЗ по всей России. Подарочные карты.",
+    "description": null,
     "address": "улица Муравьёва-Амурского, 23",
     "latitude": 48.47764,
     "longitude": 135.0651845,
@@ -10235,7 +10217,7 @@
     "openingHoursText": null,
     "closesAt": null,
     "rating": null,
-    "reviewsCount": 10330,
+    "reviewsCount": null,
     "indoor": true,
     "outdoor": null,
     "alcohol": null,
@@ -10246,26 +10228,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
-    "detailsSources": {
-      "description": [
-        {
-          "url": "https://www.bing.com/ck/a?!&&p=ca8376b7c0d79b039adc6a97970c3ca8d233ca7c03db096b216d831008e60ed3JmltdHM9MTc4NjMyMDAwMA&ptn=3&ver=2&hsh=4&fclid=3881443b-958a-61c1-2a1e-538a946e6019&u=a1aHR0cHM6Ly93d3cudHN1bS5ydS8&ntb=1",
-          "query": "\"ЦУМ\" улица Муравьёва-Амурского, 23 Хабаровск рейтинг отзывы средний чек часы телефон",
-          "snippet": "ЦУМ — интернет-магазин брендовой одежды, обуви, сумок и аксессуаров премиум-класса. Более 700 модных брендов. Доставка в ПВЗ по всей России. Подарочные карты.",
-          "collectedAt": "2026-08-10T07:42:36.927Z"
-        }
-      ],
-      "reviewsCount": [
-        {
-          "url": "https://www.bing.com/ck/a?!&&p=3641b3b7bcb29515f629452b811226b6d0f7167e71fcfd6f8c52a7c6f0d05c3bJmltdHM9MTc4NjMyMDAwMA&ptn=3&ver=2&hsh=4&fclid=3881443b-958a-61c1-2a1e-538a946e6019&u=a1aHR0cHM6Ly95YW5kZXgucnUvbWFwcy9vcmcvdHN1bS8xMzM0NTUxODU3Lw&ntb=1",
-          "query": "\"ЦУМ\" улица Муравьёва-Амурского, 23 Хабаровск рейтинг отзывы средний чек часы телефон",
-          "snippet": "Торговый центр «ЦУМ» по адресу Москва, улица Петровка, 2, метро «Театральная» — перейти на сайт, ☎️ показать телефоны. Читать 10330 отзывов, смотреть 499 фото, панорамы, часы …",
-          "collectedAt": "2026-08-10T07:42:36.928Z"
-        }
-      ]
-    }
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-6207350886",
@@ -10321,8 +10286,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -10379,8 +10344,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -10437,8 +10402,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.818Z",
+    "scrapedAt": "2026-08-10T07:49:15.818Z",
     "detailsSources": {}
   },
   {
@@ -10495,8 +10460,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -10553,8 +10518,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -10611,8 +10576,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
     "detailsSources": {}
   },
   {
@@ -10669,8 +10634,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
     "detailsSources": {}
   },
   {
@@ -10727,8 +10692,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.002Z",
-    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "verifiedAt": "2026-08-10T07:49:15.817Z",
+    "scrapedAt": "2026-08-10T07:49:15.817Z",
     "detailsSources": {}
   },
   {
@@ -10785,8 +10750,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
     "detailsSources": {}
   },
   {
@@ -10843,8 +10808,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.815Z",
+    "scrapedAt": "2026-08-10T07:49:15.815Z",
     "detailsSources": {}
   },
   {
@@ -10901,8 +10866,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
     "detailsSources": {}
   },
   {
@@ -10960,67 +10925,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
-    "detailsSources": {}
-  },
-  {
-    "id": "osm-node-11975028914",
-    "sourceId": "node-11975028914",
-    "slug": "osm-node-11975028914",
-    "city": "Хабаровск",
-    "name": "Sushi Sea",
-    "category": "Кафе · Быстрое питание",
-    "subcategories": [
-      "fast_food"
-    ],
-    "tags": [
-      "surprise",
-      "eat"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.3930371,
-    "longitude": 135.110279,
-    "phone": "+7 914 5420313",
-    "website": "https://sushi-sea.ru/",
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/11975028914",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
-    "openingHoursText": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
-    "closesAt": "22:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -11078,8 +10984,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.994Z",
-    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "verifiedAt": "2026-08-10T07:49:15.808Z",
+    "scrapedAt": "2026-08-10T07:49:15.808Z",
     "detailsSources": {}
   },
   {
@@ -11137,8 +11043,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -11196,8 +11102,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.997Z",
-    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "verifiedAt": "2026-08-10T07:49:15.812Z",
+    "scrapedAt": "2026-08-10T07:49:15.812Z",
     "detailsSources": {}
   },
   {
@@ -11255,8 +11161,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -11314,8 +11220,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -11373,8 +11279,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.999Z",
-    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -11432,8 +11338,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.000Z",
-    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "verifiedAt": "2026-08-10T07:49:15.814Z",
+    "scrapedAt": "2026-08-10T07:49:15.814Z",
     "detailsSources": {}
   },
   {
@@ -11491,68 +11397,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
-    "detailsSources": {}
-  },
-  {
-    "id": "osm-node-7283823843",
-    "sourceId": "node-7283823843",
-    "slug": "osm-node-7283823843",
-    "city": "Хабаровск",
-    "name": "Хума. Дом восточной кухни",
-    "category": "Кафе",
-    "subcategories": [
-      "cafe"
-    ],
-    "tags": [
-      "surprise",
-      "eat",
-      "calm"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4748351,
-    "longitude": 135.0642534,
-    "phone": "+74212707729",
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/7283823843",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 75,
-    "openingHours": "Mo-Fr 12:00-24:00; Sa,Su 00:00-02:00,12:00-24:00",
-    "openingHoursText": "Mo-Fr 12:00-24:00; Sa,Su 00:00-02:00,12:00-24:00",
-    "closesAt": "24:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 4,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -11611,8 +11457,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.996Z",
-    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "verifiedAt": "2026-08-10T07:49:15.810Z",
+    "scrapedAt": "2026-08-10T07:49:15.810Z",
     "detailsSources": {}
   },
   {
@@ -11671,8 +11517,67 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.001Z",
-    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "verifiedAt": "2026-08-10T07:49:15.816Z",
+    "scrapedAt": "2026-08-10T07:49:15.816Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-11975028914",
+    "sourceId": "node-11975028914",
+    "slug": "osm-node-11975028914",
+    "city": "Хабаровск",
+    "name": "Sushi Sea",
+    "category": "Кафе · Быстрое питание",
+    "subcategories": [
+      "fast_food"
+    ],
+    "tags": [
+      "surprise",
+      "eat"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.3930371,
+    "longitude": 135.110279,
+    "phone": "+7 914 5420313",
+    "website": "https://sushi-sea.ru/",
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/11975028914",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
+    "openingHoursText": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
+    "closesAt": "22:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -11730,8 +11635,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -11789,8 +11694,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -11849,8 +11754,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:08.998Z",
-    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "verifiedAt": "2026-08-10T07:49:15.813Z",
+    "scrapedAt": "2026-08-10T07:49:15.813Z",
     "detailsSources": {}
   },
   {
@@ -11908,8 +11813,68 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:41:09.003Z",
-    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "verifiedAt": "2026-08-10T07:49:15.818Z",
+    "scrapedAt": "2026-08-10T07:49:15.818Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-7283823843",
+    "sourceId": "node-7283823843",
+    "slug": "osm-node-7283823843",
+    "city": "Хабаровск",
+    "name": "Хума. Дом восточной кухни",
+    "category": "Кафе",
+    "subcategories": [
+      "cafe"
+    ],
+    "tags": [
+      "surprise",
+      "eat",
+      "calm"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4748351,
+    "longitude": 135.0642534,
+    "phone": "+74212707729",
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/7283823843",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 75,
+    "openingHours": "Mo-Fr 12:00-24:00; Sa,Su 00:00-02:00,12:00-24:00",
+    "openingHoursText": "Mo-Fr 12:00-24:00; Sa,Su 00:00-02:00,12:00-24:00",
+    "closesAt": "24:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 4,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:49:15.811Z",
+    "scrapedAt": "2026-08-10T07:49:15.811Z",
     "detailsSources": {}
   }
 ]

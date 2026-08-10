@@ -1,19 +1,21 @@
 {
   "total": 200,
+  "matched": 0,
   "phone": 93,
   "website": 92,
   "openingHours": 113,
-  "description": 35,
+  "description": 32,
   "averageCheck": 11,
   "rating": 0,
-  "reviewsCount": 1,
-  "searchAdded": {
-    "phoneAdded": 0,
-    "hoursAdded": 0,
-    "checkAdded": 0,
+  "reviewsCount": 0,
+  "twoGisAdded": {
     "ratingAdded": 0,
-    "reviewsAdded": 1,
-    "descriptionAdded": 3
+    "reviewsAdded": 0,
+    "checkAdded": 0,
+    "hoursAdded": 0,
+    "phoneAdded": 0,
+    "websiteAdded": 0,
+    "descriptionAdded": 0
   },
-  "enrichedAt": "2026-08-10T07:42:36.928Z"
+  "enrichedAt": "2026-08-10T07:51:10.429Z"
 }

@@ -4,10 +4,25 @@ import Link from "next/link";
 import { ArrowRight } from "@/components/ui/icons";
 import { haptic, openExternal } from "@/lib/telegram/client";
 
-export function PlaceActions({ placeName, planHref }: { placeName: string; planHref: string }) {
+export function PlaceActions({
+  placeName,
+  address,
+  latitude,
+  longitude,
+  planHref,
+}: {
+  placeName: string;
+  address: string | null;
+  latitude: number | null;
+  longitude: number | null;
+  planHref: string;
+}) {
   const route = () => {
     haptic("medium");
-    openExternal(`https://yandex.ru/maps/?text=${encodeURIComponent(`${placeName} Хабаровск`)}`);
+    const target = latitude != null && longitude != null
+      ? `${latitude},${longitude}`
+      : `${placeName}${address ? `, ${address}` : ""}, Хабаровск`;
+    openExternal(`https://yandex.ru/maps/?rtext=~${encodeURIComponent(target)}&rtt=auto`);
   };
 
   return (

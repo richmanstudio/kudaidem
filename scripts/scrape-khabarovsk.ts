@@ -9,6 +9,8 @@ const BASE = "https://2gis.ru/khabarovsk";
 const USER_AGENT = "KudaIdemCatalogBot/0.2 (+https://github.com/richmanstudio/kudaidem; contact: danil.kapshuk123@gmail.com)";
 
 const sources = [
+  // Balanced primary quotas. Reserve sources at the end only run if a smaller
+  // category cannot provide enough unique, active places with a usable photo.
   { query: "Рестораны", quota: 44, tags: ["eat", "calm", "surprise"] },
   { query: "Кафе", quota: 28, tags: ["eat", "calm", "surprise"] },
   { query: "Кофейни", quota: 14, tags: ["eat", "calm"] },
@@ -27,6 +29,12 @@ const sources = [
   { query: "Бани и сауны", quota: 5, tags: ["calm", "surprise"] },
   { query: "Семейные развлекательные центры", quota: 7, tags: ["fun", "active"] },
   { query: "Достопримечательности", quota: 8, tags: ["calm", "active", "surprise"] },
+  // Reserve pool. Global source IDs are deduplicated, so these only fill gaps.
+  { query: "Рестораны", quota: 30, tags: ["eat", "calm", "surprise"] },
+  { query: "Кафе", quota: 25, tags: ["eat", "calm", "surprise"] },
+  { query: "Развлечения", quota: 25, tags: ["fun", "active", "surprise"] },
+  { query: "Досуг", quota: 20, tags: ["fun", "calm", "surprise"] },
+  { query: "Интересные места", quota: 20, tags: ["calm", "active", "surprise"] },
 ];
 
 type Candidate = {
@@ -210,9 +218,11 @@ function bestPageImage($: cheerio.CheerioAPI, jsonLd: Record<string, any> | null
     const src = $(img).attr("src");
     if (src?.startsWith("http")) candidates.add(src);
   });
-  return [...candidates]
+  const ranked = [...candidates]
     .filter((url) => /^https?:\/\//.test(url))
-    .sort((a, b) => scoreImage(b) - scoreImage(a))[0] ?? null;
+    .sort((a, b) => scoreImage(b) - scoreImage(a));
+  const best = ranked[0];
+  return best && scoreImage(best) > -4 ? best : null;
 }
 
 function extractExternalWebsite($: cheerio.CheerioAPI) {
@@ -336,7 +346,7 @@ async function enrich(candidate: Candidate): Promise<CatalogPlace | null> {
     const parsed = parseTitle(title, candidate.discoveryName, candidate.discoveryQuery);
     const bodyText = normalize($('body').text());
     const addressFromJson = jsonLd?.address?.streetAddress;
-    const address = normalize(addressFromJson || parsed.address);
+    const address = normalize(typeof addressFromJson === "string" ? addressFromJson : parsed.address);
     if (!parsed.name || !address) return null;
     if (/закрыт навсегда|больше не работает|ликвидирован/i.test(bodyText)) return null;
 
@@ -351,6 +361,7 @@ async function enrich(candidate: Candidate): Promise<CatalogPlace | null> {
     const averageCheck = parseAverageCheck(candidate.contextText);
     const derived = deriveMeta(candidate.discoveryQuery, parsed.category);
     const now = new Date().toISOString();
+    const jsonDescription = jsonLd?.description;
 
     return {
       id: `khv-${candidate.sourceId}`,
@@ -361,7 +372,7 @@ async function enrich(candidate: Candidate): Promise<CatalogPlace | null> {
       category: parsed.category,
       subcategories: [candidate.discoveryQuery],
       tags: candidate.tags,
-      description: normalize(jsonLd?.description || $('meta[name="description"]').attr("content")) || null,
+      description: normalize(typeof jsonDescription === "string" ? jsonDescription : $('meta[name="description"]').attr("content")) || null,
       address,
       latitude: geo.latitude,
       longitude: geo.longitude,

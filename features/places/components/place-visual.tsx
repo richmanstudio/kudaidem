@@ -11,6 +11,11 @@ function safeImageUrl(url: string | null) {
   }
 }
 
+function canDisplayPhoto(place: Place) {
+  if (place.imageRights === "APPROVED") return true;
+  return process.env.NODE_ENV !== "production" || process.env.NEXT_PUBLIC_ALLOW_REVIEW_PHOTOS === "1";
+}
+
 export function PlaceVisual({
   place,
   match,
@@ -20,7 +25,7 @@ export function PlaceVisual({
   match?: number;
   compact?: boolean;
 }) {
-  const photo = safeImageUrl(place.imageUrl);
+  const photo = canDisplayPhoto(place) ? safeImageUrl(place.imageUrl) : null;
   return (
     <div className={`place-visual${compact ? " compact-visual" : ""}${photo ? " has-photo" : ""}`}>
       {photo ? (

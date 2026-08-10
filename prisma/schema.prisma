@@ -45,6 +45,7 @@ model Place {
   twoGisId           String?      @unique
   twoGisSourceUrl    String?
   twoGisHasPhotos    Boolean?
+  twoGisMainPhotoUrl String?
   twoGisUpdatedAt    DateTime?
   twoGisMatchScore   Int?
   imageUrl           String?

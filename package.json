@@ -1,6 +1,6 @@
 {
   "name": "kudaidem",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,9 +9,10 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "test": "node --import tsx --test features/recommendations/domain/*.test.ts features/places/domain/*.test.ts features/rooms/domain/*.test.ts",
+    "test": "node --import tsx --test features/recommendations/domain/*.test.ts features/places/domain/*.test.ts features/rooms/domain/*.test.ts features/analytics/domain/*.test.ts",
     "recommendation:audit": "tsx scripts/audit-recommendations.ts",
     "place:audit": "tsx scripts/audit-place-experience.ts",
+    "beta:issue": "tsx scripts/issue-beta-invite.ts",
     "postinstall": "prisma generate",
     "db:generate": "prisma generate",
     "db:seed": "tsx scripts/import-places.ts",

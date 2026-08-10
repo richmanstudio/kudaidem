@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Users } from "@/components/ui/icons";
+import { track } from "@/features/analytics/components/analytics-client";
 import { getTelegramInitData, getTelegramUserName, haptic } from "@/lib/telegram/client";
 
 function anonymousMemberKey() {
@@ -17,31 +18,20 @@ function anonymousMemberKey() {
 export function CreateRoomButton({ placeIds }: { placeIds: string[] }) {
   const router = useRouter();
   const [busy, setBusy] = useState(false);
-
   const create = async () => {
     if (busy) return;
-    setBusy(true);
-    haptic("medium");
+    setBusy(true); haptic("medium");
     const response = await fetch("/api/rooms", {
       method: "POST",
-      headers: {
-        "content-type": "application/json",
-        "x-telegram-init-data": getTelegramInitData(),
-      },
-      body: JSON.stringify({
-        title: "Куда идём сегодня?",
-        memberKey: anonymousMemberKey(),
-        displayName: getTelegramUserName() ?? "Гость",
-        placeIds,
-      }),
+      headers: { "content-type": "application/json", "x-telegram-init-data": getTelegramInitData() },
+      body: JSON.stringify({ title: "Куда идём сегодня?", memberKey: anonymousMemberKey(), displayName: getTelegramUserName() ?? "Гость", placeIds }),
     });
     if (response.ok) {
       const room = await response.json() as { id: string };
-      router.push(`/room/${room.id}`);
-      return;
+      void track("ROOM_CREATED", { roomId: room.id, metadata: { candidates: placeIds.length } });
+      router.push(`/room/${room.id}`); return;
     }
     setBusy(false);
   };
-
   return <button className="secondary-button" type="button" disabled={busy} onClick={create}><Users /> {busy ? "Создаём…" : "Выбрать вместе"}</button>;
 }

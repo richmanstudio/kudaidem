@@ -34,68 +34,81 @@ enum RoomVoteValue {
   NO
 }
 
-model Place {
-  id                 String       @id
-  sourceId           String?      @unique
-  slug               String       @unique
-  city               String       @default("Хабаровск")
-  name               String
-  category           String
-  subcategories      String[]
-  tags               String[]
-  description        String?
-  address            String
-  latitude           Decimal?     @db.Decimal(9, 6)
-  longitude          Decimal?     @db.Decimal(9, 6)
-  phone              String?
-  website            String?
-  bookingUrl         String?
-  sourceUrl          String
-  source              PlaceSource @default(OPENSTREETMAP)
-  sourceUpdatedAt    DateTime?
-  detailsSources     Json?
-  detailsUpdatedAt   DateTime?
-  twoGisId           String?      @unique
-  twoGisSourceUrl    String?
-  twoGisHasPhotos    Boolean?
-  twoGisMainPhotoUrl String?
-  twoGisUpdatedAt    DateTime?
-  twoGisMatchScore   Int?
-  imageUrl           String?
-  imageSourceUrl     String?
-  imageSource        PlaceSource?
-  imageRights        ImageRights  @default(NEEDS_REVIEW)
-  imageAuthor        String?
-  imageLicense       String?
-  imageLicenseUrl    String?
-  priceMin           Int?
-  priceMax           Int?
-  averageCheck       Int?
-  minParty           Int          @default(1)
-  maxParty           Int          @default(10)
-  durationMinutes    Int          @default(90)
-  openingHours       Json?
-  openingHoursText   String?
-  closesAt           String?
-  rating             Float?
-  reviewsCount       Int?
-  indoor             Boolean?
-  outdoor            Boolean?
-  alcohol            Boolean?
-  food               Boolean?
-  activity           Boolean?
-  romanticScore      Int?
-  activityScore      Int?
-  uniquenessScore    Int?
-  noiseLevel         Int?
-  active             Boolean      @default(true)
-  verifiedAt         DateTime?
-  scrapedAt          DateTime     @default(now())
-  createdAt          DateTime     @default(now())
-  updatedAt          DateTime     @updatedAt
-  photos             PlacePhoto[]
-  roomOptions        RoomOption[]
+enum AnalyticsEventType {
+  APP_OPEN
+  SEARCH_SUBMITTED
+  RECOMMENDATION_SHOWN
+  RECOMMENDATION_ACCEPTED
+  PLACE_VIEWED
+  ROUTE_OPENED
+  ROOM_CREATED
+  ROOM_JOINED
+  ROOM_VOTED
+  FEEDBACK_SUBMITTED
+  CLIENT_ERROR
+}
 
+model Place {
+  id String @id
+  sourceId String? @unique
+  slug String @unique
+  city String @default("Хабаровск")
+  name String
+  category String
+  subcategories String[]
+  tags String[]
+  description String?
+  address String
+  latitude Decimal? @db.Decimal(9, 6)
+  longitude Decimal? @db.Decimal(9, 6)
+  phone String?
+  website String?
+  bookingUrl String?
+  sourceUrl String
+  source PlaceSource @default(OPENSTREETMAP)
+  sourceUpdatedAt DateTime?
+  detailsSources Json?
+  detailsUpdatedAt DateTime?
+  twoGisId String? @unique
+  twoGisSourceUrl String?
+  twoGisHasPhotos Boolean?
+  twoGisMainPhotoUrl String?
+  twoGisUpdatedAt DateTime?
+  twoGisMatchScore Int?
+  imageUrl String?
+  imageSourceUrl String?
+  imageSource PlaceSource?
+  imageRights ImageRights @default(NEEDS_REVIEW)
+  imageAuthor String?
+  imageLicense String?
+  imageLicenseUrl String?
+  priceMin Int?
+  priceMax Int?
+  averageCheck Int?
+  minParty Int @default(1)
+  maxParty Int @default(10)
+  durationMinutes Int @default(90)
+  openingHours Json?
+  openingHoursText String?
+  closesAt String?
+  rating Float?
+  reviewsCount Int?
+  indoor Boolean?
+  outdoor Boolean?
+  alcohol Boolean?
+  food Boolean?
+  activity Boolean?
+  romanticScore Int?
+  activityScore Int?
+  uniquenessScore Int?
+  noiseLevel Int?
+  active Boolean @default(true)
+  verifiedAt DateTime?
+  scrapedAt DateTime @default(now())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  photos PlacePhoto[]
+  roomOptions RoomOption[]
   @@index([city, active])
   @@index([category])
   @@index([verifiedAt])
@@ -103,96 +116,129 @@ model Place {
 }
 
 model PlacePhoto {
-  id          String       @id @default(cuid())
-  placeId     String
-  url         String
-  sourceUrl   String
-  source      PlaceSource
-  rights      ImageRights  @default(NEEDS_REVIEW)
-  author      String?
-  license     String?
-  licenseUrl  String?
-  width       Int?
-  height      Int?
-  position    Int          @default(0)
-  createdAt   DateTime     @default(now())
-  place       Place        @relation(fields: [placeId], references: [id], onDelete: Cascade)
-
+  id String @id @default(cuid())
+  placeId String
+  url String
+  sourceUrl String
+  source PlaceSource
+  rights ImageRights @default(NEEDS_REVIEW)
+  author String?
+  license String?
+  licenseUrl String?
+  width Int?
+  height Int?
+  position Int @default(0)
+  createdAt DateTime @default(now())
+  place Place @relation(fields: [placeId], references: [id], onDelete: Cascade)
   @@index([placeId, position])
 }
 
 model Room {
-  id          String       @id
-  title       String
-  hostKey     String
-  status      RoomStatus   @default(OPEN)
-  winnerId    String?
-  expiresAt   DateTime
-  createdAt   DateTime     @default(now())
-  updatedAt   DateTime     @updatedAt
-  members     RoomMember[]
-  options     RoomOption[]
-  votes       RoomVote[]
-
+  id String @id
+  title String
+  hostKey String
+  status RoomStatus @default(OPEN)
+  winnerId String?
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  members RoomMember[]
+  options RoomOption[]
+  votes RoomVote[]
   @@index([status, expiresAt])
 }
 
 model RoomMember {
-  id          String    @id @default(cuid())
-  roomId      String
-  memberKey   String
+  id String @id @default(cuid())
+  roomId String
+  memberKey String
   displayName String
-  telegramId  BigInt?
-  username    String?
-  isHost      Boolean   @default(false)
-  joinedAt    DateTime  @default(now())
-  lastSeenAt  DateTime  @default(now())
-  room        Room      @relation(fields: [roomId], references: [id], onDelete: Cascade)
-  votes       RoomVote[]
-
+  telegramId BigInt?
+  username String?
+  isHost Boolean @default(false)
+  joinedAt DateTime @default(now())
+  lastSeenAt DateTime @default(now())
+  room Room @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  votes RoomVote[]
   @@unique([roomId, memberKey])
   @@index([roomId, joinedAt])
 }
 
 model RoomOption {
-  id          String    @id @default(cuid())
-  roomId      String
-  placeId     String
-  position    Int
-  room        Room      @relation(fields: [roomId], references: [id], onDelete: Cascade)
-  place       Place     @relation(fields: [placeId], references: [id], onDelete: Restrict)
-  votes       RoomVote[]
-
+  id String @id @default(cuid())
+  roomId String
+  placeId String
+  position Int
+  room Room @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  place Place @relation(fields: [placeId], references: [id], onDelete: Restrict)
+  votes RoomVote[]
   @@unique([roomId, placeId])
   @@index([roomId, position])
 }
 
 model RoomVote {
-  id          String        @id @default(cuid())
-  roomId      String
-  memberId    String
-  optionId    String
-  value       RoomVoteValue
-  createdAt   DateTime      @default(now())
-  updatedAt   DateTime      @updatedAt
-  room        Room          @relation(fields: [roomId], references: [id], onDelete: Cascade)
-  member      RoomMember    @relation(fields: [memberId], references: [id], onDelete: Cascade)
-  option      RoomOption    @relation(fields: [optionId], references: [id], onDelete: Cascade)
-
+  id String @id @default(cuid())
+  roomId String
+  memberId String
+  optionId String
+  value RoomVoteValue
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  room Room @relation(fields: [roomId], references: [id], onDelete: Cascade)
+  member RoomMember @relation(fields: [memberId], references: [id], onDelete: Cascade)
+  option RoomOption @relation(fields: [optionId], references: [id], onDelete: Cascade)
   @@unique([memberId, optionId])
   @@index([roomId, optionId])
 }
 
+model AnalyticsEvent {
+  id String @id @default(cuid())
+  type AnalyticsEventType
+  sessionId String
+  actorHash String?
+  placeId String?
+  roomId String?
+  path String?
+  metadata Json?
+  createdAt DateTime @default(now())
+  @@index([type, createdAt])
+  @@index([sessionId, createdAt])
+  @@index([placeId, createdAt])
+  @@index([roomId, createdAt])
+}
+
+model BetaInvite {
+  id String @id @default(cuid())
+  codeHash String @unique
+  label String?
+  maxUses Int @default(1)
+  uses Int @default(0)
+  active Boolean @default(true)
+  expiresAt DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model BetaFeedback {
+  id String @id @default(cuid())
+  sessionId String
+  rating Int?
+  message String
+  path String?
+  createdAt DateTime @default(now())
+  @@index([createdAt])
+}
+
 model DataRefreshRun {
-  id          String   @id @default(cuid())
-  source      String
-  city        String
-  requested   Int
-  discovered  Int
-  accepted    Int
-  withImages  Int
-  startedAt   DateTime
-  finishedAt  DateTime?
-  report      Json?
-  createdAt   DateTime @default(now())
+  id String @id @default(cuid())
+  source String
+  city String
+  requested Int
+  discovered Int
+  accepted Int
+  withImages Int
+  startedAt DateTime
+  finishedAt DateTime?
+  report Json?
+  createdAt DateTime @default(now())
 }

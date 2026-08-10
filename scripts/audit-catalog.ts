@@ -22,6 +22,21 @@ function key(value: string) {
     .trim();
 }
 
+function identityKey(place: (typeof places)[number]) {
+  const name = key(place.name);
+  const address = key(place.address);
+
+  if (address && address !== "хабаровск") {
+    return `${name}|address:${address}`;
+  }
+
+  if (place.latitude != null && place.longitude != null) {
+    return `${name}|geo:${place.latitude.toFixed(4)}|${place.longitude.toFixed(4)}`;
+  }
+
+  return `${name}|address:${address || "unknown"}`;
+}
+
 const identity = new Map<string, string>();
 const sourceIds = new Set<string>();
 const categoryCounts = new Map<string, number>();
@@ -32,10 +47,10 @@ let reviewImages = 0;
 let missingImages = 0;
 
 for (const place of places) {
-  const identityKey = `${key(place.name)}|${key(place.address)}`;
-  const duplicate = identity.get(identityKey);
+  const venueIdentity = identityKey(place);
+  const duplicate = identity.get(venueIdentity);
   if (duplicate) throw new Error(`Duplicate venue identity: ${duplicate} and ${place.id}`);
-  identity.set(identityKey, place.id);
+  identity.set(venueIdentity, place.id);
 
   if (sourceIds.has(place.sourceUrl)) throw new Error(`Duplicate source URL: ${place.sourceUrl}`);
   sourceIds.add(place.sourceUrl);
@@ -66,6 +81,7 @@ for (const place of places) {
 
 const report = {
   total: places.length,
+  uniqueVenueIdentities: identity.size,
   coordinates,
   photos,
   missingImages,

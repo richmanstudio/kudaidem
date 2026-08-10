@@ -17,6 +17,7 @@
     "data:wikimedia-geosearch": "tsx scripts/enrich-wikimedia-geosearch.ts",
     "data:kudago": "tsx scripts/enrich-kudago.ts",
     "data:official-photos": "tsx scripts/deep-official-photos.ts",
+    "data:official-sitemaps": "tsx scripts/enrich-official-sitemaps.ts",
     "data:sanitize-photos": "tsx scripts/sanitize-photo-catalog.ts",
     "data:2gis": "tsx scripts/enrich-2gis-api.ts",
     "data:finalize": "tsx scripts/finalize-khabarovsk-catalog.ts",

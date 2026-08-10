@@ -24,26 +24,31 @@ export function LiveRoomClient({ initialRoom }: { initialRoom: RoomState }) {
   const [connection, setConnection] = useState<"live" | "offline">("live");
 
   useEffect(() => {
-    const id = memberKey();
-    setMe(id);
-    const join = async () => {
+    let active = true;
+    const start = async () => {
+      const id = memberKey();
+      await Promise.resolve();
+      if (!active) return;
+      setMe(id);
       const response = await fetch(`/api/rooms/${room.id}`, {
         method: "POST",
         headers: identityHeaders(),
         body: JSON.stringify({ action: "join", memberKey: id, displayName: getTelegramUserName() ?? "Гость" }),
       });
+      if (!active) return;
       if (response.ok) { setRoom(await response.json()); setConnection("live"); }
       else setConnection("offline");
     };
-    void join();
+    void start();
     const timer = window.setInterval(async () => {
       try {
         const response = await fetch(`/api/rooms/${room.id}`, { cache: "no-store" });
+        if (!active) return;
         if (response.ok) { setRoom(await response.json()); setConnection("live"); }
         else setConnection("offline");
-      } catch { setConnection("offline"); }
+      } catch { if (active) setConnection("offline"); }
     }, 2200);
-    return () => window.clearInterval(timer);
+    return () => { active = false; window.clearInterval(timer); };
   }, [room.id]);
 
   const tally = useMemo(() => tallyRoom(room), [room]);

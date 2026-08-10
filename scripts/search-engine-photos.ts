@@ -71,7 +71,7 @@ function decodeHtml(value: string) {
 
 function candidatesFromHtml(html: string): Candidate[] {
   const result: Candidate[] = [];
-  const re = /\bm=(['"])(\{.*?\})\1/gs;
+  const re = /\bm=(['"])(\{[\s\S]*?\})\1/g;
   for (const match of html.matchAll(re)) {
     try {
       const raw = decodeHtml(match[2]);

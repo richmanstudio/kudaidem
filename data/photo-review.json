@@ -1,0 +1,1325 @@
+[
+  {
+    "id": "osm-way-181380618",
+    "name": "Торо",
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-126752626",
+    "name": "Royal",
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/royal_kafe_interier6.jpg?itok=vQbjZbJC",
+    "imageSourceUrl": "https://www.eda27.ru/royal-kafe-0",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-7059134442",
+    "name": "Вкус Китая",
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4501763390",
+    "name": "Густав и Густав",
+    "imageUrl": "https://fb.ru/misc/i/gallery/44171/1630589.jpg",
+    "imageSourceUrl": "https://fb.ru/article/295377/restoranyi-habarovska-obzor-otzyivyi",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000544",
+    "name": "Дом",
+    "imageUrl": "https://restdom.ru/wp-content/uploads/2021/09/mr-rakusa-scaled.jpg",
+    "imageSourceUrl": "https://restdom.ru/about/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3164098485",
+    "name": "Ковбой",
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/resta_photo/public/restaurant-photo/kovboy_interior8.jpg?itok=7iDUhYW0",
+    "imageSourceUrl": "https://www.eda27.ru/kovboi",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4384833849",
+    "name": "Пекинская утка",
+    "imageUrl": "https://images.gastronom.ru/5WykPuK7lT63YC5J2kRCd9y_3Nx6jDuXowZbsi1Fmrw/pr:article-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzL2MxMzNhZGNiLWY4MjMtNDA4Zi05Y2JkLTBjZmQwMGM0OGQ3MC5qcGc.webp",
+    "imageSourceUrl": "https://www.gastronom.ru/text/utka-po-pekinski-v-restoranah-pekina-1003538",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12395371062",
+    "name": "Харибу",
+    "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
+    "imageSourceUrl": "https://haribu.rest/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3523296343",
+    "name": "Ichiban Sushi",
+    "imageUrl": "https://plaza-ambarrukmo.co.id/wp-content/uploads/2024/05/ichiban-sushi-jpg.webp",
+    "imageSourceUrl": "https://plaza-ambarrukmo.co.id/brand-tenant/ichiban-sushi/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-452568216",
+    "name": "Старый Тбилиси",
+    "imageUrl": "https://visiteast.kz/assets/files/restoran/staryij-tbilisi.jpg",
+    "imageSourceUrl": "https://visiteast.kz/turistu/gde-poest/restoranyi/staryij-tbilisi.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2237523445",
+    "name": "Поехали",
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/resta_photo/public/poehali_interer_5.jpg?itok=8Lssr5Ro",
+    "imageSourceUrl": "https://www.eda27.ru/poekhali",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3456818618",
+    "name": "Сархан",
+    "imageUrl": "http://photos.wikimapia.org/p/00/03/21/10/87_big.jpg",
+    "imageSourceUrl": "https://wikimapia.org/11941913/ru/Ресторан-«Сархан»",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4350373308",
+    "name": "Сациви",
+    "imageUrl": "https://make-eat.ru/assets/cache_image/assets/gallery/305/2518_0x0_ed1.jpg",
+    "imageSourceUrl": "https://make-eat.ru/restoran-sacivi-habarovsk.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6829253085",
+    "name": "Ханами",
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/restaurant-photo/hanami_interior1.jpg?itok=YefEpjUO",
+    "imageSourceUrl": "https://www.eda27.ru/hanami",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-1456180824",
+    "name": "Императорская гавань",
+    "imageUrl": "https://wedexpert-front-public.s3-accelerate.amazonaws.com/lib/profiles/5760/slide1/d8dd46783b6d5c783cdf09b1bd40b19d11e053be_x3.jpg",
+    "imageSourceUrl": "https://khv.wed-expert.com/profiles/imperatorskaya-gavan",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-70723346",
+    "name": "Классик",
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13446223601",
+    "name": "Русский",
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-120486229",
+    "name": "Тайвань",
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4405496637",
+    "name": "Панорама",
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-8499043917",
+    "name": "Султан Базар",
+    "imageUrl": "https://dslov.ru/img/geo/6192.jpg",
+    "imageSourceUrl": "https://dslov.ru/geo/48/g48r_1.htm",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9953699239",
+    "name": "Chocolate",
+    "imageUrl": "https://sequoiadv.ru/wp-content/uploads/2020/07/1558402480-bad00cecf5ee38a407a092ef4b74a3ee.jpg",
+    "imageSourceUrl": "https://sequoiadv.ru/project/otkrytaya-terrasa-chocolate-cafe-g-habarovsk/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3277880229",
+    "name": "\"Вечерний\"",
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1750920610",
+    "name": "Барбадос",
+    "imageUrl": "https://img.birthday-place.ru/cv61wVnqyZ3wGsc2Kfyr67MxQS8c-W0-TRSgFSUGxRGXcEdfpnoO6SYNcpQUbMKQIHvOnPyLcPbVpedvZFq4yWA--FvvvtNwBHkisoo",
+    "imageSourceUrl": "https://khabarovsk.birthday-place.ru/catalog/restoran-barbados/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1030381150",
+    "name": "Берёзка",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/82/80/e2/caption.jpg?w=900&h=500&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurant_Review-g298493-d6077974-Reviews-Beryozka-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1403006579",
+    "name": "Бомонд",
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1358380887",
+    "name": "Ботаник",
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4493549289",
+    "name": "Густав",
+    "imageUrl": "https://img02.restaurantguru.ru/c905-Gustav-I-Gustav-Restoran-gorod-Khabarovsk-food.jpg",
+    "imageSourceUrl": "https://restaurantguru.ru/Gustav-and-Gustav-Khabarovsk",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3665806758",
+    "name": "Густав&Густав Express",
+    "imageUrl": "https://img02.restaurantguru.ru/cb42-meals-Gustav-and-Gustav.jpg",
+    "imageSourceUrl": "https://restaurantguru.ru/burgers-gorod-Khabarovsk-m3",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-883520474",
+    "name": "Дракон Азии",
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/zal_2_0.jpg?itok=IDfs9Sv7",
+    "imageSourceUrl": "https://www.eda27.ru/drakon-azii",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3285380577",
+    "name": "Дун Бэй",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/67/86/99/img-20190203-135006-268.jpg?w=900&h=500&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurant_Review-g298493-d6078308-Reviews-Dong_Bei-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5040237131",
+    "name": "Империя",
+    "imageUrl": "https://www.restoran.ru/upload/editor/1d5/cdd9kclt3ydztbek7hqy63jytikvt43p/0_fasad_copya30.jpg",
+    "imageSourceUrl": "https://www.restoran.ru/msk/articles/birthday/banket-holl-imperiya/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5025713390",
+    "name": "Конфуций",
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2713470372",
+    "name": "Лотос",
+    "imageUrl": "http://khvlotos.ru/wp-content/uploads/2017/03/1-2.jpg",
+    "imageSourceUrl": "http://khvlotos.ru/about/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5973897869",
+    "name": "Мускатный кит",
+    "imageUrl": "https://festdv.ru/wp-content/uploads/2024/08/03-768x768.jpg",
+    "imageSourceUrl": "https://festdv.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4481017690",
+    "name": "Luga",
+    "imageUrl": "https://static.tildacdn.com/tild6232-3034-4838-b765-343635306564/1__1.jpg",
+    "imageSourceUrl": "https://www.lugarest.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5973897873",
+    "name": "Vdrova",
+    "imageUrl": "https://www.irecommend.ru/sites/default/files/imagecache/copyright1/user-images/959098/wgE6GlmXxYVdZXW5pYhDlw.jpg",
+    "imageSourceUrl": "https://irecommend.ru/content/luchshaya-pitstsa-v-moei-zhizni",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6029568285",
+    "name": "Тепло",
+    "imageUrl": "https://static.tildacdn.com/tild3433-3164-4931-b863-363934343464/1.jpeg",
+    "imageSourceUrl": "https://www.abluch.ru/teplorest",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3726923703",
+    "name": "Al dente Горы",
+    "imageUrl": "https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/1160645/sDZSlbhF352fzGcOtc1gQ.jpg",
+    "imageSourceUrl": "https://irecommend.ru/content/khoroshee-obsluzhivanie-vkusno-i-sytno",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-302009332",
+    "name": "Вилки-Палки",
+    "imageUrl": "https://vilki-palki.ru/files/products/E9/gY/J9/1670385238_PivoTsingtao.jpg",
+    "imageSourceUrl": "https://vilki-palki.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12887857002",
+    "name": "Келди",
+    "imageUrl": "https://keldi.shop/cache/1741325000.png",
+    "imageSourceUrl": "https://keldi.shop/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1403022485",
+    "name": "Зарина",
+    "imageUrl": "https://www.zarina-khv.ru/bitrix/templates/zarina_new/assets/cafe_zfrina-95.jpg",
+    "imageSourceUrl": "https://www.zarina-khv.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-10655456481",
+    "name": "Квартира Паши Кейзера",
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/restaurant-photo/kvartira-pashi-keizera-interior3.jpg?itok=Hv6GaA0H",
+    "imageSourceUrl": "https://www.eda27.ru/kvartira-pashi-keyzera",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12395371058",
+    "name": "Кофемашина",
+    "imageUrl": "https://images.uzum.uz/d31ucvd2llnd6jum371g/original.jpg",
+    "imageSourceUrl": "https://uzum.uz/ru/product/professionalnaya-espresso-kofemashina-1953985?skuId=6899162",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000540",
+    "name": "Мишка",
+    "imageUrl": "https://mishkarestaurant.ru/wp-content/uploads/2019/05/PHOTO-2022-11-23-13-44-30-878x1024.jpg",
+    "imageSourceUrl": "https://mishkarestaurant.ru/dopolnitelno/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-7670756981",
+    "name": "Столовая",
+    "imageUrl": "https://vibirai.ru/image/206701.jpg",
+    "imageSourceUrl": "https://intpik.ru/nova/stolova/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11110981905",
+    "name": "Столовая 8 минут",
+    "imageUrl": "https://i2020.otzovik.com/2020/01/25/9372430/img/967041_62815701.jpeg",
+    "imageSourceUrl": "https://ratour.ru/blog/8-minut-stolovaya-habarovsk",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4221985694",
+    "name": "Сытый Федот",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a3/33/48/caption.jpg?w=600&h=600&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6029527786",
+    "name": "Шоколадница",
+    "imageUrl": "https://www.svetpm.ru/upload/resize_cache/iblock/d94/800_600_1/d9481f67001923ff7e150f0dc1f83346.jpeg",
+    "imageSourceUrl": "https://www.svetpm.ru/services/kafe-shokoladnitsa-g-khabarovsk/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-7832298087",
+    "name": "Cinnabon",
+    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
+    "imageSourceUrl": "https://cinnabonrussia.com/about/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-270539004",
+    "name": "Кафема",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/cf/00/5f/getlstd-property-photo.jpg?w=600&h=-1&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3857899474",
+    "name": "Cinnabon",
+    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
+    "imageSourceUrl": "https://cinnabonrussia.com/about/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-7747825751",
+    "name": "Корея",
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/restaurant-photo/koreya_interior3.jpg?itok=Sy8By_FI",
+    "imageSourceUrl": "https://www.eda27.ru/koreya-ul-lenina-46",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4611366190",
+    "name": "Синьор Помидор",
+    "imageUrl": "https://img02.restaurantguru.ru/cb30-Sinor-Pomidor-facade.jpg",
+    "imageSourceUrl": "https://restaurantguru.ru/Sinor-Pomidor-gorod-Khabarovsk-2",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4381379720",
+    "name": "Хлебное место",
+    "imageUrl": "https://regions.kidsreview.ru/sites/default/files/styles/card_600_400/public/09/04/2017-1717/hlebnoe_mesto.png",
+    "imageSourceUrl": "https://www.kidsreview.ru/habarovsk/catalog/hlebnoe-mesto-kafe-pekarnya-s-detskim-ugolkom-v-centralnom-rayone-habarovsk",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12506476246",
+    "name": "Келди",
+    "imageUrl": "https://keldi.shop/cache/1741325000.png",
+    "imageSourceUrl": "https://keldi.shop/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-934124462",
+    "name": "Восточное",
+    "imageUrl": "https://static.vl.ru/catalog/1506932014473_big_dvhab.jpg",
+    "imageSourceUrl": "https://www.dvhab.ru/vostochnoe-cafe-hab",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-557524374",
+    "name": "Амурский Дворик",
+    "imageUrl": "https://cdn.dvhab.ru/news/1745560942333_default",
+    "imageSourceUrl": "https://www.dvnovosti.ru/khab/2025/04/26/180296/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13427943801",
+    "name": "Бурятская кухня. Буузы.",
+    "imageUrl": "https://irossiya.ru/wp-content/uploads/2022/06/буузы-бурятские.jpg",
+    "imageSourceUrl": "https://irossiya.ru/puteshestviya/gastronomicheskij-turizm/gastronomicheskoe-puteshestvie-v-buryatiyu/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12176011606",
+    "name": "Маяк",
+    "imageUrl": "https://suzunturizm.ru/thumb/2/AOCpPLY_IfG_FpdxZ3cfQg/r/d/583088_s9rwatky.jpg",
+    "imageSourceUrl": "https://suzunturizm.ru/kafe-mayak",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12175796128",
+    "name": "Угол",
+    "imageUrl": "https://p0.zoon.ru/preview/EiA97V1j5VBASU6N6QherA/2400x1500x85/1/8/b/original_546678b540c088eb5a8e8748_6260d5561d5a48.90766306.jpg",
+    "imageSourceUrl": "https://zoon.ru/khabarovsk/restaurants/kafe-poznaya_na_pushkina/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-454602007",
+    "name": "Chin-Chin",
+    "imageUrl": "https://menu02.restaurantguru.ru/m6/Chin-Chin-Cafe-menu.jpg",
+    "imageSourceUrl": "https://restaurantguru.ru/Chin-Chin-gorod-Khabarovsk/menu",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-884295343",
+    "name": "Корица и мята",
+    "imageUrl": "https://pr5.zoon.ru/ORyYJgoBxPkpsOQyx5XH9g/2400x1500,q85/J6muMKgxpCyaYePLj1VQ5pnOfm0DiXg7JOVHpTQel_FKi7WxE4oDyNZrVmumWClWihK42uYV9WuygoeuFRUn0ytCYA4Mi41cdSI-j4GlU2YDI6A8BlBZ73o1jPzU5xx5jNvselz5j2LzNwFXrBkQhQ",
+    "imageSourceUrl": "https://zoon.ru/khabarovsk/restaurants/kafe_koritsa_i_myata/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-10205619059",
+    "name": "Андерсен",
+    "imageUrl": "https://busyspace.ru/wp-content/uploads/2023/11/zaglavnaya-fotka.jpg",
+    "imageSourceUrl": "https://busyspace.ru/news/vkusvill-kupil-set-kafe-anderson/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000538",
+    "name": "Арома",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e5/97/a0/caption.jpg?w=1200&h=-1&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5416834873",
+    "name": "Две рыбы",
+    "imageUrl": "https://media.foma.ru/2018/02/DveRyby3.jpg",
+    "imageSourceUrl": "https://foma.ru/dve-ryibyi-habarovsk-vecher-v-pravoslavnom-kafe.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-7501907785",
+    "name": "Де`рибас",
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/e5/97/a0/caption.jpg",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurant_Review-g298493-d12225283-Reviews-Deribas-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5454635822",
+    "name": "Мясной ресторанчик",
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/restaurant-photo/myasnoy-restoranchik_interior.jpg?itok=cENUm8Am",
+    "imageSourceUrl": "https://www.eda27.ru/myasnoy-restoranchik",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6029556485",
+    "name": "РЖД ОАО",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a3/33/48/caption.jpg?w=600&h=600&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12070992815",
+    "name": "Япона ролл",
+    "imageUrl": "https://yaponaroll.ru/admin/uploads/072a9a6c6e931390fccf401c3654897ae67a871ebanner-na-sajt_sety-hanami_hana.jpg",
+    "imageSourceUrl": "https://yaponaroll.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12722562626",
+    "name": "Бургер Кинг",
+    "imageUrl": "https://idei.club/uploads/posts/2022-03/1647278089_17-idei-club-p-burger-king-interer-interer-krasivo-foto-27.jpg",
+    "imageSourceUrl": "https://idei.club/65170-burger-king-interer-59-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13638767275",
+    "name": "Бургер Кинг",
+    "imageUrl": "https://idei.club/uploads/posts/2022-03/1647278089_17-idei-club-p-burger-king-interer-interer-krasivo-foto-27.jpg",
+    "imageSourceUrl": "https://idei.club/65170-burger-king-interer-59-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9954298509",
+    "name": "Вкусно — и точка",
+    "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
+    "imageSourceUrl": "https://vkusnoitochka.ru/company",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12358147826",
+    "name": "Додо Пицца",
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12358152972",
+    "name": "Додо Пицца",
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1378096668",
+    "name": "Золотая птичка",
+    "imageUrl": "https://www.golden-life.ru/assets/images/banners/slide-01.webp",
+    "imageSourceUrl": "https://www.golden-life.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13420909860",
+    "name": "Суши-Маркет",
+    "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
+    "imageSourceUrl": "https://sushi-market.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13420909861",
+    "name": "Суши-Маркет",
+    "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
+    "imageSourceUrl": "https://sushi-market.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13420909862",
+    "name": "Суши-Маркет",
+    "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
+    "imageSourceUrl": "https://sushi-market.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13420909863",
+    "name": "Суши-Маркет",
+    "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
+    "imageSourceUrl": "https://sushi-market.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13420909864",
+    "name": "Суши-Маркет",
+    "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
+    "imageSourceUrl": "https://sushi-market.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6536734327",
+    "name": "Coffee Like",
+    "imageUrl": "https://coffee-like.com/img/preview/main2.png",
+    "imageSourceUrl": "https://coffee-like.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9992569350",
+    "name": "Coffee Like",
+    "imageUrl": "https://coffee-like.com/img/preview/main2.png",
+    "imageSourceUrl": "https://coffee-like.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9805680194",
+    "name": "Do.Bro Coffee",
+    "imageUrl": "https://static.tildacdn.com/tild3134-6132-4532-b333-343465613163/image1.jpg",
+    "imageSourceUrl": "https://beyond-taylor.com/case-dobro-coffee",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000536",
+    "name": "Винотека",
+    "imageUrl": "https://vinotekabar.ru/wp-content/uploads/2021/07/IMG_7632.jpg",
+    "imageSourceUrl": "https://vinotekabar.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4365848167",
+    "name": "Галлерея",
+    "imageUrl": "https://fb.ru/misc/i/gallery/19307/3176100.jpg",
+    "imageSourceUrl": "https://fb.ru/article/464980/naibolee-izvestnyie-nochnyie-klubyi-habarovska",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12059180585",
+    "name": "История",
+    "imageUrl": "https://static.baza.farpost.ru/v/1703453560622_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/rabota/vacansii/povar-v-nochnoj-klub-istorija-115842351.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000542",
+    "name": "Паста на баре",
+    "imageUrl": "https://p.taplink.st/a/8/f/9/5/7a032b.jpg?1",
+    "imageSourceUrl": "https://pastanabare.taplink.ws/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000541",
+    "name": "Рюмочная",
+    "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/201b11171327597.646cfb080f8ee.jpg",
+    "imageSourceUrl": "https://www.behance.net/gallery/171327597/rmochnaja",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12395371057",
+    "name": "Рюмочная",
+    "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/201b11171327597.646cfb080f8ee.jpg",
+    "imageSourceUrl": "https://www.behance.net/gallery/171327597/rmochnaja",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2392277758",
+    "name": "Mozart",
+    "imageUrl": "https://mozart-club27.ru/images/stories/forsite/111.jpg",
+    "imageSourceUrl": "https://mozart-club27.ru/index.php/about-us",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12151045373",
+    "name": "Свой Пивной",
+    "imageUrl": "https://www.dvhab.ru/city/fotos/tTgDpWhzSf1dJNOnmCTQ.jpg",
+    "imageSourceUrl": "https://www.dvhab.ru/city/дом/ул Карла Маркса 144/2Г/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12887857301",
+    "name": "Chixx",
+    "imageUrl": "http://sun9-12.userapi.com/c841436/v841436636/3babe/X1B8iRddKBM.jpg",
+    "imageSourceUrl": "https://vk.com/chixxru",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2237523444",
+    "name": "ПодZемка",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/22/41/47/podzemka.jpg?w=900&h=500&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g298493-d6077764-Reviews-Podzemka-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-525763612",
+    "name": "Ночной Хабаровск",
+    "imageUrl": "https://fb.ru/misc/i/gallery/19307/3176100.jpg",
+    "imageSourceUrl": "https://fb.ru/article/464980/naibolee-izvestnyie-nochnyie-klubyi-habarovska",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12987030079",
+    "name": "Танк & Хоппер",
+    "imageUrl": "https://static.baza.farpost.ru/v/1688543317784_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/business/sell_business/franshiza-pivnyh-magazinov-tank-hopper-111842524.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4381725531",
+    "name": "Mexico",
+    "imageUrl": "https://traveltime.media/wp-content/uploads/2022/04/mexico-oaxaca-mezcal-drinks-in-bar.webp",
+    "imageSourceUrl": "https://traveltime.media/meksika-uspet-za-10-dnej",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3277883161",
+    "name": "\"Адреналин\"",
+    "imageUrl": "https://fb.ru/misc/i/gallery/19307/3176100.jpg",
+    "imageSourceUrl": "https://fb.ru/article/464980/naibolee-izvestnyie-nochnyie-klubyi-habarovska",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13333091989",
+    "name": "Агутин",
+    "imageUrl": "https://static.vl.ru/catalog/1640244947750_big_dvhab.jpg",
+    "imageSourceUrl": "https://www.dvhab.ru/agutin-bar",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-818506658",
+    "name": "Хабаровский краевой театр драмы",
+    "imageUrl": "https://habdrama.ru/wp-content/uploads/2021/03/teatr-2020-god.jpg",
+    "imageSourceUrl": "https://habdrama.ru/novosti/s-dnem-rozhdeniya-lyubimyiy-teatr/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12640389978",
+    "name": "Луна",
+    "imageUrl": "https://i.taplink.st/a/5/0/8/5/19e213.png?198",
+    "imageSourceUrl": "https://luna-khv.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-274763647",
+    "name": "Хабаровский театр юного зрителя",
+    "imageUrl": "http://tuz-xa.ru/static/img/ogp_image.png",
+    "imageSourceUrl": "https://tuz-xa.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-8035165019",
+    "name": "АНО \"Талантливые Дети\"",
+    "imageUrl": "https://cdodmir.ru/wp-content/uploads/2022/12/1-4.jpg",
+    "imageSourceUrl": "https://cdodmir.ru/news/nashi-talantlivye-deti-v-habarovske/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1403077450",
+    "name": "Фабрика грёз",
+    "imageUrl": "https://www.tehnikaplus.ru/upload/iblock/1da/je51c3id5yuqb09vckfyg9lzbqqjvc0k.JPG",
+    "imageSourceUrl": "https://tehnikaplus.ru/projects/bar_klassicheskii/kinoteatr-fabrika-gryez-g-khabarovsk/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-87896088",
+    "name": "Дружба",
+    "imageUrl": "https://festdv.ru/wp-content/uploads/2025/01/01-4.jpg",
+    "imageSourceUrl": "https://festdv.ru/gde-otdohnut/kinoteatry-habarovska/kinoteatr-druzhba/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2469900437",
+    "name": "Автокинотеатр «На Заимке»",
+    "imageUrl": "https://regions.kidsreview.ru/sites/default/files/styles/card_600_400/public/09/20/2012_-_1803/_avtokino.jpg",
+    "imageSourceUrl": "https://www.kidsreview.ru/habarovsk/catalog/avtokino-avtokinoteatr-na-zaimke-khabarovsk",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-82076627",
+    "name": "Театр юного зрителя",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/05/cf/55/caption.jpg?w=1200&h=1200&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Attraction_Review-g298493-d2572627-Reviews-Khabarovsk_Theater_of_the_Young_Spectator-Khabarovsk_Khabarovsk_Krai_Far_Eastern_.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-67571263",
+    "name": "Хабаровск",
+    "imageUrl": "https://i.ytimg.com/vi/S-RY19TRX8k/maxresdefault.jpg",
+    "imageSourceUrl": "https://www.youtube.com/watch?v=S-RY19TRX8k",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-7112753919",
+    "name": "Мобильная театральная компания «Театр «М` Арт»",
+    "imageUrl": "https://www.teatrygoroda.ru/assets/files/image-856.jpg",
+    "imageSourceUrl": "https://www.teatrygoroda.ru/theatre/mobil-naya-teatral-naya-kompaniya-teatr-m-art",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2095798997",
+    "name": "Hollywood",
+    "imageUrl": "https://i.ytimg.com/vi/eBy-mYcPL_0/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gOSgTMA8=&rs=AOn4CLBZGee4bA1iLH3dQBmwJoNQmfJXSQ",
+    "imageSourceUrl": "https://www.youtube.com/watch?v=eBy-mYcPL_0",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2095798998",
+    "name": "Атмосфера",
+    "imageUrl": "https://regions.kidsreview.ru/sites/default/files/styles/card_600_400/public/01/29/2017-2203/atmosfera_kino_hab.jpg",
+    "imageSourceUrl": "https://www.kidsreview.ru/habarovsk/catalog/atmosfera-kinoteatr-razvlekatelnyi-tsentr-v-trts-yuzhnyi-park-khabarovsk",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-10792579695",
+    "name": "Cook&Run",
+    "imageUrl": "https://cookn.run/assets/template/img/1.webp",
+    "imageSourceUrl": "https://cookn.run/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-209353599",
+    "name": "Фитнес-клуб \"Наутилус\" Южный",
+    "imageUrl": "https://sportgyms.ru/uploads/posts/2014-03/1395145104_04.jpg",
+    "imageSourceUrl": "https://sportgyms.ru/khabarovsk/2318-nautilus-yuzhnyy.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5235011021",
+    "name": "Наутилус-Загородный",
+    "imageUrl": "https://static.tildacdn.com/tild6465-6639-4139-b862-326334653564/12.png",
+    "imageSourceUrl": "https://fcnautilus.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4807521922",
+    "name": "Скалодром \"Феррум\"",
+    "imageUrl": "https://maps.climbingpro.ru/media/photo/Nj52qmn7ZwA-min.jpg",
+    "imageSourceUrl": "https://maps.climbingpro.ru/ferrum/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11958560257",
+    "name": "Lady Stretch",
+    "imageUrl": "https://shahty-ladystretch.ru/img/34450592.jpg",
+    "imageSourceUrl": "https://shahty-ladystretch.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12378249784",
+    "name": "Lady Stretch",
+    "imageUrl": "https://shahty-ladystretch.ru/img/34450592.jpg",
+    "imageSourceUrl": "https://shahty-ladystretch.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5555835122",
+    "name": "URBAN210",
+    "imageUrl": "https://urban210.ru/wp-content/uploads/2026/04/promo_bg_3.jpg",
+    "imageSourceUrl": "https://urban210.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-310906737",
+    "name": "Арагон",
+    "imageUrl": "https://edinoborstva27.ru/images/uploads/00311aeefd1dd1b05854b2811745b659.webp",
+    "imageSourceUrl": "https://edinoborstva27.ru/services",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-272536654",
+    "name": "Спортивный комплекс \"Олимпия\"",
+    "imageUrl": "https://olimpia27.ru/templates/ol/img/photo_dla_glavnoi/img_1.jpg",
+    "imageSourceUrl": "https://olimpia27.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1345725853",
+    "name": "КСК Чистополье",
+    "imageUrl": "https://edinoborstva27.ru/images/uploads/00311aeefd1dd1b05854b2811745b659.webp",
+    "imageSourceUrl": "https://edinoborstva27.ru/services",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3076533518",
+    "name": "Пятый Элемент",
+    "imageUrl": "https://cniipz.ru/wp-content/uploads/2021/11/2-4.jpg",
+    "imageSourceUrl": "https://cniipz.ru/category/mnogofunkcionalnye-sportivnye-kompleksy-dvorcy-sporta/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-10655583515",
+    "name": "Миури-Мархаба",
+    "imageUrl": "https://p1.zoon.ru/preview/neKVt1sbm7K98agVvbGoqA/2400x1500x75/1/1/9/original_5466787d40c088eb5a8e806a_5f055f3eabbc1.jpg",
+    "imageSourceUrl": "https://zoon.ru/khabarovsk/sauna/sauna_miuri-_marhaba_v_tsentralnom_rajone/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-7188746786",
+    "name": "Баня на Ленинградской",
+    "imageUrl": "https://dai-zharu.ru/habarovsk/sites/default/files/field/image/stati/nf0199.png",
+    "imageSourceUrl": "https://dai-zharu.ru/habarovsk/stati/bani-v-habarovske-ceny-i-uslugi-dlya-komfortnogo-otdyha",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5651402565",
+    "name": "Baden-Baden",
+    "imageUrl": "https://baden.su/images/spa/honey/honey_29.jpg",
+    "imageSourceUrl": "https://baden.su/spa/honey.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2034084852",
+    "name": "Аквамарин",
+    "imageUrl": "https://101sauna.ru/media/20475/1001sauna-habarovsk-sauna-akvamarin.jpg",
+    "imageSourceUrl": "https://101sauna.ru/habarovsk/Sauna-Akvamarin",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4698326589",
+    "name": "Бани на Облепиховой",
+    "imageUrl": "https://pr6.zoon.ru/S9-4j7mby2jwwN8fTiyqQQ/2400x1500,q85/dA8MEE9MDK0SAQO5reMT8BON1yOdh1J6uzocWp5faN3J_TMmMjEDvezXv_3L0o1YzenOCiR2iaGEKR1W-HaYSfPGJ38I2jxnStMe3FKQgH-d2BWvtqenuQA8AhGvbBgBs8XjEZdM8sWxcMnpjemr7Q",
+    "imageSourceUrl": "https://zoon.ru/khabarovsk/sauna/banya_na_oblepihovoj/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1358380888",
+    "name": "Баня",
+    "imageUrl": "https://dai-zharu.ru/habarovsk/sites/default/files/field/image/stati/nf0199.png",
+    "imageSourceUrl": "https://dai-zharu.ru/habarovsk/stati/bani-v-habarovske-ceny-i-uslugi-dlya-komfortnogo-otdyha",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4742464122",
+    "name": "Гран При",
+    "imageUrl": "https://storage.yandexcloud.net/data.banya.ru/uploads/d2fb6d17-096a-4786-849e-57aba29f0cef/018dee80-e733-73d4-24d4-945d0361c6e8/LG.webp",
+    "imageSourceUrl": "https://banya.ru/khabarovskiy-kray_khabarovsk/bathhouses/sauna-bazy-otdykha-gran-pri_8779-9957/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4481017400",
+    "name": "Даль У Сауна",
+    "imageUrl": "https://dai-zharu.ru/habarovsk/sites/default/files/styles/big_sauna_style/public/sauni/2024-10-09_09-40-21.png",
+    "imageSourceUrl": "https://dai-zharu.ru/habarovsk/sauna/kompleks-dal-u-sauna",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3634989899",
+    "name": "Музей Энергетики",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/87/40/ef/25-1.jpg?w=1200&h=-1&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Attraction_Review-g298493-d10411796-Reviews-Energy_Museum-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11138113106",
+    "name": "Амурариум (Рыбы Амура)",
+    "imageUrl": "https://putihod.ru/wp-content/uploads/2019/03/1091864.jpg",
+    "imageSourceUrl": "https://putihod.ru/rossiya/dostoprimechatelnosti-habarovskogo-kraya/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2006160993",
+    "name": "Дальневосточный художественный музей",
+    "imageUrl": "https://www.komandirovka.ru/upload/save_file30/9ac/9acd418881d74e31f53cf401b4ab3fd5.jpeg",
+    "imageSourceUrl": "https://www.komandirovka.ru/sights/khabarovsk/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9953705395",
+    "name": "Авторетро 100",
+    "imageUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/images/c6_banner2.jpg",
+    "imageSourceUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2495828812",
+    "name": "Пожарно-техническая выставка",
+    "imageUrl": "https://mchs.gov.by/upload/iblock/33e/img_1085_novyy-razmer.jpg",
+    "imageSourceUrl": "https://mchs.gov.by/ministerstvo/napravleniya-deyatelnosti/istoriya-pozharnogo-dela/muzey-mchs/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-32050191",
+    "name": "Амурский Утëс",
+    "imageUrl": "https://hkm.ru/wp-content/uploads/2021/05/aad_5664-1-scaled.jpg",
+    "imageSourceUrl": "https://hkm.ru/building/amurskij-utes/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3634989902",
+    "name": "Хабаровский тюремный замок",
+    "imageUrl": "https://habinfo.ru/wp-content/uploads/2023/04/muzey-sizo_5.jpg",
+    "imageSourceUrl": "https://habinfo.ru/articles/muzei-habarovska/261",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12887906701",
+    "name": "Хэппи Дэй",
+    "imageUrl": "https://static.tildacdn.com/tild6337-6534-4236-a235-636335616535/photo.png",
+    "imageSourceUrl": "https://happydaykhv.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-242208334",
+    "name": "Зоосад \"Приамурский\" имени В.П. Сысоева",
+    "imageUrl": "https://must-see.top/wp-content/uploads/2021/11/Zoosad-Priamurskiy.jpg",
+    "imageSourceUrl": "https://must-see.top/dostoprimechatelnosti-habarovska/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-32063254",
+    "name": "Арлекин",
+    "imageUrl": "https://mc-arlekin.ru/upload/medialibrary/23e/shcr0a2ey72luot7r9q0yjiks3u0x3w2.jpg",
+    "imageSourceUrl": "https://mc-arlekin.ru/company/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-8437296217",
+    "name": "Бассейн ЦСКА",
+    "imageUrl": "https://sportgyms.ru/uploads/posts/2019-12/1575438499_01.jpg",
+    "imageSourceUrl": "https://sportgyms.ru/khabarovsk/8095-cska.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-7856604787",
+    "name": "Бременские музыканты",
+    "imageUrl": "https://panevin.ru/uploads/photo/2019/bremenskie_muzikanti_1024.jpg",
+    "imageSourceUrl": "https://panevin.ru/photo/khabarovsk/bremenskie_muzikanti.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12662450594",
+    "name": "Воронье Гнездо",
+    "imageUrl": "https://24smi.org/public/media/resize/800x-/2017/5/18/04.jpg",
+    "imageSourceUrl": "https://24smi.org/facts/50477-doma-s-privideniiami-v-rossii-10-mest-gde-byvaiut.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6827545041",
+    "name": "Дама с собачкой",
+    "imageUrl": "https://penzatourism.ru/upload/iblock/d79/kox7u4g96a2qxv5lry7i7siuk86uz09n.jpg",
+    "imageSourceUrl": "https://penzatourism.ru/where/dostoprimechatelnosti/art-obekty/art-obekt-dama-s-sobachkoy/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9981829817",
+    "name": "Дом доходный А.Ф. Вильневчица",
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9981839918",
+    "name": "Дом доходный Б.Е. Кламбоцкого",
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9961878018",
+    "name": "Дом доходный В.В. Петренко",
+    "imageUrl": "https://panevin.ru/uploads/photo/2019/dohodniy_dom_v_v_petrenko_1024.jpg",
+    "imageSourceUrl": "https://panevin.ru/photo/khabarovsk/dohodniy_dom_v_v_petrenko.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9981837518",
+    "name": "Дом доходный Н.А. Сыромятникова",
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9981890818",
+    "name": "Дом доходный П.А. Малкова",
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9961907417",
+    "name": "Дом жилой В.В. Дмитрие",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/c3/dd/68/caption.jpg?w=1200&h=1200&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Attraction_Review-g298493-d28195859-Reviews-Residential_House_of_A_M_Zadorozhny-Khabarovsk_Khabarovsk_Krai_Far_Eastern_Distr.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-relation-10519341",
+    "name": "Парк Железнодорожников",
+    "imageUrl": "https://i2021.otzovik.com/2021/05/16/11932282/img/1913915_71424020.jpeg",
+    "imageSourceUrl": "https://otzovik.com/review_11932282.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-881042573",
+    "name": "Ботанический овраг",
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689224506_kartin-papik-pro-p-kartinki-parki-khabarovsk-46.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/42552-kartinki-parki-habarovsk-69-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-881044033",
+    "name": "Сад Геологов",
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689224504_kartin-papik-pro-p-kartinki-parki-khabarovsk-40.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/42552-kartinki-parki-habarovsk-69-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-1366866267",
+    "name": "Сквер Связь поколений",
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689261502_kartin-papik-pro-p-kartinki-parkov-v-khabarovske-45.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/43066-kartinki-parkov-v-habarovske-69-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-881039587",
+    "name": "Барабашевский сквер",
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689261502_kartin-papik-pro-p-kartinki-parkov-v-khabarovske-45.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/43066-kartinki-parkov-v-habarovske-69-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5970921192",
+    "name": "Детский замок",
+    "imageUrl": "https://drevlandia.ru/wp-content/uploads/2024/04/Igrovoj-kompleks-Zamok-s-chasami-9-optimized.jpg",
+    "imageSourceUrl": "https://drevlandia.ru/reznye-detskie-igrovye-ploshadki/seriya-zamki/kompleksy-dlya-detej-7-14-let-seriya-zamki/igrovoj-kompleks-zamok-s-chasami/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6824836534",
+    "name": "Качели-карусели",
+    "imageUrl": "https://gubkin.city/upload/medialibrary/d57/IMG_20200804_144912.jpg",
+    "imageSourceUrl": "https://reg.se-pro.ru/articles/zachem-kachatsya-na-kachelyah.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-282725702",
+    "name": "Кошачий сквер",
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689261502_kartin-papik-pro-p-kartinki-parkov-v-khabarovske-45.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/43066-kartinki-parkov-v-habarovske-69-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-239849003",
+    "name": "Парк «Динамо»",
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689224499_kartin-papik-pro-p-kartinki-parki-khabarovsk-11.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/42552-kartinki-parki-habarovsk-69-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-634029366",
+    "name": "Парк Горького",
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689224502_kartin-papik-pro-p-kartinki-parki-khabarovsk-29.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/42552-kartinki-parki-habarovsk-69-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-68195832",
+    "name": "Дендрарий",
+    "imageUrl": "https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/247084/7zGDE2n3r09ubo7IGXLnw.jpg",
+    "imageSourceUrl": "https://irecommend.ru/content/park-v-kotorom-sobrany-unikalnye-derevya-i-kustarniki-zelenye-legkie-nashego-goroda",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-67791761",
+    "name": "ЦУМ",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%D0%9C%D1%83%D1%80%D0%B0%D0%B2%D1%8C%D0%B5%D0%B2%D0%B0-%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C_23_-_%D0%BE%D0%B1%D1%89%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%B1%D0%B0%D1%88%D0%BD%D1%8E-%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File%3A%D0%9C%D1%83%D1%80%D0%B0%D0%B2%D1%8C%D0%B5%D0%B2%D0%B0-%D0%90%D0%BC%D1%83%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%2C_23_-_%D0%BE%D0%B1%D1%89%D0%B8%D0%B9_%D0%B2%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%B1%D0%B0%D1%88%D0%BD%D1%8E-%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B9.jpg",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6207350886",
+    "name": "Студия звукозаписи Corpus",
+    "imageUrl": "https://tishina.pro/wp-content/uploads/2024/01/IMG_9888.jpg",
+    "imageSourceUrl": "https://tishina.pro/foto/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-594415839",
+    "name": "Броско Молл",
+    "imageUrl": "https://tcshops.ru/wp-content/uploads/2021/10/bo7.jpg",
+    "imageSourceUrl": "https://tcshops.ru/torgoviy-centr/brosko-moll/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-1086866756",
+    "name": "Броско Volna",
+    "imageUrl": "https://static.baza.farpost.ru/v/1769589390123_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/realty/rent_business_realty/market/torgovaja-ploshad-v-mnogofunkcionalnom-komplexe-brosko-133391452.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-553155581",
+    "name": "Пушкина",
+    "imageUrl": "https://shopandmall.ru/images/malls/gb_f571e6fe54192b1a58a483bc2a9a05c2.jpg",
+    "imageSourceUrl": "https://shopandmall.ru/torgovye-centry/tc_na_pushkina-habarovsk-ul__pushkina-amurskogo_b-ra",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-87470131",
+    "name": "центр_по_работе_с_населением_\"исток\"",
+    "imageUrl": "https://telegra.ph/file/2158bbb8c81ad7870b378.jpg",
+    "imageSourceUrl": "https://khabara.ru/centr.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-122079627",
+    "name": "Экодом",
+    "imageUrl": "https://s3.twcstorage.ru/65666464-dce55ba1-9d72-4e91-96be-b696ea099610/iblock/9eb/9ebf7d2b6d84aba1830ee8cfe1cc9a12/cc7ebf3c89ae74fea6804028d3f53047.jpg",
+    "imageSourceUrl": "https://www.jaba-discount.ru/contacts/stores/khabarovsk/4216/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-199584058",
+    "name": "Южный Парк",
+    "imageUrl": "https://tcshops.ru/wp-content/uploads/2021/12/yuzhnyy-park.jpg",
+    "imageSourceUrl": "https://tcshops.ru/torgoviy-centr/yuzhnyy-park/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-241576818",
+    "name": "Smile Mart",
+    "imageUrl": "https://static.baza.farpost.ru/v/1634014127861_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/realty/sell_business_realty/pomeshenie-s-arendatorom-1-etazh-tc-smajl-mart-454-kv-m-74445553.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-185919088",
+    "name": "Аквариум",
+    "imageUrl": "https://static.baza.farpost.ru/v/1680174839903_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/realty/rent_business_realty/market/sdaem-torgovye-ploshadi-v-tc-akvarium-109231407.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-67801177",
+    "name": "Атриум",
+    "imageUrl": "https://static.vl.ru/catalog/1490260730263_big_dvhab.jpg",
+    "imageSourceUrl": "https://www.dvhab.ru/atrium-torgovyj-centr",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-115698804",
+    "name": "Большая медведица",
+    "imageUrl": "https://static.baza.farpost.ru/v/1556461295358_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/realty/rent_business_realty/market/trc-bolshaja-medvedica-530-kv-m-parkovka-pervaja-linija-72466687.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11975223622",
+    "name": "Ichiban",
+    "imageUrl": "https://p.taplink.st/a/3/d/1/5/22eff7.jpg?118",
+    "imageSourceUrl": "https://taplink.cc/ichibankare",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3857899475",
+    "name": "Hesburger",
+    "imageUrl": "https://assets.allcafe.ru/k/places/1920x1080/pic/places/15078/5cb083668b64ad60e2efab69548e7a81.jpeg",
+    "imageSourceUrl": "https://spb.allcafe.ru/catalog/hesburger-37756/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-10013201138",
+    "name": "Вкусно — и точка",
+    "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
+    "imageSourceUrl": "https://vkusnoitochka.ru/company",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9953971133",
+    "name": "Додо Пицца",
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12358099659",
+    "name": "Додо Пицца",
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12358114361",
+    "name": "Додо Пицца",
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12856304667",
+    "name": "Rostic's",
+    "imageUrl": "https://www.malls.ru/upload/iblock/abc/8u2mrc0staef03sblrz6a72yrnyoy9s3/rostics_outside.jpg",
+    "imageSourceUrl": "https://www.malls.ru/rus/news/rostic-s-stala-krupneyshey-setyu-fastfuda-v-rossii.shtml",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12887937001",
+    "name": "Чак чак",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a3/33/48/caption.jpg?w=600&h=600&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-10655456483",
+    "name": "Белый Барашка",
+    "imageUrl": "https://menu02.restaurantguru.ru/m9/Belyi-barashka-menu-2fv.jpg",
+    "imageSourceUrl": "https://restaurantguru.ru/Belyy-Barashka-gorod-Khabarovsk/menu",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6533501989",
+    "name": "Ясмина",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e5/97/a0/caption.jpg?w=1200&h=-1&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-190903428",
+    "name": "\"Автобаня\"",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/cf/00/5f/getlstd-property-photo.jpg?w=600&h=-1&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11975028914",
+    "name": "Sushi Sea",
+    "imageUrl": "https://sushi-sea.ru/static/main-screen-photo-widescreen.gif",
+    "imageSourceUrl": "https://sushi-sea.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11975028915",
+    "name": "Sushi Sea",
+    "imageUrl": "https://sushi-sea.ru/upload/iblock/a50/mubz12lurixuy5c14b0672fwkimfnb1c.JPEG",
+    "imageSourceUrl": "https://sushi-sea.ru/?ybaip=1",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11975028916",
+    "name": "Sushi Sea",
+    "imageUrl": "https://sushi-sea.ru/upload/iblock/a50/mubz12lurixuy5c14b0672fwkimfnb1c.JPEG",
+    "imageSourceUrl": "https://sushi-sea.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12059180588",
+    "name": "Torro Grill",
+    "imageUrl": "https://obozdv.ru/wp-content/uploads/2024/02/torro-grill-в-хабаровске-00031.jpg",
+    "imageSourceUrl": "https://saas.dvobozrenie.ru/news/914/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-1534451240",
+    "name": "МК-спорт",
+    "imageUrl": "https://khab-vesti.ru/upload/iblock/76e/yn2o8xu07ltj3ryxsloe7yym0xsb7zyi.jpg",
+    "imageSourceUrl": "https://www.skyscrapercity.com/threads/Спортивные-стройки-и-сооружения.2057523/page-39",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-7283823843",
+    "name": "Хума. Дом восточной кухни",
+    "imageUrl": "https://static.tildacdn.com/tild6265-3634-4364-a638-353537333633/13762636.jpg",
+    "imageSourceUrl": "https://yourhuma.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  }
+]

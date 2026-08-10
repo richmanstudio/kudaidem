@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
+import "@/features/places/place-photo.css";
 import { TelegramBridge } from "@/lib/telegram/telegram-bridge";
 
 export const metadata: Metadata = {

@@ -1,0 +1,178 @@
+name: Refresh Khabarovsk places
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/stage-2-live-data
+    paths:
+      - package.json
+      - scripts/finalize-khabarovsk-catalog.ts
+      - scripts/dedupe-finalized-catalog.ts
+      - scripts/collect-khabarovsk.ts
+      - scripts/enrich-wikimedia-search.ts
+      - scripts/enrich-wikimedia-geosearch.ts
+      - scripts/enrich-kudago.ts
+      - scripts/deep-official-photos.ts
+      - scripts/enrich-2gis-api.ts
+      - scripts/enrich-place-details.ts
+      - scripts/enrich-search-details.ts
+      - scripts/enrich-2gis-public.ts
+      - scripts/sanitize-photo-catalog.ts
+      - scripts/validate-places.ts
+      - scripts/audit-catalog.ts
+      - .github/workflows/data-refresh.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kudaidem-khabarovsk-data-refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      TARGET_PLACES: "200"
+      TARGET_PHOTOS: "200"
+      DGIS_API_KEY: ${{ secrets.DGIS_API_KEY }}
+      DGIS_MEDIA_RIGHTS_APPROVED: ${{ secrets.DGIS_MEDIA_RIGHTS_APPROVED }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/stage-2-live-data
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+
+      - name: Build 210-place quality reservoir
+        id: finalize
+        env:
+          TARGET_PLACES: "210"
+        run: npm run data:finalize
+
+      - name: Remove duplicate venue identities and keep best 200
+        id: dedupe
+        env:
+          TARGET_PLACES: "200"
+        run: npm run data:dedupe
+
+      - name: Enrich from explicit Wikimedia and official metadata
+        id: photo_enrich
+        continue-on-error: true
+        run: npm run data:collect
+
+      - name: Search missing media through coordinate-verified Wikidata
+        id: wikimedia_search
+        continue-on-error: true
+        run: npm run data:wikimedia-search
+
+      - name: Search safe cultural and outdoor POIs through Commons geosearch
+        id: wikimedia_geo
+        continue-on-error: true
+        run: npm run data:wikimedia-geosearch
+
+      - name: Match public KudaGo media by name and coordinates
+        id: kudago
+        continue-on-error: true
+        run: npm run data:kudago
+
+      - name: Deep scan official venue sites for photography
+        id: official_photos
+        continue-on-error: true
+        run: npm run data:official-photos
+
+      - name: Enrich from licensed 2GIS Places API when configured
+        id: dgis
+        continue-on-error: true
+        run: npm run data:2gis
+
+      - name: Enrich details from official venue websites
+        id: details
+        continue-on-error: true
+        run: npx tsx scripts/enrich-place-details.ts
+
+      - name: Fill remaining details from matched search results
+        id: search_details
+        continue-on-error: true
+        run: npx tsx scripts/enrich-search-details.ts
+
+      - name: Enrich rating, check, hours and contacts from matched public 2GIS pages
+        id: dgis_public
+        continue-on-error: true
+        run: npx tsx scripts/enrich-2gis-public.ts
+
+      - name: Remove invalid, non-raster and unmatched provider media
+        id: sanitize_photos
+        run: npm run data:sanitize-photos
+
+      - name: Validate exact 200-place catalog
+        id: validate
+        run: REQUIRE_LIVE_DATA=1 npm run data:validate
+
+      - name: Audit duplicate, coordinate and provenance quality
+        id: audit
+        run: npm run data:audit
+
+      - name: Check 200-photo target
+        id: photo_gate
+        continue-on-error: true
+        run: REQUIRE_LIVE_DATA=1 REQUIRE_PHOTOS=1 npm run data:validate
+
+      - name: Preserve collection report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: khabarovsk-catalog-report
+          path: |
+            data/khabarovsk-places.json
+            data/scrape-report.json
+            data/details-report.json
+            data/photo-review.json
+            data/2gis-report.json
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Commit verified 200-place catalog
+        if: steps.dedupe.outcome == 'success' && steps.validate.outcome == 'success' && steps.audit.outcome == 'success'
+        run: |
+          git config user.name "kudaidem-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/khabarovsk-places.json data/scrape-report.json data/details-report.json data/photo-review.json data/2gis-report.json
+          if git diff --cached --quiet; then
+            echo "No catalog changes"
+          else
+            git commit -m "data: refresh 200 Khabarovsk places [skip ci]"
+            git pull --rebase origin agent/stage-2-live-data
+            git push origin HEAD:agent/stage-2-live-data
+          fi
+
+      - name: Publish coverage summary
+        if: always()
+        shell: bash
+        run: |
+          echo "## Khabarovsk data refresh" >> "$GITHUB_STEP_SUMMARY"
+          echo "- 210-place reservoir: ${{ steps.finalize.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- deterministic dedupe -> 200: ${{ steps.dedupe.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- explicit metadata enrichment: ${{ steps.photo_enrich.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- coordinate-verified Wikidata search: ${{ steps.wikimedia_search.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Commons geosearch: ${{ steps.wikimedia_geo.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- KudaGo coordinate match: ${{ steps.kudago.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- deep official photo scan: ${{ steps.official_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- licensed 2GIS API enrichment: ${{ steps.dgis.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- official-site details enrichment: ${{ steps.details.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- search details enrichment: ${{ steps.search_details.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- public 2GIS details enrichment: ${{ steps.dgis_public.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- media sanitizer: ${{ steps.sanitize_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- exact 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- catalog audit: ${{ steps.audit.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- 200-photo gate: ${{ steps.photo_gate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f data/details-report.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat data/details-report.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi

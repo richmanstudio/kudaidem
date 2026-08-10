@@ -1,26 +1,50 @@
 {
   "name": "kudaidem",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "check": "npm run typecheck && npm run lint && npm run build"
+    "postinstall": "prisma generate",
+    "db:generate": "prisma generate",
+    "db:seed": "tsx scripts/import-places.ts",
+    "data:collect": "tsx scripts/collect-khabarovsk.ts",
+    "data:wikimedia-search": "tsx scripts/enrich-wikimedia-search.ts",
+    "data:wikimedia-geosearch": "tsx scripts/enrich-wikimedia-geosearch.ts",
+    "data:kudago": "tsx scripts/enrich-kudago.ts",
+    "data:official-photos": "tsx scripts/deep-official-photos.ts",
+    "data:official-sitemaps": "tsx scripts/enrich-official-sitemaps.ts",
+    "data:sanitize-photos": "tsx scripts/sanitize-photo-catalog.ts",
+    "data:2gis": "tsx scripts/enrich-2gis-api.ts",
+    "data:finalize": "tsx scripts/finalize-khabarovsk-catalog.ts",
+    "data:dedupe": "tsx scripts/dedupe-finalized-catalog.ts",
+    "data:validate": "tsx scripts/validate-places.ts",
+    "data:audit": "tsx scripts/audit-catalog.ts",
+    "check": "npm run db:generate && npm run data:validate && npm run data:audit && npm run typecheck && npm run lint && npm run build"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "^7.0.0",
+    "@prisma/client": "^7.0.0",
+    "dotenv": "^17.0.0",
     "next": "16.2.9",
+    "pg": "^8.16.0",
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
+    "@types/pg": "^8.15.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "cheerio": "^1.1.0",
     "eslint": "^9.0.0",
     "eslint-config-next": "16.2.9",
+    "prisma": "^7.0.0",
+    "tsx": "^4.20.0",
     "typescript": "^5.8.0"
   }
 }

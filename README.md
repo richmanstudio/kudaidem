@@ -67,6 +67,8 @@ OpenStreetMap data is attributed in the user-facing place page and linked to the
 
 Public 2GIS HTML pages are **not scraped** by the production pipeline. The optional 2GIS integration uses the official Places API and activates only when `DGIS_API_KEY` is configured. API-provided `main_photo_url` is stored separately as `twoGisMainPhotoUrl`; it is promoted to the public `imageUrl` only when `DGIS_MEDIA_RIGHTS_APPROVED=1` is explicitly set after contract/subscription media rights are confirmed.
 
+A free 2GIS demo key can be created in Platform Manager for testing. Production use requires the appropriate subscription/key and confirmed media-display rights.
+
 ## Data commands
 
 ```bash

@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "placeId": "osm-node-123456789",
+    "imageUrl": "https://venue.example/media/hero.jpg",
+    "imageSourceUrl": "https://venue.example/gallery",
+    "imageSource": "OFFICIAL_SITE",
+    "imageRights": "APPROVED",
+    "imageAuthor": "Venue owner",
+    "imageLicense": "Owner permission",
+    "imageLicenseUrl": null,
+    "approvedBy": "venue-owner-or-editor",
+    "approvedAt": "2026-08-10T00:00:00.000Z",
+    "approvalNote": "Written permission received from the venue owner"
+  }
+]

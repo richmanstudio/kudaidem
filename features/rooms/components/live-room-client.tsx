@@ -2,10 +2,10 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { Heart, Share, X } from "@/components/ui/icons";
-import { haptic, shareToTelegram } from "@/lib/telegram/client";
+import { getTelegramInitData, getTelegramUserName, haptic, shareToTelegram } from "@/lib/telegram/client";
 import { buildRoomInviteUrl, tallyRoom, type RoomState, type RoomVote } from "../domain/room";
 
-function memberId() {
+function memberKey() {
   const key = "kudaidem-member-id";
   const existing = localStorage.getItem(key);
   if (existing) return existing;
@@ -14,30 +14,49 @@ function memberId() {
   return created;
 }
 
+function identityHeaders() {
+  return { "content-type": "application/json", "x-telegram-init-data": getTelegramInitData() };
+}
+
 export function LiveRoomClient({ initialRoom }: { initialRoom: RoomState }) {
   const [room, setRoom] = useState(initialRoom);
   const [me, setMe] = useState("guest");
+  const [connection, setConnection] = useState<"live" | "offline">("live");
 
   useEffect(() => {
-    const id = memberId();
+    const id = memberKey();
     setMe(id);
-    void fetch(`/api/rooms/${room.id}`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ action: "join", memberId: id }) })
-      .then((response) => response.ok ? response.json() : null)
-      .then((next) => next && setRoom(next));
-    const timer = window.setInterval(() => {
-      void fetch(`/api/rooms/${room.id}`, { cache: "no-store" }).then((response) => response.ok ? response.json() : null).then((next) => next && setRoom(next));
-    }, 2500);
+    const join = async () => {
+      const response = await fetch(`/api/rooms/${room.id}`, {
+        method: "POST",
+        headers: identityHeaders(),
+        body: JSON.stringify({ action: "join", memberKey: id, displayName: getTelegramUserName() ?? "Гость" }),
+      });
+      if (response.ok) { setRoom(await response.json()); setConnection("live"); }
+      else setConnection("offline");
+    };
+    void join();
+    const timer = window.setInterval(async () => {
+      try {
+        const response = await fetch(`/api/rooms/${room.id}`, { cache: "no-store" });
+        if (response.ok) { setRoom(await response.json()); setConnection("live"); }
+        else setConnection("offline");
+      } catch { setConnection("offline"); }
+    }, 2200);
     return () => window.clearInterval(timer);
   }, [room.id]);
 
   const tally = useMemo(() => tallyRoom(room), [room]);
+  const winner = tally[0] ?? null;
+  const voters = Object.keys(room.votes).length;
+  const consensus = winner && room.members.length > 1 && winner.yes === room.members.length;
 
   const vote = async (optionId: string, value: RoomVote) => {
     haptic();
     const response = await fetch(`/api/rooms/${room.id}`, {
       method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ action: "vote", memberId: me, optionId, vote: value }),
+      headers: identityHeaders(),
+      body: JSON.stringify({ action: "vote", memberKey: me, displayName: getTelegramUserName() ?? "Гость", optionId, vote: value }),
     });
     if (response.ok) setRoom(await response.json());
   };
@@ -49,7 +68,10 @@ export function LiveRoomClient({ initialRoom }: { initialRoom: RoomState }) {
   };
 
   return <>
-    <div className="vote-summary" aria-live="polite">{room.members.length} участников · {Object.keys(room.votes).length} проголосовали</div>
+    <div className="vote-summary" aria-live="polite">
+      {consensus ? `Совпадение: ${winner.name}` : `${room.members.length} участников · ${voters} проголосовали`}
+      <div className="subline">{connection === "live" ? "Обновляется автоматически" : "Нет связи · пробуем восстановить"}</div>
+    </div>
     {tally.map((option, index) => {
       const myVote = room.votes[me]?.[option.id];
       return <article className="vote-card" key={option.id}>

@@ -4,40 +4,26 @@ import "./globals.css";
 import "@/features/places/place-photo.css";
 import "@/features/places/place-experience.css";
 import { TelegramBridge } from "@/lib/telegram/telegram-bridge";
+import { AnalyticsClient } from "@/features/analytics/components/analytics-client";
+import { BetaBoundary } from "@/features/beta/components/beta-boundary";
 
 export const metadata: Metadata = {
   title: "Куда идём?",
   description: "Telegram Mini App, которое решает, куда сходить сегодня.",
   applicationName: "Куда идём?",
   manifest: "/manifest.webmanifest",
-  appleWebApp: {
-    capable: true,
-    title: "Куда идём?",
-    statusBarStyle: "default",
-  },
+  appleWebApp: { capable: true, title: "Куда идём?", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {
-  width: "device-width",
-  initialScale: 1,
-  maximumScale: 1,
-  viewportFit: "cover",
-  themeColor: "#f7f7f5",
+  width: "device-width", initialScale: 1, maximumScale: 1, viewportFit: "cover", themeColor: "#f7f7f5",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
-  return (
-    <html lang="ru">
-      <body>
-        <Script
-          src="https://telegram.org/js/telegram-web-app.js"
-          strategy="beforeInteractive"
-        />
-        <TelegramBridge />
-        <main className="app-shell">{children}</main>
-      </body>
-    </html>
-  );
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return <html lang="ru"><body>
+    <Script src="https://telegram.org/js/telegram-web-app.js" strategy="beforeInteractive" />
+    <TelegramBridge />
+    <AnalyticsClient />
+    <main className="app-shell"><BetaBoundary>{children}</BetaBoundary></main>
+  </body></html>;
 }

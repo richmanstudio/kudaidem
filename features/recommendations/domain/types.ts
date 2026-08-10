@@ -23,13 +23,13 @@ export type Place = {
   longitude: number | null;
   imageUrl: string | null;
   imageSourceUrl: string | null;
-  imageSource: PlaceSource | null;
+  imageSource?: PlaceSource | null;
   imageRights: ImageRights | null;
-  imageAuthor: string | null;
-  imageLicense: string | null;
-  imageLicenseUrl: string | null;
+  imageAuthor?: string | null;
+  imageLicense?: string | null;
+  imageLicenseUrl?: string | null;
   sourceUrl: string | null;
-  source: PlaceSource | null;
+  source?: PlaceSource | null;
   verifiedAt: string | null;
   website: string | null;
   phone: string | null;

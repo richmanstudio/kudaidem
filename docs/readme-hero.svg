@@ -1,0 +1,17 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="420" rx="32" fill="#0A0A0A"/>
+  <g opacity="0.12" stroke="#B6FF00">
+    <path d="M80 0V420M240 0V420M400 0V420M560 0V420M720 0V420M880 0V420M1040 0V420M1200 0V420"/>
+    <path d="M0 84H1280M0 168H1280M0 252H1280M0 336H1280"/>
+  </g>
+  <rect x="64" y="54" width="152" height="34" rx="17" fill="#B6FF00"/>
+  <text x="84" y="77" fill="#0A0A0A" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">DUONIQ / LAB</text>
+  <text x="64" y="164" fill="#F5F5F3" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" letter-spacing="-3">КУДА ИДЁМ?</text>
+  <text x="64" y="215" fill="#A1A1A1" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400">Decision engine for real plans in Khabarovsk.</text>
+  <text x="64" y="286" fill="#B6FF00" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="1.8">TELEGRAM MINI APP · NEXT.JS · RECOMMENDATION ENGINE V2</text>
+  <path d="M64 336H1216" stroke="#303030"/>
+  <text x="64" y="378" fill="#F5F5F3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" letter-spacing="1.1">200 PLACES</text>
+  <text x="240" y="378" fill="#F5F5F3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" letter-spacing="1.1">200 MEDIA SOURCES</text>
+  <text x="490" y="378" fill="#F5F5F3" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="600" letter-spacing="1.1">45/45 LIVE SCENARIOS</text>
+  <text x="1216" y="378" fill="#B6FF00" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="1.2">TWO FOUNDERS. ONE CLEAR RESULT.</text>
+</svg>

@@ -1,0 +1,82 @@
+name: Search media fill
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/stage-2-search-media
+    paths:
+      - scripts/search-engine-photos.ts
+      - .github/workflows/search-media-fill.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kudaidem-search-media-fill
+  cancel-in-progress: true
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/stage-2-search-media
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+
+      - name: Fill missing venue photos from image search
+        run: npx tsx scripts/search-engine-photos.ts
+
+      - name: Validate exact catalog
+        run: REQUIRE_LIVE_DATA=1 npm run data:validate
+
+      - name: Audit catalog integrity
+        run: npm run data:audit
+
+      - name: Measure 200-photo target
+        id: photo_gate
+        continue-on-error: true
+        run: REQUIRE_LIVE_DATA=1 REQUIRE_PHOTOS=1 npm run data:validate
+
+      - name: Upload search result snapshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: search-media-result
+          path: |
+            data/khabarovsk-places.json
+            data/scrape-report.json
+            data/search-photo-misses.json
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Commit search-filled data
+        run: |
+          git config user.name "kudaidem-media-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/khabarovsk-places.json data/scrape-report.json data/search-photo-misses.json
+          if git diff --cached --quiet; then
+            echo "No media data changes"
+          else
+            git commit -m "data: fill Khabarovsk media from image search [skip ci]"
+            git pull --rebase origin agent/stage-2-search-media
+            git push origin HEAD:agent/stage-2-search-media
+          fi
+
+      - name: Publish summary
+        if: always()
+        shell: bash
+        run: |
+          echo "## Search media fill" >> "$GITHUB_STEP_SUMMARY"
+          echo "- 200-photo gate: ${{ steps.photo_gate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f data/scrape-report.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat data/scrape-report.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi

@@ -35,8 +35,18 @@ type CatalogRecord = {
   maxParty: number;
   durationMinutes: number;
   closesAt: string | null;
+  openingHoursText: string | null;
   rating: number | null;
   reviewsCount: number | null;
+  indoor: boolean | null;
+  outdoor: boolean | null;
+  alcohol: boolean | null;
+  food: boolean | null;
+  activity: boolean | null;
+  romanticScore: number | null;
+  activityScore: number | null;
+  uniquenessScore: number | null;
+  noiseLevel: number | null;
   active: boolean;
   verifiedAt: string;
 };
@@ -63,6 +73,7 @@ function toPlace(record: CatalogRecord): Place {
     price: record.averageCheck,
     duration: record.durationMinutes,
     closesAt: record.closesAt,
+    openingHoursText: record.openingHoursText,
     description: record.description || `${record.category}. Актуальная карточка места в Хабаровске.`,
     travelMinutes: null,
     accent: accentFor(record),
@@ -84,18 +95,22 @@ function toPlace(record: CatalogRecord): Place {
     phone: record.phone,
     rating: record.rating,
     reviewsCount: record.reviewsCount,
+    indoor: record.indoor,
+    outdoor: record.outdoor,
+    alcohol: record.alcohol,
+    food: record.food,
+    activity: record.activity,
+    romanticScore: record.romanticScore,
+    activityScore: record.activityScore,
+    uniquenessScore: record.uniquenessScore,
+    noiseLevel: record.noiseLevel,
   };
 }
 
 const liveCatalog = rawCatalog as unknown as CatalogRecord[];
 
-/** True only after Stage 2 has committed a verified generated catalog. */
 export const hasLiveCatalog = liveCatalog.length > 0;
 
-/**
- * Production uses the generated catalog. The fallback keeps local UI development
- * possible before a collector run, but it is never labelled as verified live data.
- */
 export const places: Place[] = hasLiveCatalog
   ? liveCatalog.map(toPlace).filter((place) => place.isActive)
   : demoPlaces;

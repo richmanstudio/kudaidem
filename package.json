@@ -14,6 +14,7 @@
     "db:seed": "tsx scripts/import-places.ts",
     "data:collect": "tsx scripts/collect-khabarovsk.ts",
     "data:wikimedia-search": "tsx scripts/enrich-wikimedia-search.ts",
+    "data:kudago": "tsx scripts/enrich-kudago.ts",
     "data:official-photos": "tsx scripts/deep-official-photos.ts",
     "data:sanitize-photos": "tsx scripts/sanitize-photo-catalog.ts",
     "data:2gis": "tsx scripts/enrich-2gis-api.ts",

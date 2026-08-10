@@ -3,7 +3,16 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Users } from "@/components/ui/icons";
-import { haptic } from "@/lib/telegram/client";
+import { getTelegramInitData, getTelegramUserName, haptic } from "@/lib/telegram/client";
+
+function anonymousMemberKey() {
+  const key = "kudaidem-member-id";
+  const existing = localStorage.getItem(key);
+  if (existing) return existing;
+  const created = crypto.randomUUID().replaceAll("-", "").slice(0, 16);
+  localStorage.setItem(key, created);
+  return created;
+}
 
 export function CreateRoomButton({ placeIds }: { placeIds: string[] }) {
   const router = useRouter();
@@ -13,12 +22,18 @@ export function CreateRoomButton({ placeIds }: { placeIds: string[] }) {
     if (busy) return;
     setBusy(true);
     haptic("medium");
-    const hostId = localStorage.getItem("kudaidem-member-id") ?? crypto.randomUUID().replaceAll("-", "").slice(0, 16);
-    localStorage.setItem("kudaidem-member-id", hostId);
     const response = await fetch("/api/rooms", {
       method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ title: "Куда идём сегодня?", hostId, placeIds }),
+      headers: {
+        "content-type": "application/json",
+        "x-telegram-init-data": getTelegramInitData(),
+      },
+      body: JSON.stringify({
+        title: "Куда идём сегодня?",
+        memberKey: anonymousMemberKey(),
+        displayName: getTelegramUserName() ?? "Гость",
+        placeIds,
+      }),
     });
     if (response.ok) {
       const room = await response.json() as { id: string };

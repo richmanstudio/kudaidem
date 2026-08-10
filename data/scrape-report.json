@@ -1,0 +1,13 @@
+{
+  "city": "Хабаровск",
+  "provider": "OPENSTREETMAP_OVERPASS",
+  "target": 200,
+  "discovered": 507,
+  "accepted": 200,
+  "withImages": 0,
+  "approvedImages": 0,
+  "imagesNeedingReview": 0,
+  "withWebsite": 33,
+  "withOpeningHours": 49,
+  "finishedAt": "2026-08-10T06:21:47.407Z"
+}

@@ -11,6 +11,7 @@ on:
       - scripts/enrich-wikimedia-search.ts
       - scripts/enrich-kudago.ts
       - scripts/deep-official-photos.ts
+      - scripts/search-engine-photos.ts
       - scripts/sanitize-photo-catalog.ts
       - scripts/enrich-2gis-api.ts
       - scripts/finalize-khabarovsk-catalog.ts
@@ -72,6 +73,11 @@ jobs:
         continue-on-error: true
         run: npm run data:2gis
 
+      - name: Fill remaining photo gaps from image search results
+        id: search_photos
+        continue-on-error: true
+        run: npm run data:search-photos
+
       - name: Remove invalid and non-raster media
         id: sanitize_photos
         run: npm run data:sanitize-photos
@@ -127,6 +133,7 @@ jobs:
           echo "- KudaGo coordinate match: ${{ steps.kudago.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Deep official photo scan: ${{ steps.official_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Licensed 2GIS API enrichment: ${{ steps.dgis.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Search-engine photo enrichment: ${{ steps.search_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Media sanitizer: ${{ steps.sanitize_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Catalog audit: ${{ steps.audit.outcome }}" >> "$GITHUB_STEP_SUMMARY"

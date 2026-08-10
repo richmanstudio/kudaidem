@@ -1,0 +1,12 @@
+{
+  "city": "Хабаровск",
+  "target": 200,
+  "discovered": 0,
+  "accepted": 0,
+  "withImages": 0,
+  "withCoordinates": 0,
+  "withAverageCheck": 0,
+  "officialImages": 0,
+  "thirdPartyImagesNeedingRightsReview": 0,
+  "status": "awaiting-refresh"
+}

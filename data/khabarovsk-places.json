@@ -142,10 +142,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4384833849",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://images.gastronom.ru/5WykPuK7lT63YC5J2kRCd9y_3Nx6jDuXowZbsi1Fmrw/pr:article-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzL2MxMzNhZGNiLWY4MjMtNDA4Zi05Y2JkLTBjZmQwMGM0OGQ3MC5qcGc.webp",
+    "imageSourceUrl": "https://www.gastronom.ru/text/utka-po-pekinski-v-restoranah-pekina-1003538",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -174,7 +174,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.948Z",
-    "scrapedAt": "2026-08-10T06:40:56.948Z"
+    "scrapedAt": "2026-08-10T06:40:56.948Z",
+    "imageSearchQuery": "\"Пекинская утка\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-12395371062",
@@ -260,10 +261,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5973897873",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.irecommend.ru/sites/default/files/imagecache/copyright1/user-images/959098/wgE6GlmXxYVdZXW5pYhDlw.jpg",
+    "imageSourceUrl": "https://irecommend.ru/content/luchshaya-pitstsa-v-moei-zhizni",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -292,7 +293,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Vdrova\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-way-181380618",
@@ -320,10 +322,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/181380618",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -352,7 +354,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Торо\" Воронежская улица, 120 Хабаровск Ресторан"
   },
   {
     "id": "osm-way-126752626",
@@ -381,10 +384,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/126752626",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/royal_kafe_interier6.jpg?itok=vQbjZbJC",
+    "imageSourceUrl": "https://www.eda27.ru/royal-kafe-0",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -413,7 +416,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Royal\" Выборгская улица, 97 Хабаровск Ресторан"
   },
   {
     "id": "osm-node-7059134442",
@@ -440,10 +444,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/7059134442",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -472,7 +476,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Вкус Китая\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-4501763390",
@@ -499,10 +504,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4501763390",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://fb.ru/misc/i/gallery/44171/1630589.jpg",
+    "imageSourceUrl": "https://fb.ru/article/295377/restoranyi-habarovska-obzor-otzyivyi",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -531,7 +536,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.948Z",
-    "scrapedAt": "2026-08-10T06:40:56.948Z"
+    "scrapedAt": "2026-08-10T06:40:56.948Z",
+    "imageSearchQuery": "\"Густав и Густав\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-3164098485",
@@ -558,10 +564,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3164098485",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/resta_photo/public/restaurant-photo/kovboy_interior8.jpg?itok=7iDUhYW0",
+    "imageSourceUrl": "https://www.eda27.ru/kovboi",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -590,7 +596,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Ковбой\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-3523296343",
@@ -617,10 +624,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3523296343",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://plaza-ambarrukmo.co.id/wp-content/uploads/2024/05/ichiban-sushi-jpg.webp",
+    "imageSourceUrl": "https://plaza-ambarrukmo.co.id/brand-tenant/ichiban-sushi/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -649,7 +656,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Ichiban Sushi\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-way-452568216",
@@ -676,10 +684,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/452568216",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://visiteast.kz/assets/files/restoran/staryij-tbilisi.jpg",
+    "imageSourceUrl": "https://visiteast.kz/turistu/gde-poest/restoranyi/staryij-tbilisi.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -708,7 +716,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.956Z",
-    "scrapedAt": "2026-08-10T06:40:56.956Z"
+    "scrapedAt": "2026-08-10T06:40:56.956Z",
+    "imageSearchQuery": "\"Старый Тбилиси\" Новая улица, 23Б Хабаровск Ресторан"
   },
   {
     "id": "osm-node-2237523445",
@@ -735,10 +744,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/2237523445",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/resta_photo/public/poehali_interer_5.jpg?itok=8Lssr5Ro",
+    "imageSourceUrl": "https://www.eda27.ru/poekhali",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -767,7 +776,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.946Z",
-    "scrapedAt": "2026-08-10T06:40:56.946Z"
+    "scrapedAt": "2026-08-10T06:40:56.946Z",
+    "imageSearchQuery": "\"Поехали\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-3456818618",
@@ -794,10 +804,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3456818618",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "http://photos.wikimapia.org/p/00/03/21/10/87_big.jpg",
+    "imageSourceUrl": "https://wikimapia.org/11941913/ru/Ресторан-«Сархан»",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -826,7 +836,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Сархан\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-4350373308",
@@ -853,10 +864,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4350373308",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://make-eat.ru/assets/cache_image/assets/gallery/305/2518_0x0_ed1.jpg",
+    "imageSourceUrl": "https://make-eat.ru/restoran-sacivi-habarovsk.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -885,7 +896,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Сациви\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-6029568285",
@@ -912,10 +924,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/6029568285",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.tildacdn.com/tild3433-3164-4931-b863-363934343464/1.jpeg",
+    "imageSourceUrl": "https://www.abluch.ru/teplorest",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -944,7 +956,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Тепло\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-6829253085",
@@ -971,10 +984,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/6829253085",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/restaurant-photo/hanami_interior1.jpg?itok=YefEpjUO",
+    "imageSourceUrl": "https://www.eda27.ru/hanami",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1003,7 +1016,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Ханами\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-way-1456180824",
@@ -1030,10 +1044,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/1456180824",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://wedexpert-front-public.s3-accelerate.amazonaws.com/lib/profiles/5760/slide1/d8dd46783b6d5c783cdf09b1bd40b19d11e053be_x3.jpg",
+    "imageSourceUrl": "https://khv.wed-expert.com/profiles/imperatorskaya-gavan",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1062,7 +1076,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Императорская гавань\" проспект 60-летия Октября, 160/4 Хабаровск Ресторан"
   },
   {
     "id": "osm-way-70723346",
@@ -1090,10 +1105,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/70723346",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1122,7 +1137,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Классик\" Матвеевское шоссе, 35 Хабаровск Ресторан"
   },
   {
     "id": "osm-node-13446223601",
@@ -1149,10 +1165,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/13446223601",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1181,7 +1197,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Русский\" Уссурийский бульвар, 9 Хабаровск Ресторан"
   },
   {
     "id": "osm-way-120486229",
@@ -1208,10 +1225,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/120486229",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1240,7 +1257,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Тайвань\" улица Ухтомского, 57Б Хабаровск Ресторан"
   },
   {
     "id": "osm-node-4405496637",
@@ -1267,10 +1285,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4405496637",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1299,7 +1317,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.948Z",
-    "scrapedAt": "2026-08-10T06:40:56.948Z"
+    "scrapedAt": "2026-08-10T06:40:56.948Z",
+    "imageSearchQuery": "\"Панорама\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-8499043917",
@@ -1326,10 +1345,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/8499043917",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dslov.ru/img/geo/6192.jpg",
+    "imageSourceUrl": "https://dslov.ru/geo/48/g48r_1.htm",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1358,7 +1377,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.951Z",
-    "scrapedAt": "2026-08-10T06:40:56.951Z"
+    "scrapedAt": "2026-08-10T06:40:56.951Z",
+    "imageSearchQuery": "\"Султан Базар\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-3726923703",
@@ -1385,10 +1405,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3726923703",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/1160645/sDZSlbhF352fzGcOtc1gQ.jpg",
+    "imageSourceUrl": "https://irecommend.ru/content/khoroshee-obsluzhivanie-vkusno-i-sytno",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1417,7 +1437,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Al dente Горы\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-9953699239",
@@ -1444,10 +1465,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9953699239",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://sequoiadv.ru/wp-content/uploads/2020/07/1558402480-bad00cecf5ee38a407a092ef4b74a3ee.jpg",
+    "imageSourceUrl": "https://sequoiadv.ru/project/otkrytaya-terrasa-chocolate-cafe-g-habarovsk/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1476,7 +1497,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.951Z",
-    "scrapedAt": "2026-08-10T06:40:56.951Z"
+    "scrapedAt": "2026-08-10T06:40:56.951Z",
+    "imageSearchQuery": "\"Chocolate\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-3277880229",
@@ -1503,10 +1525,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3277880229",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1535,7 +1557,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"\"Вечерний\"\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-1750920610",
@@ -1562,10 +1585,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/1750920610",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img.birthday-place.ru/cv61wVnqyZ3wGsc2Kfyr67MxQS8c-W0-TRSgFSUGxRGXcEdfpnoO6SYNcpQUbMKQIHvOnPyLcPbVpedvZFq4yWA--FvvvtNwBHkisoo",
+    "imageSourceUrl": "https://khabarovsk.birthday-place.ru/catalog/restoran-barbados/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1594,7 +1617,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.946Z",
-    "scrapedAt": "2026-08-10T06:40:56.946Z"
+    "scrapedAt": "2026-08-10T06:40:56.946Z",
+    "imageSearchQuery": "\"Барбадос\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-1030381150",
@@ -1621,10 +1645,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/1030381150",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/82/80/e2/caption.jpg?w=900&h=500&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurant_Review-g298493-d6077974-Reviews-Beryozka-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1653,7 +1677,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.944Z",
-    "scrapedAt": "2026-08-10T06:40:56.944Z"
+    "scrapedAt": "2026-08-10T06:40:56.944Z",
+    "imageSearchQuery": "\"Берёзка\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-1403006579",
@@ -1680,10 +1705,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/1403006579",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1712,7 +1737,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.945Z",
-    "scrapedAt": "2026-08-10T06:40:56.945Z"
+    "scrapedAt": "2026-08-10T06:40:56.945Z",
+    "imageSearchQuery": "\"Бомонд\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-1358380887",
@@ -1739,10 +1765,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/1358380887",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1771,7 +1797,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.945Z",
-    "scrapedAt": "2026-08-10T06:40:56.945Z"
+    "scrapedAt": "2026-08-10T06:40:56.945Z",
+    "imageSearchQuery": "\"Ботаник\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-4493549289",
@@ -1798,10 +1825,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4493549289",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.restaurantguru.ru/c905-Gustav-I-Gustav-Restoran-gorod-Khabarovsk-food.jpg",
+    "imageSourceUrl": "https://restaurantguru.ru/Gustav-and-Gustav-Khabarovsk",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1830,7 +1857,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.948Z",
-    "scrapedAt": "2026-08-10T06:40:56.948Z"
+    "scrapedAt": "2026-08-10T06:40:56.948Z",
+    "imageSearchQuery": "\"Густав\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-3665806758",
@@ -1857,10 +1885,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3665806758",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.restaurantguru.ru/cb42-meals-Gustav-and-Gustav.jpg",
+    "imageSourceUrl": "https://restaurantguru.ru/burgers-gorod-Khabarovsk-m3",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1889,7 +1917,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Густав&Густав Express\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-883520474",
@@ -1916,10 +1945,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/883520474",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/zal_2_0.jpg?itok=IDfs9Sv7",
+    "imageSourceUrl": "https://www.eda27.ru/drakon-azii",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -1948,7 +1977,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.944Z",
-    "scrapedAt": "2026-08-10T06:40:56.944Z"
+    "scrapedAt": "2026-08-10T06:40:56.944Z",
+    "imageSearchQuery": "\"Дракон Азии\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-3285380577",
@@ -1975,10 +2005,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3285380577",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/67/86/99/img-20190203-135006-268.jpg?w=900&h=500&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurant_Review-g298493-d6078308-Reviews-Dong_Bei-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2007,7 +2037,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Дун Бэй\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-5040237131",
@@ -2034,10 +2065,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5040237131",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.restoran.ru/upload/editor/1d5/cdd9kclt3ydztbek7hqy63jytikvt43p/0_fasad_copya30.jpg",
+    "imageSourceUrl": "https://www.restoran.ru/msk/articles/birthday/banket-holl-imperiya/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2066,7 +2097,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.949Z",
-    "scrapedAt": "2026-08-10T06:40:56.949Z"
+    "scrapedAt": "2026-08-10T06:40:56.949Z",
+    "imageSearchQuery": "\"Империя\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-5025713390",
@@ -2093,10 +2125,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5025713390",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
+    "imageSourceUrl": "https://www.afisha.ru/habarovsk/restaurants/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2125,7 +2157,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.949Z",
-    "scrapedAt": "2026-08-10T06:40:56.949Z"
+    "scrapedAt": "2026-08-10T06:40:56.949Z",
+    "imageSearchQuery": "\"Конфуций\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-2713470372",
@@ -2152,10 +2185,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/2713470372",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "http://khvlotos.ru/wp-content/uploads/2017/03/1-2.jpg",
+    "imageSourceUrl": "http://khvlotos.ru/about/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2184,7 +2217,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Лотос\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-node-5973897869",
@@ -2211,10 +2245,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5973897869",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://festdv.ru/wp-content/uploads/2024/08/03-768x768.jpg",
+    "imageSourceUrl": "https://festdv.ru/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2243,7 +2277,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Мускатный кит\" Хабаровск Хабаровск Ресторан"
   },
   {
     "id": "osm-way-302009332",
@@ -2388,10 +2423,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12395371058",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://images.uzum.uz/d31ucvd2llnd6jum371g/original.jpg",
+    "imageSourceUrl": "https://uzum.uz/ru/product/professionalnaya-espresso-kofemashina-1953985?skuId=6899162",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2420,7 +2455,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Кофемашина\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-11649000540",
@@ -2506,10 +2542,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/11110981905",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://i2020.otzovik.com/2020/01/25/9372430/img/967041_62815701.jpeg",
+    "imageSourceUrl": "https://ratour.ru/blog/8-minut-stolovaya-habarovsk",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2538,7 +2574,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Столовая 8 минут\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-7832298087",
@@ -2624,10 +2661,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12059180588",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://obozdv.ru/wp-content/uploads/2024/02/torro-grill-в-хабаровске-00031.jpg",
+    "imageSourceUrl": "https://saas.dvobozrenie.ru/news/914/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2656,7 +2693,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Torro Grill\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-3857899474",
@@ -2742,10 +2780,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/7747825751",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/restaurant-photo/koreya_interior3.jpg?itok=Sy8By_FI",
+    "imageSourceUrl": "https://www.eda27.ru/koreya-ul-lenina-46",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2774,7 +2812,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Корея\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-4381379720",
@@ -2801,10 +2840,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4381379720",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://regions.kidsreview.ru/sites/default/files/styles/card_600_400/public/09/04/2017-1717/hlebnoe_mesto.png",
+    "imageSourceUrl": "https://www.kidsreview.ru/habarovsk/catalog/hlebnoe-mesto-kafe-pekarnya-s-detskim-ugolkom-v-centralnom-rayone-habarovsk",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2833,7 +2872,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Хлебное место\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-12506476246",
@@ -2919,10 +2959,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/1403022485",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.zarina-khv.ru/bitrix/templates/zarina_new/assets/cafe_zfrina-95.jpg",
+    "imageSourceUrl": "https://www.zarina-khv.ru/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2951,7 +2991,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.945Z",
-    "scrapedAt": "2026-08-10T06:40:56.945Z"
+    "scrapedAt": "2026-08-10T06:40:56.945Z",
+    "imageSearchQuery": "\"Зарина\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-10655456481",
@@ -2978,10 +3019,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/10655456481",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/restaurant-photo/kvartira-pashi-keizera-interior3.jpg?itok=Hv6GaA0H",
+    "imageSourceUrl": "https://www.eda27.ru/kvartira-pashi-keyzera",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3010,7 +3051,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Квартира Паши Кейзера\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-7670756981",
@@ -3037,10 +3079,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/7670756981",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://vibirai.ru/image/206701.jpg",
+    "imageSourceUrl": "https://intpik.ru/nova/stolova/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3069,7 +3111,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Столовая\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-4221985694",
@@ -3096,10 +3139,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4221985694",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a3/33/48/caption.jpg?w=600&h=600&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3128,7 +3171,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Сытый Федот\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-6029527786",
@@ -3155,10 +3199,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/6029527786",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.svetpm.ru/upload/resize_cache/iblock/d94/800_600_1/d9481f67001923ff7e150f0dc1f83346.jpeg",
+    "imageSourceUrl": "https://www.svetpm.ru/services/kafe-shokoladnitsa-g-khabarovsk/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3187,7 +3231,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Шоколадница\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-way-270539004",
@@ -3214,10 +3259,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/270539004",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/cf/00/5f/getlstd-property-photo.jpg?w=600&h=-1&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3246,7 +3291,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.956Z",
-    "scrapedAt": "2026-08-10T06:40:56.956Z"
+    "scrapedAt": "2026-08-10T06:40:56.956Z",
+    "imageSearchQuery": "\"Кафема\" Большая улица, 122/1 Хабаровск Кафе"
   },
   {
     "id": "osm-node-4611366190",
@@ -3273,10 +3319,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4611366190",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://img02.restaurantguru.ru/cb30-Sinor-Pomidor-facade.jpg",
+    "imageSourceUrl": "https://restaurantguru.ru/Sinor-Pomidor-gorod-Khabarovsk-2",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3305,7 +3351,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.948Z",
-    "scrapedAt": "2026-08-10T06:40:56.948Z"
+    "scrapedAt": "2026-08-10T06:40:56.948Z",
+    "imageSearchQuery": "\"Синьор Помидор\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-way-934124462",
@@ -3332,10 +3379,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/934124462",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.vl.ru/catalog/1506932014473_big_dvhab.jpg",
+    "imageSourceUrl": "https://www.dvhab.ru/vostochnoe-cafe-hab",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3364,7 +3411,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Восточное\" Зейская улица, 28/1 Хабаровск Кафе"
   },
   {
     "id": "osm-way-557524374",
@@ -3391,10 +3439,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/557524374",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://cdn.dvhab.ru/news/1745560942333_default",
+    "imageSourceUrl": "https://www.dvnovosti.ru/khab/2025/04/26/180296/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3423,7 +3471,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Амурский Дворик\" улица Шевченко, 28/1 Хабаровск Кафе"
   },
   {
     "id": "osm-node-13427943801",
@@ -3450,10 +3499,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/13427943801",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://irossiya.ru/wp-content/uploads/2022/06/буузы-бурятские.jpg",
+    "imageSourceUrl": "https://irossiya.ru/puteshestviya/gastronomicheskij-turizm/gastronomicheskoe-puteshestvie-v-buryatiyu/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3482,7 +3531,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Бурятская кухня. Буузы.\" улица Карла Маркса, 57 Хабаровск Кафе"
   },
   {
     "id": "osm-node-12176011606",
@@ -3509,10 +3559,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12176011606",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://suzunturizm.ru/thumb/2/AOCpPLY_IfG_FpdxZ3cfQg/r/d/583088_s9rwatky.jpg",
+    "imageSourceUrl": "https://suzunturizm.ru/kafe-mayak",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3541,7 +3591,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Маяк\" улица Ленина, 55 Хабаровск Кафе"
   },
   {
     "id": "osm-node-12175796128",
@@ -3568,10 +3619,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12175796128",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://p0.zoon.ru/preview/EiA97V1j5VBASU6N6QherA/2400x1500x85/1/8/b/original_546678b540c088eb5a8e8748_6260d5561d5a48.90766306.jpg",
+    "imageSourceUrl": "https://zoon.ru/khabarovsk/restaurants/kafe-poznaya_na_pushkina/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3600,7 +3651,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Угол\" улица Пушкина, 47 Хабаровск Кафе"
   },
   {
     "id": "osm-way-454602007",
@@ -3627,10 +3679,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/454602007",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://menu02.restaurantguru.ru/m6/Chin-Chin-Cafe-menu.jpg",
+    "imageSourceUrl": "https://restaurantguru.ru/Chin-Chin-gorod-Khabarovsk/menu",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3659,7 +3711,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.956Z",
-    "scrapedAt": "2026-08-10T06:40:56.956Z"
+    "scrapedAt": "2026-08-10T06:40:56.956Z",
+    "imageSearchQuery": "\"Chin-Chin\" Слободская улица, 4/1 Хабаровск Кафе"
   },
   {
     "id": "osm-node-884295343",
@@ -3686,10 +3739,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/884295343",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://pr5.zoon.ru/ORyYJgoBxPkpsOQyx5XH9g/2400x1500,q85/J6muMKgxpCyaYePLj1VQ5pnOfm0DiXg7JOVHpTQel_FKi7WxE4oDyNZrVmumWClWihK42uYV9WuygoeuFRUn0ytCYA4Mi41cdSI-j4GlU2YDI6A8BlBZ73o1jPzU5xx5jNvselz5j2LzNwFXrBkQhQ",
+    "imageSourceUrl": "https://zoon.ru/khabarovsk/restaurants/kafe_koritsa_i_myata/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3718,7 +3771,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.944Z",
-    "scrapedAt": "2026-08-10T06:40:56.944Z"
+    "scrapedAt": "2026-08-10T06:40:56.944Z",
+    "imageSearchQuery": "\"Корица и мята\" Тихоокеанская улица, 169/2А Хабаровск Кафе"
   },
   {
     "id": "osm-node-10205619059",
@@ -3745,10 +3799,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/10205619059",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://busyspace.ru/wp-content/uploads/2023/11/zaglavnaya-fotka.jpg",
+    "imageSourceUrl": "https://busyspace.ru/news/vkusvill-kupil-set-kafe-anderson/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3777,7 +3831,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Андерсен\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-11649000538",
@@ -3804,10 +3859,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/11649000538",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/e5/97/a0/caption.jpg?w=1200&h=-1&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3836,7 +3891,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Арома\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-5416834873",
@@ -3863,10 +3919,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5416834873",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://media.foma.ru/2018/02/DveRyby3.jpg",
+    "imageSourceUrl": "https://foma.ru/dve-ryibyi-habarovsk-vecher-v-pravoslavnom-kafe.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3895,7 +3951,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.949Z",
-    "scrapedAt": "2026-08-10T06:40:56.949Z"
+    "scrapedAt": "2026-08-10T06:40:56.949Z",
+    "imageSearchQuery": "\"Две рыбы\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-7501907785",
@@ -3922,10 +3979,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/7501907785",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/e5/97/a0/caption.jpg",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurant_Review-g298493-d12225283-Reviews-Deribas-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -3954,7 +4011,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Де`рибас\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-5454635822",
@@ -3981,10 +4039,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5454635822",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/restaurant-photo/myasnoy-restoranchik_interior.jpg?itok=cENUm8Am",
+    "imageSourceUrl": "https://www.eda27.ru/myasnoy-restoranchik",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -4013,7 +4071,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Мясной ресторанчик\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-12070992815",
@@ -4561,10 +4620,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9992569350",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://cdn.businessmens.ru/1024x-/franchise_file/761/142faa5181617df66c128f1bbd3514b7270afe31.jpg",
+    "imageSourceUrl": "https://businessmens.ru/franchise/coffee-like-761",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -4593,7 +4652,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Coffee Like\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-11975223622",
@@ -4677,10 +4737,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/11975028915",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://sushi-sea.ru/upload/iblock/a50/mubz12lurixuy5c14b0672fwkimfnb1c.JPEG",
+    "imageSourceUrl": "https://sushi-sea.ru/?ybaip=1",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -4709,7 +4769,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Sushi Sea\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-10013201138",
@@ -4793,10 +4854,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12722562626",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://idei.club/uploads/posts/2022-03/1647278089_17-idei-club-p-burger-king-interer-interer-krasivo-foto-27.jpg",
+    "imageSourceUrl": "https://idei.club/65170-burger-king-interer-59-foto.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -4825,7 +4886,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Бургер Кинг\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-13638767275",
@@ -4851,10 +4913,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/13638767275",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://idei.club/uploads/posts/2022-03/1647278089_17-idei-club-p-burger-king-interer-interer-krasivo-foto-27.jpg",
+    "imageSourceUrl": "https://idei.club/65170-burger-king-interer-59-foto.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -4883,7 +4945,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Бургер Кинг\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-11649000536",
@@ -5085,10 +5148,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4365848167",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://fb.ru/misc/i/gallery/19307/3176100.jpg",
+    "imageSourceUrl": "https://fb.ru/article/464980/naibolee-izvestnyie-nochnyie-klubyi-habarovska",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5117,7 +5180,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Галлерея\" Хабаровск Хабаровск Ночной клуб"
   },
   {
     "id": "osm-node-12059180585",
@@ -5143,10 +5207,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12059180585",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.baza.farpost.ru/v/1703453560622_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/rabota/vacansii/povar-v-nochnoj-klub-istorija-115842351.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5175,7 +5239,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"История\" Хабаровск Хабаровск Ночной клуб"
   },
   {
     "id": "osm-node-11649000541",
@@ -5202,10 +5267,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/11649000541",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/201b11171327597.646cfb080f8ee.jpg",
+    "imageSourceUrl": "https://www.behance.net/gallery/171327597/rmochnaja",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5234,7 +5299,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Рюмочная\" Хабаровск Хабаровск Бар"
   },
   {
     "id": "osm-node-12395371057",
@@ -5261,10 +5327,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12395371057",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/201b11171327597.646cfb080f8ee.jpg",
+    "imageSourceUrl": "https://www.behance.net/gallery/171327597/rmochnaja",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5293,7 +5359,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Рюмочная\" Хабаровск Хабаровск Бар"
   },
   {
     "id": "osm-node-12151045373",
@@ -5320,10 +5387,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12151045373",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.dvhab.ru/city/fotos/tTgDpWhzSf1dJNOnmCTQ.jpg",
+    "imageSourceUrl": "https://www.dvhab.ru/city/дом/ул Карла Маркса 144/2Г/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5352,7 +5419,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Свой Пивной\" улица Карла Маркса, 144/1 Хабаровск Бар"
   },
   {
     "id": "osm-node-12887857301",
@@ -5379,10 +5447,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12887857301",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "http://sun9-12.userapi.com/c841436/v841436636/3babe/X1B8iRddKBM.jpg",
+    "imageSourceUrl": "https://vk.com/chixxru",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5411,7 +5479,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Chixx\" улица Калинина, 158 Хабаровск Бар"
   },
   {
     "id": "osm-node-2237523444",
@@ -5438,10 +5507,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/2237523444",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/22/41/47/podzemka.jpg?w=900&h=500&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g298493-d6077764-Reviews-Podzemka-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5470,7 +5539,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.946Z",
-    "scrapedAt": "2026-08-10T06:40:56.946Z"
+    "scrapedAt": "2026-08-10T06:40:56.946Z",
+    "imageSearchQuery": "\"ПодZемка\" Хабаровск Хабаровск Бар"
   },
   {
     "id": "osm-way-525763612",
@@ -5496,10 +5566,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/525763612",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://fb.ru/misc/i/gallery/19307/3176100.jpg",
+    "imageSourceUrl": "https://fb.ru/article/464980/naibolee-izvestnyie-nochnyie-klubyi-habarovska",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5528,7 +5598,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Ночной Хабаровск\" Совхозная улица, 79/2 Хабаровск Ночной клуб"
   },
   {
     "id": "osm-node-12987030079",
@@ -5555,10 +5626,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12987030079",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.baza.farpost.ru/v/1688543317784_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/business/sell_business/franshiza-pivnyh-magazinov-tank-hopper-111842524.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5587,7 +5658,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Танк & Хоппер\" Хабаровск Хабаровск Паб"
   },
   {
     "id": "osm-node-4381725531",
@@ -5614,10 +5686,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4381725531",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://traveltime.media/wp-content/uploads/2022/04/mexico-oaxaca-mezcal-drinks-in-bar.webp",
+    "imageSourceUrl": "https://traveltime.media/meksika-uspet-za-10-dnej",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5646,7 +5718,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.948Z",
-    "scrapedAt": "2026-08-10T06:40:56.948Z"
+    "scrapedAt": "2026-08-10T06:40:56.948Z",
+    "imageSearchQuery": "\"Mexico\" Хабаровск Хабаровск Бар"
   },
   {
     "id": "osm-node-3277883161",
@@ -5672,10 +5745,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3277883161",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://fb.ru/misc/i/gallery/19307/3176100.jpg",
+    "imageSourceUrl": "https://fb.ru/article/464980/naibolee-izvestnyie-nochnyie-klubyi-habarovska",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5704,7 +5777,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"\"Адреналин\"\" Хабаровск Хабаровск Ночной клуб"
   },
   {
     "id": "osm-node-13333091989",
@@ -5731,10 +5805,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/13333091989",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.vl.ru/catalog/1640244947750_big_dvhab.jpg",
+    "imageSourceUrl": "https://www.dvhab.ru/agutin-bar",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -5763,7 +5837,8 @@
     "noiseLevel": 5,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Агутин\" Хабаровск Хабаровск Бар"
   },
   {
     "id": "osm-node-2006160994",
@@ -6021,10 +6096,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/818506658",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://habdrama.ru/wp-content/uploads/2021/03/teatr-2020-god.jpg",
+    "imageSourceUrl": "https://habdrama.ru/novosti/s-dnem-rozhdeniya-lyubimyiy-teatr/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6053,7 +6128,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.944Z",
-    "scrapedAt": "2026-08-10T06:40:56.944Z"
+    "scrapedAt": "2026-08-10T06:40:56.944Z",
+    "imageSearchQuery": "\"Хабаровский краевой театр драмы\" Хабаровск Хабаровск Театр"
   },
   {
     "id": "osm-node-8035165019",
@@ -6079,10 +6155,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/8035165019",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://cdodmir.ru/wp-content/uploads/2022/12/1-4.jpg",
+    "imageSourceUrl": "https://cdodmir.ru/news/nashi-talantlivye-deti-v-habarovske/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6111,7 +6187,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.951Z",
-    "scrapedAt": "2026-08-10T06:40:56.951Z"
+    "scrapedAt": "2026-08-10T06:40:56.951Z",
+    "imageSearchQuery": "\"АНО \"Талантливые Дети\"\" Хабаровск Хабаровск Культурный центр"
   },
   {
     "id": "osm-node-1403077450",
@@ -6137,10 +6214,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/1403077450",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.tehnikaplus.ru/upload/iblock/1da/je51c3id5yuqb09vckfyg9lzbqqjvc0k.JPG",
+    "imageSourceUrl": "https://tehnikaplus.ru/projects/bar_klassicheskii/kinoteatr-fabrika-gryez-g-khabarovsk/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6169,7 +6246,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.945Z",
-    "scrapedAt": "2026-08-10T06:40:56.945Z"
+    "scrapedAt": "2026-08-10T06:40:56.945Z",
+    "imageSearchQuery": "\"Фабрика грёз\" Хабаровск Хабаровск Кинотеатр"
   },
   {
     "id": "osm-way-87896088",
@@ -6195,10 +6273,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/87896088",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://festdv.ru/wp-content/uploads/2025/01/01-4.jpg",
+    "imageSourceUrl": "https://festdv.ru/gde-otdohnut/kinoteatry-habarovska/kinoteatr-druzhba/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6227,7 +6305,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Дружба\" Амурский бульвар, 56А Хабаровск Кинотеатр"
   },
   {
     "id": "osm-node-2469900437",
@@ -6253,10 +6332,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/2469900437",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://regions.kidsreview.ru/sites/default/files/styles/card_600_400/public/09/20/2012_-_1803/_avtokino.jpg",
+    "imageSourceUrl": "https://www.kidsreview.ru/habarovsk/catalog/avtokino-avtokinoteatr-na-zaimke-khabarovsk",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6285,7 +6364,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.946Z",
-    "scrapedAt": "2026-08-10T06:40:56.946Z"
+    "scrapedAt": "2026-08-10T06:40:56.946Z",
+    "imageSearchQuery": "\"Автокинотеатр «На Заимке»\" Хабаровск Хабаровск Кинотеатр"
   },
   {
     "id": "osm-way-82076627",
@@ -6311,10 +6391,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/82076627",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/05/cf/55/caption.jpg?w=1200&h=1200&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Attraction_Review-g298493-d2572627-Reviews-Khabarovsk_Theater_of_the_Young_Spectator-Khabarovsk_Khabarovsk_Krai_Far_Eastern_.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6343,7 +6423,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Театр юного зрителя\" Комсомольская улица, 77 Хабаровск Театр"
   },
   {
     "id": "osm-way-67571263",
@@ -6369,10 +6450,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/67571263",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://i.ytimg.com/vi/S-RY19TRX8k/maxresdefault.jpg",
+    "imageSourceUrl": "https://www.youtube.com/watch?v=S-RY19TRX8k",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6401,7 +6482,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Хабаровск\" улица Стрельникова, 4 Хабаровск Кинотеатр"
   },
   {
     "id": "osm-node-7112753919",
@@ -6427,10 +6509,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/7112753919",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.teatrygoroda.ru/assets/files/image-856.jpg",
+    "imageSourceUrl": "https://www.teatrygoroda.ru/theatre/mobil-naya-teatral-naya-kompaniya-teatr-m-art",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6459,7 +6541,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Мобильная театральная компания «Театр «М` Арт»\" Хабаровск Хабаровск Театр"
   },
   {
     "id": "osm-node-2095798997",
@@ -6485,10 +6568,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/2095798997",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://i.ytimg.com/vi/eBy-mYcPL_0/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gOSgTMA8=&rs=AOn4CLBZGee4bA1iLH3dQBmwJoNQmfJXSQ",
+    "imageSourceUrl": "https://www.youtube.com/watch?v=eBy-mYcPL_0",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6517,7 +6600,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.946Z",
-    "scrapedAt": "2026-08-10T06:40:56.946Z"
+    "scrapedAt": "2026-08-10T06:40:56.946Z",
+    "imageSearchQuery": "\"Hollywood\" Хабаровск Хабаровск Кинотеатр"
   },
   {
     "id": "osm-node-2095798998",
@@ -6543,10 +6627,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/2095798998",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://regions.kidsreview.ru/sites/default/files/styles/card_600_400/public/01/29/2017-2203/atmosfera_kino_hab.jpg",
+    "imageSourceUrl": "https://www.kidsreview.ru/habarovsk/catalog/atmosfera-kinoteatr-razvlekatelnyi-tsentr-v-trts-yuzhnyi-park-khabarovsk",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6575,7 +6659,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.946Z",
-    "scrapedAt": "2026-08-10T06:40:56.946Z"
+    "scrapedAt": "2026-08-10T06:40:56.946Z",
+    "imageSearchQuery": "\"Атмосфера\" Хабаровск Хабаровск Кинотеатр"
   },
   {
     "id": "osm-node-10792579695",
@@ -6718,10 +6803,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5235011021",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://sportgyms.ru/uploads/posts/2014-03/1395143523_07.jpg",
+    "imageSourceUrl": "https://sportgyms.ru/khabarovsk/2317-nautilus-zagorodniy.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6750,7 +6835,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.949Z",
-    "scrapedAt": "2026-08-10T06:40:56.949Z"
+    "scrapedAt": "2026-08-10T06:40:56.949Z",
+    "imageSearchQuery": "\"Наутилус-Загородный\" Хабаровск Хабаровск Фитнес"
   },
   {
     "id": "osm-node-5555835122",
@@ -6950,10 +7036,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/1345725853",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://edinoborstva27.ru/images/uploads/00311aeefd1dd1b05854b2811745b659.webp",
+    "imageSourceUrl": "https://edinoborstva27.ru/services",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6982,7 +7068,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.945Z",
-    "scrapedAt": "2026-08-10T06:40:56.945Z"
+    "scrapedAt": "2026-08-10T06:40:56.945Z",
+    "imageSearchQuery": "\"КСК Чистополье\" Хабаровск Хабаровск Спортивный центр"
   },
   {
     "id": "osm-way-209353599",
@@ -7008,10 +7095,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/209353599",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://sportgyms.ru/uploads/posts/2014-03/1395145104_04.jpg",
+    "imageSourceUrl": "https://sportgyms.ru/khabarovsk/2318-nautilus-yuzhnyy.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7040,7 +7127,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Фитнес-клуб \"Наутилус\" Южный\" улица Суворова, 25А Хабаровск Спортивный центр"
   },
   {
     "id": "osm-node-4807521922",
@@ -7066,10 +7154,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4807521922",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://maps.climbingpro.ru/media/photo/Nj52qmn7ZwA-min.jpg",
+    "imageSourceUrl": "https://maps.climbingpro.ru/ferrum/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7098,7 +7186,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.948Z",
-    "scrapedAt": "2026-08-10T06:40:56.948Z"
+    "scrapedAt": "2026-08-10T06:40:56.948Z",
+    "imageSearchQuery": "\"Скалодром \"Феррум\"\" Хабаровск Хабаровск Фитнес"
   },
   {
     "id": "osm-node-11958560257",
@@ -7124,10 +7213,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/11958560257",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://shahty-ladystretch.ru/img/34450592.jpg",
+    "imageSourceUrl": "https://shahty-ladystretch.ru/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7156,7 +7245,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Lady Stretch\" Хабаровск Хабаровск Фитнес"
   },
   {
     "id": "osm-node-12378249784",
@@ -7182,10 +7272,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12378249784",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://shahty-ladystretch.ru/img/34450592.jpg",
+    "imageSourceUrl": "https://shahty-ladystretch.ru/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7214,7 +7304,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Lady Stretch\" Хабаровск Хабаровск Фитнес"
   },
   {
     "id": "osm-way-310906737",
@@ -7240,10 +7331,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/310906737",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://edinoborstva27.ru/images/uploads/00311aeefd1dd1b05854b2811745b659.webp",
+    "imageSourceUrl": "https://edinoborstva27.ru/services",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7272,7 +7363,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.956Z",
-    "scrapedAt": "2026-08-10T06:40:56.956Z"
+    "scrapedAt": "2026-08-10T06:40:56.956Z",
+    "imageSearchQuery": "\"Арагон\" Краснодарская улица, 100 Хабаровск Спортивный центр"
   },
   {
     "id": "osm-node-3076533518",
@@ -7298,10 +7390,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3076533518",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://cniipz.ru/wp-content/uploads/2021/11/2-4.jpg",
+    "imageSourceUrl": "https://cniipz.ru/category/mnogofunkcionalnye-sportivnye-kompleksy-dvorcy-sporta/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7330,7 +7422,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Пятый Элемент\" Хабаровск Хабаровск Спортивный центр"
   },
   {
     "id": "osm-node-10655583515",
@@ -7356,10 +7449,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/10655583515",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://p1.zoon.ru/preview/neKVt1sbm7K98agVvbGoqA/2400x1500x75/1/1/9/original_5466787d40c088eb5a8e806a_5f055f3eabbc1.jpg",
+    "imageSourceUrl": "https://zoon.ru/khabarovsk/sauna/sauna_miuri-_marhaba_v_tsentralnom_rajone/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7388,7 +7481,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Миури-Мархаба\" Хабаровск Хабаровск Сауна"
   },
   {
     "id": "osm-node-7188746786",
@@ -7414,10 +7508,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/7188746786",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dai-zharu.ru/habarovsk/sites/default/files/field/image/stati/nf0199.png",
+    "imageSourceUrl": "https://dai-zharu.ru/habarovsk/stati/bani-v-habarovske-ceny-i-uslugi-dlya-komfortnogo-otdyha",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7446,7 +7540,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Баня на Ленинградской\" Хабаровск Хабаровск Сауна"
   },
   {
     "id": "osm-node-5651402565",
@@ -7472,10 +7567,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5651402565",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://baden.su/images/spa/honey/honey_29.jpg",
+    "imageSourceUrl": "https://baden.su/spa/honey.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7504,7 +7599,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Baden-Baden\" Хабаровск Хабаровск Сауна"
   },
   {
     "id": "osm-node-2034084852",
@@ -7530,10 +7626,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/2034084852",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://101sauna.ru/media/20475/1001sauna-habarovsk-sauna-akvamarin.jpg",
+    "imageSourceUrl": "https://101sauna.ru/habarovsk/Sauna-Akvamarin",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7562,7 +7658,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.946Z",
-    "scrapedAt": "2026-08-10T06:40:56.946Z"
+    "scrapedAt": "2026-08-10T06:40:56.946Z",
+    "imageSearchQuery": "\"Аквамарин\" Хабаровск Хабаровск Сауна"
   },
   {
     "id": "osm-node-4698326589",
@@ -7588,10 +7685,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4698326589",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://pr6.zoon.ru/S9-4j7mby2jwwN8fTiyqQQ/2400x1500,q85/dA8MEE9MDK0SAQO5reMT8BON1yOdh1J6uzocWp5faN3J_TMmMjEDvezXv_3L0o1YzenOCiR2iaGEKR1W-HaYSfPGJ38I2jxnStMe3FKQgH-d2BWvtqenuQA8AhGvbBgBs8XjEZdM8sWxcMnpjemr7Q",
+    "imageSourceUrl": "https://zoon.ru/khabarovsk/sauna/banya_na_oblepihovoj/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7620,7 +7717,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.948Z",
-    "scrapedAt": "2026-08-10T06:40:56.948Z"
+    "scrapedAt": "2026-08-10T06:40:56.948Z",
+    "imageSearchQuery": "\"Бани на Облепиховой\" Хабаровск Хабаровск Сауна"
   },
   {
     "id": "osm-node-1358380888",
@@ -7646,10 +7744,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/1358380888",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dai-zharu.ru/habarovsk/sites/default/files/field/image/stati/nf0199.png",
+    "imageSourceUrl": "https://dai-zharu.ru/habarovsk/stati/bani-v-habarovske-ceny-i-uslugi-dlya-komfortnogo-otdyha",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7678,7 +7776,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.945Z",
-    "scrapedAt": "2026-08-10T06:40:56.945Z"
+    "scrapedAt": "2026-08-10T06:40:56.945Z",
+    "imageSearchQuery": "\"Баня\" Хабаровск Хабаровск Сауна"
   },
   {
     "id": "osm-node-4742464122",
@@ -7704,10 +7803,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4742464122",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://storage.yandexcloud.net/data.banya.ru/uploads/d2fb6d17-096a-4786-849e-57aba29f0cef/018dee80-e733-73d4-24d4-945d0361c6e8/LG.webp",
+    "imageSourceUrl": "https://banya.ru/khabarovskiy-kray_khabarovsk/bathhouses/sauna-bazy-otdykha-gran-pri_8779-9957/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7736,7 +7835,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.948Z",
-    "scrapedAt": "2026-08-10T06:40:56.948Z"
+    "scrapedAt": "2026-08-10T06:40:56.948Z",
+    "imageSearchQuery": "\"Гран При\" Хабаровск Хабаровск Сауна"
   },
   {
     "id": "osm-node-4481017400",
@@ -7762,10 +7862,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4481017400",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dai-zharu.ru/habarovsk/sites/default/files/styles/big_sauna_style/public/sauni/2024-10-09_09-40-21.png",
+    "imageSourceUrl": "https://dai-zharu.ru/habarovsk/sauna/kompleks-dal-u-sauna",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -7794,7 +7894,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.948Z",
-    "scrapedAt": "2026-08-10T06:40:56.948Z"
+    "scrapedAt": "2026-08-10T06:40:56.948Z",
+    "imageSearchQuery": "\"Даль У Сауна\" Хабаровск Хабаровск Сауна"
   },
   {
     "id": "osm-node-2007827186",
@@ -8168,10 +8269,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3634989899",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/87/40/ef/25-1.jpg?w=1200&h=-1&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Attraction_Review-g298493-d10411796-Reviews-Energy_Museum-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8200,7 +8301,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Музей Энергетики\" Хабаровск Хабаровск Музей"
   },
   {
     "id": "osm-node-11138113106",
@@ -8226,10 +8328,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/11138113106",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://putihod.ru/wp-content/uploads/2019/03/1091864.jpg",
+    "imageSourceUrl": "https://putihod.ru/rossiya/dostoprimechatelnosti-habarovskogo-kraya/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8258,7 +8360,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Амурариум (Рыбы Амура)\" Хабаровск Хабаровск Музей"
   },
   {
     "id": "osm-node-2006160993",
@@ -8284,10 +8387,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/2006160993",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.komandirovka.ru/upload/save_file30/9ac/9acd418881d74e31f53cf401b4ab3fd5.jpeg",
+    "imageSourceUrl": "https://www.komandirovka.ru/sights/khabarovsk/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8316,7 +8419,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.946Z",
-    "scrapedAt": "2026-08-10T06:40:56.946Z"
+    "scrapedAt": "2026-08-10T06:40:56.946Z",
+    "imageSearchQuery": "\"Дальневосточный художественный музей\" Хабаровск Хабаровск Музей"
   },
   {
     "id": "osm-node-2495828812",
@@ -8342,10 +8446,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/2495828812",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://mchs.gov.by/upload/iblock/33e/img_1085_novyy-razmer.jpg",
+    "imageSourceUrl": "https://mchs.gov.by/ministerstvo/napravleniya-deyatelnosti/istoriya-pozharnogo-dela/muzey-mchs/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8374,7 +8478,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Пожарно-техническая выставка\" Хабаровск Хабаровск Музей"
   },
   {
     "id": "osm-way-32050191",
@@ -8400,10 +8505,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/32050191",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://hkm.ru/wp-content/uploads/2021/05/aad_5664-1-scaled.jpg",
+    "imageSourceUrl": "https://hkm.ru/building/amurskij-utes/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8432,7 +8537,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Амурский Утëс\" улица Шевченко, 15 Хабаровск Музей"
   },
   {
     "id": "osm-node-3634989902",
@@ -8458,10 +8564,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3634989902",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://habinfo.ru/wp-content/uploads/2023/04/muzey-sizo_5.jpg",
+    "imageSourceUrl": "https://habinfo.ru/articles/muzei-habarovska/261",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8490,7 +8596,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Хабаровский тюремный замок\" Хабаровск Хабаровск Музей"
   },
   {
     "id": "osm-node-12887906701",
@@ -8575,10 +8682,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/242208334",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://must-see.top/wp-content/uploads/2021/11/Zoosad-Priamurskiy.jpg",
+    "imageSourceUrl": "https://must-see.top/dostoprimechatelnosti-habarovska/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8607,7 +8714,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Зоосад \"Приамурский\" имени В.П. Сысоева\" Хабаровск Хабаровск Зоопарк"
   },
   {
     "id": "osm-way-32063254",
@@ -8635,10 +8743,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/32063254",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://mc-arlekin.ru/upload/medialibrary/23e/shcr0a2ey72luot7r9q0yjiks3u0x3w2.jpg",
+    "imageSourceUrl": "https://mc-arlekin.ru/company/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8667,7 +8775,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Арлекин\" улица Льва Толстого, 2 Хабаровск Парк развлечений"
   },
   {
     "id": "osm-node-3257869796",
@@ -8693,10 +8802,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3257869796",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://tripplanet.ru/wp-content/uploads/europe/russia/khabarovsk/amur-cliff.jpg",
+    "imageSourceUrl": "https://tripplanet.ru/dostoprimechatelnosti-habarovska/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8725,7 +8834,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Амурский утëс\" Хабаровск Хабаровск Смотровая площадка"
   },
   {
     "id": "osm-node-8437296217",
@@ -8750,10 +8860,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/8437296217",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://sportgyms.ru/uploads/posts/2019-12/1575438499_01.jpg",
+    "imageSourceUrl": "https://sportgyms.ru/khabarovsk/8095-cska.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8782,7 +8892,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.951Z",
-    "scrapedAt": "2026-08-10T06:40:56.951Z"
+    "scrapedAt": "2026-08-10T06:40:56.951Z",
+    "imageSearchQuery": "\"Бассейн ЦСКА\" Хабаровск Хабаровск Достопримечательность"
   },
   {
     "id": "osm-node-7856604787",
@@ -8807,10 +8918,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/7856604787",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://panevin.ru/uploads/photo/2019/bremenskie_muzikanti_1024.jpg",
+    "imageSourceUrl": "https://panevin.ru/photo/khabarovsk/bremenskie_muzikanti.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8839,7 +8950,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.951Z",
-    "scrapedAt": "2026-08-10T06:40:56.951Z"
+    "scrapedAt": "2026-08-10T06:40:56.951Z",
+    "imageSearchQuery": "\"Бременские музыканты\" Хабаровск Хабаровск Достопримечательность"
   },
   {
     "id": "osm-node-12662450594",
@@ -8865,10 +8977,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12662450594",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://24smi.org/public/media/resize/800x-/2017/5/18/04.jpg",
+    "imageSourceUrl": "https://24smi.org/facts/50477-doma-s-privideniiami-v-rossii-10-mest-gde-byvaiut.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8897,7 +9009,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Воронье Гнездо\" Хабаровск Хабаровск Смотровая площадка"
   },
   {
     "id": "osm-node-6827545041",
@@ -8922,10 +9035,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/6827545041",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://penzatourism.ru/upload/iblock/d79/kox7u4g96a2qxv5lry7i7siuk86uz09n.jpg",
+    "imageSourceUrl": "https://penzatourism.ru/where/dostoprimechatelnosti/art-obekty/art-obekt-dama-s-sobachkoy/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -8954,7 +9067,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Дама с собачкой\" Хабаровск Хабаровск Арт-объект"
   },
   {
     "id": "osm-node-9981829817",
@@ -8979,10 +9093,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9981829817",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9011,7 +9125,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.951Z",
-    "scrapedAt": "2026-08-10T06:40:56.951Z"
+    "scrapedAt": "2026-08-10T06:40:56.951Z",
+    "imageSearchQuery": "\"Дом доходный А.Ф. Вильневчица\" Хабаровск Хабаровск Достопримечательность"
   },
   {
     "id": "osm-node-9981839918",
@@ -9036,10 +9151,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9981839918",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9068,7 +9183,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Дом доходный Б.Е. Кламбоцкого\" Хабаровск Хабаровск Достопримечательность"
   },
   {
     "id": "osm-node-9961878018",
@@ -9093,10 +9209,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9961878018",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://panevin.ru/uploads/photo/2019/dohodniy_dom_v_v_petrenko_1024.jpg",
+    "imageSourceUrl": "https://panevin.ru/photo/khabarovsk/dohodniy_dom_v_v_petrenko.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9125,7 +9241,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.951Z",
-    "scrapedAt": "2026-08-10T06:40:56.951Z"
+    "scrapedAt": "2026-08-10T06:40:56.951Z",
+    "imageSearchQuery": "\"Дом доходный В.В. Петренко\" Хабаровск Хабаровск Достопримечательность"
   },
   {
     "id": "osm-node-9981837518",
@@ -9150,10 +9267,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9981837518",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9182,7 +9299,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Дом доходный Н.А. Сыромятникова\" Хабаровск Хабаровск Достопримечательность"
   },
   {
     "id": "osm-node-9981890818",
@@ -9207,10 +9325,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9981890818",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9239,7 +9357,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Дом доходный П.А. Малкова\" Хабаровск Хабаровск Достопримечательность"
   },
   {
     "id": "osm-node-9961907417",
@@ -9264,10 +9383,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9961907417",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/c3/dd/68/caption.jpg?w=1200&h=1200&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Attraction_Review-g298493-d28195859-Reviews-Residential_House_of_A_M_Zadorozhny-Khabarovsk_Khabarovsk_Krai_Far_Eastern_Distr.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9296,7 +9415,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.951Z",
-    "scrapedAt": "2026-08-10T06:40:56.951Z"
+    "scrapedAt": "2026-08-10T06:40:56.951Z",
+    "imageSearchQuery": "\"Дом жилой В.В. Дмитрие\" Хабаровск Хабаровск Достопримечательность"
   },
   {
     "id": "osm-way-56007166",
@@ -9382,10 +9502,10 @@
     "sourceUrl": "https://www.openstreetmap.org/relation/10519341",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://i2021.otzovik.com/2021/05/16/11932282/img/1913915_71424020.jpeg",
+    "imageSourceUrl": "https://otzovik.com/review_11932282.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9414,7 +9534,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Парк Железнодорожников\" Клубная улица, 1 Хабаровск Парк"
   },
   {
     "id": "osm-way-881042573",
@@ -9441,10 +9562,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/881042573",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689224506_kartin-papik-pro-p-kartinki-parki-khabarovsk-46.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/42552-kartinki-parki-habarovsk-69-foto.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9473,7 +9594,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Ботанический овраг\" Хабаровск Хабаровск Парк"
   },
   {
     "id": "osm-way-881044033",
@@ -9500,10 +9622,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/881044033",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689224504_kartin-papik-pro-p-kartinki-parki-khabarovsk-40.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/42552-kartinki-parki-habarovsk-69-foto.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9532,7 +9654,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Сад Геологов\" Хабаровск Хабаровск Парк"
   },
   {
     "id": "osm-way-1366866267",
@@ -9559,10 +9682,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/1366866267",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689261502_kartin-papik-pro-p-kartinki-parkov-v-khabarovske-45.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/43066-kartinki-parkov-v-habarovske-69-foto.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9591,7 +9714,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Сквер Связь поколений\" Хабаровск Хабаровск Парк"
   },
   {
     "id": "osm-way-881039587",
@@ -9618,10 +9742,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/881039587",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689261502_kartin-papik-pro-p-kartinki-parkov-v-khabarovske-45.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/43066-kartinki-parkov-v-habarovske-69-foto.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9650,7 +9774,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Барабашевский сквер\" Хабаровск Хабаровск Парк"
   },
   {
     "id": "osm-way-68195832",
@@ -9677,10 +9802,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/68195832",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/247084/7zGDE2n3r09ubo7IGXLnw.jpg",
+    "imageSourceUrl": "https://irecommend.ru/content/park-v-kotorom-sobrany-unikalnye-derevya-i-kustarniki-zelenye-legkie-nashego-goroda",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9709,7 +9834,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Дендрарий\" Хабаровск Хабаровск Парк"
   },
   {
     "id": "osm-node-5970921192",
@@ -9735,10 +9861,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5970921192",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://drevlandia.ru/wp-content/uploads/2024/04/Igrovoj-kompleks-Zamok-s-chasami-9-optimized.jpg",
+    "imageSourceUrl": "https://drevlandia.ru/reznye-detskie-igrovye-ploshadki/seriya-zamki/kompleksy-dlya-detej-7-14-let-seriya-zamki/igrovoj-kompleks-zamok-s-chasami/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9767,7 +9893,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Детский замок\" Хабаровск Хабаровск Игровая площадка"
   },
   {
     "id": "osm-node-6824836534",
@@ -9793,10 +9920,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/6824836534",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://gubkin.city/upload/medialibrary/d57/IMG_20200804_144912.jpg",
+    "imageSourceUrl": "https://reg.se-pro.ru/articles/zachem-kachatsya-na-kachelyah.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9825,7 +9952,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Качели-карусели\" Хабаровск Хабаровск Игровая площадка"
   },
   {
     "id": "osm-way-282725702",
@@ -9852,10 +9980,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/282725702",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689261502_kartin-papik-pro-p-kartinki-parkov-v-khabarovske-45.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/43066-kartinki-parkov-v-habarovske-69-foto.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9884,7 +10012,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.956Z",
-    "scrapedAt": "2026-08-10T06:40:56.956Z"
+    "scrapedAt": "2026-08-10T06:40:56.956Z",
+    "imageSearchQuery": "\"Кошачий сквер\" Хабаровск Хабаровск Парк"
   },
   {
     "id": "osm-way-239849003",
@@ -9911,10 +10040,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/239849003",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689224499_kartin-papik-pro-p-kartinki-parki-khabarovsk-11.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/42552-kartinki-parki-habarovsk-69-foto.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -9943,7 +10072,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Парк «Динамо»\" Хабаровск Хабаровск Парк"
   },
   {
     "id": "osm-way-634029366",
@@ -9970,10 +10100,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/634029366",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689224502_kartin-papik-pro-p-kartinki-parki-khabarovsk-29.jpg",
+    "imageSourceUrl": "https://kartin.papik.pro/park/42552-kartinki-parki-habarovsk-69-foto.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10002,7 +10132,8 @@
     "noiseLevel": 2,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Парк Горького\" Хабаровск Хабаровск Парк"
   },
   {
     "id": "osm-way-90555623",
@@ -10198,10 +10329,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/594415839",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://tcshops.ru/wp-content/uploads/2021/10/bo7.jpg",
+    "imageSourceUrl": "https://tcshops.ru/torgoviy-centr/brosko-moll/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10230,7 +10361,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Броско Молл\" Пионерская улица, 2В Хабаровск Торговый центр"
   },
   {
     "id": "osm-way-1086866756",
@@ -10255,10 +10387,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/1086866756",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.baza.farpost.ru/v/1769589390123_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/realty/rent_business_realty/market/torgovaja-ploshad-v-mnogofunkcionalnom-komplexe-brosko-133391452.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10287,7 +10419,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Броско Volna\" Пионерская улица, 2Б Хабаровск Торговый центр"
   },
   {
     "id": "osm-way-553155581",
@@ -10312,10 +10445,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/553155581",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://shopandmall.ru/images/malls/gb_f571e6fe54192b1a58a483bc2a9a05c2.jpg",
+    "imageSourceUrl": "https://shopandmall.ru/torgovye-centry/tc_na_pushkina-habarovsk-ul__pushkina-amurskogo_b-ra",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10344,7 +10477,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"Пушкина\" улица Льва Толстого, 19/9 Хабаровск Торговый центр"
   },
   {
     "id": "osm-way-87470131",
@@ -10369,10 +10503,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/87470131",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://telegra.ph/file/2158bbb8c81ad7870b378.jpg",
+    "imageSourceUrl": "https://khabara.ru/centr.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10401,7 +10535,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"центр_по_работе_с_населением_\"исток\"\" Мирная улица, 16 Хабаровск Общественный центр"
   },
   {
     "id": "osm-way-122079627",
@@ -10426,10 +10561,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/122079627",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://s3.twcstorage.ru/65666464-dce55ba1-9d72-4e91-96be-b696ea099610/iblock/9eb/9ebf7d2b6d84aba1830ee8cfe1cc9a12/cc7ebf3c89ae74fea6804028d3f53047.jpg",
+    "imageSourceUrl": "https://www.jaba-discount.ru/contacts/stores/khabarovsk/4216/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10458,7 +10593,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Экодом\" Ленинградская улица, 28/2 Хабаровск Торговый центр"
   },
   {
     "id": "osm-way-199584058",
@@ -10483,10 +10619,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/199584058",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://tcshops.ru/wp-content/uploads/2021/12/yuzhnyy-park.jpg",
+    "imageSourceUrl": "https://tcshops.ru/torgoviy-centr/yuzhnyy-park/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10515,7 +10651,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Южный Парк\" улица Суворова, 25 Хабаровск Торговый центр"
   },
   {
     "id": "osm-way-241576818",
@@ -10540,10 +10677,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/241576818",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.baza.farpost.ru/v/1634014127861_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/realty/sell_business_realty/pomeshenie-s-arendatorom-1-etazh-tc-smajl-mart-454-kv-m-74445553.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10572,7 +10709,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Smile Mart\" улица Морозова Павла Леонтьевича, 118 Хабаровск Торговый центр"
   },
   {
     "id": "osm-way-272280367",
@@ -10597,10 +10735,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/272280367",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.baza.farpost.ru/v/1634014127861_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/realty/sell_business_realty/pomeshenie-s-arendatorom-1-etazh-tc-smajl-mart-454-kv-m-74445553.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10629,7 +10767,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.956Z",
-    "scrapedAt": "2026-08-10T06:40:56.956Z"
+    "scrapedAt": "2026-08-10T06:40:56.956Z",
+    "imageSearchQuery": "\"Smile Mart\" улица Морозова Павла Леонтьевича, 118 Хабаровск Торговый центр"
   },
   {
     "id": "osm-way-185919088",
@@ -10654,10 +10793,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/185919088",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.baza.farpost.ru/v/1680174839903_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/realty/rent_business_realty/market/sdaem-torgovye-ploshadi-v-tc-akvarium-109231407.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10686,7 +10825,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Аквариум\" улица Морозова Павла Леонтьевича, 84А Хабаровск Торговый центр"
   },
   {
     "id": "osm-way-67801177",
@@ -10711,10 +10851,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/67801177",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.vl.ru/catalog/1490260730263_big_dvhab.jpg",
+    "imageSourceUrl": "https://www.dvhab.ru/atrium-torgovyj-centr",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10743,7 +10883,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.954Z",
-    "scrapedAt": "2026-08-10T06:40:56.954Z"
+    "scrapedAt": "2026-08-10T06:40:56.954Z",
+    "imageSearchQuery": "\"Атриум\" Краснореченская улица, 92 Хабаровск Торговый центр"
   },
   {
     "id": "osm-way-115698804",
@@ -10768,10 +10909,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/115698804",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.baza.farpost.ru/v/1556461295358_bulletin",
+    "imageSourceUrl": "https://www.farpost.ru/khabarovsk/realty/rent_business_realty/market/trc-bolshaja-medvedica-530-kv-m-parkovka-pervaja-linija-72466687.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10800,7 +10941,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.955Z",
-    "scrapedAt": "2026-08-10T06:40:56.955Z"
+    "scrapedAt": "2026-08-10T06:40:56.955Z",
+    "imageSearchQuery": "\"Большая медведица\" улица Карла Маркса, 91 Хабаровск Торговый центр"
   },
   {
     "id": "osm-node-12358147826",
@@ -10826,10 +10968,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12358147826",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10858,7 +11000,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Додо Пицца\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-12358152972",
@@ -10884,10 +11027,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12358152972",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10916,7 +11059,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Додо Пицца\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-9805680194",
@@ -10942,10 +11086,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9805680194",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.tildacdn.com/tild3134-6132-4532-b333-343465613163/image1.jpg",
+    "imageSourceUrl": "https://beyond-taylor.com/case-dobro-coffee",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -10974,7 +11118,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.951Z",
-    "scrapedAt": "2026-08-10T06:40:56.951Z"
+    "scrapedAt": "2026-08-10T06:40:56.951Z",
+    "imageSearchQuery": "\"Do.Bro Coffee\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-11975028914",
@@ -11058,10 +11203,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/11975028916",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://sushi-sea.ru/upload/iblock/a50/mubz12lurixuy5c14b0672fwkimfnb1c.JPEG",
+    "imageSourceUrl": "https://sushi-sea.ru/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11090,7 +11235,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Sushi Sea\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-3857899475",
@@ -11116,10 +11262,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/3857899475",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://assets.allcafe.ru/k/places/1920x1080/pic/places/15078/5cb083668b64ad60e2efab69548e7a81.jpeg",
+    "imageSourceUrl": "https://spb.allcafe.ru/catalog/hesburger-37756/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11148,7 +11294,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.947Z",
-    "scrapedAt": "2026-08-10T06:40:56.947Z"
+    "scrapedAt": "2026-08-10T06:40:56.947Z",
+    "imageSearchQuery": "\"Hesburger\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-9953971133",
@@ -11174,10 +11321,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9953971133",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11206,7 +11353,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.951Z",
-    "scrapedAt": "2026-08-10T06:40:56.951Z"
+    "scrapedAt": "2026-08-10T06:40:56.951Z",
+    "imageSearchQuery": "\"Додо Пицца\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-12358099659",
@@ -11232,10 +11380,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12358099659",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11264,7 +11412,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Додо Пицца\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-12358114361",
@@ -11290,10 +11439,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12358114361",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11322,7 +11471,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Додо Пицца\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-12856304667",
@@ -11348,10 +11498,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12856304667",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://www.malls.ru/upload/iblock/abc/8u2mrc0staef03sblrz6a72yrnyoy9s3/rostics_outside.jpg",
+    "imageSourceUrl": "https://www.malls.ru/rus/news/rostic-s-stala-krupneyshey-setyu-fastfuda-v-rossii.shtml",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11380,7 +11530,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Rostic's\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-way-1534451240",
@@ -11406,10 +11557,10 @@
     "sourceUrl": "https://www.openstreetmap.org/way/1534451240",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://khab-vesti.ru/upload/iblock/76e/yn2o8xu07ltj3ryxsloe7yym0xsb7zyi.jpg",
+    "imageSourceUrl": "https://www.skyscrapercity.com/threads/Спортивные-стройки-и-сооружения.2057523/page-39",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11438,7 +11589,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.957Z",
-    "scrapedAt": "2026-08-10T06:40:56.957Z"
+    "scrapedAt": "2026-08-10T06:40:56.957Z",
+    "imageSearchQuery": "\"МК-спорт\" Вяземский переулок, 4 Хабаровск Спортивный центр"
   },
   {
     "id": "osm-node-12887937001",
@@ -11464,10 +11616,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12887937001",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a3/33/48/caption.jpg?w=600&h=600&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11496,7 +11648,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.953Z",
-    "scrapedAt": "2026-08-10T06:40:56.953Z"
+    "scrapedAt": "2026-08-10T06:40:56.953Z",
+    "imageSearchQuery": "\"Чак чак\" улица Серышева, 33/1 Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-10655456483",
@@ -11522,10 +11675,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/10655456483",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://menu02.restaurantguru.ru/m9/Belyi-barashka-menu-2fv.jpg",
+    "imageSourceUrl": "https://restaurantguru.ru/Belyy-Barashka-gorod-Khabarovsk/menu",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11554,7 +11707,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.952Z",
-    "scrapedAt": "2026-08-10T06:40:56.952Z"
+    "scrapedAt": "2026-08-10T06:40:56.952Z",
+    "imageSearchQuery": "\"Белый Барашка\" Хабаровск Хабаровск Кафе · Быстрое питание"
   },
   {
     "id": "osm-node-6029556485",
@@ -11581,10 +11735,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/6029556485",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a3/33/48/caption.jpg?w=600&h=600&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11613,7 +11767,8 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"РЖД ОАО\" Хабаровск Хабаровск Кафе"
   },
   {
     "id": "osm-node-7283823843",
@@ -11640,10 +11795,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/7283823843",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
+    "imageUrl": "https://static.tildacdn.com/tild6265-3634-4364-a638-353537333633/13762636.jpg",
+    "imageSourceUrl": "https://yourhuma.ru/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11672,6 +11827,7 @@
     "noiseLevel": 3,
     "active": true,
     "verifiedAt": "2026-08-10T06:40:56.950Z",
-    "scrapedAt": "2026-08-10T06:40:56.950Z"
+    "scrapedAt": "2026-08-10T06:40:56.950Z",
+    "imageSearchQuery": "\"Хума. Дом восточной кухни\" Хабаровск Хабаровск Кафе"
   }
 ]

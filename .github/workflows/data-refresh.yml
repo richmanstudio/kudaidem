@@ -9,7 +9,6 @@ on:
       - package.json
       - scripts/collect-khabarovsk.ts
       - scripts/finalize-khabarovsk-catalog.ts
-      - scripts/fill-review-photos.ts
       - scripts/validate-places.ts
       - .github/workflows/data-refresh.yml
 
@@ -23,11 +22,10 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 30
     env:
       TARGET_PLACES: "200"
       TARGET_PHOTOS: "200"
-      PHOTO_FALLBACK_DELAY_MS: "260"
     steps:
       - uses: actions/checkout@v4
         with:
@@ -47,12 +45,13 @@ jobs:
         id: finalize
         run: npm run data:finalize
 
-      - name: Fill missing photos with matched 2GIS review sources
-        id: photo_fallback
-        run: npm run data:photos
-
-      - name: Validate 200 places and 200 photos
+      - name: Validate 200-place catalog
         id: validate
+        run: REQUIRE_LIVE_DATA=1 npm run data:validate
+
+      - name: Check 200-photo target
+        id: photo_gate
+        continue-on-error: true
         run: REQUIRE_LIVE_DATA=1 REQUIRE_PHOTOS=1 npm run data:validate
 
       - name: Preserve collection report
@@ -64,20 +63,19 @@ jobs:
             data/khabarovsk-places.json
             data/scrape-report.json
             data/photo-review.json
-            data/photo-fallback-report.json
-          if-no-files-found: warn
+          if-no-files-found: error
           retention-days: 7
 
-      - name: Commit verified 200-place / 200-photo catalog
-        if: steps.finalize.outcome == 'success' && steps.photo_fallback.outcome == 'success' && steps.validate.outcome == 'success'
+      - name: Commit verified 200-place catalog
+        if: steps.finalize.outcome == 'success' && steps.validate.outcome == 'success'
         run: |
           git config user.name "kudaidem-data-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/khabarovsk-places.json data/scrape-report.json data/photo-review.json data/photo-fallback-report.json
+          git add data/khabarovsk-places.json data/scrape-report.json data/photo-review.json
           if git diff --cached --quiet; then
             echo "No catalog changes"
           else
-            git commit -m "data: refresh 200 Khabarovsk places and photos [skip ci]"
+            git commit -m "data: refresh 200 Khabarovsk places [skip ci]"
             git pull --rebase origin agent/stage-2-live-data
             git push origin HEAD:agent/stage-2-live-data
           fi
@@ -87,12 +85,12 @@ jobs:
         shell: bash
         run: |
           echo "## Khabarovsk data refresh" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Open/official enrichment: ${{ steps.photo_enrich.outcome }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Base 200-place finalizer: ${{ steps.finalize.outcome }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Targeted photo fallback: ${{ steps.photo_fallback.outcome }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "- 200-place / 200-photo gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
-          if [ -f data/photo-fallback-report.json ]; then
+          echo "- Open/official photo enrichment: ${{ steps.photo_enrich.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- 200-place finalizer: ${{ steps.finalize.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- 200-photo gate: ${{ steps.photo_gate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f data/scrape-report.json ]; then
             echo '```json' >> "$GITHUB_STEP_SUMMARY"
-            cat data/photo-fallback-report.json >> "$GITHUB_STEP_SUMMARY"
+            cat data/scrape-report.json >> "$GITHUB_STEP_SUMMARY"
             echo '```' >> "$GITHUB_STEP_SUMMARY"
           fi

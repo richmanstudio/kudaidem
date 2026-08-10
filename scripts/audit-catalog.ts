@@ -1,6 +1,6 @@
 import data from "../data/khabarovsk-places.json";
 
-const places = data as Array<{
+const places = data as unknown as Array<{
   id: string;
   name: string;
   category: string;
@@ -8,8 +8,8 @@ const places = data as Array<{
   address: string;
   latitude: number | null;
   longitude: number | null;
-  imageUrl: string;
-  imageRights: string;
+  imageUrl: string | null;
+  imageRights: string | null;
   sourceUrl: string;
   verifiedAt: string;
 }>;
@@ -26,8 +26,10 @@ const identity = new Map<string, string>();
 const sourceIds = new Set<string>();
 const categoryCounts = new Map<string, number>();
 let coordinates = 0;
+let photos = 0;
 let officialImages = 0;
 let reviewImages = 0;
+let missingImages = 0;
 
 for (const place of places) {
   const identityKey = `${key(place.name)}|${key(place.address)}`;
@@ -49,9 +51,14 @@ for (const place of places) {
     coordinates += 1;
   }
 
-  if (!/^https?:\/\//.test(place.imageUrl)) throw new Error(`Invalid image URL: ${place.id}`);
-  if (place.imageRights === "OFFICIAL_SOURCE" || place.imageRights === "APPROVED") officialImages += 1;
-  else reviewImages += 1;
+  if (place.imageUrl) {
+    if (!/^https?:\/\//.test(place.imageUrl)) throw new Error(`Invalid image URL: ${place.id}`);
+    photos += 1;
+    if (place.imageRights === "OFFICIAL_SOURCE" || place.imageRights === "APPROVED") officialImages += 1;
+    else reviewImages += 1;
+  } else {
+    missingImages += 1;
+  }
 
   const verified = Date.parse(place.verifiedAt);
   if (!Number.isFinite(verified)) throw new Error(`Invalid verifiedAt: ${place.id}`);
@@ -60,6 +67,8 @@ for (const place of places) {
 const report = {
   total: places.length,
   coordinates,
+  photos,
+  missingImages,
   officialOrApprovedImages: officialImages,
   imagesNeedingRightsReview: reviewImages,
   categoryCounts: Object.fromEntries([...categoryCounts].sort((a, b) => b[1] - a[1])),

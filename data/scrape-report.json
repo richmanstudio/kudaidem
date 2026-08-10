@@ -6,9 +6,9 @@
   "uniqueCandidates": 502,
   "accepted": 200,
   "withPhotoHints": 99,
-  "withImages": 54,
+  "withImages": 44,
   "approvedImages": 11,
-  "imagesNeedingReview": 43,
+  "imagesNeedingReview": 33,
   "withWebsite": 93,
   "withOpeningHours": 112,
   "categoryCounts": {
@@ -25,8 +25,10 @@
     "outdoor": 12,
     "other": 14
   },
-  "finishedAt": "2026-08-10T06:37:53.626Z",
-  "photoEnrichedAt": "2026-08-10T06:38:11.736Z",
-  "deepOfficialPhotosAdded": 2,
-  "deepOfficialPhotoScanAt": "2026-08-10T06:38:37.439Z"
+  "finishedAt": "2026-08-10T06:40:56.969Z",
+  "photoEnrichedAt": "2026-08-10T06:41:12.662Z",
+  "deepOfficialPhotosAdded": 1,
+  "deepOfficialPhotoScanAt": "2026-08-10T06:41:31.771Z",
+  "invalidImagesRemoved": 11,
+  "mediaValidatedAt": "2026-08-10T06:41:41.121Z"
 }

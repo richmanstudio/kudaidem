@@ -55,8 +55,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-node-11649000544",
@@ -114,8 +114,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-4384833849",
@@ -142,10 +142,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/4384833849",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://xao.ru/obshepit#primaryimage",
-    "imageSourceUrl": "https://xao.ru/obshepit?dmn=pekinskaya-utka.ru",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -173,8 +173,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-node-12395371062",
@@ -232,8 +232,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-5973897873",
@@ -260,10 +260,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5973897873",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://static.cdninstagram.com/rsrc.php/v4/yD/r/R0fBIMurK8v.png",
-    "imageSourceUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvdrova_rjworlds%2F&is_from_rle",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -291,8 +291,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-way-181380618",
@@ -351,8 +351,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-way-126752626",
@@ -412,8 +412,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-node-7059134442",
@@ -471,8 +471,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.613Z",
-    "scrapedAt": "2026-08-10T06:37:53.613Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-4501763390",
@@ -530,8 +530,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-node-3164098485",
@@ -589,8 +589,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-3523296343",
@@ -648,8 +648,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-way-452568216",
@@ -707,8 +707,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-node-2237523445",
@@ -766,8 +766,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-node-3456818618",
@@ -825,8 +825,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-4350373308",
@@ -884,8 +884,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-6029568285",
@@ -943,8 +943,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-6829253085",
@@ -1002,8 +1002,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.613Z",
-    "scrapedAt": "2026-08-10T06:37:53.613Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-way-1456180824",
@@ -1061,8 +1061,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-70723346",
@@ -1121,8 +1121,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-13446223601",
@@ -1180,8 +1180,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-way-120486229",
@@ -1239,8 +1239,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-node-4405496637",
@@ -1298,8 +1298,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-node-8499043917",
@@ -1357,8 +1357,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-3726923703",
@@ -1416,8 +1416,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-9953699239",
@@ -1475,8 +1475,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-3277880229",
@@ -1534,8 +1534,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-1750920610",
@@ -1593,8 +1593,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-node-1030381150",
@@ -1652,8 +1652,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.609Z",
-    "scrapedAt": "2026-08-10T06:37:53.609Z"
+    "verifiedAt": "2026-08-10T06:40:56.944Z",
+    "scrapedAt": "2026-08-10T06:40:56.944Z"
   },
   {
     "id": "osm-node-1403006579",
@@ -1711,8 +1711,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.945Z",
+    "scrapedAt": "2026-08-10T06:40:56.945Z"
   },
   {
     "id": "osm-node-1358380887",
@@ -1770,8 +1770,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.945Z",
+    "scrapedAt": "2026-08-10T06:40:56.945Z"
   },
   {
     "id": "osm-node-4493549289",
@@ -1829,8 +1829,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-node-3665806758",
@@ -1888,8 +1888,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-883520474",
@@ -1947,8 +1947,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.609Z",
-    "scrapedAt": "2026-08-10T06:37:53.609Z"
+    "verifiedAt": "2026-08-10T06:40:56.944Z",
+    "scrapedAt": "2026-08-10T06:40:56.944Z"
   },
   {
     "id": "osm-node-3285380577",
@@ -2006,8 +2006,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-5040237131",
@@ -2065,8 +2065,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.949Z",
+    "scrapedAt": "2026-08-10T06:40:56.949Z"
   },
   {
     "id": "osm-node-5025713390",
@@ -2124,8 +2124,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.949Z",
+    "scrapedAt": "2026-08-10T06:40:56.949Z"
   },
   {
     "id": "osm-node-2713470372",
@@ -2183,8 +2183,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-5973897869",
@@ -2242,8 +2242,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-way-302009332",
@@ -2301,8 +2301,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-node-12887857002",
@@ -2360,8 +2360,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-12395371058",
@@ -2388,10 +2388,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12395371058",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://c-machine.ru/wp-content/themes/cmachine/assets/img/og_cmachine.jpg",
-    "imageSourceUrl": "https://c-machine.ru/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2419,8 +2419,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-11649000540",
@@ -2478,8 +2478,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-11110981905",
@@ -2506,10 +2506,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/11110981905",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://www.8minut.com/upload/CPriority/f10/f1001edfcba952ebf0e5c1870496ea0c.svg",
-    "imageSourceUrl": "https://www.8minut.com/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2537,8 +2537,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-7832298087",
@@ -2596,8 +2596,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-12059180588",
@@ -2624,10 +2624,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/12059180588",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://torrogrill.ru//assets/gimg/446_42672fcaf544.jpg",
-    "imageSourceUrl": "https://torrogrill.ru/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2655,8 +2655,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-3857899474",
@@ -2714,15 +2714,15 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
-    "id": "osm-node-4381379720",
-    "sourceId": "node-4381379720",
-    "slug": "osm-node-4381379720",
+    "id": "osm-node-7747825751",
+    "sourceId": "node-7747825751",
+    "slug": "osm-node-7747825751",
     "city": "Хабаровск",
-    "name": "Хлебное место",
+    "name": "Корея",
     "category": "Кафе",
     "subcategories": [
       "cafe"
@@ -2734,18 +2734,18 @@
     ],
     "description": null,
     "address": "Хабаровск",
-    "latitude": 48.4863642,
-    "longitude": 135.0792906,
-    "phone": "+7 421 2664236",
-    "website": "http://hlebnoe-mesto.ru/",
+    "latitude": 48.4776228,
+    "longitude": 135.0847775,
+    "phone": "+7 4212 662210",
+    "website": "https://korea27.ru/",
     "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/4381379720",
+    "sourceUrl": "https://www.openstreetmap.org/node/7747825751",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://img.reg.ru/news/p-domain-parking-shopfront__image-1.webp",
-    "imageSourceUrl": "http://hlebnoe-mesto.ru/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -2773,8 +2773,67 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
+  },
+  {
+    "id": "osm-node-4381379720",
+    "sourceId": "node-4381379720",
+    "slug": "osm-node-4381379720",
+    "city": "Хабаровск",
+    "name": "Хлебное место",
+    "category": "Кафе",
+    "subcategories": [
+      "cafe"
+    ],
+    "tags": [
+      "surprise",
+      "eat",
+      "calm"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4863642,
+    "longitude": 135.0792906,
+    "phone": "+7 421 2664236",
+    "website": "http://hlebnoe-mesto.ru/",
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/4381379720",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 75,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 4,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-12506476246",
@@ -2832,8 +2891,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-1403022485",
@@ -2891,8 +2950,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.945Z",
+    "scrapedAt": "2026-08-10T06:40:56.945Z"
   },
   {
     "id": "osm-node-10655456481",
@@ -2950,8 +3009,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-7670756981",
@@ -3009,8 +3068,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-4221985694",
@@ -3068,8 +3127,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-6029527786",
@@ -3127,8 +3186,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-way-270539004",
@@ -3186,67 +3245,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
-  },
-  {
-    "id": "osm-node-7747825751",
-    "sourceId": "node-7747825751",
-    "slug": "osm-node-7747825751",
-    "city": "Хабаровск",
-    "name": "Корея",
-    "category": "Кафе",
-    "subcategories": [
-      "cafe"
-    ],
-    "tags": [
-      "surprise",
-      "eat",
-      "calm"
-    ],
-    "description": "Кафе Корея - это множество любимых блюд корейской кухни, два этажа комфорта, удобная парковка",
-    "address": "Хабаровск",
-    "latitude": 48.4776228,
-    "longitude": 135.0847775,
-    "phone": "+7 4212 662210",
-    "website": "https://korea27.ru/",
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/7747825751",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://korea27.ru/templates/korea_main/images/kafe.jpg",
-    "imageSourceUrl": "https://korea27.ru/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 75,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 4,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-node-4611366190",
@@ -3304,8 +3304,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-way-934124462",
@@ -3363,8 +3363,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-557524374",
@@ -3422,8 +3422,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-node-13427943801",
@@ -3481,8 +3481,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-12176011606",
@@ -3540,8 +3540,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-12175796128",
@@ -3599,8 +3599,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-way-454602007",
@@ -3658,8 +3658,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-node-884295343",
@@ -3717,8 +3717,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.609Z",
-    "scrapedAt": "2026-08-10T06:37:53.609Z"
+    "verifiedAt": "2026-08-10T06:40:56.944Z",
+    "scrapedAt": "2026-08-10T06:40:56.944Z"
   },
   {
     "id": "osm-node-10205619059",
@@ -3776,8 +3776,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-11649000538",
@@ -3835,8 +3835,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-5416834873",
@@ -3894,8 +3894,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.949Z",
+    "scrapedAt": "2026-08-10T06:40:56.949Z"
   },
   {
     "id": "osm-node-7501907785",
@@ -3953,8 +3953,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-5454635822",
@@ -4012,8 +4012,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-12070992815",
@@ -4070,8 +4070,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-9954298509",
@@ -4128,8 +4128,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-1378096668",
@@ -4186,8 +4186,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.945Z",
+    "scrapedAt": "2026-08-10T06:40:56.945Z"
   },
   {
     "id": "osm-node-13420909860",
@@ -4244,8 +4244,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-13420909861",
@@ -4302,8 +4302,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-13420909862",
@@ -4360,8 +4360,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-13420909863",
@@ -4418,8 +4418,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-13420909864",
@@ -4476,8 +4476,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-6536734327",
@@ -4534,8 +4534,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.613Z",
-    "scrapedAt": "2026-08-10T06:37:53.613Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-9992569350",
@@ -4561,10 +4561,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/9992569350",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://coffee-like.com/img/preview/main2.png",
-    "imageSourceUrl": "https://coffee-like.com/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -4592,8 +4592,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-11975223622",
@@ -4650,8 +4650,66 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
+  },
+  {
+    "id": "osm-node-11975028915",
+    "sourceId": "node-11975028915",
+    "slug": "osm-node-11975028915",
+    "city": "Хабаровск",
+    "name": "Sushi Sea",
+    "category": "Кафе · Быстрое питание",
+    "subcategories": [
+      "fast_food"
+    ],
+    "tags": [
+      "surprise",
+      "eat"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4791786,
+    "longitude": 135.0568994,
+    "phone": "+7 914 5440313",
+    "website": "https://sushi-sea.ru/",
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/11975028915",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
+    "openingHoursText": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
+    "closesAt": "22:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-10013201138",
@@ -4708,8 +4766,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-12722562626",
@@ -4766,8 +4824,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-13638767275",
@@ -4824,66 +4882,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
-  },
-  {
-    "id": "osm-node-12358147826",
-    "sourceId": "node-12358147826",
-    "slug": "osm-node-12358147826",
-    "city": "Хабаровск",
-    "name": "Додо Пицца",
-    "category": "Кафе · Быстрое питание",
-    "subcategories": [
-      "fast_food"
-    ],
-    "tags": [
-      "surprise",
-      "eat"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4965652,
-    "longitude": 135.0986955,
-    "phone": "+7 800 3020060",
-    "website": "https://dodopizza.ru/",
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/12358147826",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": "Mo-Su 09:00-23:00",
-    "openingHoursText": "Mo-Su 09:00-23:00",
-    "closesAt": "23:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-11649000536",
@@ -4941,8 +4941,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-11649000542",
@@ -5000,8 +5000,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-2392277758",
@@ -5058,8 +5058,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-node-4365848167",
@@ -5116,8 +5116,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-12059180585",
@@ -5174,8 +5174,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-11649000541",
@@ -5233,8 +5233,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-12395371057",
@@ -5292,8 +5292,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-12151045373",
@@ -5351,8 +5351,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-12887857301",
@@ -5410,8 +5410,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-2237523444",
@@ -5469,8 +5469,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-way-525763612",
@@ -5527,8 +5527,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-node-12987030079",
@@ -5586,8 +5586,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-4381725531",
@@ -5645,8 +5645,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-node-3277883161",
@@ -5703,8 +5703,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-13333091989",
@@ -5762,8 +5762,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-2006160994",
@@ -5820,8 +5820,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-way-67791779",
@@ -5878,8 +5878,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-12640389978",
@@ -5936,8 +5936,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-way-274763647",
@@ -5994,8 +5994,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-node-818506658",
@@ -6052,8 +6052,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.609Z",
-    "scrapedAt": "2026-08-10T06:37:53.609Z"
+    "verifiedAt": "2026-08-10T06:40:56.944Z",
+    "scrapedAt": "2026-08-10T06:40:56.944Z"
   },
   {
     "id": "osm-node-8035165019",
@@ -6110,8 +6110,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-1403077450",
@@ -6168,8 +6168,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.945Z",
+    "scrapedAt": "2026-08-10T06:40:56.945Z"
   },
   {
     "id": "osm-way-87896088",
@@ -6226,8 +6226,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-2469900437",
@@ -6284,8 +6284,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-way-82076627",
@@ -6342,8 +6342,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-way-67571263",
@@ -6400,8 +6400,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-7112753919",
@@ -6458,8 +6458,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.613Z",
-    "scrapedAt": "2026-08-10T06:37:53.613Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-2095798997",
@@ -6516,8 +6516,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-node-2095798998",
@@ -6574,8 +6574,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-node-10792579695",
@@ -6633,8 +6633,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-way-87896112",
@@ -6691,8 +6691,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-5235011021",
@@ -6718,10 +6718,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/5235011021",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://static.tildacdn.com/tild6465-6639-4139-b862-326334653564/12.png",
-    "imageSourceUrl": "https://fcnautilus.ru/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6749,8 +6749,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.949Z",
+    "scrapedAt": "2026-08-10T06:40:56.949Z"
   },
   {
     "id": "osm-node-5555835122",
@@ -6807,8 +6807,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-way-272536654",
@@ -6865,8 +6865,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-way-272536655",
@@ -6923,8 +6923,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-node-1345725853",
@@ -6950,10 +6950,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/1345725853",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://static.tildacdn.com/tild6632-3661-4739-a433-666237336634/1.svg",
-    "imageSourceUrl": "https://chistopolye.ru/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -6981,8 +6981,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.945Z",
+    "scrapedAt": "2026-08-10T06:40:56.945Z"
   },
   {
     "id": "osm-way-209353599",
@@ -7039,8 +7039,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-node-4807521922",
@@ -7097,8 +7097,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-node-11958560257",
@@ -7155,8 +7155,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-12378249784",
@@ -7213,8 +7213,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-way-310906737",
@@ -7271,8 +7271,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-node-3076533518",
@@ -7329,8 +7329,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-10655583515",
@@ -7387,8 +7387,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-7188746786",
@@ -7445,8 +7445,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-5651402565",
@@ -7503,8 +7503,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-2034084852",
@@ -7561,8 +7561,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-node-4698326589",
@@ -7619,8 +7619,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-node-1358380888",
@@ -7677,8 +7677,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.945Z",
+    "scrapedAt": "2026-08-10T06:40:56.945Z"
   },
   {
     "id": "osm-node-4742464122",
@@ -7735,8 +7735,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-node-4481017400",
@@ -7793,8 +7793,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.948Z",
+    "scrapedAt": "2026-08-10T06:40:56.948Z"
   },
   {
     "id": "osm-node-2007827186",
@@ -7851,8 +7851,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-way-82097298",
@@ -7909,8 +7909,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-way-89640336",
@@ -7967,8 +7967,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-way-89640368",
@@ -8025,8 +8025,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-way-360855034",
@@ -8083,8 +8083,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-node-9953705395",
@@ -8141,8 +8141,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-3634989899",
@@ -8199,8 +8199,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-11138113106",
@@ -8257,8 +8257,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-2006160993",
@@ -8315,8 +8315,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.946Z",
+    "scrapedAt": "2026-08-10T06:40:56.946Z"
   },
   {
     "id": "osm-node-2495828812",
@@ -8373,8 +8373,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.610Z",
-    "scrapedAt": "2026-08-10T06:37:53.610Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-way-32050191",
@@ -8431,8 +8431,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-3634989902",
@@ -8489,8 +8489,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-12887906701",
@@ -8549,8 +8549,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-way-242208334",
@@ -8606,8 +8606,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-way-32063254",
@@ -8666,8 +8666,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-3257869796",
@@ -8724,8 +8724,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-8437296217",
@@ -8781,8 +8781,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-7856604787",
@@ -8838,8 +8838,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-12662450594",
@@ -8896,8 +8896,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-6827545041",
@@ -8953,8 +8953,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.613Z",
-    "scrapedAt": "2026-08-10T06:37:53.613Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-9981829817",
@@ -9010,8 +9010,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-9981839918",
@@ -9067,8 +9067,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-9961878018",
@@ -9124,8 +9124,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-9981837518",
@@ -9181,8 +9181,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-9981890818",
@@ -9238,8 +9238,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-9961907417",
@@ -9295,8 +9295,8 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-way-56007166",
@@ -9354,8 +9354,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-relation-10519341",
@@ -9413,8 +9413,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.618Z",
-    "scrapedAt": "2026-08-10T06:37:53.618Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-881042573",
@@ -9472,8 +9472,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-881044033",
@@ -9531,8 +9531,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-1366866267",
@@ -9590,8 +9590,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-881039587",
@@ -9649,8 +9649,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-68195832",
@@ -9708,8 +9708,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-5970921192",
@@ -9766,8 +9766,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-6824836534",
@@ -9824,8 +9824,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.613Z",
-    "scrapedAt": "2026-08-10T06:37:53.613Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-way-282725702",
@@ -9883,8 +9883,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-way-239849003",
@@ -9942,8 +9942,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-way-634029366",
@@ -10001,8 +10001,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-90555623",
@@ -10058,8 +10058,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-way-67791761",
@@ -10115,8 +10115,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-node-6207350886",
@@ -10172,8 +10172,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-way-594415839",
@@ -10229,8 +10229,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-1086866756",
@@ -10286,8 +10286,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-553155581",
@@ -10343,8 +10343,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-way-87470131",
@@ -10400,8 +10400,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-way-122079627",
@@ -10457,8 +10457,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-way-199584058",
@@ -10514,8 +10514,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-way-241576818",
@@ -10571,8 +10571,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-way-272280367",
@@ -10628,8 +10628,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.956Z",
+    "scrapedAt": "2026-08-10T06:40:56.956Z"
   },
   {
     "id": "osm-way-185919088",
@@ -10685,8 +10685,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.617Z",
-    "scrapedAt": "2026-08-10T06:37:53.617Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
   },
   {
     "id": "osm-way-67801177",
@@ -10742,8 +10742,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.954Z",
+    "scrapedAt": "2026-08-10T06:40:56.954Z"
   },
   {
     "id": "osm-way-115698804",
@@ -10799,8 +10799,66 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.616Z",
-    "scrapedAt": "2026-08-10T06:37:53.616Z"
+    "verifiedAt": "2026-08-10T06:40:56.955Z",
+    "scrapedAt": "2026-08-10T06:40:56.955Z"
+  },
+  {
+    "id": "osm-node-12358147826",
+    "sourceId": "node-12358147826",
+    "slug": "osm-node-12358147826",
+    "city": "Хабаровск",
+    "name": "Додо Пицца",
+    "category": "Кафе · Быстрое питание",
+    "subcategories": [
+      "fast_food"
+    ],
+    "tags": [
+      "surprise",
+      "eat"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4965652,
+    "longitude": 135.0986955,
+    "phone": "+7 800 3020060",
+    "website": "https://dodopizza.ru/",
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/12358147826",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": "Mo-Su 09:00-23:00",
+    "openingHoursText": "Mo-Su 09:00-23:00",
+    "closesAt": "23:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-12358152972",
@@ -10857,8 +10915,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-9805680194",
@@ -10915,8 +10973,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-11975028914",
@@ -10940,64 +10998,6 @@
     "website": "https://sushi-sea.ru/",
     "bookingUrl": null,
     "sourceUrl": "https://www.openstreetmap.org/node/11975028914",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
-    "openingHoursText": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
-    "closesAt": "22:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
-  },
-  {
-    "id": "osm-node-11975028915",
-    "sourceId": "node-11975028915",
-    "slug": "osm-node-11975028915",
-    "city": "Хабаровск",
-    "name": "Sushi Sea",
-    "category": "Кафе · Быстрое питание",
-    "subcategories": [
-      "fast_food"
-    ],
-    "tags": [
-      "surprise",
-      "eat"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4791786,
-    "longitude": 135.0568994,
-    "phone": "+7 914 5440313",
-    "website": "https://sushi-sea.ru/",
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/11975028915",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
     "imageUrl": "https://sushi-sea.ru/static/main-screen-photo-widescreen.gif",
@@ -11031,8 +11031,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-11975028916",
@@ -11089,8 +11089,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-3857899475",
@@ -11147,8 +11147,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.611Z",
-    "scrapedAt": "2026-08-10T06:37:53.611Z"
+    "verifiedAt": "2026-08-10T06:40:56.947Z",
+    "scrapedAt": "2026-08-10T06:40:56.947Z"
   },
   {
     "id": "osm-node-9953971133",
@@ -11205,8 +11205,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.951Z",
+    "scrapedAt": "2026-08-10T06:40:56.951Z"
   },
   {
     "id": "osm-node-12358099659",
@@ -11263,8 +11263,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-12358114361",
@@ -11321,8 +11321,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-12856304667",
@@ -11379,8 +11379,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-way-1534451240",
@@ -11437,8 +11437,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.618Z",
-    "scrapedAt": "2026-08-10T06:37:53.618Z"
+    "verifiedAt": "2026-08-10T06:40:56.957Z",
+    "scrapedAt": "2026-08-10T06:40:56.957Z"
   },
   {
     "id": "osm-node-12887937001",
@@ -11495,8 +11495,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.615Z",
-    "scrapedAt": "2026-08-10T06:37:53.615Z"
+    "verifiedAt": "2026-08-10T06:40:56.953Z",
+    "scrapedAt": "2026-08-10T06:40:56.953Z"
   },
   {
     "id": "osm-node-10655456483",
@@ -11553,8 +11553,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.952Z",
+    "scrapedAt": "2026-08-10T06:40:56.952Z"
   },
   {
     "id": "osm-node-6029556485",
@@ -11612,8 +11612,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.612Z",
-    "scrapedAt": "2026-08-10T06:37:53.612Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   },
   {
     "id": "osm-node-7283823843",
@@ -11671,7 +11671,7 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T06:37:53.614Z",
-    "scrapedAt": "2026-08-10T06:37:53.614Z"
+    "verifiedAt": "2026-08-10T06:40:56.950Z",
+    "scrapedAt": "2026-08-10T06:40:56.950Z"
   }
 ]

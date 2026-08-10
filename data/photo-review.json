@@ -1,5 +1,12 @@
 [
   {
+    "id": "osm-node-4481017690",
+    "name": "Luga",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-way-181380618",
     "name": "Торо",
     "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
@@ -49,6 +56,13 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-12395371062",
+    "name": "Харибу",
+    "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
+    "imageSourceUrl": "https://haribu.rest/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-3523296343",
     "name": "Ichiban Sushi",
     "imageUrl": "https://plaza-ambarrukmo.co.id/wp-content/uploads/2024/05/ichiban-sushi-jpg.webp",
@@ -86,9 +100,9 @@
   {
     "id": "osm-node-6029568285",
     "name": "Тепло",
-    "imageUrl": "https://static.tildacdn.com/tild3433-3164-4931-b863-363934343464/1.jpeg",
-    "imageSourceUrl": "https://www.abluch.ru/teplorest",
-    "imageRights": "NEEDS_REVIEW"
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-node-6829253085",
@@ -238,20 +252,6 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-4481017690",
-    "name": "Luga",
-    "imageUrl": "https://static.tildacdn.com/tild6232-3034-4838-b765-343635306564/1__1.jpg",
-    "imageSourceUrl": "https://www.lugarest.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-12395371062",
-    "name": "Харибу",
-    "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
-    "imageSourceUrl": "https://haribu.rest/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-node-5973897873",
     "name": "Vdrova",
     "imageUrl": null,
@@ -341,13 +341,6 @@
     "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
     "imageSourceUrl": "https://cinnabonrussia.com/about/",
     "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-12059180588",
-    "name": "Torro Grill",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
   },
   {
     "id": "osm-way-270539004",
@@ -473,6 +466,13 @@
     "name": "Мясной ресторанчик",
     "imageUrl": "https://www.eda27.ru/sites/default/files/styles/rest_photo_mobile/public/restaurant-photo/myasnoy-restoranchik_interior.jpg?itok=cENUm8Am",
     "imageSourceUrl": "https://www.eda27.ru/myasnoy-restoranchik",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6029556485",
+    "name": "РЖД ОАО",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a3/33/48/caption.jpg?w=600&h=600&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -1211,6 +1211,13 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-11975028914",
+    "name": "Sushi Sea",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-3857899475",
     "name": "Hesburger",
     "imageUrl": "https://assets.allcafe.ru/k/places/1920x1080/pic/places/15078/5cb083668b64ad60e2efab69548e7a81.jpeg",
@@ -1267,18 +1274,11 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-6029556485",
-    "name": "РЖД ОАО",
-    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a3/33/48/caption.jpg?w=600&h=600&s=1",
-    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-node-7283823843",
     "name": "Хума. Дом восточной кухни",
-    "imageUrl": "https://static.tildacdn.com/tild6265-3634-4364-a638-353537333633/13762636.jpg",
-    "imageSourceUrl": "https://yourhuma.ru/",
-    "imageRights": "NEEDS_REVIEW"
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-node-6533501989",
@@ -1295,13 +1295,6 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-11975028914",
-    "name": "Sushi Sea",
-    "imageUrl": "https://sushi-sea.ru/static/main-screen-photo-widescreen.gif",
-    "imageSourceUrl": "https://sushi-sea.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-node-11975028915",
     "name": "Sushi Sea",
     "imageUrl": null,
@@ -1311,6 +1304,13 @@
   {
     "id": "osm-node-11975028916",
     "name": "Sushi Sea",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12059180588",
+    "name": "Torro Grill",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null

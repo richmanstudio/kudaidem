@@ -1,5 +1,65 @@
 [
   {
+    "id": "osm-node-4481017690",
+    "sourceId": "node-4481017690",
+    "slug": "osm-node-4481017690",
+    "city": "Хабаровск",
+    "name": "Luga",
+    "category": "Ресторан",
+    "subcategories": [
+      "restaurant"
+    ],
+    "tags": [
+      "surprise",
+      "eat",
+      "calm"
+    ],
+    "description": "LUGA - ресторан с 10-летней историей, в самом центре г. Хабаровск. Хорошие порции, изобилие вин в винной карте, радушный персонал и прекрасный сервис. Мы сделаем любое событие незабываемым!",
+    "address": "улица Лазо, 86Б",
+    "latitude": 48.5089411,
+    "longitude": 135.0963535,
+    "phone": "+7 421 269-36-92",
+    "website": "https://www.lugarest.ru/",
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/4481017690",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": "Mo-Su,PH 12:00-24:00",
+    "openingHoursText": "Mo-Su,PH 12:00-24:00",
+    "closesAt": "24:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 4,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
+  },
+  {
     "id": "osm-way-181380618",
     "sourceId": "way-181380618",
     "slug": "osm-way-181380618",
@@ -56,8 +116,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-126752626",
@@ -117,8 +178,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-7059134442",
@@ -176,8 +238,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4501763390",
@@ -235,8 +298,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11649000544",
@@ -294,8 +358,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3164098485",
@@ -353,8 +418,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4384833849",
@@ -371,7 +437,7 @@
       "eat",
       "calm"
     ],
-    "description": "Общепит – самый аппетитный раздел нашего сайта, созданный для того, чтобы вы могли легко найти идеальное место для любого повода. Здесь собраны все заведения города: от...",
+    "description": null,
     "address": "Хабаровск",
     "latitude": 48.4731368,
     "longitude": 135.0581184,
@@ -412,8 +478,69 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-12395371062",
+    "sourceId": "node-12395371062",
+    "slug": "osm-node-12395371062",
+    "city": "Хабаровск",
+    "name": "Харибу",
+    "category": "Ресторан",
+    "subcategories": [
+      "restaurant"
+    ],
+    "tags": [
+      "surprise",
+      "eat",
+      "calm"
+    ],
+    "description": "Харибу — премиальный ресторан авторской кухни в Хабаровске. Уникальные блюда России, Европы и Грузии от шефа. Эффектная подача, высокий сервис, стильный интерьер. Забронируйте стол онлайн.",
+    "address": "Хабаровск",
+    "latitude": 48.482115,
+    "longitude": 135.06455,
+    "phone": "+7 421 2670888",
+    "website": "https://haribu.rest/",
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/12395371062",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
+    "imageSourceUrl": "https://haribu.rest/",
+    "imageSource": "OFFICIAL_SITE",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": "Mo-Th 08:00-24:00, Fr 08:00-02:00, Sa 12:00-02:00, Su 12:00-24:00",
+    "openingHoursText": "Mo-Th 08:00-24:00, Fr 08:00-02:00, Sa 12:00-02:00, Su 12:00-24:00",
+    "closesAt": "24:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 4,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3523296343",
@@ -471,8 +598,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-452568216",
@@ -530,8 +658,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2237523445",
@@ -589,8 +718,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3456818618",
@@ -648,8 +778,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4350373308",
@@ -707,8 +838,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-6029568285",
@@ -735,10 +867,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/6029568285",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://static.tildacdn.com/tild3433-3164-4931-b863-363934343464/1.jpeg",
-    "imageSourceUrl": "https://www.abluch.ru/teplorest",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -766,8 +898,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-6829253085",
@@ -825,8 +958,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-1456180824",
@@ -884,8 +1018,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-70723346",
@@ -944,8 +1079,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-13446223601",
@@ -1003,8 +1139,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-120486229",
@@ -1021,7 +1158,7 @@
       "eat",
       "calm"
     ],
-    "description": null,
+    "description": "Китайская Республика была основана в 1912 году и управлялась партией Гоминьдан как однопартийное государство. Она контролировала значительную часть материкового Китая и …",
     "address": "улица Ухтомского, 57Б",
     "latitude": 48.4992604,
     "longitude": 135.0669746,
@@ -1062,8 +1199,18 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {
+      "description": [
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=8b727faf0d07ea49e31b9616acb532729858a4af35cb234d0a0176b657310b1dJmltdHM9MTc4NjMyMDAwMA&ptn=3&ver=2&hsh=4&fclid=1ef3fbbb-eae9-647a-3512-ec0aebaa65eb&u=a1aHR0cHM6Ly9ydS53aWtpcGVkaWEub3JnL3dpa2kvJUQwJTlBJUQwJUI4JUQxJTgyJUQwJUIwJUQwJUI5JUQxJTgxJUQwJUJBJUQwJUIwJUQxJThGXyVEMCVBMCVEMCVCNSVEMSU4MSVEMCVCRiVEMSU4MyVEMCVCMSVEMCVCQiVEMCVCOCVEMCVCQSVEMCVCMF8oJUQwJUEyJUQwJUIwJUQwJUI5JUQwJUIyJUQwJUIwJUQwJUJEJUQxJThDKQ&ntb=1",
+          "query": "\"Тайвань\" улица Ухтомского, 57Б Хабаровск рейтинг отзывы средний чек часы телефон",
+          "snippet": "Китайская Республика была основана в 1912 году и управлялась партией Гоминьдан как однопартийное государство. Она контролировала значительную часть материкового Китая и …",
+          "collectedAt": "2026-08-10T07:42:36.926Z"
+        }
+      ]
+    }
   },
   {
     "id": "osm-node-4405496637",
@@ -1121,8 +1268,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-8499043917",
@@ -1180,8 +1328,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.174Z",
-    "scrapedAt": "2026-08-10T07:33:28.174Z"
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-9953699239",
@@ -1239,8 +1388,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.174Z",
-    "scrapedAt": "2026-08-10T07:33:28.174Z"
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3277880229",
@@ -1298,8 +1448,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-1750920610",
@@ -1357,8 +1508,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.169Z",
-    "scrapedAt": "2026-08-10T07:33:28.169Z"
+    "verifiedAt": "2026-08-10T07:41:08.992Z",
+    "scrapedAt": "2026-08-10T07:41:08.992Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-1030381150",
@@ -1416,8 +1568,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.169Z",
-    "scrapedAt": "2026-08-10T07:33:28.169Z"
+    "verifiedAt": "2026-08-10T07:41:08.991Z",
+    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-1403006579",
@@ -1475,8 +1628,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.169Z",
-    "scrapedAt": "2026-08-10T07:33:28.169Z"
+    "verifiedAt": "2026-08-10T07:41:08.991Z",
+    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-1358380887",
@@ -1534,8 +1688,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.169Z",
-    "scrapedAt": "2026-08-10T07:33:28.169Z"
+    "verifiedAt": "2026-08-10T07:41:08.991Z",
+    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4493549289",
@@ -1593,8 +1748,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3665806758",
@@ -1652,8 +1808,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-883520474",
@@ -1711,8 +1868,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.168Z",
-    "scrapedAt": "2026-08-10T07:33:28.168Z"
+    "verifiedAt": "2026-08-10T07:41:08.990Z",
+    "scrapedAt": "2026-08-10T07:41:08.990Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3285380577",
@@ -1770,8 +1928,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-5040237131",
@@ -1829,8 +1988,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.995Z",
+    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-5025713390",
@@ -1888,8 +2048,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.995Z",
+    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2713470372",
@@ -1947,8 +2108,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-5973897869",
@@ -2006,126 +2168,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
-  },
-  {
-    "id": "osm-node-4481017690",
-    "sourceId": "node-4481017690",
-    "slug": "osm-node-4481017690",
-    "city": "Хабаровск",
-    "name": "Luga",
-    "category": "Ресторан",
-    "subcategories": [
-      "restaurant"
-    ],
-    "tags": [
-      "surprise",
-      "eat",
-      "calm"
-    ],
-    "description": "LUGA - ресторан с 10-летней историей, в самом центре г. Хабаровск. Хорошие порции, изобилие вин в винной карте, радушный персонал и прекрасный сервис. Мы сделаем любое событие незабываемым!",
-    "address": "улица Лазо, 86Б",
-    "latitude": 48.5089411,
-    "longitude": 135.0963535,
-    "phone": "+7 421 269-36-92",
-    "website": "https://www.lugarest.ru/",
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/4481017690",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://static.tildacdn.com/tild6232-3034-4838-b765-343635306564/1__1.jpg",
-    "imageSourceUrl": "https://www.lugarest.ru/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": "Mo-Su,PH 12:00-24:00",
-    "openingHoursText": "Mo-Su,PH 12:00-24:00",
-    "closesAt": "24:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 4,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
-  },
-  {
-    "id": "osm-node-12395371062",
-    "sourceId": "node-12395371062",
-    "slug": "osm-node-12395371062",
-    "city": "Хабаровск",
-    "name": "Харибу",
-    "category": "Ресторан",
-    "subcategories": [
-      "restaurant"
-    ],
-    "tags": [
-      "surprise",
-      "eat",
-      "calm"
-    ],
-    "description": "Харибу — премиальный ресторан авторской кухни в Хабаровске. Уникальные блюда России, Европы и Грузии от шефа. Эффектная подача, высокий сервис, стильный интерьер. Забронируйте стол онлайн.",
-    "address": "Хабаровск",
-    "latitude": 48.482115,
-    "longitude": 135.06455,
-    "phone": "+7 421 2670888",
-    "website": "https://haribu.rest/",
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/12395371062",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
-    "imageSourceUrl": "https://haribu.rest/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": "Mo-Th 08:00-24:00, Fr 08:00-02:00, Sa 12:00-02:00, Su 12:00-24:00",
-    "openingHoursText": "Mo-Th 08:00-24:00, Fr 08:00-02:00, Sa 12:00-02:00, Su 12:00-24:00",
-    "closesAt": "24:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 4,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-5973897873",
@@ -2183,8 +2228,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3726923703",
@@ -2242,8 +2288,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-302009332",
@@ -2301,8 +2348,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12887857002",
@@ -2360,8 +2408,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-1403022485",
@@ -2419,8 +2468,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.169Z",
-    "scrapedAt": "2026-08-10T07:33:28.169Z"
+    "verifiedAt": "2026-08-10T07:41:08.991Z",
+    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-10655456481",
@@ -2478,8 +2528,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12395371058",
@@ -2516,9 +2567,9 @@
     "wikimediaCommons": null,
     "wikidata": null,
     "imageHint": null,
-    "priceMin": 1000,
-    "priceMax": 1000,
-    "averageCheck": 1000,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
     "minParty": 1,
     "maxParty": 12,
     "durationMinutes": 75,
@@ -2537,8 +2588,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11649000540",
@@ -2596,8 +2648,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-7670756981",
@@ -2655,8 +2708,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11110981905",
@@ -2714,8 +2768,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4221985694",
@@ -2773,8 +2828,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-6029527786",
@@ -2832,8 +2888,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-7832298087",
@@ -2891,67 +2948,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
-  },
-  {
-    "id": "osm-node-12059180588",
-    "sourceId": "node-12059180588",
-    "slug": "osm-node-12059180588",
-    "city": "Хабаровск",
-    "name": "Torro Grill",
-    "category": "Кафе",
-    "subcategories": [
-      "cafe"
-    ],
-    "tags": [
-      "surprise",
-      "eat",
-      "calm"
-    ],
-    "description": "Торро Гриль - это недорогие мясные рестораны гриль, где можно поесть мяса в Москве по низким ценам. Лучший стейк-хаус предлагает насладиться деликатесами, приготовленными на открытом огне; большие куски, низкие цены; идеальная прожарка.",
-    "address": "Хабаровск",
-    "latitude": 48.4753307,
-    "longitude": 135.063748,
-    "phone": "+7 421 2968585",
-    "website": "https://torrogrill.ru/",
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/12059180588",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageSource": null,
-    "imageRights": null,
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 75,
-    "openingHours": "Mo-Su 12:00-00:00",
-    "openingHoursText": "Mo-Su 12:00-00:00",
-    "closesAt": "00:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 4,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-270539004",
@@ -3009,8 +3008,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3857899474",
@@ -3068,8 +3068,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-7747825751",
@@ -3086,7 +3087,7 @@
       "eat",
       "calm"
     ],
-    "description": null,
+    "description": "Кафе Корея - это множество любимых блюд корейской кухни, два этажа комфорта, удобная парковка",
     "address": "Хабаровск",
     "latitude": 48.4776228,
     "longitude": 135.0847775,
@@ -3127,8 +3128,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4611366190",
@@ -3186,8 +3188,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.995Z",
+    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4381379720",
@@ -3245,8 +3248,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12506476246",
@@ -3304,8 +3308,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-934124462",
@@ -3363,8 +3368,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-557524374",
@@ -3422,8 +3428,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-13427943801",
@@ -3481,8 +3488,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12176011606",
@@ -3540,8 +3548,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12175796128",
@@ -3599,8 +3608,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-454602007",
@@ -3658,8 +3668,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-884295343",
@@ -3717,8 +3728,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.168Z",
-    "scrapedAt": "2026-08-10T07:33:28.168Z"
+    "verifiedAt": "2026-08-10T07:41:08.990Z",
+    "scrapedAt": "2026-08-10T07:41:08.990Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-10205619059",
@@ -3776,8 +3788,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11649000538",
@@ -3835,8 +3848,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-5416834873",
@@ -3894,8 +3908,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-7501907785",
@@ -3953,8 +3968,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-5454635822",
@@ -4012,8 +4028,78 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-6029556485",
+    "sourceId": "node-6029556485",
+    "slug": "osm-node-6029556485",
+    "city": "Хабаровск",
+    "name": "РЖД ОАО",
+    "category": "Кафе",
+    "subcategories": [
+      "cafe"
+    ],
+    "tags": [
+      "surprise",
+      "eat",
+      "calm"
+    ],
+    "description": "Купить билет на поезд без комиссии. Акции и скидки. Расписание поездов и электричек по всем направлениям.",
+    "address": "Хабаровск",
+    "latitude": 48.4743764,
+    "longitude": 135.0618242,
+    "phone": "+7 4212 384141",
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/6029556485",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a3/33/48/caption.jpg?w=600&h=600&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 75,
+    "openingHours": "Mo-Fr 11:00-15:00",
+    "openingHoursText": "Mo-Fr 11:00-15:00",
+    "closesAt": "15:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 4,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {
+      "description": [
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=799c72325d87cbaa54f0f51e11f34cd793a516b47b38f12423014bb7668c069bJmltdHM9MTc4NjMyMDAwMA&ptn=3&ver=2&hsh=4&fclid=3ee97288-4e4a-6e9f-111a-65394fc36fa4&u=a1aHR0cHM6Ly90aWNrZXQucnpkLnJ1Lw&ntb=1",
+          "query": "\"РЖД ОАО\" Хабаровск Хабаровск рейтинг отзывы средний чек часы телефон",
+          "snippet": "Купить билет на поезд без комиссии. Акции и скидки. Расписание поездов и электричек по всем направлениям.",
+          "collectedAt": "2026-08-10T07:42:36.927Z"
+        }
+      ]
+    }
   },
   {
     "id": "osm-node-12070992815",
@@ -4070,8 +4156,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12722562626",
@@ -4128,8 +4215,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-13638767275",
@@ -4186,8 +4274,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-9954298509",
@@ -4244,8 +4333,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.174Z",
-    "scrapedAt": "2026-08-10T07:33:28.174Z"
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12358147826",
@@ -4302,8 +4392,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12358152972",
@@ -4360,8 +4451,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-1378096668",
@@ -4418,8 +4510,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.169Z",
-    "scrapedAt": "2026-08-10T07:33:28.169Z"
+    "verifiedAt": "2026-08-10T07:41:08.991Z",
+    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-13420909860",
@@ -4476,8 +4569,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-13420909861",
@@ -4534,8 +4628,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-13420909862",
@@ -4592,8 +4687,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-13420909863",
@@ -4650,8 +4746,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-13420909864",
@@ -4708,8 +4805,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-6536734327",
@@ -4766,8 +4864,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-9992569350",
@@ -4824,8 +4923,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-9805680194",
@@ -4882,8 +4982,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.174Z",
-    "scrapedAt": "2026-08-10T07:33:28.174Z"
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11649000536",
@@ -4941,8 +5042,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4365848167",
@@ -4999,8 +5101,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12059180585",
@@ -5057,8 +5160,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11649000542",
@@ -5116,8 +5220,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11649000541",
@@ -5175,8 +5280,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12395371057",
@@ -5234,8 +5340,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2392277758",
@@ -5292,8 +5399,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12151045373",
@@ -5351,8 +5459,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12887857301",
@@ -5410,8 +5519,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2237523444",
@@ -5469,8 +5579,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-525763612",
@@ -5527,8 +5638,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12987030079",
@@ -5586,8 +5698,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4381725531",
@@ -5645,8 +5758,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3277883161",
@@ -5703,8 +5817,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-13333091989",
@@ -5762,8 +5877,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 5,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-818506658",
@@ -5820,8 +5936,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.168Z",
-    "scrapedAt": "2026-08-10T07:33:28.168Z"
+    "verifiedAt": "2026-08-10T07:41:08.990Z",
+    "scrapedAt": "2026-08-10T07:41:08.990Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2006160994",
@@ -5878,8 +5995,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.992Z",
+    "scrapedAt": "2026-08-10T07:41:08.992Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-67791779",
@@ -5936,8 +6054,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12640389978",
@@ -5994,8 +6113,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-274763647",
@@ -6052,8 +6172,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-8035165019",
@@ -6110,8 +6231,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-1403077450",
@@ -6168,8 +6290,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.169Z",
-    "scrapedAt": "2026-08-10T07:33:28.169Z"
+    "verifiedAt": "2026-08-10T07:41:08.991Z",
+    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-87896088",
@@ -6226,8 +6349,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2469900437",
@@ -6284,8 +6408,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-82076627",
@@ -6342,8 +6467,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-67571263",
@@ -6400,8 +6526,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-7112753919",
@@ -6458,8 +6585,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2095798997",
@@ -6516,8 +6644,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2095798998",
@@ -6574,8 +6703,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-10792579695",
@@ -6633,8 +6763,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-87896112",
@@ -6691,8 +6822,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-209353599",
@@ -6749,8 +6881,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-5235011021",
@@ -6807,8 +6940,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4807521922",
@@ -6865,8 +6999,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.995Z",
+    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11958560257",
@@ -6923,8 +7058,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12378249784",
@@ -6981,8 +7117,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-5555835122",
@@ -7039,8 +7176,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-310906737",
@@ -7097,8 +7235,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-272536654",
@@ -7114,7 +7253,7 @@
       "surprise",
       "active"
     ],
-    "description": null,
+    "description": "Детский спортивный клуб Олимпия Хабаровск. Художественная гимнастика в Хабаровске.",
     "address": "Молдавский переулок, 10",
     "latitude": 48.4623771,
     "longitude": 135.0904834,
@@ -7155,8 +7294,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-1345725853",
@@ -7213,8 +7353,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.169Z",
-    "scrapedAt": "2026-08-10T07:33:28.169Z"
+    "verifiedAt": "2026-08-10T07:41:08.991Z",
+    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3076533518",
@@ -7271,8 +7412,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-10655583515",
@@ -7329,8 +7471,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-7188746786",
@@ -7387,8 +7530,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-5651402565",
@@ -7445,8 +7589,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2034084852",
@@ -7503,8 +7648,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4698326589",
@@ -7561,8 +7707,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.995Z",
+    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-1358380888",
@@ -7619,8 +7766,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.169Z",
-    "scrapedAt": "2026-08-10T07:33:28.169Z"
+    "verifiedAt": "2026-08-10T07:41:08.991Z",
+    "scrapedAt": "2026-08-10T07:41:08.991Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4742464122",
@@ -7677,8 +7825,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.995Z",
+    "scrapedAt": "2026-08-10T07:41:08.995Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-4481017400",
@@ -7735,8 +7884,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2007827186",
@@ -7793,8 +7943,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.992Z",
+    "scrapedAt": "2026-08-10T07:41:08.992Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-82097298",
@@ -7851,8 +8002,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-89640336",
@@ -7909,8 +8061,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-89640368",
@@ -7967,8 +8120,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-360855034",
@@ -8025,8 +8179,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3634989899",
@@ -8083,8 +8238,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11138113106",
@@ -8141,8 +8297,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2006160993",
@@ -8199,8 +8356,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.169Z",
-    "scrapedAt": "2026-08-10T07:33:28.169Z"
+    "verifiedAt": "2026-08-10T07:41:08.992Z",
+    "scrapedAt": "2026-08-10T07:41:08.992Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-9953705395",
@@ -8257,8 +8415,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.174Z",
-    "scrapedAt": "2026-08-10T07:33:28.174Z"
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-2495828812",
@@ -8315,8 +8474,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-32050191",
@@ -8373,8 +8533,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3634989902",
@@ -8431,8 +8592,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12887906701",
@@ -8491,8 +8653,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-242208334",
@@ -8548,8 +8711,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-32063254",
@@ -8608,579 +8772,9 @@
     "uniquenessScore": 4,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
-  },
-  {
-    "id": "osm-node-8437296217",
-    "sourceId": "node-8437296217",
-    "slug": "osm-node-8437296217",
-    "city": "Хабаровск",
-    "name": "Бассейн ЦСКА",
-    "category": "Достопримечательность",
-    "subcategories": [
-      "attraction"
-    ],
-    "tags": [
-      "surprise"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4731811,
-    "longitude": 135.053341,
-    "phone": null,
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/8437296217",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://sportgyms.ru/uploads/posts/2019-12/1575438499_01.jpg",
-    "imageSourceUrl": "https://sportgyms.ru/khabarovsk/8095-cska.html",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": null,
-    "outdoor": true,
-    "alcohol": null,
-    "food": false,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 4,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.174Z",
-    "scrapedAt": "2026-08-10T07:33:28.174Z"
-  },
-  {
-    "id": "osm-node-7856604787",
-    "sourceId": "node-7856604787",
-    "slug": "osm-node-7856604787",
-    "city": "Хабаровск",
-    "name": "Бременские музыканты",
-    "category": "Достопримечательность",
-    "subcategories": [
-      "attraction"
-    ],
-    "tags": [
-      "surprise"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.478384,
-    "longitude": 135.0782601,
-    "phone": null,
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/7856604787",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://panevin.ru/uploads/photo/2019/bremenskie_muzikanti_1024.jpg",
-    "imageSourceUrl": "https://panevin.ru/photo/khabarovsk/bremenskie_muzikanti.html",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": null,
-    "outdoor": true,
-    "alcohol": null,
-    "food": false,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 4,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
-  },
-  {
-    "id": "osm-node-12662450594",
-    "sourceId": "node-12662450594",
-    "slug": "osm-node-12662450594",
-    "city": "Хабаровск",
-    "name": "Воронье Гнездо",
-    "category": "Смотровая площадка",
-    "subcategories": [
-      "viewpoint"
-    ],
-    "tags": [
-      "surprise",
-      "calm"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.5403559,
-    "longitude": 135.0216885,
-    "phone": null,
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/12662450594",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://24smi.org/public/media/resize/800x-/2017/5/18/04.jpg",
-    "imageSourceUrl": "https://24smi.org/facts/50477-doma-s-privideniiami-v-rossii-10-mest-gde-byvaiut.html",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": null,
-    "outdoor": true,
-    "alcohol": null,
-    "food": false,
-    "activity": false,
-    "romanticScore": 4,
-    "activityScore": 2,
-    "uniquenessScore": 4,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
-  },
-  {
-    "id": "osm-node-6827545041",
-    "sourceId": "node-6827545041",
-    "slug": "osm-node-6827545041",
-    "city": "Хабаровск",
-    "name": "Дама с собачкой",
-    "category": "Арт-объект",
-    "subcategories": [
-      "artwork"
-    ],
-    "tags": [
-      "surprise"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4930394,
-    "longitude": 135.0713613,
-    "phone": null,
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/6827545041",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://penzatourism.ru/upload/iblock/d79/kox7u4g96a2qxv5lry7i7siuk86uz09n.jpg",
-    "imageSourceUrl": "https://penzatourism.ru/where/dostoprimechatelnosti/art-obekty/art-obekt-dama-s-sobachkoy/",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": null,
-    "outdoor": true,
-    "alcohol": null,
-    "food": false,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 4,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
-  },
-  {
-    "id": "osm-node-9981829817",
-    "sourceId": "node-9981829817",
-    "slug": "osm-node-9981829817",
-    "city": "Хабаровск",
-    "name": "Дом доходный А.Ф. Вильневчица",
-    "category": "Достопримечательность",
-    "subcategories": [
-      "attraction"
-    ],
-    "tags": [
-      "surprise"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4833662,
-    "longitude": 135.0655358,
-    "phone": null,
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/9981829817",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
-    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": null,
-    "outdoor": true,
-    "alcohol": null,
-    "food": false,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 4,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
-  },
-  {
-    "id": "osm-node-9981839918",
-    "sourceId": "node-9981839918",
-    "slug": "osm-node-9981839918",
-    "city": "Хабаровск",
-    "name": "Дом доходный Б.Е. Кламбоцкого",
-    "category": "Достопримечательность",
-    "subcategories": [
-      "attraction"
-    ],
-    "tags": [
-      "surprise"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.46761,
-    "longitude": 135.0649363,
-    "phone": null,
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/9981839918",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
-    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": null,
-    "outdoor": true,
-    "alcohol": null,
-    "food": false,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 4,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
-  },
-  {
-    "id": "osm-node-9961878018",
-    "sourceId": "node-9961878018",
-    "slug": "osm-node-9961878018",
-    "city": "Хабаровск",
-    "name": "Дом доходный В.В. Петренко",
-    "category": "Достопримечательность",
-    "subcategories": [
-      "attraction"
-    ],
-    "tags": [
-      "surprise"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4787219,
-    "longitude": 135.0761701,
-    "phone": null,
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/9961878018",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://panevin.ru/uploads/photo/2019/dohodniy_dom_v_v_petrenko_1024.jpg",
-    "imageSourceUrl": "https://panevin.ru/photo/khabarovsk/dohodniy_dom_v_v_petrenko.html",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": null,
-    "outdoor": true,
-    "alcohol": null,
-    "food": false,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 4,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
-  },
-  {
-    "id": "osm-node-9981837518",
-    "sourceId": "node-9981837518",
-    "slug": "osm-node-9981837518",
-    "city": "Хабаровск",
-    "name": "Дом доходный Н.А. Сыромятникова",
-    "category": "Достопримечательность",
-    "subcategories": [
-      "attraction"
-    ],
-    "tags": [
-      "surprise"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4825819,
-    "longitude": 135.0721438,
-    "phone": null,
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/9981837518",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
-    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": null,
-    "outdoor": true,
-    "alcohol": null,
-    "food": false,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 4,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
-  },
-  {
-    "id": "osm-node-9981890818",
-    "sourceId": "node-9981890818",
-    "slug": "osm-node-9981890818",
-    "city": "Хабаровск",
-    "name": "Дом доходный П.А. Малкова",
-    "category": "Достопримечательность",
-    "subcategories": [
-      "attraction"
-    ],
-    "tags": [
-      "surprise"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4710566,
-    "longitude": 135.0602932,
-    "phone": null,
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/9981890818",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
-    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": null,
-    "outdoor": true,
-    "alcohol": null,
-    "food": false,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 4,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
-  },
-  {
-    "id": "osm-node-9961907417",
-    "sourceId": "node-9961907417",
-    "slug": "osm-node-9961907417",
-    "city": "Хабаровск",
-    "name": "Дом жилой В.В. Дмитрие",
-    "category": "Достопримечательность",
-    "subcategories": [
-      "attraction"
-    ],
-    "tags": [
-      "surprise"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4823631,
-    "longitude": 135.0699915,
-    "phone": null,
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/9961907417",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/c3/dd/68/caption.jpg?w=1200&h=1200&s=1",
-    "imageSourceUrl": "https://www.tripadvisor.ru/Attraction_Review-g298493-d28195859-Reviews-Residential_House_of_A_M_Zadorozhny-Khabarovsk_Khabarovsk_Krai_Far_Eastern_Distr.html",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": null,
-    "openingHoursText": null,
-    "closesAt": null,
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": null,
-    "outdoor": true,
-    "alcohol": null,
-    "food": false,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 4,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3257869796",
@@ -9237,8 +8831,590 @@
     "uniquenessScore": 4,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.170Z",
-    "scrapedAt": "2026-08-10T07:33:28.170Z"
+    "verifiedAt": "2026-08-10T07:41:08.993Z",
+    "scrapedAt": "2026-08-10T07:41:08.993Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-8437296217",
+    "sourceId": "node-8437296217",
+    "slug": "osm-node-8437296217",
+    "city": "Хабаровск",
+    "name": "Бассейн ЦСКА",
+    "category": "Достопримечательность",
+    "subcategories": [
+      "attraction"
+    ],
+    "tags": [
+      "surprise"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4731811,
+    "longitude": 135.053341,
+    "phone": null,
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/8437296217",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://sportgyms.ru/uploads/posts/2019-12/1575438499_01.jpg",
+    "imageSourceUrl": "https://sportgyms.ru/khabarovsk/8095-cska.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": null,
+    "outdoor": true,
+    "alcohol": null,
+    "food": false,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 4,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-7856604787",
+    "sourceId": "node-7856604787",
+    "slug": "osm-node-7856604787",
+    "city": "Хабаровск",
+    "name": "Бременские музыканты",
+    "category": "Достопримечательность",
+    "subcategories": [
+      "attraction"
+    ],
+    "tags": [
+      "surprise"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.478384,
+    "longitude": 135.0782601,
+    "phone": null,
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/7856604787",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://panevin.ru/uploads/photo/2019/bremenskie_muzikanti_1024.jpg",
+    "imageSourceUrl": "https://panevin.ru/photo/khabarovsk/bremenskie_muzikanti.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": null,
+    "outdoor": true,
+    "alcohol": null,
+    "food": false,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 4,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-12662450594",
+    "sourceId": "node-12662450594",
+    "slug": "osm-node-12662450594",
+    "city": "Хабаровск",
+    "name": "Воронье Гнездо",
+    "category": "Смотровая площадка",
+    "subcategories": [
+      "viewpoint"
+    ],
+    "tags": [
+      "surprise",
+      "calm"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.5403559,
+    "longitude": 135.0216885,
+    "phone": null,
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/12662450594",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://24smi.org/public/media/resize/800x-/2017/5/18/04.jpg",
+    "imageSourceUrl": "https://24smi.org/facts/50477-doma-s-privideniiami-v-rossii-10-mest-gde-byvaiut.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": null,
+    "outdoor": true,
+    "alcohol": null,
+    "food": false,
+    "activity": false,
+    "romanticScore": 4,
+    "activityScore": 2,
+    "uniquenessScore": 4,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-6827545041",
+    "sourceId": "node-6827545041",
+    "slug": "osm-node-6827545041",
+    "city": "Хабаровск",
+    "name": "Дама с собачкой",
+    "category": "Арт-объект",
+    "subcategories": [
+      "artwork"
+    ],
+    "tags": [
+      "surprise"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4930394,
+    "longitude": 135.0713613,
+    "phone": null,
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/6827545041",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://penzatourism.ru/upload/iblock/d79/kox7u4g96a2qxv5lry7i7siuk86uz09n.jpg",
+    "imageSourceUrl": "https://penzatourism.ru/where/dostoprimechatelnosti/art-obekty/art-obekt-dama-s-sobachkoy/",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": null,
+    "outdoor": true,
+    "alcohol": null,
+    "food": false,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 4,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-9981829817",
+    "sourceId": "node-9981829817",
+    "slug": "osm-node-9981829817",
+    "city": "Хабаровск",
+    "name": "Дом доходный А.Ф. Вильневчица",
+    "category": "Достопримечательность",
+    "subcategories": [
+      "attraction"
+    ],
+    "tags": [
+      "surprise"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4833662,
+    "longitude": 135.0655358,
+    "phone": null,
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/9981829817",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": null,
+    "outdoor": true,
+    "alcohol": null,
+    "food": false,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 4,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-9981839918",
+    "sourceId": "node-9981839918",
+    "slug": "osm-node-9981839918",
+    "city": "Хабаровск",
+    "name": "Дом доходный Б.Е. Кламбоцкого",
+    "category": "Достопримечательность",
+    "subcategories": [
+      "attraction"
+    ],
+    "tags": [
+      "surprise"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.46761,
+    "longitude": 135.0649363,
+    "phone": null,
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/9981839918",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": null,
+    "outdoor": true,
+    "alcohol": null,
+    "food": false,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 4,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-9961878018",
+    "sourceId": "node-9961878018",
+    "slug": "osm-node-9961878018",
+    "city": "Хабаровск",
+    "name": "Дом доходный В.В. Петренко",
+    "category": "Достопримечательность",
+    "subcategories": [
+      "attraction"
+    ],
+    "tags": [
+      "surprise"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4787219,
+    "longitude": 135.0761701,
+    "phone": null,
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/9961878018",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://panevin.ru/uploads/photo/2019/dohodniy_dom_v_v_petrenko_1024.jpg",
+    "imageSourceUrl": "https://panevin.ru/photo/khabarovsk/dohodniy_dom_v_v_petrenko.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": null,
+    "outdoor": true,
+    "alcohol": null,
+    "food": false,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 4,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-9981837518",
+    "sourceId": "node-9981837518",
+    "slug": "osm-node-9981837518",
+    "city": "Хабаровск",
+    "name": "Дом доходный Н.А. Сыромятникова",
+    "category": "Достопримечательность",
+    "subcategories": [
+      "attraction"
+    ],
+    "tags": [
+      "surprise"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4825819,
+    "longitude": 135.0721438,
+    "phone": null,
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/9981837518",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": null,
+    "outdoor": true,
+    "alcohol": null,
+    "food": false,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 4,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-9981890818",
+    "sourceId": "node-9981890818",
+    "slug": "osm-node-9981890818",
+    "city": "Хабаровск",
+    "name": "Дом доходный П.А. Малкова",
+    "category": "Достопримечательность",
+    "subcategories": [
+      "attraction"
+    ],
+    "tags": [
+      "surprise"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4710566,
+    "longitude": 135.0602932,
+    "phone": null,
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/9981890818",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://cs12.pikabu.ru/post_img/big/2021/01/06/5/1609915532153997395.png",
+    "imageSourceUrl": "https://pikabu.ru/story/turistyi_ili_kuda_svodit_druzey_nikogda_ne_byivshikh_v_khabarovske_chast_5_7940622",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": null,
+    "outdoor": true,
+    "alcohol": null,
+    "food": false,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 4,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-9961907417",
+    "sourceId": "node-9961907417",
+    "slug": "osm-node-9961907417",
+    "city": "Хабаровск",
+    "name": "Дом жилой В.В. Дмитрие",
+    "category": "Достопримечательность",
+    "subcategories": [
+      "attraction"
+    ],
+    "tags": [
+      "surprise"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4823631,
+    "longitude": 135.0699915,
+    "phone": null,
+    "website": null,
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/9961907417",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/c3/dd/68/caption.jpg?w=1200&h=1200&s=1",
+    "imageSourceUrl": "https://www.tripadvisor.ru/Attraction_Review-g298493-d28195859-Reviews-Residential_House_of_A_M_Zadorozhny-Khabarovsk_Khabarovsk_Krai_Far_Eastern_Distr.html",
+    "imageSource": "OTHER",
+    "imageRights": "NEEDS_REVIEW",
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": null,
+    "openingHoursText": null,
+    "closesAt": null,
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": null,
+    "outdoor": true,
+    "alcohol": null,
+    "food": false,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 4,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-56007166",
@@ -9296,8 +9472,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-relation-10519341",
@@ -9355,8 +9532,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-881042573",
@@ -9414,8 +9592,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-881044033",
@@ -9473,8 +9652,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-1366866267",
@@ -9532,8 +9712,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-881039587",
@@ -9591,8 +9772,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-5970921192",
@@ -9649,8 +9831,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-6824836534",
@@ -9707,8 +9890,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-282725702",
@@ -9766,8 +9950,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-239849003",
@@ -9825,8 +10010,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-634029366",
@@ -9884,8 +10070,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-68195832",
@@ -9943,8 +10130,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 2,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-90555623",
@@ -10000,8 +10188,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-67791761",
@@ -10016,7 +10205,7 @@
     "tags": [
       "surprise"
     ],
-    "description": null,
+    "description": "ЦУМ — интернет-магазин брендовой одежды, обуви, сумок и аксессуаров премиум-класса. Более 700 модных брендов. Доставка в ПВЗ по всей России. Подарочные карты.",
     "address": "улица Муравьёва-Амурского, 23",
     "latitude": 48.47764,
     "longitude": 135.0651845,
@@ -10046,7 +10235,7 @@
     "openingHoursText": null,
     "closesAt": null,
     "rating": null,
-    "reviewsCount": null,
+    "reviewsCount": 10330,
     "indoor": true,
     "outdoor": null,
     "alcohol": null,
@@ -10057,8 +10246,26 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {
+      "description": [
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=ca8376b7c0d79b039adc6a97970c3ca8d233ca7c03db096b216d831008e60ed3JmltdHM9MTc4NjMyMDAwMA&ptn=3&ver=2&hsh=4&fclid=3881443b-958a-61c1-2a1e-538a946e6019&u=a1aHR0cHM6Ly93d3cudHN1bS5ydS8&ntb=1",
+          "query": "\"ЦУМ\" улица Муравьёва-Амурского, 23 Хабаровск рейтинг отзывы средний чек часы телефон",
+          "snippet": "ЦУМ — интернет-магазин брендовой одежды, обуви, сумок и аксессуаров премиум-класса. Более 700 модных брендов. Доставка в ПВЗ по всей России. Подарочные карты.",
+          "collectedAt": "2026-08-10T07:42:36.927Z"
+        }
+      ],
+      "reviewsCount": [
+        {
+          "url": "https://www.bing.com/ck/a?!&&p=3641b3b7bcb29515f629452b811226b6d0f7167e71fcfd6f8c52a7c6f0d05c3bJmltdHM9MTc4NjMyMDAwMA&ptn=3&ver=2&hsh=4&fclid=3881443b-958a-61c1-2a1e-538a946e6019&u=a1aHR0cHM6Ly95YW5kZXgucnUvbWFwcy9vcmcvdHN1bS8xMzM0NTUxODU3Lw&ntb=1",
+          "query": "\"ЦУМ\" улица Муравьёва-Амурского, 23 Хабаровск рейтинг отзывы средний чек часы телефон",
+          "snippet": "Торговый центр «ЦУМ» по адресу Москва, улица Петровка, 2, метро «Театральная» — перейти на сайт, ☎️ показать телефоны. Читать 10330 отзывов, смотреть 499 фото, панорамы, часы …",
+          "collectedAt": "2026-08-10T07:42:36.928Z"
+        }
+      ]
+    }
   },
   {
     "id": "osm-node-6207350886",
@@ -10114,8 +10321,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-594415839",
@@ -10171,8 +10379,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-1086866756",
@@ -10228,8 +10437,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-553155581",
@@ -10285,8 +10495,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-87470131",
@@ -10342,8 +10553,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-122079627",
@@ -10399,8 +10611,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-199584058",
@@ -10456,8 +10669,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-241576818",
@@ -10513,8 +10727,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.002Z",
+    "scrapedAt": "2026-08-10T07:41:09.002Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-185919088",
@@ -10570,8 +10785,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-67801177",
@@ -10627,8 +10843,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-115698804",
@@ -10684,8 +10901,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.178Z",
-    "scrapedAt": "2026-08-10T07:33:28.178Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11975223622",
@@ -10742,8 +10960,68 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-11975028914",
+    "sourceId": "node-11975028914",
+    "slug": "osm-node-11975028914",
+    "city": "Хабаровск",
+    "name": "Sushi Sea",
+    "category": "Кафе · Быстрое питание",
+    "subcategories": [
+      "fast_food"
+    ],
+    "tags": [
+      "surprise",
+      "eat"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.3930371,
+    "longitude": 135.110279,
+    "phone": "+7 914 5420313",
+    "website": "https://sushi-sea.ru/",
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/11975028914",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 120,
+    "openingHours": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
+    "openingHoursText": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
+    "closesAt": "22:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 2,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-3857899475",
@@ -10800,8 +11078,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.171Z",
-    "scrapedAt": "2026-08-10T07:33:28.171Z"
+    "verifiedAt": "2026-08-10T07:41:08.994Z",
+    "scrapedAt": "2026-08-10T07:41:08.994Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-10013201138",
@@ -10858,8 +11137,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-9953971133",
@@ -10916,8 +11196,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.174Z",
-    "scrapedAt": "2026-08-10T07:33:28.174Z"
+    "verifiedAt": "2026-08-10T07:41:08.997Z",
+    "scrapedAt": "2026-08-10T07:41:08.997Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12358099659",
@@ -10974,8 +11255,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12358114361",
@@ -11032,8 +11314,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12856304667",
@@ -11090,8 +11373,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.999Z",
+    "scrapedAt": "2026-08-10T07:41:08.999Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-12887937001",
@@ -11148,8 +11432,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.177Z",
-    "scrapedAt": "2026-08-10T07:33:28.177Z"
+    "verifiedAt": "2026-08-10T07:41:09.000Z",
+    "scrapedAt": "2026-08-10T07:41:09.000Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-10655456483",
@@ -11206,67 +11491,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
-  },
-  {
-    "id": "osm-node-6029556485",
-    "sourceId": "node-6029556485",
-    "slug": "osm-node-6029556485",
-    "city": "Хабаровск",
-    "name": "РЖД ОАО",
-    "category": "Кафе",
-    "subcategories": [
-      "cafe"
-    ],
-    "tags": [
-      "surprise",
-      "eat",
-      "calm"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.4743764,
-    "longitude": 135.0618242,
-    "phone": "+7 4212 384141",
-    "website": null,
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/6029556485",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/a3/33/48/caption.jpg?w=600&h=600&s=1",
-    "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 75,
-    "openingHours": "Mo-Fr 11:00-15:00",
-    "openingHoursText": "Mo-Fr 11:00-15:00",
-    "closesAt": "15:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 4,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-7283823843",
@@ -11293,10 +11520,10 @@
     "sourceUrl": "https://www.openstreetmap.org/node/7283823843",
     "source": "OPENSTREETMAP",
     "sourceUpdatedAt": null,
-    "imageUrl": "https://static.tildacdn.com/tild6265-3634-4364-a638-353537333633/13762636.jpg",
-    "imageSourceUrl": "https://yourhuma.ru/",
-    "imageSource": "OTHER",
-    "imageRights": "NEEDS_REVIEW",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
     "imageAuthor": null,
     "imageLicense": null,
     "imageLicenseUrl": null,
@@ -11324,8 +11551,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.173Z",
-    "scrapedAt": "2026-08-10T07:33:28.173Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-6533501989",
@@ -11383,8 +11611,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.172Z",
-    "scrapedAt": "2026-08-10T07:33:28.172Z"
+    "verifiedAt": "2026-08-10T07:41:08.996Z",
+    "scrapedAt": "2026-08-10T07:41:08.996Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-190903428",
@@ -11442,66 +11671,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.179Z",
-    "scrapedAt": "2026-08-10T07:33:28.179Z"
-  },
-  {
-    "id": "osm-node-11975028914",
-    "sourceId": "node-11975028914",
-    "slug": "osm-node-11975028914",
-    "city": "Хабаровск",
-    "name": "Sushi Sea",
-    "category": "Кафе · Быстрое питание",
-    "subcategories": [
-      "fast_food"
-    ],
-    "tags": [
-      "surprise",
-      "eat"
-    ],
-    "description": null,
-    "address": "Хабаровск",
-    "latitude": 48.3930371,
-    "longitude": 135.110279,
-    "phone": "+7 914 5420313",
-    "website": "https://sushi-sea.ru/",
-    "bookingUrl": null,
-    "sourceUrl": "https://www.openstreetmap.org/node/11975028914",
-    "source": "OPENSTREETMAP",
-    "sourceUpdatedAt": null,
-    "imageUrl": "https://sushi-sea.ru/static/main-screen-photo-widescreen.gif",
-    "imageSourceUrl": "https://sushi-sea.ru/",
-    "imageSource": "OFFICIAL_SITE",
-    "imageRights": "NEEDS_REVIEW",
-    "imageAuthor": null,
-    "imageLicense": null,
-    "imageLicenseUrl": null,
-    "wikimediaCommons": null,
-    "wikidata": null,
-    "imageHint": null,
-    "priceMin": 150,
-    "priceMax": 3250,
-    "averageCheck": 1645,
-    "minParty": 1,
-    "maxParty": 12,
-    "durationMinutes": 120,
-    "openingHours": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
-    "openingHoursText": "Fr-Sa 10:00-23:00; Mo-Th 10:00-22:00; Su 11:00-22:00",
-    "closesAt": "22:00",
-    "rating": null,
-    "reviewsCount": null,
-    "indoor": true,
-    "outdoor": null,
-    "alcohol": null,
-    "food": true,
-    "activity": false,
-    "romanticScore": 2,
-    "activityScore": 2,
-    "uniquenessScore": 3,
-    "noiseLevel": 3,
-    "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.175Z",
-    "scrapedAt": "2026-08-10T07:33:28.175Z"
+    "verifiedAt": "2026-08-10T07:41:09.001Z",
+    "scrapedAt": "2026-08-10T07:41:09.001Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11975028915",
@@ -11537,9 +11709,9 @@
     "wikimediaCommons": null,
     "wikidata": null,
     "imageHint": null,
-    "priceMin": null,
-    "priceMax": null,
-    "averageCheck": null,
+    "priceMin": 150,
+    "priceMax": 3250,
+    "averageCheck": 1645,
     "minParty": 1,
     "maxParty": 12,
     "durationMinutes": 120,
@@ -11558,8 +11730,9 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-node-11975028916",
@@ -11595,9 +11768,9 @@
     "wikimediaCommons": null,
     "wikidata": null,
     "imageHint": null,
-    "priceMin": 150,
-    "priceMax": 3250,
-    "averageCheck": 1645,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
     "minParty": 1,
     "maxParty": 12,
     "durationMinutes": 120,
@@ -11616,8 +11789,69 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.176Z",
-    "scrapedAt": "2026-08-10T07:33:28.176Z"
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
+  },
+  {
+    "id": "osm-node-12059180588",
+    "sourceId": "node-12059180588",
+    "slug": "osm-node-12059180588",
+    "city": "Хабаровск",
+    "name": "Torro Grill",
+    "category": "Кафе",
+    "subcategories": [
+      "cafe"
+    ],
+    "tags": [
+      "surprise",
+      "eat",
+      "calm"
+    ],
+    "description": null,
+    "address": "Хабаровск",
+    "latitude": 48.4753307,
+    "longitude": 135.063748,
+    "phone": "+7 421 2968585",
+    "website": "https://torrogrill.ru/",
+    "bookingUrl": null,
+    "sourceUrl": "https://www.openstreetmap.org/node/12059180588",
+    "source": "OPENSTREETMAP",
+    "sourceUpdatedAt": null,
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageSource": null,
+    "imageRights": null,
+    "imageAuthor": null,
+    "imageLicense": null,
+    "imageLicenseUrl": null,
+    "wikimediaCommons": null,
+    "wikidata": null,
+    "imageHint": null,
+    "priceMin": null,
+    "priceMax": null,
+    "averageCheck": null,
+    "minParty": 1,
+    "maxParty": 12,
+    "durationMinutes": 75,
+    "openingHours": "Mo-Su 12:00-00:00",
+    "openingHoursText": "Mo-Su 12:00-00:00",
+    "closesAt": "00:00",
+    "rating": null,
+    "reviewsCount": null,
+    "indoor": true,
+    "outdoor": null,
+    "alcohol": null,
+    "food": true,
+    "activity": false,
+    "romanticScore": 4,
+    "activityScore": 2,
+    "uniquenessScore": 3,
+    "noiseLevel": 3,
+    "active": true,
+    "verifiedAt": "2026-08-10T07:41:08.998Z",
+    "scrapedAt": "2026-08-10T07:41:08.998Z",
+    "detailsSources": {}
   },
   {
     "id": "osm-way-1534451240",
@@ -11674,7 +11908,8 @@
     "uniquenessScore": 3,
     "noiseLevel": 3,
     "active": true,
-    "verifiedAt": "2026-08-10T07:33:28.180Z",
-    "scrapedAt": "2026-08-10T07:33:28.180Z"
+    "verifiedAt": "2026-08-10T07:41:09.003Z",
+    "scrapedAt": "2026-08-10T07:41:09.003Z",
+    "detailsSources": {}
   }
 ]

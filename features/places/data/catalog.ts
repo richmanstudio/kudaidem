@@ -1,6 +1,11 @@
 import rawCatalog from "@/data/khabarovsk-places.json";
 import { demoPlaces } from "./demo-places";
-import type { Mood, Place } from "@/features/recommendations/domain/types";
+import type {
+  ImageRights,
+  Mood,
+  Place,
+  PlaceSource,
+} from "@/features/recommendations/domain/types";
 
 const moods = new Set<Mood>(["eat", "fun", "calm", "active", "surprise"]);
 
@@ -17,9 +22,14 @@ type CatalogRecord = {
   phone: string | null;
   website: string | null;
   sourceUrl: string;
+  source: PlaceSource;
   imageUrl: string;
   imageSourceUrl: string;
-  imageRights: Place["imageRights"];
+  imageSource: PlaceSource;
+  imageRights: ImageRights;
+  imageAuthor: string | null;
+  imageLicense: string | null;
+  imageLicenseUrl: string | null;
   averageCheck: number | null;
   minParty: number;
   maxParty: number;
@@ -62,8 +72,13 @@ function toPlace(record: CatalogRecord): Place {
     longitude: record.longitude,
     imageUrl: record.imageUrl,
     imageSourceUrl: record.imageSourceUrl,
+    imageSource: record.imageSource,
     imageRights: record.imageRights,
+    imageAuthor: record.imageAuthor,
+    imageLicense: record.imageLicense,
+    imageLicenseUrl: record.imageLicenseUrl,
     sourceUrl: record.sourceUrl,
+    source: record.source,
     verifiedAt: record.verifiedAt,
     website: record.website,
     phone: record.phone,
@@ -74,12 +89,12 @@ function toPlace(record: CatalogRecord): Place {
 
 const liveCatalog = rawCatalog as unknown as CatalogRecord[];
 
-/** True only after the Stage 2 crawler has committed a verified catalog. */
+/** True only after Stage 2 has committed a verified generated catalog. */
 export const hasLiveCatalog = liveCatalog.length > 0;
 
 /**
  * Production uses the generated catalog. The fallback keeps local UI development
- * possible before a crawler run, but it is never labelled as verified live data.
+ * possible before a collector run, but it is never labelled as verified live data.
  */
 export const places: Place[] = hasLiveCatalog
   ? liveCatalog.map(toPlace).filter((place) => place.isActive)

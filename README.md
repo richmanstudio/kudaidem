@@ -6,14 +6,17 @@ Telegram Mini App на Next.js, которое помогает компании
 
 Stage 2 — live Khabarovsk catalog.
 
-Текущий generated dataset:
+Проверенный generated dataset:
 
 - 200/200 актуальных мест Хабаровска;
+- 507 найденных OSM POI, 502 уникальных кандидата;
 - 200/200 записей с координатами и provenance источника;
-- до 93 мест с указанным website/contact source;
-- до 112 мест с `opening_hours`;
-- photo coverage считается только после media-sanitizer;
-- изображения без подтверждённого права повторного использования не показываются публично по умолчанию.
+- 93 места с указанным website/contact source;
+- 112 мест с `opening_hours`;
+- 44/200 валидных raster-фото после media sanitizer;
+- 11 фото имеют открытую лицензию и статус `APPROVED`;
+- 33 фото требуют rights review;
+- 156 мест пока используют брендированный fallback visual.
 
 Основной MVP-сценарий:
 
@@ -37,7 +40,7 @@ Stage 2 разделён на два независимых качества д�
 ```text
 OpenStreetMap / Overpass API
         │
-        ├── 500+ current named POI candidates
+        ├── current named POI candidates
         ├── name / category / address
         ├── coordinates / opening_hours / contacts when available
         └── source timestamp / URL
@@ -46,6 +49,7 @@ OpenStreetMap / Overpass API
 balanced exact 200-place catalog
         │
         ├── optional licensed 2GIS Places API metadata enrichment
+        │      └── external_content.main_photo_url retained as provider media
         │
         ▼
 photo enrichment
@@ -61,16 +65,16 @@ media sanitizer
 
 OpenStreetMap data is attributed in the user-facing place page and linked to the ODbL/copyright notice. Wikimedia photos store author/license/source metadata. A URL being publicly accessible is not treated as proof of commercial reuse rights.
 
-Public 2GIS HTML pages are **not scraped** by the production pipeline. The optional 2GIS integration uses the official Places API and activates only when `DGIS_API_KEY` is configured.
+Public 2GIS HTML pages are **not scraped** by the production pipeline. The optional 2GIS integration uses the official Places API and activates only when `DGIS_API_KEY` is configured. API-provided `main_photo_url` is stored separately as `twoGisMainPhotoUrl`; it is promoted to the public `imageUrl` only when `DGIS_MEDIA_RIGHTS_APPROVED=1` is explicitly set after contract/subscription media rights are confirmed.
 
 ## Data commands
 
 ```bash
 npm install
 npm run data:finalize          # balanced exact 200 current places + media/provider hints
-npm run data:2gis              # optional licensed metadata enrichment; skips without DGIS_API_KEY
 npm run data:collect           # Wikimedia/Wikidata and official-site metadata/photo enrichment
 npm run data:official-photos   # deeper gallery/about scan on official venue sites
+npm run data:2gis              # optional licensed 2GIS API metadata/main-photo enrichment
 npm run data:sanitize-photos   # validate that retained media URLs are real raster images
 REQUIRE_LIVE_DATA=1 npm run data:validate
 ```
@@ -103,7 +107,7 @@ Do not enable this flag in public production before rights review.
 
 ## PostgreSQL / Prisma
 
-Stage 2 contains `Place`, `PlacePhoto`, source provenance, optional licensed 2GIS match metadata, photo author/license metadata and refresh history in `prisma/schema.prisma`.
+Stage 2 contains `Place`, `PlacePhoto`, source provenance, optional licensed 2GIS match/main-photo metadata, photo author/license metadata and refresh history in `prisma/schema.prisma`.
 
 ```bash
 cp .env.example .env

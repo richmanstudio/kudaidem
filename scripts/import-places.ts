@@ -34,10 +34,10 @@ type InputPlace = {
   sourceUrl: string;
   source: keyof typeof PlaceSource;
   sourceUpdatedAt: string | null;
-  imageUrl: string;
-  imageSourceUrl: string;
-  imageSource: keyof typeof PlaceSource;
-  imageRights: keyof typeof ImageRights;
+  imageUrl: string | null;
+  imageSourceUrl: string | null;
+  imageSource: keyof typeof PlaceSource | null;
+  imageRights: keyof typeof ImageRights | null;
   imageAuthor: string | null;
   imageLicense: string | null;
   imageLicenseUrl: string | null;
@@ -73,9 +73,16 @@ function nullableJson(value: unknown) {
 async function main() {
   const raw = await readFile("data/khabarovsk-places.json", "utf8");
   const places = JSON.parse(raw) as InputPlace[];
-  if (places.length === 0) throw new Error("Catalog is empty. Run npm run data:collect first.");
+  if (places.length === 0) throw new Error("Catalog is empty. Run npm run data:finalize first.");
 
   for (const place of places) {
+    const imageRights = place.imageRights
+      ? ImageRights[place.imageRights]
+      : ImageRights.NEEDS_REVIEW;
+    const imageSource = place.imageSource
+      ? PlaceSource[place.imageSource]
+      : null;
+
     const data = {
       sourceId: place.sourceId,
       slug: place.slug,
@@ -96,8 +103,8 @@ async function main() {
       sourceUpdatedAt: place.sourceUpdatedAt ? new Date(place.sourceUpdatedAt) : null,
       imageUrl: place.imageUrl,
       imageSourceUrl: place.imageSourceUrl,
-      imageSource: PlaceSource[place.imageSource],
-      imageRights: ImageRights[place.imageRights],
+      imageSource,
+      imageRights,
       imageAuthor: place.imageAuthor,
       imageLicense: place.imageLicense,
       imageLicenseUrl: place.imageLicenseUrl,
@@ -133,19 +140,27 @@ async function main() {
     });
 
     await prisma.placePhoto.deleteMany({ where: { placeId: place.id } });
-    await prisma.placePhoto.create({
-      data: {
-        placeId: place.id,
-        url: place.imageUrl,
-        sourceUrl: place.imageSourceUrl,
-        source: PlaceSource[place.imageSource],
-        rights: ImageRights[place.imageRights],
-        author: place.imageAuthor,
-        license: place.imageLicense,
-        licenseUrl: place.imageLicenseUrl,
-        position: 0,
-      },
-    });
+
+    if (
+      place.imageUrl &&
+      place.imageSourceUrl &&
+      imageSource &&
+      place.imageRights
+    ) {
+      await prisma.placePhoto.create({
+        data: {
+          placeId: place.id,
+          url: place.imageUrl,
+          sourceUrl: place.imageSourceUrl,
+          source: imageSource,
+          rights: imageRights,
+          author: place.imageAuthor,
+          license: place.imageLicense,
+          licenseUrl: place.imageLicenseUrl,
+          position: 0,
+        },
+      });
+    }
   }
 
   await prisma.place.updateMany({

@@ -19,12 +19,6 @@ function obviouslyBad(url: string) {
   return /(#|\.svg(?:\?|$)|logo|logotype|favicon|sprite|icon(?:s)?[._/-]|avatar|marker|captcha|counter|pixel|analytics|payment|qr(?:[._/-]|$)|static\.cdninstagram\.com\/rsrc|facebook\.com\/rsrc)/i.test(url);
 }
 
-function trustedProvider(place: Place) {
-  if (place.imageSource !== "OTHER") return true;
-  if (place.kudagoId && /(^|\.)kudago\.com$/i.test(hostname(place.imageSourceUrl))) return true;
-  return false;
-}
-
 function hostname(value: string | null | undefined) {
   if (!value) return "";
   try {
@@ -32,6 +26,23 @@ function hostname(value: string | null | undefined) {
   } catch {
     return "";
   }
+}
+
+function hasConcreteSourcePage(place: Place) {
+  if (!place.imageSourceUrl) return false;
+  try {
+    const url = new URL(place.imageSourceUrl);
+    if (!["http:", "https:"].includes(url.protocol)) return false;
+    return !/(^|\.)bing\.com$/i.test(url.hostname) && !/(^|\.)google\.[a-z.]+$/i.test(url.hostname) && !/(^|\.)yandex\.[a-z.]+$/i.test(url.hostname);
+  } catch {
+    return false;
+  }
+}
+
+function trustedProvider(place: Place) {
+  if (place.imageSource !== "OTHER") return true;
+  if (place.kudagoId && /(^|\.)kudago\.com$/i.test(hostname(place.imageSourceUrl))) return true;
+  return place.imageRights === "NEEDS_REVIEW" && hasConcreteSourcePage(place);
 }
 
 async function validRaster(url: string) {
@@ -109,7 +120,7 @@ async function main() {
       id: place.id,
       name: place.name,
       imageUrl: place.imageUrl,
-      reason: check?.providerTrusted === false ? "unverified OTHER provider" : "invalid/non-raster media",
+      reason: check?.providerTrusted === false ? "unverified provider/source" : "invalid/non-raster media",
     });
     return clearPhoto(place);
   });
@@ -117,7 +128,7 @@ async function main() {
   const withImages = updated.filter((place) => Boolean(place.imageUrl)).length;
   const approvedImages = updated.filter((place) => place.imageRights === "APPROVED").length;
   const imagesNeedingReview = updated.filter((place) => place.imageUrl && place.imageRights !== "APPROVED").length;
-  const unverifiedProviderImagesRemoved = removed.filter((item) => item.reason === "unverified OTHER provider").length;
+  const unverifiedProviderImagesRemoved = removed.filter((item) => item.reason === "unverified provider/source").length;
 
   let report: Record<string, unknown> = {};
   try {

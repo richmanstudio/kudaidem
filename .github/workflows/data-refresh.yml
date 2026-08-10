@@ -9,6 +9,7 @@ on:
       - package.json
       - scripts/collect-khabarovsk.ts
       - scripts/enrich-wikimedia-search.ts
+      - scripts/enrich-kudago.ts
       - scripts/deep-official-photos.ts
       - scripts/sanitize-photo-catalog.ts
       - scripts/enrich-2gis-api.ts
@@ -55,6 +56,11 @@ jobs:
         id: wikimedia_search
         continue-on-error: true
         run: npm run data:wikimedia-search
+
+      - name: Match public KudaGo place media by name and coordinates
+        id: kudago
+        continue-on-error: true
+        run: npm run data:kudago
 
       - name: Deep scan official sites for venue photography
         id: official_photos
@@ -118,6 +124,7 @@ jobs:
           echo "- 200-place finalizer: ${{ steps.finalize.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Open/official metadata enrichment: ${{ steps.photo_enrich.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Coordinate-verified Wikidata search: ${{ steps.wikimedia_search.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- KudaGo coordinate match: ${{ steps.kudago.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Deep official photo scan: ${{ steps.official_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Licensed 2GIS API enrichment: ${{ steps.dgis.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Media sanitizer: ${{ steps.sanitize_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"

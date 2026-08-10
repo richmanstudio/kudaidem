@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { AnalyticsEventType } from "@/generated/prisma/client";
+import { AnalyticsEventType, Prisma } from "@/generated/prisma/client";
 import { conversionRate } from "@/features/analytics/domain/funnel";
 import { requireDb } from "@/lib/db";
 
@@ -18,6 +18,11 @@ export function hashActor(value?: string | null) {
   return createHash("sha256").update(value).digest("hex").slice(0, 24);
 }
 
+function jsonMetadata(value?: Record<string, unknown> | null): Prisma.InputJsonValue | undefined {
+  if (!value) return undefined;
+  return JSON.parse(JSON.stringify(value)) as Prisma.InputJsonValue;
+}
+
 export async function trackEvent(input: AnalyticsInput) {
   const prisma = requireDb();
   return prisma.analyticsEvent.create({
@@ -28,7 +33,7 @@ export async function trackEvent(input: AnalyticsInput) {
       placeId: input.placeId?.slice(0, 120) ?? null,
       roomId: input.roomId?.slice(0, 32) ?? null,
       path: input.path?.slice(0, 240) ?? null,
-      metadata: input.metadata ?? undefined,
+      metadata: jsonMetadata(input.metadata),
     },
   });
 }

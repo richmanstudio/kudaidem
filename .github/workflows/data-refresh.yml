@@ -13,6 +13,7 @@ on:
       - scripts/enrich-2gis-api.ts
       - scripts/finalize-khabarovsk-catalog.ts
       - scripts/validate-places.ts
+      - scripts/audit-catalog.ts
       - .github/workflows/data-refresh.yml
 
 permissions:
@@ -67,6 +68,10 @@ jobs:
         id: validate
         run: REQUIRE_LIVE_DATA=1 npm run data:validate
 
+      - name: Audit duplicate, coordinate and provenance quality
+        id: audit
+        run: npm run data:audit
+
       - name: Check 200-photo target
         id: photo_gate
         continue-on-error: true
@@ -86,7 +91,7 @@ jobs:
           retention-days: 7
 
       - name: Commit verified 200-place catalog
-        if: steps.finalize.outcome == 'success' && steps.validate.outcome == 'success'
+        if: steps.finalize.outcome == 'success' && steps.validate.outcome == 'success' && steps.audit.outcome == 'success'
         run: |
           git config user.name "kudaidem-data-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -110,6 +115,7 @@ jobs:
           echo "- Licensed 2GIS API enrichment: ${{ steps.dgis.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Media sanitizer: ${{ steps.sanitize_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Catalog audit: ${{ steps.audit.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-photo gate: ${{ steps.photo_gate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           if [ -f data/scrape-report.json ]; then
             echo '```json' >> "$GITHUB_STEP_SUMMARY"

@@ -143,7 +143,7 @@ function dayMatches(rule: string, current: string) {
   const dayExpression = rule.match(/\b(Mo|Tu|We|Th|Fr|Sa|Su)(?:\s*-\s*(Mo|Tu|We|Th|Fr|Sa|Su))?(?:\s*,\s*(Mo|Tu|We|Th|Fr|Sa|Su))*/g);
   if (!dayExpression) return true;
   for (const expression of dayExpression) {
-    const tokens = expression.match(/Mo|Tu|We|Th|Fr|Sa|Su/g) ?? [];
+    const tokens: string[] = expression.match(/Mo|Tu|We|Th|Fr|Sa|Su/g) ?? [];
     if (tokens.length === 1 && tokens[0] === current) return true;
     if (expression.includes("-") && tokens.length >= 2) {
       const start = DAY_CODES.indexOf(tokens[0] as (typeof DAY_CODES)[number]);

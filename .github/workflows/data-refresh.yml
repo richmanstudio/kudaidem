@@ -9,6 +9,7 @@ on:
       - package.json
       - scripts/collect-khabarovsk.ts
       - scripts/deep-official-photos.ts
+      - scripts/sanitize-photo-catalog.ts
       - scripts/enrich-2gis-api.ts
       - scripts/finalize-khabarovsk-catalog.ts
       - scripts/validate-places.ts
@@ -58,6 +59,10 @@ jobs:
         continue-on-error: true
         run: npm run data:2gis
 
+      - name: Remove invalid and non-raster media
+        id: sanitize_photos
+        run: npm run data:sanitize-photos
+
       - name: Validate 200-place catalog
         id: validate
         run: REQUIRE_LIVE_DATA=1 npm run data:validate
@@ -103,6 +108,7 @@ jobs:
           echo "- Open/official metadata enrichment: ${{ steps.photo_enrich.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Deep official photo scan: ${{ steps.official_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Licensed 2GIS API enrichment: ${{ steps.dgis.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Media sanitizer: ${{ steps.sanitize_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-photo gate: ${{ steps.photo_gate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           if [ -f data/scrape-report.json ]; then

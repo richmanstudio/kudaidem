@@ -2,23 +2,9 @@
   {
     "id": "osm-node-4481017690",
     "name": "Luga",
-    "imageUrl": "https://static.tildacdn.com/tild6232-3034-4838-b765-343635306564/1__1.jpg",
-    "imageSourceUrl": "https://www.lugarest.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-11649000544",
-    "name": "Дом",
-    "imageUrl": "https://restdom.ru/wp-content/uploads/2021/09/mr-rakusa-scaled.jpg",
-    "imageSourceUrl": "https://restdom.ru/about/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-12395371062",
-    "name": "Харибу",
-    "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
-    "imageSourceUrl": "https://haribu.rest/",
-    "imageRights": "NEEDS_REVIEW"
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-way-181380618",
@@ -49,6 +35,13 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-11649000544",
+    "name": "Дом",
+    "imageUrl": "https://restdom.ru/wp-content/uploads/2021/09/mr-rakusa-scaled.jpg",
+    "imageSourceUrl": "https://restdom.ru/about/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-3164098485",
     "name": "Ковбой",
     "imageUrl": "https://www.eda27.ru/sites/default/files/styles/resta_photo/public/restaurant-photo/kovboy_interior8.jpg?itok=7iDUhYW0",
@@ -63,6 +56,13 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-12395371062",
+    "name": "Харибу",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-3523296343",
     "name": "Ichiban Sushi",
     "imageUrl": "https://plaza-ambarrukmo.co.id/wp-content/uploads/2024/05/ichiban-sushi-jpg.webp",
@@ -72,9 +72,9 @@
   {
     "id": "osm-node-5973897873",
     "name": "Vdrova",
-    "imageUrl": "https://www.irecommend.ru/sites/default/files/imagecache/copyright1/user-images/959098/wgE6GlmXxYVdZXW5pYhDlw.jpg",
-    "imageSourceUrl": "https://irecommend.ru/content/luchshaya-pitstsa-v-moei-zhizni",
-    "imageRights": "NEEDS_REVIEW"
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-way-452568216",
@@ -163,9 +163,9 @@
   {
     "id": "osm-node-3726923703",
     "name": "Al dente Горы",
-    "imageUrl": "https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/1160645/sDZSlbhF352fzGcOtc1gQ.jpg",
-    "imageSourceUrl": "https://irecommend.ru/content/khoroshee-obsluzhivanie-vkusno-i-sytno",
-    "imageRights": "NEEDS_REVIEW"
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-node-9953699239",
@@ -280,34 +280,6 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-11649000540",
-    "name": "Мишка",
-    "imageUrl": "https://mishkarestaurant.ru/wp-content/uploads/2019/05/PHOTO-2022-11-23-13-44-30-878x1024.jpg",
-    "imageSourceUrl": "https://mishkarestaurant.ru/dopolnitelno/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-7832298087",
-    "name": "Cinnabon",
-    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
-    "imageSourceUrl": "https://cinnabonrussia.com/about/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-3857899474",
-    "name": "Cinnabon",
-    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
-    "imageSourceUrl": "https://cinnabonrussia.com/about/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-12506476246",
-    "name": "Келди",
-    "imageUrl": "https://keldi.shop/cache/1741325000.png",
-    "imageSourceUrl": "https://keldi.shop/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-node-1403022485",
     "name": "Зарина",
     "imageUrl": "https://www.zarina-khv.ru/bitrix/templates/zarina_new/assets/cafe_zfrina-95.jpg",
@@ -326,6 +298,13 @@
     "name": "Кофемашина",
     "imageUrl": "https://images.uzum.uz/d31ucvd2llnd6jum371g/original.jpg",
     "imageSourceUrl": "https://uzum.uz/ru/product/professionalnaya-espresso-kofemashina-1953985?skuId=6899162",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000540",
+    "name": "Мишка",
+    "imageUrl": "https://mishkarestaurant.ru/wp-content/uploads/2019/05/PHOTO-2022-11-23-13-44-30-878x1024.jpg",
+    "imageSourceUrl": "https://mishkarestaurant.ru/dopolnitelno/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -357,6 +336,13 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-7832298087",
+    "name": "Cinnabon",
+    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
+    "imageSourceUrl": "https://cinnabonrussia.com/about/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-12059180588",
     "name": "Torro Grill",
     "imageUrl": "https://obozdv.ru/wp-content/uploads/2024/02/torro-grill-в-хабаровске-00031.jpg",
@@ -368,6 +354,13 @@
     "name": "Кафема",
     "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/cf/00/5f/getlstd-property-photo.jpg?w=600&h=-1&s=1",
     "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3857899474",
+    "name": "Cinnabon",
+    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
+    "imageSourceUrl": "https://cinnabonrussia.com/about/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -389,6 +382,13 @@
     "name": "Хлебное место",
     "imageUrl": "https://regions.kidsreview.ru/sites/default/files/styles/card_600_400/public/09/04/2017-1717/hlebnoe_mesto.png",
     "imageSourceUrl": "https://www.kidsreview.ru/habarovsk/catalog/hlebnoe-mesto-kafe-pekarnya-s-detskim-ugolkom-v-centralnom-rayone-habarovsk",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12506476246",
+    "name": "Келди",
+    "imageUrl": "https://keldi.shop/cache/1741325000.png",
+    "imageSourceUrl": "https://keldi.shop/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -483,10 +483,38 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-12722562626",
+    "name": "Бургер Кинг",
+    "imageUrl": "https://idei.club/uploads/posts/2022-03/1647278089_17-idei-club-p-burger-king-interer-interer-krasivo-foto-27.jpg",
+    "imageSourceUrl": "https://idei.club/65170-burger-king-interer-59-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13638767275",
+    "name": "Бургер Кинг",
+    "imageUrl": "https://idei.club/uploads/posts/2022-03/1647278089_17-idei-club-p-burger-king-interer-interer-krasivo-foto-27.jpg",
+    "imageSourceUrl": "https://idei.club/65170-burger-king-interer-59-foto.html",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-9954298509",
     "name": "Вкусно — и точка",
     "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
     "imageSourceUrl": "https://vkusnoitochka.ru/company",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12358147826",
+    "name": "Додо Пицца",
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12358152972",
+    "name": "Додо Пицца",
+    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
+    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -539,45 +567,17 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-11975223622",
-    "name": "Ichiban",
-    "imageUrl": "https://p.taplink.st/a/3/d/1/5/22eff7.jpg?118",
-    "imageSourceUrl": "https://taplink.cc/ichibankare",
+    "id": "osm-node-9992569350",
+    "name": "Coffee Like",
+    "imageUrl": "https://coffee-like.com/img/preview/main2.png",
+    "imageSourceUrl": "https://coffee-like.com/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-11975028914",
-    "name": "Sushi Sea",
-    "imageUrl": "https://sushi-sea.ru/static/main-screen-photo-widescreen.gif",
-    "imageSourceUrl": "https://sushi-sea.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-10013201138",
-    "name": "Вкусно — и точка",
-    "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
-    "imageSourceUrl": "https://vkusnoitochka.ru/company",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-12722562626",
-    "name": "Бургер Кинг",
-    "imageUrl": "https://idei.club/uploads/posts/2022-03/1647278089_17-idei-club-p-burger-king-interer-interer-krasivo-foto-27.jpg",
-    "imageSourceUrl": "https://idei.club/65170-burger-king-interer-59-foto.html",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-13638767275",
-    "name": "Бургер Кинг",
-    "imageUrl": "https://idei.club/uploads/posts/2022-03/1647278089_17-idei-club-p-burger-king-interer-interer-krasivo-foto-27.jpg",
-    "imageSourceUrl": "https://idei.club/65170-burger-king-interer-59-foto.html",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-12358147826",
-    "name": "Додо Пицца",
-    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
-    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "id": "osm-node-9805680194",
+    "name": "Do.Bro Coffee",
+    "imageUrl": "https://static.tildacdn.com/tild3134-6132-4532-b333-343465613163/image1.jpg",
+    "imageSourceUrl": "https://beyond-taylor.com/case-dobro-coffee",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -585,20 +585,6 @@
     "name": "Винотека",
     "imageUrl": "https://vinotekabar.ru/wp-content/uploads/2021/07/IMG_7632.jpg",
     "imageSourceUrl": "https://vinotekabar.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-11649000542",
-    "name": "Паста на баре",
-    "imageUrl": "https://p.taplink.st/a/8/f/9/5/7a032b.jpg?1",
-    "imageSourceUrl": "https://pastanabare.taplink.ws/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-2392277758",
-    "name": "Mozart",
-    "imageUrl": "https://mozart-club27.ru/images/stories/forsite/111.jpg",
-    "imageSourceUrl": "https://mozart-club27.ru/index.php/about-us",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -616,6 +602,13 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-11649000542",
+    "name": "Паста на баре",
+    "imageUrl": "https://p.taplink.st/a/8/f/9/5/7a032b.jpg?1",
+    "imageSourceUrl": "https://pastanabare.taplink.ws/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-11649000541",
     "name": "Рюмочная",
     "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/201b11171327597.646cfb080f8ee.jpg",
@@ -627,6 +620,13 @@
     "name": "Рюмочная",
     "imageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/201b11171327597.646cfb080f8ee.jpg",
     "imageSourceUrl": "https://www.behance.net/gallery/171327597/rmochnaja",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-2392277758",
+    "name": "Mozart",
+    "imageUrl": "https://mozart-club27.ru/images/stories/forsite/111.jpg",
+    "imageSourceUrl": "https://mozart-club27.ru/index.php/about-us",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -686,6 +686,13 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-818506658",
+    "name": "Хабаровский краевой театр драмы",
+    "imageUrl": "https://habdrama.ru/wp-content/uploads/2021/03/teatr-2020-god.jpg",
+    "imageSourceUrl": "https://habdrama.ru/novosti/s-dnem-rozhdeniya-lyubimyiy-teatr/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-12640389978",
     "name": "Луна",
     "imageUrl": "https://i.taplink.st/a/5/0/8/5/19e213.png?198",
@@ -697,13 +704,6 @@
     "name": "Хабаровский театр юного зрителя",
     "imageUrl": "http://tuz-xa.ru/static/img/ogp_image.png",
     "imageSourceUrl": "https://tuz-xa.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-818506658",
-    "name": "Хабаровский краевой театр драмы",
-    "imageUrl": "https://habdrama.ru/wp-content/uploads/2021/03/teatr-2020-god.jpg",
-    "imageSourceUrl": "https://habdrama.ru/novosti/s-dnem-rozhdeniya-lyubimyiy-teatr/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -777,20 +777,6 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-5555835122",
-    "name": "URBAN210",
-    "imageUrl": "https://urban210.ru/wp-content/uploads/2026/04/promo_bg_3.jpg",
-    "imageSourceUrl": "https://urban210.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-way-272536654",
-    "name": "Спортивный комплекс \"Олимпия\"",
-    "imageUrl": "https://olimpia27.ru/templates/ol/img/photo_dla_glavnoi/img_1.jpg",
-    "imageSourceUrl": "https://olimpia27.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-way-209353599",
     "name": "Фитнес-клуб \"Наутилус\" Южный",
     "imageUrl": "https://sportgyms.ru/uploads/posts/2014-03/1395145104_04.jpg",
@@ -826,10 +812,24 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-5555835122",
+    "name": "URBAN210",
+    "imageUrl": "https://urban210.ru/wp-content/uploads/2026/04/promo_bg_3.jpg",
+    "imageSourceUrl": "https://urban210.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-way-310906737",
     "name": "Арагон",
     "imageUrl": "https://edinoborstva27.ru/images/uploads/00311aeefd1dd1b05854b2811745b659.webp",
     "imageSourceUrl": "https://edinoborstva27.ru/services",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-272536654",
+    "name": "Спортивный комплекс \"Олимпия\"",
+    "imageUrl": "https://olimpia27.ru/templates/ol/img/photo_dla_glavnoi/img_1.jpg",
+    "imageSourceUrl": "https://olimpia27.ru/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -903,13 +903,6 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-9953705395",
-    "name": "Авторетро 100",
-    "imageUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/images/c6_banner2.jpg",
-    "imageSourceUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-node-3634989899",
     "name": "Музей Энергетики",
     "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/87/40/ef/25-1.jpg?w=1200&h=-1&s=1",
@@ -931,6 +924,13 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-9953705395",
+    "name": "Авторетро 100",
+    "imageUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/images/c6_banner2.jpg",
+    "imageSourceUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-2495828812",
     "name": "Пожарно-техническая выставка",
     "imageUrl": "https://mchs.gov.by/upload/iblock/33e/img_1085_novyy-razmer.jpg",
@@ -939,7 +939,7 @@
   },
   {
     "id": "osm-way-32050191",
-    "name": "Амурский Утëс",
+    "name": "Амурский Утёс",
     "imageUrl": "https://hkm.ru/wp-content/uploads/2021/05/aad_5664-1-scaled.jpg",
     "imageSourceUrl": "https://hkm.ru/building/amurskij-utes/",
     "imageRights": "NEEDS_REVIEW"
@@ -970,13 +970,6 @@
     "name": "Арлекин",
     "imageUrl": "https://mc-arlekin.ru/upload/medialibrary/23e/shcr0a2ey72luot7r9q0yjiks3u0x3w2.jpg",
     "imageSourceUrl": "https://mc-arlekin.ru/company/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-3257869796",
-    "name": "Амурский утëс",
-    "imageUrl": "https://tripplanet.ru/wp-content/uploads/europe/russia/khabarovsk/amur-cliff.jpg",
-    "imageSourceUrl": "https://tripplanet.ru/dostoprimechatelnosti-habarovska/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -1050,6 +1043,13 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-12871735610",
+    "name": "Ясень \"Арсеньева\"",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-relation-10519341",
     "name": "Парк Железнодорожников",
     "imageUrl": "https://i2021.otzovik.com/2021/05/16/11932282/img/1913915_71424020.jpeg",
@@ -1087,9 +1087,9 @@
   {
     "id": "osm-way-68195832",
     "name": "Дендрарий",
-    "imageUrl": "https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/247084/7zGDE2n3r09ubo7IGXLnw.jpg",
-    "imageSourceUrl": "https://irecommend.ru/content/park-v-kotorom-sobrany-unikalnye-derevya-i-kustarniki-zelenye-legkie-nashego-goroda",
-    "imageRights": "NEEDS_REVIEW"
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-node-5970921192",
@@ -1211,45 +1211,45 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-12358152972",
-    "name": "Додо Пицца",
-    "imageUrl": "https://riviera-lipetsk.ru/upload/iblock/445/10ch3hukw5wmwos9p7m4jwhzajjs3b7x.jpg",
-    "imageSourceUrl": "https://riviera-lipetsk.ru/stores/kafe/dodo-pizza/",
+    "id": "osm-node-11975223622",
+    "name": "Ichiban",
+    "imageUrl": "https://p.taplink.st/a/3/d/1/5/22eff7.jpg?118",
+    "imageSourceUrl": "https://taplink.cc/ichibankare",
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-9992569350",
-    "name": "Coffee Like",
-    "imageUrl": "https://coffee-like.com/img/preview/main2.png",
-    "imageSourceUrl": "https://coffee-like.com/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-9805680194",
-    "name": "Do.Bro Coffee",
-    "imageUrl": "https://static.tildacdn.com/tild3134-6132-4532-b333-343465613163/image1.jpg",
-    "imageSourceUrl": "https://beyond-taylor.com/case-dobro-coffee",
-    "imageRights": "NEEDS_REVIEW"
+    "id": "osm-node-11975028914",
+    "name": "Sushi Sea",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-node-11975028915",
     "name": "Sushi Sea",
-    "imageUrl": "https://sushi-sea.ru/upload/iblock/a50/mubz12lurixuy5c14b0672fwkimfnb1c.JPEG",
-    "imageSourceUrl": "https://sushi-sea.ru/?ybaip=1",
-    "imageRights": "NEEDS_REVIEW"
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-node-11975028916",
     "name": "Sushi Sea",
-    "imageUrl": "https://sushi-sea.ru/upload/iblock/a50/mubz12lurixuy5c14b0672fwkimfnb1c.JPEG",
-    "imageSourceUrl": "https://sushi-sea.ru/",
-    "imageRights": "NEEDS_REVIEW"
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-node-3857899475",
     "name": "Hesburger",
     "imageUrl": "https://assets.allcafe.ru/k/places/1920x1080/pic/places/15078/5cb083668b64ad60e2efab69548e7a81.jpeg",
     "imageSourceUrl": "https://spb.allcafe.ru/catalog/hesburger-37756/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-10013201138",
+    "name": "Вкусно — и точка",
+    "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
+    "imageSourceUrl": "https://vkusnoitochka.ru/company",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -1278,13 +1278,6 @@
     "name": "Rostic's",
     "imageUrl": "https://www.malls.ru/upload/iblock/abc/8u2mrc0staef03sblrz6a72yrnyoy9s3/rostics_outside.jpg",
     "imageSourceUrl": "https://www.malls.ru/rus/news/rostic-s-stala-krupneyshey-setyu-fastfuda-v-rossii.shtml",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-way-1534451240",
-    "name": "МК-спорт",
-    "imageUrl": "https://khab-vesti.ru/upload/iblock/76e/yn2o8xu07ltj3ryxsloe7yym0xsb7zyi.jpg",
-    "imageSourceUrl": "https://www.skyscrapercity.com/threads/Спортивные-стройки-и-сооружения.2057523/page-39",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -1328,5 +1321,12 @@
     "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/cf/00/5f/getlstd-property-photo.jpg?w=600&h=-1&s=1",
     "imageSourceUrl": "https://www.tripadvisor.ru/Restaurants-g298493-c8-Khabarovsk_Khabarovsk_Krai_Far_Eastern_District.html",
     "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12857028778",
+    "name": "Фиши",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   }
 ]

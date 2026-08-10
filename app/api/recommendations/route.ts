@@ -1,12 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
-import { rankPlaces } from "@/lib/recommend";
-import type { Budget, Mood } from "@/lib/types";
+import { rankPlaces } from "@/features/recommendations/domain/recommend";
+import { parseSearchParams } from "@/features/recommendations/domain/search-params";
 
 export function GET(request: NextRequest) {
-  const q = request.nextUrl.searchParams;
-  const city = q.get("city") ?? "Хабаровск";
-  const party = Number(q.get("party") ?? 4) || 4;
-  const mood = (q.get("mood") ?? "fun") as Mood;
-  const budget = (q.get("budget") ?? "mid") as Budget;
-  return NextResponse.json({ city, party, results: rankPlaces({ city, party, mood, budget }).slice(0, 3) });
+  const filters = parseSearchParams(request.nextUrl.searchParams);
+  const results = rankPlaces(filters).slice(0, 3);
+
+  return NextResponse.json({
+    filters,
+    count: results.length,
+    results,
+  });
 }

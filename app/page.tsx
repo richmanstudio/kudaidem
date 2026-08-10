@@ -1,2 +1,5 @@
-import { HomeScreen } from "@/components/home-screen";
-export default function Page() { return <HomeScreen />; }
+import { HomeScreen } from "@/features/recommendations/components/home-screen";
+
+export default function Page() {
+  return <HomeScreen />;
+}

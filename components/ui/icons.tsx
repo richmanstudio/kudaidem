@@ -1,7 +1,22 @@
 import type { ReactNode, SVGProps } from "react";
 
 function Icon({ children, ...props }: SVGProps<SVGSVGElement> & { children: ReactNode }) {
-  return <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" {...props}>{children}</svg>;
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      {...props}
+    >
+      {children}
+    </svg>
+  );
 }
 
 export const ArrowLeft = (p: SVGProps<SVGSVGElement>) => <Icon {...p}><path d="m15 18-6-6 6-6"/></Icon>;

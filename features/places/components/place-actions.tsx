@@ -1,36 +1,80 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight } from "@/components/ui/icons";
-import { haptic, openExternal } from "@/lib/telegram/client";
+import { ArrowRight, Navigation, Share } from "@/components/ui/icons";
+import {
+  buildRouteUrl,
+  normalizeExternalUrl,
+  normalizePhoneLink,
+  shareText,
+} from "@/features/places/domain/experience";
+import { haptic, openExternal, shareToTelegram } from "@/lib/telegram/client";
 
 export function PlaceActions({
+  placeId,
   placeName,
   address,
   latitude,
   longitude,
+  phone,
+  website,
   planHref,
 }: {
+  placeId: string;
   placeName: string;
   address: string | null;
   latitude: number | null;
   longitude: number | null;
+  phone: string | null;
+  website: string | null;
   planHref: string;
 }) {
+  const phoneHref = normalizePhoneLink(phone);
+  const websiteUrl = normalizeExternalUrl(website);
+
   const route = () => {
     haptic("medium");
-    const target = latitude != null && longitude != null
-      ? `${latitude},${longitude}`
-      : `${placeName}${address ? `, ${address}` : ""}, Хабаровск`;
-    openExternal(`https://yandex.ru/maps/?rtext=~${encodeURIComponent(target)}&rtt=auto`);
+    openExternal(buildRouteUrl({ name: placeName, address, latitude, longitude }));
+  };
+
+  const share = async () => {
+    haptic();
+    const url = typeof window === "undefined" ? "" : `${window.location.origin}/place/${placeId}${window.location.search}`;
+    const text = shareText(placeName, address);
+    if (typeof navigator !== "undefined" && navigator.share) {
+      try {
+        await navigator.share({ title: placeName, text, url });
+        return;
+      } catch {
+        // user cancelled or native share unavailable; Telegram fallback remains useful
+      }
+    }
+    shareToTelegram(url, text);
   };
 
   return (
-    <div className="button-row bottom-action">
+    <div className="place-actions bottom-action">
       <button className="primary-button" type="button" onClick={route}>
-        Построить маршрут <ArrowRight />
+        <Navigation /> Построить маршрут <ArrowRight />
       </button>
-      <Link className="secondary-button" href={planHref}>
+
+      <div className="place-quick-actions" aria-label="Действия с местом">
+        {phoneHref ? (
+          <a className="quick-action" href={phoneHref} onClick={() => haptic()}>
+            Позвонить
+          </a>
+        ) : null}
+        {websiteUrl ? (
+          <button className="quick-action" type="button" onClick={() => { haptic(); openExternal(websiteUrl); }}>
+            Сайт
+          </button>
+        ) : null}
+        <button className="quick-action" type="button" onClick={() => void share()}>
+          <Share width={19} /> Поделиться
+        </button>
+      </div>
+
+      <Link className="secondary-button" href={planHref} onClick={() => haptic()}>
         Собрать план на вечер
       </Link>
     </div>

@@ -1,6 +1,6 @@
 {
   "name": "kudaidem",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test features/recommendations/domain/*.test.ts",
     "postinstall": "prisma generate",
     "db:generate": "prisma generate",
     "db:seed": "tsx scripts/import-places.ts",
@@ -24,7 +25,7 @@
     "data:dedupe": "tsx scripts/dedupe-finalized-catalog.ts",
     "data:validate": "tsx scripts/validate-places.ts",
     "data:audit": "tsx scripts/audit-catalog.ts",
-    "check": "npm run db:generate && npm run data:validate && npm run data:audit && npm run typecheck && npm run lint && npm run build"
+    "check": "npm run db:generate && npm run data:validate && npm run data:audit && npm run test && npm run typecheck && npm run lint && npm run build"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.0.0",

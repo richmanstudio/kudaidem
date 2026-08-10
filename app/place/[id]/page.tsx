@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { Topbar } from "@/components/ui/topbar";
 import { Clock, Navigation, Wallet } from "@/components/ui/icons";
 import { PlaceActions } from "@/features/places/components/place-actions";
+import { PlaceVisual } from "@/features/places/components/place-visual";
 import { getPlace } from "@/features/recommendations/domain/recommend";
 import {
   filtersToSearchParams,
@@ -25,10 +26,7 @@ export default async function PlacePage({ params, searchParams }: Props) {
   return (
     <div className="screen">
       <Topbar title="Место" />
-      <div className="place-visual compact-visual">
-        <div className="visual-lines" />
-        <div className="visual-word">{place.accent}</div>
-      </div>
+      <PlaceVisual place={place} compact />
 
       <section className="place-copy">
         <h1>{place.name}</h1>
@@ -37,17 +35,33 @@ export default async function PlacePage({ params, searchParams }: Props) {
       </section>
 
       <div className="stats">
-        <div className="stat"><Wallet /> Средний чек — {place.price.toLocaleString("ru-RU")} ₽</div>
-        <div className="stat"><Clock /> Работает до {place.closesAt}</div>
-        <div className="stat"><Navigation /> {place.travelMinutes} минут на машине</div>
+        <div className="stat">
+          <Wallet /> {place.price != null ? `Средний чек — ${place.price.toLocaleString("ru-RU")} ₽` : "Средний чек уточняется"}
+        </div>
+        <div className="stat">
+          <Clock /> {place.closesAt ? `Работает до ${place.closesAt}` : "Проверьте актуальный график перед визитом"}
+        </div>
+        <div className="stat">
+          <Navigation /> {place.address || "Хабаровск"}
+        </div>
       </div>
 
-      <div className="map-card" aria-label="Схематичная карта">
+      <div className="map-card" aria-label="Местоположение">
         <div className="map-pin"><span /></div>
       </div>
 
+      {place.sourceUrl ? (
+        <div className="live-source-note">
+          Данные проверены {place.verifiedAt ? new Date(place.verifiedAt).toLocaleDateString("ru-RU") : "недавно"}.{" "}
+          <a href={place.sourceUrl} target="_blank" rel="noreferrer">Открыть источник</a>
+        </div>
+      ) : null}
+
       <PlaceActions
         placeName={place.name}
+        address={place.address}
+        latitude={place.latitude}
+        longitude={place.longitude}
         planHref={`/plan?place=${place.id}&${query.toString()}`}
       />
     </div>

@@ -42,6 +42,8 @@ model Place {
   sourceUrl          String
   source              PlaceSource @default(OPENSTREETMAP)
   sourceUpdatedAt    DateTime?
+  detailsSources     Json?
+  detailsUpdatedAt   DateTime?
   twoGisId           String?      @unique
   twoGisSourceUrl    String?
   twoGisHasPhotos    Boolean?

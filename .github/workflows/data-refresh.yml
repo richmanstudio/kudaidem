@@ -14,10 +14,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: kudaidem-khabarovsk-data-refresh
+  cancel-in-progress: true
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     env:
       TARGET_PLACES: "200"
       SCRAPE_DELAY_MS: "300"
@@ -30,7 +34,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
       - run: npm install --no-audit --no-fund
       - run: npm run data:scrape
       - run: REQUIRE_LIVE_DATA=1 npm run data:validate

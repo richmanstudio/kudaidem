@@ -6,6 +6,17 @@ Telegram Mini App на Next.js, которое помогает компании
 
 Stage 2 — live Khabarovsk catalog.
 
+Текущий generated dataset:
+
+- 200/200 актуальных мест Хабаровска;
+- 200/200 записей с координатами и provenance источника;
+- 93 места с указанным website/contact source;
+- 112 мест с `opening_hours`;
+- 33/200 мест с найденной реальной фотографией;
+- 11 изображений уже имеют открытую лицензию и статус `APPROVED`;
+- 22 изображения требуют проверки прав;
+- остальные места используют брендированный fallback до photo-enrichment.
+
 Основной MVP-сценарий:
 
 - выбор количества людей, настроения и бюджета;
@@ -33,13 +44,15 @@ OpenStreetMap / Overpass API
         ├── coordinates / opening_hours / contacts when available
         └── source timestamp / URL
         │
-        ├──────────────► exact 200-place catalog
+        ▼
+balanced exact 200-place catalog
         │
-        └── photo enrichment
-              ├── Wikimedia Commons / Wikidata P18
-              │     └── author + license metadata
-              └── official venue website
-                    └── NEEDS_REVIEW until reuse rights are confirmed
+        ▼
+photo enrichment
+        ├── Wikimedia Commons / Wikidata P18
+        │     └── author + license metadata
+        └── official venue website
+              └── NEEDS_REVIEW until reuse rights are confirmed
 ```
 
 OpenStreetMap data is attributed in the user-facing place page and linked to the ODbL/copyright notice. Wikimedia photos store author/license/source metadata. A URL being publicly accessible is not treated as proof of commercial reuse rights.
@@ -50,8 +63,8 @@ Public 2GIS HTML pages are **not scraped** by the production pipeline. If 2GIS i
 
 ```bash
 npm install
-npm run data:collect    # photo enrichment pass; writes partial photo coverage
-npm run data:finalize   # builds exactly 200 current places, retaining enriched photos
+npm run data:finalize   # builds a balanced exact 200-place current catalog and saves media hints
+npm run data:collect    # enriches those exact 200 records with open/official photo sources
 REQUIRE_LIVE_DATA=1 npm run data:validate
 ```
 
@@ -67,7 +80,7 @@ Full photo-rights gate:
 REQUIRE_LIVE_DATA=1 REQUIRE_PHOTOS=1 REQUIRE_APPROVED_PHOTOS=1 npm run data:validate
 ```
 
-GitHub Actions workflow `Refresh Khabarovsk places` always attempts photo enrichment, then finalizes and validates the 200-place catalog. It preserves `khabarovsk-places.json`, `scrape-report.json` and `photo-review.json` as an artifact and commits the base catalog once the 200-place gate is green. Photo coverage is reported separately.
+GitHub Actions workflow `Refresh Khabarovsk places` first finalizes the balanced 200-place catalog, then enriches those exact records with photo sources, validates the base catalog and checks photo coverage separately. It preserves `khabarovsk-places.json`, `scrape-report.json` and `photo-review.json` as an artifact and commits the base catalog once the 200-place gate is green.
 
 ## Photo review
 
@@ -128,9 +141,10 @@ prisma/
   schema.prisma
 
 scripts/
-  collect-khabarovsk.ts
   finalize-khabarovsk-catalog.ts
+  collect-khabarovsk.ts
   validate-places.ts
+  audit-catalog.ts
   import-places.ts
 ```
 

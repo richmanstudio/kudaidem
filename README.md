@@ -11,50 +11,72 @@ Stage 2 — live Khabarovsk catalog.
 - выбор количества людей, настроения и бюджета;
 - recommendation engine;
 - один лучший вариант и следующий вариант;
-- карточка места, актуальная фотография и источник данных;
+- карточка места с актуальной фотографией и provenance;
 - внешний маршрут по координатам/адресу;
 - Telegram WebApp bridge и haptics;
 - loading / empty / not-found / error states.
 
 ## Live data pipeline
 
-Каталог хранится в `data/khabarovsk-places.json` и воспроизводимо пересобирается crawler-ом. Цель Stage 2 — 200 актуальных мест Хабаровска с фотографией для каждого объекта.
+Цель Stage 2 — 200 актуальных мест Хабаровска с реальной фотографией для каждого объекта. Каталог хранится в `data/khabarovsk-places.json` и воспроизводимо пересобирается.
 
 ```text
-2GIS search / firm pages
+OpenStreetMap / Overpass API
         │
         ├── name / category / address
-        ├── rating / reviews / average check when exposed
-        ├── work time / contacts / coordinates when exposed
-        └── source URL
+        ├── coordinates / opening_hours / contacts when available
+        ├── source timestamp
+        └── Wikimedia / Wikidata / official-site photo hints
         │
         ▼
-official venue website ──► preferred photo
+Wikimedia Commons ──► preferred photo with license metadata
         │
-        └── fallback: 2GIS gallery photo (rights review required)
+        └── fallback: official venue website photo
+                       (NEEDS_REVIEW until reuse rights are confirmed)
         │
         ▼
 data/khabarovsk-places.json
         │
+        ├── data/photo-review.json
         ├── Next.js recommendation catalog
         └── PostgreSQL importer / Prisma
 ```
 
-Каждая запись содержит `sourceUrl`, `verifiedAt`, `imageSourceUrl` и `imageRights`. Мы не считаем пользовательские/агрегаторные фотографии автоматически лицензированными для коммерческого переиспользования: они остаются со статусом `THIRD_PARTY_UNKNOWN`, пока не будут заменены официальным материалом или явно одобрены.
+OpenStreetMap data is attributed in the user-facing place page and linked to the ODbL/copyright notice. Wikimedia photos store author/license/source metadata. A URL being publicly accessible is not treated as proof of commercial reuse rights.
+
+Public 2GIS HTML pages are **not scraped** by the production pipeline. If 2GIS is added as a provider, it must use the official Places API/Data product with an appropriate access key/subscription and contract-compatible display rights.
 
 Запуск обновления вручную:
 
 ```bash
 npm install
-npm run data:scrape
+npm run data:collect
 REQUIRE_LIVE_DATA=1 npm run data:validate
 ```
 
-GitHub Actions workflow `Refresh Khabarovsk places` выполняет тот же pipeline и коммитит обновлённый каталог обратно в рабочую ветку.
+Для полного photo-rights gate:
+
+```bash
+REQUIRE_LIVE_DATA=1 REQUIRE_APPROVED_PHOTOS=1 npm run data:validate
+```
+
+GitHub Actions workflow `Refresh Khabarovsk places` сохраняет partial report как artifact даже при недоборе. Каталог коммитится в ветку только если collector и strict validator прошли.
+
+## Photo review
+
+`data/photo-review.json` содержит изображения, найденные на официальных сайтах или других источниках, у которых ещё нет подтверждённой свободной лицензии.
+
+В production `PlaceVisual` по умолчанию показывает только `APPROVED`-изображения. Для внутреннего визуального QA можно временно включить:
+
+```bash
+NEXT_PUBLIC_ALLOW_REVIEW_PHOTOS=1
+```
+
+Не включать этот флаг в публичном production без проверки прав.
 
 ## PostgreSQL / Prisma
 
-Stage 2 уже содержит production-ready модель данных в `prisma/schema.prisma`: `Place`, `PlacePhoto`, статусы источника/прав на изображение и журнал refresh-run.
+Stage 2 содержит модель данных в `prisma/schema.prisma`: `Place`, `PlacePhoto`, provenance источников, author/license metadata и журнал refresh-run.
 
 ```bash
 cp .env.example .env
@@ -68,23 +90,24 @@ npm run db:seed
 
 ```text
 app/
-  api/                    HTTP endpoints и error ingest
-  place/                  route pages
+  api/
+  place/
   plan/
   result/
   room/
 
 components/
-  ui/                     общие визуальные примитивы
+  ui/
 
 data/
-  khabarovsk-places.json  generated verified catalog
+  khabarovsk-places.json  generated catalog
   scrape-report.json      generated coverage report
+  photo-review.json       generated rights-review queue
 
 features/
   places/
     components/
-    data/catalog.ts       live catalog adapter
+    data/catalog.ts
   plans/
   recommendations/
     domain/
@@ -98,12 +121,12 @@ prisma/
   schema.prisma
 
 scripts/
-  scrape-khabarovsk.ts
+  collect-khabarovsk.ts
   validate-places.ts
   import-places.ts
 ```
 
-Правило: неподтверждённое поле остаётся `null`; UI показывает «уточняется», а не выдумывает цену, график или расстояние.
+Правило: неподтверждённое поле остаётся `null`; UI показывает «уточняется», а не выдумывает цену, рейтинг, график или расстояние.
 
 ## Запуск приложения
 
@@ -118,7 +141,7 @@ npm run dev
 npm run check
 ```
 
-Она генерирует Prisma Client, валидирует каталог, запускает TypeScript, ESLint и production Next.js build.
+Она генерирует Prisma Client, валидирует текущий каталог, запускает TypeScript, ESLint и production Next.js build.
 
 ## Telegram
 

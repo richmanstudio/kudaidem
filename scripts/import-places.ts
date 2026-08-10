@@ -37,6 +37,7 @@ type InputPlace = {
   twoGisId?: string | null;
   twoGisSourceUrl?: string | null;
   twoGisHasPhotos?: boolean | null;
+  twoGisMainPhotoUrl?: string | null;
   twoGisUpdatedAt?: string | null;
   twoGisMatchScore?: number | null;
   imageUrl: string | null;
@@ -109,6 +110,7 @@ async function main() {
       twoGisId: place.twoGisId ?? null,
       twoGisSourceUrl: place.twoGisSourceUrl ?? null,
       twoGisHasPhotos: place.twoGisHasPhotos ?? null,
+      twoGisMainPhotoUrl: place.twoGisMainPhotoUrl ?? null,
       twoGisUpdatedAt: place.twoGisUpdatedAt ? new Date(place.twoGisUpdatedAt) : null,
       twoGisMatchScore: place.twoGisMatchScore ?? null,
       imageUrl: place.imageUrl,

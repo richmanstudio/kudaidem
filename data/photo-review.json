@@ -1,14 +1,175 @@
 [
   {
-    "id": "osm-way-190903428",
-    "name": "\"Автобаня\"",
+    "id": "osm-node-4481017690",
+    "name": "Luga",
+    "imageUrl": "https://static.tildacdn.com/tild6232-3034-4838-b765-343635306564/1__1.jpg",
+    "imageSourceUrl": "https://www.lugarest.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-181380618",
+    "name": "Торо",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-3277883161",
-    "name": "\"Адреналин\"",
+    "id": "osm-way-126752626",
+    "name": "Royal",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-7059134442",
+    "name": "Вкус Китая",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4501763390",
+    "name": "Густав и Густав",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11649000544",
+    "name": "Дом",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-3164098485",
+    "name": "Ковбой",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4384833849",
+    "name": "Пекинская утка",
+    "imageUrl": "https://xao.ru/obshepit#primaryimage",
+    "imageSourceUrl": "https://xao.ru/obshepit?dmn=pekinskaya-utka.ru",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12395371062",
+    "name": "Харибу",
+    "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
+    "imageSourceUrl": "https://haribu.rest/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3523296343",
+    "name": "Ichiban Sushi",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-5973897873",
+    "name": "Vdrova",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-452568216",
+    "name": "Старый Тбилиси",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-2237523445",
+    "name": "Поехали",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-3456818618",
+    "name": "Сархан",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4350373308",
+    "name": "Сациви",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-6029568285",
+    "name": "Тепло",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-6829253085",
+    "name": "Ханами",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-1456180824",
+    "name": "Императорская гавань",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-70723346",
+    "name": "Классик",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-13446223601",
+    "name": "Русский",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-120486229",
+    "name": "Тайвань",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4405496637",
+    "name": "Панорама",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-8499043917",
+    "name": "Султан Базар",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-3726923703",
+    "name": "Al dente Горы",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-9953699239",
+    "name": "Chocolate",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -21,223 +182,6 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-3192513170",
-    "name": "100ловка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-10224928517",
-    "name": "8 минут",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-73551437",
-    "name": "Авангард",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1736194013",
-    "name": "Авеню",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-3118107011",
-    "name": "Автограф",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-2469900437",
-    "name": "Автокинотеатр «На Заимке»",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9953705395",
-    "name": "Авторетро 100",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-13333091989",
-    "name": "Агутин",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-2034084852",
-    "name": "Аквамарин",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-185919088",
-    "name": "Аквариум",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-11427619019",
-    "name": "Алиса",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-11138113106",
-    "name": "Амурариум (Рыбы Амура)",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-557524374",
-    "name": "Амурский Дворик",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-3257869796",
-    "name": "Амурский утëс",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-32050191",
-    "name": "Амурский Утëс",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-10205619059",
-    "name": "Андерсен",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-13333091990",
-    "name": "Анжелика",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-8035165019",
-    "name": "АНО \"Талантливые Дети\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1825101091",
-    "name": "Антикафе \"Пятая точка\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4670774484",
-    "name": "Аппетитнов",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-310906737",
-    "name": "Арагон",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-32063254",
-    "name": "Арлекин",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-11649000538",
-    "name": "Арома",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-2095798998",
-    "name": "Атмосфера",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-67801177",
-    "name": "Атриум",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-8356628717",
-    "name": "Багира",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-223524158",
-    "name": "Бакинский дворик",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4698326589",
-    "name": "Бани на Облепиховой",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1358380888",
-    "name": "Баня",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-7188746786",
-    "name": "Баня на Ленинградской",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-881039587",
-    "name": "Барабашевский сквер",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-1750920610",
     "name": "Барбадос",
     "imageUrl": null,
@@ -245,50 +189,8 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-8437296217",
-    "name": "Бассейн ЦСКА",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-10655456483",
-    "name": "Белый Барашка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9050085517",
-    "name": "Белый театр",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-1030381150",
     "name": "Берёзка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1358388735",
-    "name": "Блин",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9954603730",
-    "name": "Боб",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-115698804",
-    "name": "Большая медведица",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -308,29 +210,274 @@
     "imageRights": null
   },
   {
-    "id": "osm-way-881042573",
-    "name": "Ботанический овраг",
+    "id": "osm-node-4493549289",
+    "name": "Густав",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-7856604787",
-    "name": "Бременские музыканты",
+    "id": "osm-node-3665806758",
+    "name": "Густав&Густав Express",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-594415839",
-    "name": "Броско Молл",
+    "id": "osm-node-883520474",
+    "name": "Дракон Азии",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-1086866756",
-    "name": "Броско Volna",
+    "id": "osm-node-3285380577",
+    "name": "Дун Бэй",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-5040237131",
+    "name": "Империя",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-5025713390",
+    "name": "Конфуций",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-2713470372",
+    "name": "Лотос",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-5973897869",
+    "name": "Мускатный кит",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-302009332",
+    "name": "Вилки-Палки",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12887857002",
+    "name": "Келди",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-1403022485",
+    "name": "Зарина",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-10655456481",
+    "name": "Квартира Паши Кейзера",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12395371058",
+    "name": "Кофемашина",
+    "imageUrl": "https://c-machine.ru/wp-content/themes/cmachine/assets/img/og_cmachine.jpg",
+    "imageSourceUrl": "https://c-machine.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000540",
+    "name": "Мишка",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-7670756981",
+    "name": "Столовая",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11110981905",
+    "name": "Столовая 8 минут",
+    "imageUrl": "https://www.8minut.com/upload/CPriority/f10/f1001edfcba952ebf0e5c1870496ea0c.svg",
+    "imageSourceUrl": "https://www.8minut.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4221985694",
+    "name": "Сытый Федот",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-6029527786",
+    "name": "Шоколадница",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-7832298087",
+    "name": "Cinnabon",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12059180588",
+    "name": "Torro Grill",
+    "imageUrl": "https://torrogrill.ru//assets/gimg/446_42672fcaf544.jpg",
+    "imageSourceUrl": "https://torrogrill.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-270539004",
+    "name": "Кафема",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-3857899474",
+    "name": "Cinnabon",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-7747825751",
+    "name": "Корея",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4611366190",
+    "name": "Синьор Помидор",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4381379720",
+    "name": "Хлебное место",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12506476246",
+    "name": "Келди",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-934124462",
+    "name": "Восточное",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-557524374",
+    "name": "Амурский Дворик",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-13427943801",
+    "name": "Бурятская кухня. Буузы.",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12176011606",
+    "name": "Маяк",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12175796128",
+    "name": "Угол",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-454602007",
+    "name": "Chin-Chin",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-884295343",
+    "name": "Корица и мята",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-10205619059",
+    "name": "Андерсен",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11649000538",
+    "name": "Арома",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-5416834873",
+    "name": "Две рыбы",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-7501907785",
+    "name": "Де`рибас",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-5454635822",
+    "name": "Мясной ресторанчик",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12070992815",
+    "name": "Япона ролл",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -350,351 +497,8 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-13427943801",
-    "name": "Бурятская кухня. Буузы.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-89915087",
-    "name": "Взлёт",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-11256925237",
-    "name": "Вилки палки",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-75045563",
-    "name": "Вилки-Палки",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-302009332",
-    "name": "Вилки-Палки",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-11649000536",
-    "name": "Винотека",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9812512418",
-    "name": "Виорд",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-7059134442",
-    "name": "Вкус Китая",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-9954298509",
     "name": "Вкусно — и точка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-10013201138",
-    "name": "Вкусно — и точка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-10783964606",
-    "name": "Вкусно — и точка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-89640368",
-    "name": "Военно-исторический музей",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4479755422",
-    "name": "ВорлдКласс",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12662450594",
-    "name": "Воронье Гнездо",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-523123121",
-    "name": "Восточное",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-934124462",
-    "name": "Восточное",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4610711989",
-    "name": "Восточные сладости",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4613800492",
-    "name": "Восточные сладости",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-91366351",
-    "name": "Выбор",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4365848167",
-    "name": "Галлерея",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-67791779",
-    "name": "Гигант",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-362615757",
-    "name": "Глория",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-173386420",
-    "name": "Городской Дворец культуры",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-528275123",
-    "name": "Городской Центр Баскетбола",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4742464122",
-    "name": "Гран При",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4742474021",
-    "name": "Гран При",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-212148525",
-    "name": "Гранд",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-6310013913",
-    "name": "Гриль-Бистро",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4493549289",
-    "name": "Густав",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4501763390",
-    "name": "Густав и Густав",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-3665806758",
-    "name": "Густав&Густав Express",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4481017400",
-    "name": "Даль У Сауна",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-2006160993",
-    "name": "Дальневосточный художественный музей",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-6827545041",
-    "name": "Дама с собачкой",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-7832298096",
-    "name": "Два веселых гуся",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-409368386",
-    "name": "Два льва",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-5416834873",
-    "name": "Две рыбы",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-90956842",
-    "name": "Дворец культуры и спорта \"Юность\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-32514850",
-    "name": "Дворец профсоюзов",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-73551427",
-    "name": "Дворец творчества детей и молодежи",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-7501907785",
-    "name": "Де`рибас",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-90555662",
-    "name": "Дельфин",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-68195832",
-    "name": "Дендрарий",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-5970921192",
-    "name": "Детский замок",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-88498231",
-    "name": "Детско-юношеский центр \"Восхождение\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-89385723",
-    "name": "Детско-юношеский центр \"Спектр\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-173386425",
-    "name": "Детство",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9953971133",
-    "name": "Додо Пицца",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12358099659",
-    "name": "Додо Пицца",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12358114361",
-    "name": "Додо Пицца",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -714,15 +518,498 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-11649000544",
-    "name": "Дом",
+    "id": "osm-node-1378096668",
+    "name": "Золотая птичка",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-32050148",
-    "name": "Дом быта",
+    "id": "osm-node-13420909860",
+    "name": "Суши-Маркет",
+    "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
+    "imageSourceUrl": "https://sushi-market.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13420909861",
+    "name": "Суши-Маркет",
+    "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
+    "imageSourceUrl": "https://sushi-market.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13420909862",
+    "name": "Суши-Маркет",
+    "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
+    "imageSourceUrl": "https://sushi-market.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13420909863",
+    "name": "Суши-Маркет",
+    "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
+    "imageSourceUrl": "https://sushi-market.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-13420909864",
+    "name": "Суши-Маркет",
+    "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
+    "imageSourceUrl": "https://sushi-market.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-6536734327",
+    "name": "Coffee Like",
+    "imageUrl": "https://coffee-like.com/img/preview/main2.png",
+    "imageSourceUrl": "https://coffee-like.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9992569350",
+    "name": "Coffee Like",
+    "imageUrl": "https://coffee-like.com/img/preview/main2.png",
+    "imageSourceUrl": "https://coffee-like.com/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9805680194",
+    "name": "Do.Bro Coffee",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11649000536",
+    "name": "Винотека",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4365848167",
+    "name": "Галлерея",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12059180585",
+    "name": "История",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11649000542",
+    "name": "Паста на баре",
+    "imageUrl": "https://p.taplink.st/a/8/f/9/5/7a032b.jpg?1",
+    "imageSourceUrl": "https://pastanabare.taplink.ws/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000541",
+    "name": "Рюмочная",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12395371057",
+    "name": "Рюмочная",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-2392277758",
+    "name": "Mozart",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12151045373",
+    "name": "Свой Пивной",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12887857301",
+    "name": "Chixx",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-2237523444",
+    "name": "ПодZемка",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-525763612",
+    "name": "Ночной Хабаровск",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12987030079",
+    "name": "Танк & Хоппер",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4381725531",
+    "name": "Mexico",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-3277883161",
+    "name": "\"Адреналин\"",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-13333091989",
+    "name": "Агутин",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-818506658",
+    "name": "Хабаровский краевой театр драмы",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12640389978",
+    "name": "Луна",
+    "imageUrl": "https://i.taplink.st/a/5/0/8/5/19e213.png?198",
+    "imageSourceUrl": "https://luna-khv.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-274763647",
+    "name": "Хабаровский театр юного зрителя",
+    "imageUrl": "http://tuz-xa.ru/static/img/ogp_image.png",
+    "imageSourceUrl": "https://tuz-xa.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-8035165019",
+    "name": "АНО \"Талантливые Дети\"",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-1403077450",
+    "name": "Фабрика грёз",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-87896088",
+    "name": "Дружба",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-2469900437",
+    "name": "Автокинотеатр «На Заимке»",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-82076627",
+    "name": "Театр юного зрителя",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-67571263",
+    "name": "Хабаровск",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-7112753919",
+    "name": "Мобильная театральная компания «Театр «М` Арт»",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-2095798997",
+    "name": "Hollywood",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-2095798998",
+    "name": "Атмосфера",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-10792579695",
+    "name": "Cook&Run",
+    "imageUrl": "https://cookn.run/assets/template/img/1.webp",
+    "imageSourceUrl": "https://cookn.run/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-209353599",
+    "name": "Фитнес-клуб \"Наутилус\" Южный",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-5235011021",
+    "name": "Наутилус-Загородный",
+    "imageUrl": "https://static.tildacdn.com/tild6465-6639-4139-b862-326334653564/12.png",
+    "imageSourceUrl": "https://fcnautilus.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-4807521922",
+    "name": "Скалодром \"Феррум\"",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11958560257",
+    "name": "Lady Stretch",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12378249784",
+    "name": "Lady Stretch",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-5555835122",
+    "name": "URBAN210",
+    "imageUrl": "https://urban210.ru/wp-content/uploads/2026/04/promo_bg_3.jpg",
+    "imageSourceUrl": "https://urban210.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-310906737",
+    "name": "Арагон",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-272536654",
+    "name": "Спортивный комплекс \"Олимпия\"",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-272536655",
+    "name": "Спортивный комплекс \"Олимпия\"",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-1345725853",
+    "name": "КСК Чистополье",
+    "imageUrl": "https://static.tildacdn.com/tild6632-3661-4739-a433-666237336634/1.svg",
+    "imageSourceUrl": "https://chistopolye.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3076533518",
+    "name": "Пятый Элемент",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-10655583515",
+    "name": "Миури-Мархаба",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-7188746786",
+    "name": "Баня на Ленинградской",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-5651402565",
+    "name": "Baden-Baden",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-2034084852",
+    "name": "Аквамарин",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4698326589",
+    "name": "Бани на Облепиховой",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-1358380888",
+    "name": "Баня",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4742464122",
+    "name": "Гран При",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4481017400",
+    "name": "Даль У Сауна",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-3634989899",
+    "name": "Музей Энергетики",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11138113106",
+    "name": "Амурариум (Рыбы Амура)",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-2006160993",
+    "name": "Дальневосточный художественный музей",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-9953705395",
+    "name": "Авторетро 100",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-2495828812",
+    "name": "Пожарно-техническая выставка",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-32050191",
+    "name": "Амурский Утëс",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-3634989902",
+    "name": "Хабаровский тюремный замок",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12887906701",
+    "name": "Хэппи Дэй",
+    "imageUrl": "https://static.tildacdn.com/tild6337-6534-4236-a235-636335616535/photo.png",
+    "imageSourceUrl": "https://happydaykhv.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-242208334",
+    "name": "Зоосад \"Приамурский\" имени В.П. Сысоева",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-32063254",
+    "name": "Арлекин",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-3257869796",
+    "name": "Амурский утëс",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-8437296217",
+    "name": "Бассейн ЦСКА",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-7856604787",
+    "name": "Бременские музыканты",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12662450594",
+    "name": "Воронье Гнездо",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-6827545041",
+    "name": "Дама с собачкой",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -770,337 +1057,50 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-9961954017",
-    "name": "Дом жилой воспитателей Кадетского корпуса",
+    "id": "osm-relation-10519341",
+    "name": "Парк Железнодорожников",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-9981844817",
-    "name": "Дом жилой Д.С. Новаковского",
+    "id": "osm-way-881042573",
+    "name": "Ботанический овраг",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-9961948717",
-    "name": "Дом жилой командиров ОКДВА",
+    "id": "osm-way-881044033",
+    "name": "Сад Геологов",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-82489879",
-    "name": "Дом культуры",
+    "id": "osm-way-1366866267",
+    "name": "Сквер Связь поколений",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-115699846",
-    "name": "Дом культуры",
+    "id": "osm-way-881039587",
+    "name": "Барабашевский сквер",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-288731081",
-    "name": "Дом культуры",
+    "id": "osm-way-68195832",
+    "name": "Дендрарий",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-169185574",
-    "name": "Дом культуры \"Восток\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-90956834",
-    "name": "Дом культуры ТЭЦ-1",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-88474329",
-    "name": "Дом одежды",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-82078059",
-    "name": "Дом офицеров ВВО",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4481622593",
-    "name": "Допинг Бар",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12987354910",
-    "name": "Досытаевский",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-883520474",
-    "name": "Дракон Азии",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-87896088",
-    "name": "Дружба",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-2526103853",
-    "name": "Дружба народов",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1403006582",
-    "name": "Дубай",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-3285380577",
-    "name": "Дун Бэй",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-87896100",
-    "name": "Ерофей",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-136067120",
-    "name": "Ерофей-Арена",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-703061080",
-    "name": "Ешка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-13333045248",
-    "name": "Забрели",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-7771621857",
-    "name": "Загородный очаг",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-2073928203",
-    "name": "Зал бокса",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1403022485",
-    "name": "Зарина",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-186259842",
-    "name": "Заря",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-91999353",
-    "name": "Звёздочка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9961943717",
-    "name": "Здание офицерского флигеля",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9961946517",
-    "name": "Здание офицерского флигеля 1900-х",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-6801818285",
-    "name": "Знаки Зодиака",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1378096668",
-    "name": "Золотая птичка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1490113596",
-    "name": "Золотая птичка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-242208334",
-    "name": "Зоосад \"Приамурский\" имени В.П. Сысоева",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-1456180824",
-    "name": "Императорская гавань",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-5040237131",
-    "name": "Империя",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9981864917",
-    "name": "Иннокентьевское училище",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12059180585",
-    "name": "История",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9961943718",
-    "name": "Кадетский корпус 1916",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9981837517",
-    "name": "Казарма 1-й Уссурийской казачьей сотни",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4481536390",
-    "name": "Кайтинг",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-5776297754",
-    "name": "Камелия Мороженое",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4689710889",
-    "name": "Каменный водопад",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9909080406",
-    "name": "Каменный карьер",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-8427304517",
-    "name": "Картинная галерея имени Федотова",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4613236494",
-    "name": "кафе \"ПАРК\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-8869356117",
-    "name": "кафе Маленькая Армения",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1312443663",
-    "name": "Кафе Новый Век",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4501728790",
-    "name": "Кафе Плантация",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-270539004",
-    "name": "Кафема",
+    "id": "osm-node-5970921192",
+    "name": "Детский замок",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1113,153 +1113,6 @@
     "imageRights": null
   },
   {
-    "id": "osm-way-429026236",
-    "name": "Квадрат",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4443390891",
-    "name": "Квар",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-10655456481",
-    "name": "Квартира Паши Кейзера",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-7745696402",
-    "name": "Кебаб Хаус",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12506613439",
-    "name": "Кебаб-Хаус",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12137122901",
-    "name": "Келди",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12506476246",
-    "name": "Келди",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12887857002",
-    "name": "Келди",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-70723346",
-    "name": "Классик",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-3164098485",
-    "name": "Ковбой",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12996578102",
-    "name": "Комос",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9953907715",
-    "name": "Кондитерская Теремок",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-2894848790",
-    "name": "Конно-спортивный клуб",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-134997930",
-    "name": "Конно-спортивный клуб \"Мустанг\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-5025713390",
-    "name": "Конфуций",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-7747825751",
-    "name": "Корея",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-884295343",
-    "name": "Корица и мята",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-2399926543",
-    "name": "Кофе репаблик",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-5328678422",
-    "name": "Кофе-Центр",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-5974992865",
-    "name": "Кофейня Келди",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12395371058",
-    "name": "Кофемашина",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-way-282725702",
     "name": "Кошачий сквер",
     "imageUrl": null,
@@ -1267,134 +1120,204 @@
     "imageRights": null
   },
   {
-    "id": "osm-way-75045565",
-    "name": "Краевой дворец спорта Русь",
+    "id": "osm-way-239849003",
+    "name": "Парк «Динамо»",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-132084209",
-    "name": "Краевой центр хоккея \"Амур\"",
+    "id": "osm-way-634029366",
+    "name": "Парк Горького",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-1345725853",
-    "name": "КСК Чистополье",
+    "id": "osm-node-6207350886",
+    "name": "Студия звукозаписи Corpus",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-69259455",
-    "name": "Культурно-спортивный комплекс (КСК)",
+    "id": "osm-way-594415839",
+    "name": "Броско Молл",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-238150067",
-    "name": "Кiмчi Хаус",
+    "id": "osm-way-1086866756",
+    "name": "Броско Volna",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-5973898673",
-    "name": "Лавита",
+    "id": "osm-way-553155581",
+    "name": "Пушкина",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-12141306539",
-    "name": "Лавита",
+    "id": "osm-way-87470131",
+    "name": "центр_по_работе_с_населением_\"исток\"",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-12981539338",
-    "name": "Лавита",
+    "id": "osm-way-122079627",
+    "name": "Экодом",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-4827048625",
-    "name": "Лазат",
+    "id": "osm-way-199584058",
+    "name": "Южный Парк",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-133795561",
-    "name": "Левый берег",
+    "id": "osm-way-241576818",
+    "name": "Smile Mart",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-4481017396",
-    "name": "Ленинградские бани",
+    "id": "osm-way-272280367",
+    "name": "Smile Mart",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-542374553",
-    "name": "Лето",
+    "id": "osm-way-185919088",
+    "name": "Аквариум",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-way-270078557",
-    "name": "Лидер",
+    "id": "osm-way-67801177",
+    "name": "Атриум",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-1027884936",
-    "name": "Ложка",
+    "id": "osm-way-115698804",
+    "name": "Большая медведица",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-3665806759",
-    "name": "Ложка",
+    "id": "osm-node-11975223622",
+    "name": "Ichiban",
+    "imageUrl": "https://p.taplink.st/a/3/d/1/5/22eff7.jpg?118",
+    "imageSourceUrl": "https://taplink.cc/ichibankare",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11975028914",
+    "name": "Sushi Sea",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-1038906844",
-    "name": "Лотос",
+    "id": "osm-node-11975028915",
+    "name": "Sushi Sea",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-2713470372",
-    "name": "Лотос",
+    "id": "osm-node-11975028916",
+    "name": "Sushi Sea",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-12640389978",
-    "name": "Луна",
+    "id": "osm-node-3857899475",
+    "name": "Hesburger",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-11149654005",
-    "name": "Лунзян",
+    "id": "osm-node-10013201138",
+    "name": "Вкусно — и точка",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-9953971133",
+    "name": "Додо Пицца",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12358099659",
+    "name": "Додо Пицца",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12358114361",
+    "name": "Додо Пицца",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12856304667",
+    "name": "Rostic's",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-1534451240",
+    "name": "МК-спорт",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12887937001",
+    "name": "Чак чак",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-10655456483",
+    "name": "Белый Барашка",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-6029556485",
+    "name": "РЖД ОАО",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-7283823843",
+    "name": "Хума. Дом восточной кухни",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null

@@ -62,7 +62,8 @@ export default async function PlacePage({ params, searchParams }: Props) {
         <div className="live-source-note">
           Данные: <a href={place.sourceUrl} target="_blank" rel="noreferrer">{sourceLabel(place.source)}</a>.
           {isOsm ? (
-            <> Лицензия ODbL: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">условия и атрибуция</a>.</n          ) : null}{" "}
+            <> Лицензия ODbL: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">условия и атрибуция</a>.</>
+          ) : null}{" "}
           Проверено {place.verifiedAt ? new Date(place.verifiedAt).toLocaleDateString("ru-RU") : "недавно"}.
         </div>
       ) : null}

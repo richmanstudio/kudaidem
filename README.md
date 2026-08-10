@@ -1,194 +1,279 @@
-# Куда идём?
+<div align="center">
+  <img src="./docs/readme-hero.svg" width="100%" alt="Куда идём? — Telegram Mini App by DUONIQ" />
 
-Telegram Mini App на Next.js, которое помогает компании быстро решить, куда сходить в Хабаровске.
+  <br />
 
-## Текущий статус
+  **Не каталог мест. Движок принятия решения о том, куда идти прямо сейчас.**
 
-Stage 2 — live Khabarovsk catalog.
+  `Хабаровск · Telegram Mini App · Next.js 16 · TypeScript · PostgreSQL · Prisma`
+</div>
 
-Проверенный generated dataset:
+---
 
-- 200/200 актуальных мест Хабаровска;
-- 507 найденных OSM POI, 502 уникальных кандидата;
-- 200/200 записей с координатами и provenance источника;
-- 93 места с указанным website/contact source;
-- 112 мест с `opening_hours`;
-- 44/200 валидных raster-фото после media sanitizer;
-- 11 фото имеют открытую лицензию и статус `APPROVED`;
-- 33 фото требуют rights review;
-- 156 мест пока используют брендированный fallback visual.
+## Product
 
-Основной MVP-сценарий:
+**«Куда идём?»** убирает самую скучную часть вечера — бесконечное «ну и куда пойдём?». Пользователь задаёт город, размер компании, настроение и бюджет, а приложение возвращает небольшой набор действительно подходящих вариантов вместо сотен карточек каталога.
 
-- выбор количества людей, настроения и бюджета;
-- recommendation engine;
-- один лучший вариант и следующий вариант;
-- карточка места с provenance данных и фотографии;
-- внешний маршрут по координатам/адресу;
-- Telegram WebApp bridge и haptics;
-- loading / empty / not-found / error states.
+Главный принцип продукта:
 
-## Live data pipeline
+> **Мы выбираем место, чтобы пользователю не пришлось.**
 
-Stage 2 разделён на два независимых качества данных:
+Сейчас продукт сфокусирован на Хабаровске и работает поверх собственного live-каталога из **200 мест**.
 
-1. **Catalog gate:** ровно 200 актуальных мест Хабаровска с названием, категорией, координатами, источником и датой проверки.
-2. **Photo gate:** реальная фотография для каждого из 200 мест с понятным источником и статусом прав.
+## Recommendation Engine v2
 
-Каталог хранится в `data/khabarovsk-places.json` и воспроизводимо пересобирается.
+Stage 3 заменил простой сортировщик на объяснимый decision engine.
+
+Сначала применяются **hard constraints**:
+
+- место активно и относится к выбранному городу;
+- вмещает выбранное количество людей;
+- не подтверждено как закрытое в выбранный момент;
+- укладывается в максимальную дистанцию, если передана геолокация;
+- исключённые пользователем места не возвращаются через fallback.
+
+После этого кандидаты ранжируются по восьми сигналам:
+
+| Signal | Weight |
+|---|---:|
+| Mood match | 28% |
+| Budget | 18% |
+| Group compatibility | 12% |
+| Distance | 12% |
+| Availability | 10% |
+| Quality | 10% |
+| Data freshness | 5% |
+| Novelty | 5% |
+
+Движок отдельно считает `score`, `match` и `confidence`. Если какого-то факта нет — например, не подтверждён средний чек или рейтинг — это уменьшает уверенность, а не заменяется выдуманным значением.
+
+Каждая рекомендация содержит:
+
+```ts
+{
+  match,
+  confidence,
+  availability,
+  distanceKm,
+  travelMinutes,
+  reasons,
+  warnings,
+  breakdown
+}
+```
+
+Если строгая выдача пуста, engine может ослабить **только бюджет**. Ограничения города, размера компании, закрытого места и максимальной дистанции не снимаются.
+
+### Контекст, который уже понимает v2
 
 ```text
-OpenStreetMap / Overpass API
-        │
-        ├── current named POI candidates
-        ├── name / category / address
-        ├── coordinates / opening_hours / contacts when available
-        └── source timestamp / URL
-        │
-        ▼
-balanced exact 200-place catalog
-        │
-        ├── optional licensed 2GIS Places API metadata enrichment
-        │      └── external_content.main_photo_url retained as provider media
-        │
-        ▼
-photo enrichment
-        ├── Wikimedia Commons / Wikidata P18
-        │     └── author + license metadata
-        └── official venue website
-              └── NEEDS_REVIEW until reuse rights are confirmed
-        │
-        ▼
-media sanitizer
-        └── rejects HTML URLs, SVG/system assets and inaccessible non-raster media
+city
+party size
+mood
+budget
+current / requested time
+latitude + longitude
+maximum distance
+excluded places
+previously seen places
+preferred categories
 ```
 
-OpenStreetMap data is attributed in the user-facing place page and linked to the ODbL/copyright notice. Wikimedia photos store author/license/source metadata. A URL being publicly accessible is not treated as proof of commercial reuse rights.
+## Live catalog
 
-Public 2GIS HTML pages are **not scraped** by the production pipeline. The optional 2GIS integration uses the official Places API and activates only when `DGIS_API_KEY` is configured. API-provided `main_photo_url` is stored separately as `twoGisMainPhotoUrl`; it is promoted to the public `imageUrl` only when `DGIS_MEDIA_RIGHTS_APPROVED=1` is explicitly set after contract/subscription media rights are confirmed.
+Stage 2 создал воспроизводимый data layer для Хабаровска.
 
-A free 2GIS demo key can be created in Platform Manager for testing. Production use requires the appropriate subscription/key and confirmed media-display rights.
+**Текущий baseline:**
 
-## Data commands
+- 200 / 200 мест;
+- 200 / 200 media URL + source provenance;
+- координаты для каталога;
+- source URL и `verifiedAt`;
+- категории и recommendation tags;
+- PostgreSQL / Prisma data model;
+- automatic refresh, dedupe, media sanitizer и audit pipeline.
 
-```bash
-npm install
-npm run data:finalize          # balanced exact 200 current places + media/provider hints
-npm run data:collect           # Wikimedia/Wikidata and official-site metadata/photo enrichment
-npm run data:official-photos   # deeper gallery/about scan on official venue sites
-npm run data:2gis              # optional licensed 2GIS API metadata/main-photo enrichment
-npm run data:sanitize-photos   # validate that retained media URLs are real raster images
-REQUIRE_LIVE_DATA=1 npm run data:validate
-```
+Не все дополнительные поля одинаково полны. Телефоны, графики, сайты, чеки и рейтинги обогащаются независимо. Неподтверждённое поле остаётся `null`.
 
-Photo-completeness gate:
+### Media rights
 
-```bash
-REQUIRE_LIVE_DATA=1 REQUIRE_PHOTOS=1 npm run data:validate
-```
+Все карточки имеют визуальный media candidate, но это **не означает**, что все изображения юридически очищены для публичного коммерческого использования.
 
-Full photo-rights gate:
+- изображения с подтверждённым происхождением могут иметь `APPROVED`;
+- search / third-party media сохраняются как `NEEDS_REVIEW`;
+- для каждого изображения сохраняется источник;
+- публичный URL сам по себе не считается разрешением на reuse.
 
-```bash
-REQUIRE_LIVE_DATA=1 REQUIRE_PHOTOS=1 REQUIRE_APPROVED_PHOTOS=1 npm run data:validate
-```
-
-GitHub Actions workflow `Refresh Khabarovsk places` runs the same pipeline, preserves `khabarovsk-places.json`, `scrape-report.json`, `photo-review.json` and `2gis-report.json` as artifacts, and commits the base catalog once the 200-place gate is green. Photo coverage is reported separately and is measured after sanitization.
-
-## Photo review
-
-`data/photo-review.json` contains both places without a photo and images found on official/other sources whose reuse rights are not yet approved.
-
-In production `PlaceVisual` shows only `APPROVED` images. For internal visual QA only:
-
-```bash
-NEXT_PUBLIC_ALLOW_REVIEW_PHOTOS=1
-```
-
-Do not enable this flag in public production before rights review.
-
-## PostgreSQL / Prisma
-
-Stage 2 contains `Place`, `PlacePhoto`, source provenance, optional licensed 2GIS match/main-photo metadata, photo author/license metadata and refresh history in `prisma/schema.prisma`.
-
-```bash
-cp .env.example .env
-npm run db:generate
-npm run db:seed
-```
-
-`db:seed` imports all 200 catalog records. A place may legitimately have no approved photo yet; in that case no `PlacePhoto` row is created and the UI uses the branded fallback visual.
+Production UI может ограничивать показ изображений по `ImageRights`.
 
 ## Architecture
 
+```mermaid
+flowchart TD
+    TG[Telegram Mini App] --> NX[Next.js App Router]
+    NX --> API[/api/recommendations v2]
+    API --> ENG[Recommendation Engine v2]
+    ENG --> CAT[200-place live catalog]
+    ENG --> CTX[Time · Budget · Party · Mood · Geo]
+
+    CAT --> PG[(PostgreSQL)]
+    PG --> PR[Prisma]
+
+    OSM[OpenStreetMap / Overpass] --> PIPE[Data enrichment pipeline]
+    WM[Wikimedia / Wikidata] --> PIPE
+    OFF[Official venue sources] --> PIPE
+    DG[2GIS Places API · optional] --> PIPE
+    PIPE --> AUDIT[Sanitize · Dedupe · Audit]
+    AUDIT --> CAT
+```
+
+Repository boundaries:
+
 ```text
-app/
-  api/
-  place/
-  plan/
-  result/
-  room/
-
-components/
-  ui/
-
-data/
-  khabarovsk-places.json  generated 200-place catalog
-  scrape-report.json      generated coverage report
-  photo-review.json       generated photo backlog / rights queue
-  2gis-report.json        optional official API enrichment report
-
-features/
-  places/
-    components/
-    data/catalog.ts
-  plans/
-  recommendations/
-    domain/
-  rooms/
-
-lib/
-  observability/
-  telegram/
-
-prisma/
-  schema.prisma
-
-scripts/
-  finalize-khabarovsk-catalog.ts
-  enrich-2gis-api.ts
-  collect-khabarovsk.ts
-  deep-official-photos.ts
-  sanitize-photo-catalog.ts
-  validate-places.ts
-  audit-catalog.ts
-  import-places.ts
+app/                          Next.js routes + API
+components/ui/                shared presentation primitives
+features/places/              live place catalog + place UI
+features/recommendations/     Recommendation Engine v2
+features/plans/               evening plan flow
+features/rooms/               group-room flow
+lib/telegram/                 Telegram platform bridge
+lib/observability/            client/server diagnostics
+data/                          generated Khabarovsk catalog + reports
+prisma/                        PostgreSQL schema + migrations
+scripts/                       collection, enrichment and quality gates
 ```
 
-Правило: неподтверждённое поле остаётся `null`; UI показывает «уточняется», а не выдумывает цену, рейтинг, график, расстояние или фотографию.
+## API v2
 
-## Запуск приложения
+Basic request:
 
-```bash
-npm install
-npm run dev
+```http
+GET /api/recommendations?city=Хабаровск&party=4&mood=fun&budget=mid
 ```
 
-Проверка перед merge:
+Context-aware request:
+
+```http
+GET /api/recommendations?city=Хабаровск&party=4&mood=fun&budget=mid&lat=48.48&lon=135.07&maxDistanceKm=8&limit=5
+```
+
+Optional query parameters:
+
+```text
+at=ISO_DATE
+lat=LATITUDE
+lon=LONGITUDE
+maxDistanceKm=NUMBER
+exclude=id1,id2
+seen=id1,id2
+prefer=restaurant,bowling
+limit=1..20
+```
+
+Response includes `version`, `mode`, diagnostics and explainable ranked results.
+
+## Quality gates
+
+Recommendation Engine v2 has two test layers.
+
+**Unit suite:**
+
+- opening-hours parsing in Khabarovsk time;
+- party-size hard filtering;
+- closed-place rejection;
+- controlled budget relaxation;
+- mood ranking;
+- geodistance filtering;
+- exclude safety.
+
+**Live catalog audit:** 45 deterministic scenarios across all current moods, budgets and party sizes.
+
+```text
+5 moods × 3 budgets × 3 party sizes = 45 scenarios
+200-place production catalog
+45 / 45 category-diversity checks
+0 empty baseline scenarios
+```
+
+Run everything before merge:
 
 ```bash
 npm run check
 ```
 
-Она генерирует Prisma Client, валидирует текущий каталог, запускает TypeScript, ESLint и production Next.js build.
+Or recommendation checks separately:
 
-## Telegram
+```bash
+npm run test
+npm run recommendation:audit
+```
 
-Для production Mini App нужен HTTPS URL. Telegram SDK подключается в root layout. В обычном браузере приложение продолжает работать через безопасные browser fallback.
+GitHub Actions additionally runs tests, recommendation audit, TypeScript, ESLint and production `next build` for every `agent/**` branch and PR to `main`.
 
-## API
+## Local development
+
+```bash
+git clone https://github.com/richmanstudio/kudaidem.git
+cd kudaidem
+npm install
+cp .env.example .env
+npm run dev
+```
+
+Database setup:
+
+```bash
+npm run db:generate
+npm run db:seed
+```
+
+Full project check:
+
+```bash
+npm run check
+```
+
+## Data operations
+
+```bash
+npm run data:finalize
+npm run data:collect
+npm run data:official-photos
+npm run data:2gis
+npm run data:sanitize-photos
+npm run data:validate
+npm run data:audit
+```
+
+Strict catalog + media check:
+
+```bash
+REQUIRE_LIVE_DATA=1 REQUIRE_PHOTOS=1 npm run data:validate
+```
+
+The data pipeline deliberately prefers an unknown field over false precision.
+
+## Product roadmap
 
 ```text
-GET /api/recommendations?city=Хабаровск&party=4&mood=fun&budget=mid
-POST /api/client-error
+Stage 1  Production foundation             ✅
+Stage 2  Live Khabarovsk data layer        ✅
+Stage 3  Recommendation Engine v2          ✅
+Stage 4  Geolocation & live context         →
+Stage 5  Production place experience        →
+Stage 6  Telegram rooms & group voting      →
+Stage 7  Analytics + closed beta            →
+Stage 8  Khabarovsk public launch           →
 ```
+
+## Stack
+
+`Next.js 16` · `React 19` · `TypeScript` · `PostgreSQL` · `Prisma 7` · `Telegram WebApp` · `GitHub Actions`
+
+---
+
+<div align="center">
+  <strong>DUONIQ</strong><br />
+  <sub>Two founders. One clear result.</sub><br /><br />
+  <code>#B6FF00</code>
+</div>

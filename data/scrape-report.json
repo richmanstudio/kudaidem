@@ -6,7 +6,7 @@
   "uniqueCandidates": 502,
   "accepted": 200,
   "withPhotoHints": 99,
-  "withImages": 43,
+  "withImages": 200,
   "approvedImages": 10,
   "imagesNeedingReview": 33,
   "withWebsite": 93,
@@ -42,5 +42,8 @@
   "deepOfficialPhotoScanAt": "2026-08-10T07:18:38.274Z",
   "invalidImagesRemoved": 7,
   "unverifiedProviderImagesRemoved": 0,
-  "mediaValidatedAt": "2026-08-10T07:18:44.232Z"
+  "mediaValidatedAt": "2026-08-10T07:18:44.232Z",
+  "searchMediaSnapshotCopied": 155,
+  "searchMediaFallbackAdded": 2,
+  "searchMediaAppliedAt": "2026-08-10T07:20:40.463Z"
 }

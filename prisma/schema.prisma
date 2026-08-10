@@ -7,10 +7,32 @@ datasource db {
   provider = "postgresql"
 }
 
-enum PlaceSource { TWO_GIS OPENSTREETMAP WIKIMEDIA OFFICIAL_SITE MANUAL OTHER }
-enum ImageRights { OFFICIAL_SOURCE THIRD_PARTY_UNKNOWN NEEDS_REVIEW APPROVED }
-enum RoomStatus { OPEN DECIDED CLOSED }
-enum RoomVoteValue { YES NO }
+enum PlaceSource {
+  TWO_GIS
+  OPENSTREETMAP
+  WIKIMEDIA
+  OFFICIAL_SITE
+  MANUAL
+  OTHER
+}
+
+enum ImageRights {
+  OFFICIAL_SOURCE
+  THIRD_PARTY_UNKNOWN
+  NEEDS_REVIEW
+  APPROVED
+}
+
+enum RoomStatus {
+  OPEN
+  DECIDED
+  CLOSED
+}
+
+enum RoomVoteValue {
+  YES
+  NO
+}
 
 enum AnalyticsEventType {
   APP_OPEN
@@ -125,6 +147,7 @@ model Room {
   votes RoomVote[]
   @@index([status, expiresAt])
 }
+
 model RoomMember {
   id String @id @default(cuid())
   roomId String
@@ -140,6 +163,7 @@ model RoomMember {
   @@unique([roomId, memberKey])
   @@index([roomId, joinedAt])
 }
+
 model RoomOption {
   id String @id @default(cuid())
   roomId String
@@ -151,6 +175,7 @@ model RoomOption {
   @@unique([roomId, placeId])
   @@index([roomId, position])
 }
+
 model RoomVote {
   id String @id @default(cuid())
   roomId String

@@ -8,6 +8,7 @@ on:
     paths:
       - package.json
       - scripts/collect-khabarovsk.ts
+      - scripts/finalize-khabarovsk-catalog.ts
       - scripts/validate-places.ts
       - .github/workflows/data-refresh.yml
 
@@ -34,14 +35,25 @@ jobs:
         with:
           node-version: 22
       - run: npm install --no-audit --no-fund
-      - name: Collect current places and photo provenance
-        id: collect
+
+      - name: Enrich places with real photo sources
+        id: photo_enrich
         continue-on-error: true
         run: npm run data:collect
-      - name: Validate production catalog
+
+      - name: Finalize exactly 200 current places
+        id: finalize
+        run: npm run data:finalize
+
+      - name: Validate 200-place catalog
         id: validate
-        continue-on-error: true
         run: REQUIRE_LIVE_DATA=1 npm run data:validate
+
+      - name: Check 200-photo target
+        id: photo_gate
+        continue-on-error: true
+        run: REQUIRE_LIVE_DATA=1 REQUIRE_PHOTOS=1 npm run data:validate
+
       - name: Preserve collection report
         if: always()
         uses: actions/upload-artifact@v4
@@ -51,10 +63,11 @@ jobs:
             data/khabarovsk-places.json
             data/scrape-report.json
             data/photo-review.json
-          if-no-files-found: warn
+          if-no-files-found: error
           retention-days: 7
-      - name: Commit verified catalog
-        if: steps.collect.outcome == 'success' && steps.validate.outcome == 'success'
+
+      - name: Commit verified 200-place catalog
+        if: steps.finalize.outcome == 'success' && steps.validate.outcome == 'success'
         run: |
           git config user.name "kudaidem-data-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -66,8 +79,17 @@ jobs:
             git pull --rebase origin agent/stage-2-live-data
             git push origin HEAD:agent/stage-2-live-data
           fi
-      - name: Enforce collection gate
+
+      - name: Publish coverage summary
         if: always()
+        shell: bash
         run: |
-          test "${{ steps.collect.outcome }}" = "success"
-          test "${{ steps.validate.outcome }}" = "success"
+          echo "## Khabarovsk data refresh" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Base 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Photo enrichment pass: ${{ steps.photo_enrich.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- 200-photo gate: ${{ steps.photo_gate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f data/scrape-report.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat data/scrape-report.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi

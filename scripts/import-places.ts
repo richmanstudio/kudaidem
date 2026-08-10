@@ -34,6 +34,8 @@ type InputPlace = {
   sourceUrl: string;
   source: keyof typeof PlaceSource;
   sourceUpdatedAt: string | null;
+  detailsSources?: unknown;
+  detailsUpdatedAt?: string | null;
   twoGisId?: string | null;
   twoGisSourceUrl?: string | null;
   twoGisHasPhotos?: boolean | null;
@@ -107,6 +109,8 @@ async function main() {
       sourceUrl: place.sourceUrl,
       source: PlaceSource[place.source],
       sourceUpdatedAt: place.sourceUpdatedAt ? new Date(place.sourceUpdatedAt) : null,
+      detailsSources: nullableJson(place.detailsSources),
+      detailsUpdatedAt: place.detailsUpdatedAt ? new Date(place.detailsUpdatedAt) : null,
       twoGisId: place.twoGisId ?? null,
       twoGisSourceUrl: place.twoGisSourceUrl ?? null,
       twoGisHasPhotos: place.twoGisHasPhotos ?? null,

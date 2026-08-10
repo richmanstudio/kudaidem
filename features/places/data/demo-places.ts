@@ -5,7 +5,33 @@ import type { Place } from "@/features/recommendations/domain/types";
  * from data/khabarovsk-places.json and these records are never presented as
  * verified live data.
  */
-function demo(place: Omit<Place, "address" | "latitude" | "longitude" | "imageUrl" | "imageSourceUrl" | "imageRights" | "sourceUrl" | "verifiedAt" | "website" | "phone" | "rating" | "reviewsCount">): Place {
+function demo(
+  place: Omit<
+    Place,
+    | "address"
+    | "latitude"
+    | "longitude"
+    | "imageUrl"
+    | "imageSourceUrl"
+    | "imageRights"
+    | "sourceUrl"
+    | "verifiedAt"
+    | "website"
+    | "phone"
+    | "rating"
+    | "reviewsCount"
+    | "openingHoursText"
+    | "indoor"
+    | "outdoor"
+    | "alcohol"
+    | "food"
+    | "activity"
+    | "romanticScore"
+    | "activityScore"
+    | "uniquenessScore"
+    | "noiseLevel"
+  >,
+): Place {
   return {
     ...place,
     address: null,
@@ -20,6 +46,16 @@ function demo(place: Omit<Place, "address" | "latitude" | "longitude" | "imageUr
     phone: null,
     rating: null,
     reviewsCount: null,
+    openingHoursText: place.closesAt === "24/7" ? "24/7" : null,
+    indoor: null,
+    outdoor: null,
+    alcohol: null,
+    food: null,
+    activity: null,
+    romanticScore: null,
+    activityScore: null,
+    uniquenessScore: null,
+    noiseLevel: null,
   };
 }
 

@@ -14,6 +14,7 @@
     "db:seed": "tsx scripts/import-places.ts",
     "data:collect": "tsx scripts/collect-khabarovsk.ts",
     "data:official-photos": "tsx scripts/deep-official-photos.ts",
+    "data:2gis": "tsx scripts/enrich-2gis-api.ts",
     "data:finalize": "tsx scripts/finalize-khabarovsk-catalog.ts",
     "data:validate": "tsx scripts/validate-places.ts",
     "check": "npm run db:generate && npm run data:validate && npm run typecheck && npm run lint && npm run build"

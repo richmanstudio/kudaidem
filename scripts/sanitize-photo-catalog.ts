@@ -12,10 +12,26 @@ type Place = Record<string, unknown> & {
   imageAuthor?: string | null;
   imageLicense?: string | null;
   imageLicenseUrl?: string | null;
+  kudagoId?: string | null;
 };
 
 function obviouslyBad(url: string) {
   return /(#|\.svg(?:\?|$)|logo|logotype|favicon|sprite|icon(?:s)?[._/-]|avatar|marker|captcha|counter|pixel|analytics|payment|qr(?:[._/-]|$)|static\.cdninstagram\.com\/rsrc|facebook\.com\/rsrc)/i.test(url);
+}
+
+function trustedProvider(place: Place) {
+  if (place.imageSource !== "OTHER") return true;
+  if (place.kudagoId && /(^|\.)kudago\.com$/i.test(hostname(place.imageSourceUrl))) return true;
+  return false;
+}
+
+function hostname(value: string | null | undefined) {
+  if (!value) return "";
+  try {
+    return new URL(value).hostname.toLowerCase();
+  } catch {
+    return "";
+  }
 }
 
 async function validRaster(url: string) {
@@ -77,23 +93,31 @@ async function main() {
   const places = JSON.parse(await readFile("data/khabarovsk-places.json", "utf8")) as Place[];
   const withPhotos = places.filter((place) => Boolean(place.imageUrl));
   const checks = await concurrent(withPhotos, 8, async (place, index) => {
-    const valid = place.imageUrl ? await validRaster(place.imageUrl) : false;
+    const providerTrusted = trustedProvider(place);
+    const valid = providerTrusted && place.imageUrl ? await validRaster(place.imageUrl) : false;
     if ((index + 1) % 20 === 0) console.log(`Media validation ${index + 1}/${withPhotos.length}`);
-    return { id: place.id, valid };
+    return { id: place.id, valid, providerTrusted };
   });
-  const validity = new Map(checks.map((entry) => [entry.id, entry.valid]));
-  const removed: Array<{ id: string; name: string; imageUrl: string }> = [];
+  const validity = new Map(checks.map((entry) => [entry.id, entry]));
+  const removed: Array<{ id: string; name: string; imageUrl: string; reason: string }> = [];
 
   const updated = places.map((place) => {
     if (!place.imageUrl) return place;
-    if (validity.get(place.id)) return place;
-    removed.push({ id: place.id, name: place.name, imageUrl: place.imageUrl });
+    const check = validity.get(place.id);
+    if (check?.valid) return place;
+    removed.push({
+      id: place.id,
+      name: place.name,
+      imageUrl: place.imageUrl,
+      reason: check?.providerTrusted === false ? "unverified OTHER provider" : "invalid/non-raster media",
+    });
     return clearPhoto(place);
   });
 
   const withImages = updated.filter((place) => Boolean(place.imageUrl)).length;
   const approvedImages = updated.filter((place) => place.imageRights === "APPROVED").length;
   const imagesNeedingReview = updated.filter((place) => place.imageUrl && place.imageRights !== "APPROVED").length;
+  const unverifiedProviderImagesRemoved = removed.filter((item) => item.reason === "unverified OTHER provider").length;
 
   let report: Record<string, unknown> = {};
   try {
@@ -105,6 +129,7 @@ async function main() {
   report.approvedImages = approvedImages;
   report.imagesNeedingReview = imagesNeedingReview;
   report.invalidImagesRemoved = removed.length;
+  report.unverifiedProviderImagesRemoved = unverifiedProviderImagesRemoved;
   report.mediaValidatedAt = new Date().toISOString();
 
   await writeFile("data/khabarovsk-places.json", `${JSON.stringify(updated, null, 2)}\n`, "utf8");
@@ -120,8 +145,8 @@ async function main() {
     })), null, 2)}\n`, "utf8");
 
   if (removed.length) {
-    console.log("Removed invalid/non-raster media:");
-    for (const item of removed) console.log(`- ${item.name}: ${item.imageUrl}`);
+    console.log("Removed unsafe/invalid media:");
+    for (const item of removed) console.log(`- ${item.name}: ${item.imageUrl} (${item.reason})`);
   }
   console.log(`Sanitized photo coverage: ${withImages}/${updated.length}; removed ${removed.length}`);
 }

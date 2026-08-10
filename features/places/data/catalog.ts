@@ -23,10 +23,10 @@ type CatalogRecord = {
   website: string | null;
   sourceUrl: string;
   source: PlaceSource;
-  imageUrl: string;
-  imageSourceUrl: string;
-  imageSource: PlaceSource;
-  imageRights: ImageRights;
+  imageUrl: string | null;
+  imageSourceUrl: string | null;
+  imageSource: PlaceSource | null;
+  imageRights: ImageRights | null;
   imageAuthor: string | null;
   imageLicense: string | null;
   imageLicenseUrl: string | null;

@@ -1,0 +1,106 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum PlaceSource {
+  TWO_GIS
+  OFFICIAL_SITE
+  MANUAL
+  OTHER
+}
+
+enum ImageRights {
+  OFFICIAL_SOURCE
+  THIRD_PARTY_UNKNOWN
+  NEEDS_REVIEW
+  APPROVED
+}
+
+model Place {
+  id                 String      @id
+  sourceId           String?     @unique
+  slug               String      @unique
+  city               String      @default("Хабаровск")
+  name               String
+  category           String
+  subcategories      String[]
+  tags               String[]
+  description        String?
+  address            String
+  latitude           Decimal?    @db.Decimal(9, 6)
+  longitude          Decimal?    @db.Decimal(9, 6)
+  phone              String?
+  website            String?
+  bookingUrl         String?
+  sourceUrl          String
+  source              PlaceSource @default(TWO_GIS)
+  imageUrl           String?
+  imageSourceUrl     String?
+  imageRights        ImageRights @default(NEEDS_REVIEW)
+  priceMin           Int?
+  priceMax           Int?
+  averageCheck       Int?
+  minParty           Int         @default(1)
+  maxParty           Int         @default(10)
+  durationMinutes    Int         @default(90)
+  openingHours       Json?
+  openingHoursText   String?
+  closesAt           String?
+  rating             Float?
+  reviewsCount       Int?
+  indoor             Boolean?
+  outdoor            Boolean?
+  alcohol            Boolean?
+  food               Boolean?
+  activity           Boolean?
+  romanticScore      Int?
+  activityScore      Int?
+  uniquenessScore    Int?
+  noiseLevel         Int?
+  active             Boolean     @default(true)
+  verifiedAt         DateTime?
+  scrapedAt          DateTime    @default(now())
+  sourceUpdatedAt    DateTime?
+  createdAt          DateTime    @default(now())
+  updatedAt          DateTime    @updatedAt
+  photos             PlacePhoto[]
+
+  @@index([city, active])
+  @@index([category])
+  @@index([verifiedAt])
+}
+
+model PlacePhoto {
+  id          String      @id @default(cuid())
+  placeId     String
+  url         String
+  sourceUrl   String
+  source      PlaceSource
+  rights      ImageRights @default(NEEDS_REVIEW)
+  width       Int?
+  height      Int?
+  position    Int         @default(0)
+  createdAt   DateTime    @default(now())
+  place       Place       @relation(fields: [placeId], references: [id], onDelete: Cascade)
+
+  @@index([placeId, position])
+}
+
+model DataRefreshRun {
+  id          String   @id @default(cuid())
+  source      String
+  city        String
+  requested   Int
+  discovered  Int
+  accepted    Int
+  withImages  Int
+  startedAt   DateTime
+  finishedAt  DateTime?
+  report      Json?
+  createdAt   DateTime @default(now())
+}

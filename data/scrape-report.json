@@ -6,9 +6,9 @@
   "uniqueCandidates": 502,
   "accepted": 200,
   "withPhotoHints": 99,
-  "withImages": 33,
+  "withImages": 52,
   "approvedImages": 11,
-  "imagesNeedingReview": 22,
+  "imagesNeedingReview": 41,
   "withWebsite": 93,
   "withOpeningHours": 112,
   "categoryCounts": {
@@ -25,6 +25,8 @@
     "outdoor": 12,
     "other": 14
   },
-  "finishedAt": "2026-08-10T06:27:31.073Z",
-  "photoEnrichedAt": "2026-08-10T06:27:54.715Z"
+  "finishedAt": "2026-08-10T06:33:30.930Z",
+  "photoEnrichedAt": "2026-08-10T06:33:54.500Z",
+  "deepOfficialPhotosAdded": 18,
+  "deepOfficialPhotoScanAt": "2026-08-10T06:34:27.743Z"
 }

@@ -2,55 +2,15 @@
   {
     "id": "osm-node-4481017690",
     "name": "Luga",
+    "website": "https://www.lugarest.ru/",
     "imageUrl": "https://static.tildacdn.com/tild6232-3034-4838-b765-343635306564/1__1.jpg",
     "imageSourceUrl": "https://www.lugarest.ru/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-way-181380618",
-    "name": "Торо",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-126752626",
-    "name": "Royal",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-7059134442",
-    "name": "Вкус Китая",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4501763390",
-    "name": "Густав и Густав",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-11649000544",
-    "name": "Дом",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-3164098485",
-    "name": "Ковбой",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-4384833849",
     "name": "Пекинская утка",
+    "website": "https://pekinskaya-utka.ru/",
     "imageUrl": "https://xao.ru/obshepit#primaryimage",
     "imageSourceUrl": "https://xao.ru/obshepit?dmn=pekinskaya-utka.ru",
     "imageRights": "NEEDS_REVIEW"
@@ -58,13 +18,63 @@
   {
     "id": "osm-node-12395371062",
     "name": "Харибу",
+    "website": "https://haribu.rest/",
     "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
     "imageSourceUrl": "https://haribu.rest/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-way-181380618",
+    "name": "Торо",
+    "website": "http://toro27.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-126752626",
+    "name": "Royal",
+    "website": "https://royal27.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-7059134442",
+    "name": "Вкус Китая",
+    "website": "https://xn--27-6kch4ala9clg1l.xn--p1ai/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4501763390",
+    "name": "Густав и Густав",
+    "website": "http://gustv-gustav.com/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11649000544",
+    "name": "Дом",
+    "website": "https://restdom.ru/",
+    "imageUrl": "https://restdom.ru/wp-content/uploads/2021/09/mr-rakusa-scaled.jpg",
+    "imageSourceUrl": "https://restdom.ru/about/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-3164098485",
+    "name": "Ковбой",
+    "website": "https://aragon27.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-3523296343",
     "name": "Ichiban Sushi",
+    "website": "http://ichiban-sushi.su/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -72,13 +82,15 @@
   {
     "id": "osm-node-5973897873",
     "name": "Vdrova",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "website": "https://www.instagram.com/vdrova_rjworlds/",
+    "imageUrl": "https://static.cdninstagram.com/rsrc.php/v4/yD/r/R0fBIMurK8v.png",
+    "imageSourceUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvdrova_rjworlds%2F&is_from_rle",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-way-452568216",
     "name": "Старый Тбилиси",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -86,6 +98,7 @@
   {
     "id": "osm-node-2237523445",
     "name": "Поехали",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -93,6 +106,7 @@
   {
     "id": "osm-node-3456818618",
     "name": "Сархан",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -100,6 +114,7 @@
   {
     "id": "osm-node-4350373308",
     "name": "Сациви",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -107,6 +122,7 @@
   {
     "id": "osm-node-6029568285",
     "name": "Тепло",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -114,6 +130,7 @@
   {
     "id": "osm-node-6829253085",
     "name": "Ханами",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -121,6 +138,7 @@
   {
     "id": "osm-way-1456180824",
     "name": "Императорская гавань",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -128,6 +146,7 @@
   {
     "id": "osm-way-70723346",
     "name": "Классик",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -135,6 +154,7 @@
   {
     "id": "osm-node-13446223601",
     "name": "Русский",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -142,6 +162,7 @@
   {
     "id": "osm-way-120486229",
     "name": "Тайвань",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -149,6 +170,7 @@
   {
     "id": "osm-node-4405496637",
     "name": "Панорама",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -156,6 +178,7 @@
   {
     "id": "osm-node-8499043917",
     "name": "Султан Базар",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -163,6 +186,7 @@
   {
     "id": "osm-node-3726923703",
     "name": "Al dente Горы",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -170,6 +194,7 @@
   {
     "id": "osm-node-9953699239",
     "name": "Chocolate",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -177,6 +202,7 @@
   {
     "id": "osm-node-3277880229",
     "name": "\"Вечерний\"",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -184,6 +210,7 @@
   {
     "id": "osm-node-1750920610",
     "name": "Барбадос",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -191,6 +218,7 @@
   {
     "id": "osm-node-1030381150",
     "name": "Берёзка",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -198,6 +226,7 @@
   {
     "id": "osm-node-1403006579",
     "name": "Бомонд",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -205,6 +234,7 @@
   {
     "id": "osm-node-1358380887",
     "name": "Ботаник",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -212,6 +242,7 @@
   {
     "id": "osm-node-4493549289",
     "name": "Густав",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -219,6 +250,7 @@
   {
     "id": "osm-node-3665806758",
     "name": "Густав&Густав Express",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -226,6 +258,7 @@
   {
     "id": "osm-node-883520474",
     "name": "Дракон Азии",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -233,6 +266,7 @@
   {
     "id": "osm-node-3285380577",
     "name": "Дун Бэй",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -240,6 +274,7 @@
   {
     "id": "osm-node-5040237131",
     "name": "Империя",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -247,6 +282,7 @@
   {
     "id": "osm-node-5025713390",
     "name": "Конфуций",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -254,6 +290,7 @@
   {
     "id": "osm-node-2713470372",
     "name": "Лотос",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -261,34 +298,7 @@
   {
     "id": "osm-node-5973897869",
     "name": "Мускатный кит",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-way-302009332",
-    "name": "Вилки-Палки",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12887857002",
-    "name": "Келди",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1403022485",
-    "name": "Зарина",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-10655456481",
-    "name": "Квартира Паши Кейзера",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -296,34 +306,79 @@
   {
     "id": "osm-node-12395371058",
     "name": "Кофемашина",
+    "website": "https://c-machine.ru/",
     "imageUrl": "https://c-machine.ru/wp-content/themes/cmachine/assets/img/og_cmachine.jpg",
     "imageSourceUrl": "https://c-machine.ru/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-11649000540",
-    "name": "Мишка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-7670756981",
-    "name": "Столовая",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-11110981905",
     "name": "Столовая 8 минут",
+    "website": "https://www.8minut.com/",
     "imageUrl": "https://www.8minut.com/upload/CPriority/f10/f1001edfcba952ebf0e5c1870496ea0c.svg",
     "imageSourceUrl": "https://www.8minut.com/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-12059180588",
+    "name": "Torro Grill",
+    "website": "https://torrogrill.ru/",
+    "imageUrl": "https://torrogrill.ru//assets/gimg/446_42672fcaf544.jpg",
+    "imageSourceUrl": "https://torrogrill.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-302009332",
+    "name": "Вилки-Палки",
+    "website": "https://vilki-palki.ru/",
+    "imageUrl": "https://vilki-palki.ru/files/products/E9/gY/J9/1670385238_PivoTsingtao.jpg",
+    "imageSourceUrl": "https://vilki-palki.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12887857002",
+    "name": "Келди",
+    "website": "https://keldi.shop/",
+    "imageUrl": "https://keldi.shop/cache/1741325000.png",
+    "imageSourceUrl": "https://keldi.shop/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1403022485",
+    "name": "Зарина",
+    "website": "http://zarina-cafe.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-10655456481",
+    "name": "Квартира Паши Кейзера",
+    "website": "https://pasha-keizer.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11649000540",
+    "name": "Мишка",
+    "website": "https://mishkarestaurant.ru/",
+    "imageUrl": "https://mishkarestaurant.ru/wp-content/uploads/2019/05/PHOTO-2022-11-23-13-44-30-878x1024.jpg",
+    "imageSourceUrl": "https://mishkarestaurant.ru/dopolnitelno/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-7670756981",
+    "name": "Столовая",
+    "website": "https://www.dns-shop.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-4221985694",
     "name": "Сытый Федот",
+    "website": "https://sfedot.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -331,6 +386,7 @@
   {
     "id": "osm-node-6029527786",
     "name": "Шоколадница",
+    "website": "https://regions.shoko.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -338,20 +394,15 @@
   {
     "id": "osm-node-7832298087",
     "name": "Cinnabon",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12059180588",
-    "name": "Torro Grill",
-    "imageUrl": "https://torrogrill.ru//assets/gimg/446_42672fcaf544.jpg",
-    "imageSourceUrl": "https://torrogrill.ru/",
+    "website": "https://cinnabonrussia.com/",
+    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
+    "imageSourceUrl": "https://cinnabonrussia.com/about/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-way-270539004",
     "name": "Кафема",
+    "website": "http://kafema.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -359,13 +410,15 @@
   {
     "id": "osm-node-3857899474",
     "name": "Cinnabon",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "website": "http://www.cinnabonrussia.com/",
+    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
+    "imageSourceUrl": "https://cinnabonrussia.com/about/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-7747825751",
     "name": "Корея",
+    "website": "https://korea27.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -373,6 +426,7 @@
   {
     "id": "osm-node-4611366190",
     "name": "Синьор Помидор",
+    "website": "https://www.spomidor.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -380,20 +434,23 @@
   {
     "id": "osm-node-4381379720",
     "name": "Хлебное место",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "website": "http://hlebnoe-mesto.ru/",
+    "imageUrl": "https://img.reg.ru/news/p-domain-parking-shopfront__image-1.webp",
+    "imageSourceUrl": "http://hlebnoe-mesto.ru/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-12506476246",
     "name": "Келди",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "website": "https://keldi.shop/",
+    "imageUrl": "https://keldi.shop/cache/1741325000.png",
+    "imageSourceUrl": "https://keldi.shop/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-way-934124462",
     "name": "Восточное",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -401,6 +458,7 @@
   {
     "id": "osm-way-557524374",
     "name": "Амурский Дворик",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -408,6 +466,7 @@
   {
     "id": "osm-node-13427943801",
     "name": "Бурятская кухня. Буузы.",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -415,6 +474,7 @@
   {
     "id": "osm-node-12176011606",
     "name": "Маяк",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -422,6 +482,7 @@
   {
     "id": "osm-node-12175796128",
     "name": "Угол",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -429,6 +490,7 @@
   {
     "id": "osm-way-454602007",
     "name": "Chin-Chin",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -436,6 +498,7 @@
   {
     "id": "osm-node-884295343",
     "name": "Корица и мята",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -443,6 +506,7 @@
   {
     "id": "osm-node-10205619059",
     "name": "Андерсен",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -450,6 +514,7 @@
   {
     "id": "osm-node-11649000538",
     "name": "Арома",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -457,6 +522,7 @@
   {
     "id": "osm-node-5416834873",
     "name": "Две рыбы",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -464,6 +530,7 @@
   {
     "id": "osm-node-7501907785",
     "name": "Де`рибас",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -471,55 +538,7 @@
   {
     "id": "osm-node-5454635822",
     "name": "Мясной ресторанчик",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12070992815",
-    "name": "Япона ролл",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12722562626",
-    "name": "Бургер Кинг",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-13638767275",
-    "name": "Бургер Кинг",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-9954298509",
-    "name": "Вкусно — и точка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12358147826",
-    "name": "Додо Пицца",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-12358152972",
-    "name": "Додо Пицца",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1378096668",
-    "name": "Золотая птичка",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -527,6 +546,7 @@
   {
     "id": "osm-node-13420909860",
     "name": "Суши-Маркет",
+    "website": "https://sushi-market.com/",
     "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
     "imageSourceUrl": "https://sushi-market.com/",
     "imageRights": "NEEDS_REVIEW"
@@ -534,6 +554,7 @@
   {
     "id": "osm-node-13420909861",
     "name": "Суши-Маркет",
+    "website": "https://sushi-market.com/",
     "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
     "imageSourceUrl": "https://sushi-market.com/",
     "imageRights": "NEEDS_REVIEW"
@@ -541,6 +562,7 @@
   {
     "id": "osm-node-13420909862",
     "name": "Суши-Маркет",
+    "website": "https://sushi-market.com/",
     "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
     "imageSourceUrl": "https://sushi-market.com/",
     "imageRights": "NEEDS_REVIEW"
@@ -548,6 +570,7 @@
   {
     "id": "osm-node-13420909863",
     "name": "Суши-Маркет",
+    "website": "https://sushi-market.com/",
     "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
     "imageSourceUrl": "https://sushi-market.com/",
     "imageRights": "NEEDS_REVIEW"
@@ -555,6 +578,7 @@
   {
     "id": "osm-node-13420909864",
     "name": "Суши-Маркет",
+    "website": "https://sushi-market.com/",
     "imageUrl": "https://dt-static.storage.yandexcloud.net/sushi-market/og-image.jpg",
     "imageSourceUrl": "https://sushi-market.com/",
     "imageRights": "NEEDS_REVIEW"
@@ -562,6 +586,7 @@
   {
     "id": "osm-node-6536734327",
     "name": "Coffee Like",
+    "website": "https://coffee-like.com/",
     "imageUrl": "https://coffee-like.com/img/preview/main2.png",
     "imageSourceUrl": "https://coffee-like.com/",
     "imageRights": "NEEDS_REVIEW"
@@ -569,27 +594,95 @@
   {
     "id": "osm-node-9992569350",
     "name": "Coffee Like",
+    "website": "https://coffee-like.com/",
     "imageUrl": "https://coffee-like.com/img/preview/main2.png",
     "imageSourceUrl": "https://coffee-like.com/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-9805680194",
-    "name": "Do.Bro Coffee",
+    "id": "osm-node-11975223622",
+    "name": "Ichiban",
+    "website": "https://taplink.cc/ichibankare",
+    "imageUrl": "https://p.taplink.st/a/3/d/1/5/22eff7.jpg?118",
+    "imageSourceUrl": "https://taplink.cc/ichibankare",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12070992815",
+    "name": "Япона ролл",
+    "website": "https://yaponaroll.ru/",
+    "imageUrl": "https://yaponaroll.ru/admin/uploads/072a9a6c6e931390fccf401c3654897ae67a871ebanner-na-sajt_sety-hanami_hana.jpg",
+    "imageSourceUrl": "https://yaponaroll.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12722562626",
+    "name": "Бургер Кинг",
+    "website": "https://burgerkingrus.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
+  },
+  {
+    "id": "osm-node-13638767275",
+    "name": "Бургер Кинг",
+    "website": "https://burgerkingrus.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-9954298509",
+    "name": "Вкусно — и точка",
+    "website": "https://vkusnoitochka.ru/",
+    "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
+    "imageSourceUrl": "https://vkusnoitochka.ru/company",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12358147826",
+    "name": "Додо Пицца",
+    "website": "https://dodopizza.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12358152972",
+    "name": "Додо Пицца",
+    "website": "https://dodopizza.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-1378096668",
+    "name": "Золотая птичка",
+    "website": "https://golden-life.ru/",
+    "imageUrl": "https://www.golden-life.ru/assets/images/banners/slide-01.webp",
+    "imageSourceUrl": "https://www.golden-life.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000542",
+    "name": "Паста на баре",
+    "website": "https://pastanabare.taplink.ws/",
+    "imageUrl": "https://p.taplink.st/a/8/f/9/5/7a032b.jpg?1",
+    "imageSourceUrl": "https://pastanabare.taplink.ws/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-11649000536",
     "name": "Винотека",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "website": "https://vinotekabar.ru/",
+    "imageUrl": "https://vinotekabar.ru/wp-content/uploads/2021/07/IMG_7632.jpg",
+    "imageSourceUrl": "https://vinotekabar.ru/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-4365848167",
     "name": "Галлерея",
+    "website": "https://vk.com/gallery_djcafe",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -597,20 +690,15 @@
   {
     "id": "osm-node-12059180585",
     "name": "История",
+    "website": "https://storyclub.info/main",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-11649000542",
-    "name": "Паста на баре",
-    "imageUrl": "https://p.taplink.st/a/8/f/9/5/7a032b.jpg?1",
-    "imageSourceUrl": "https://pastanabare.taplink.ws/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-node-11649000541",
     "name": "Рюмочная",
+    "website": "https://rumochnaia.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -618,6 +706,7 @@
   {
     "id": "osm-node-12395371057",
     "name": "Рюмочная",
+    "website": "https://rumochnaia.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -625,13 +714,15 @@
   {
     "id": "osm-node-2392277758",
     "name": "Mozart",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "website": "http://mozart-club27.ru/",
+    "imageUrl": "https://mozart-club27.ru/images/stories/forsite/111.jpg",
+    "imageSourceUrl": "https://mozart-club27.ru/index.php/about-us",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-12151045373",
     "name": "Свой Пивной",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -639,6 +730,7 @@
   {
     "id": "osm-node-12887857301",
     "name": "Chixx",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -646,6 +738,7 @@
   {
     "id": "osm-node-2237523444",
     "name": "ПодZемка",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -653,6 +746,7 @@
   {
     "id": "osm-way-525763612",
     "name": "Ночной Хабаровск",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -660,6 +754,7 @@
   {
     "id": "osm-node-12987030079",
     "name": "Танк & Хоппер",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -667,6 +762,7 @@
   {
     "id": "osm-node-4381725531",
     "name": "Mexico",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -674,6 +770,7 @@
   {
     "id": "osm-node-3277883161",
     "name": "\"Адреналин\"",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -681,13 +778,7 @@
   {
     "id": "osm-node-13333091989",
     "name": "Агутин",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-818506658",
-    "name": "Хабаровский краевой театр драмы",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -695,6 +786,7 @@
   {
     "id": "osm-node-12640389978",
     "name": "Луна",
+    "website": "https://luna-khv.ru/",
     "imageUrl": "https://i.taplink.st/a/5/0/8/5/19e213.png?198",
     "imageSourceUrl": "https://luna-khv.ru/",
     "imageRights": "NEEDS_REVIEW"
@@ -702,13 +794,23 @@
   {
     "id": "osm-way-274763647",
     "name": "Хабаровский театр юного зрителя",
+    "website": "https://tuz-xa.ru/",
     "imageUrl": "http://tuz-xa.ru/static/img/ogp_image.png",
     "imageSourceUrl": "https://tuz-xa.ru/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-818506658",
+    "name": "Хабаровский краевой театр драмы",
+    "website": "https://www.teatr-planet.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-8035165019",
     "name": "АНО \"Талантливые Дети\"",
+    "website": "https://talant-deti.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -716,6 +818,7 @@
   {
     "id": "osm-node-1403077450",
     "name": "Фабрика грёз",
+    "website": "https://fabrikagrezkhv.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -723,6 +826,7 @@
   {
     "id": "osm-way-87896088",
     "name": "Дружба",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -730,6 +834,7 @@
   {
     "id": "osm-node-2469900437",
     "name": "Автокинотеатр «На Заимке»",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -737,6 +842,7 @@
   {
     "id": "osm-way-82076627",
     "name": "Театр юного зрителя",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -744,6 +850,7 @@
   {
     "id": "osm-way-67571263",
     "name": "Хабаровск",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -751,6 +858,7 @@
   {
     "id": "osm-node-7112753919",
     "name": "Мобильная театральная компания «Театр «М` Арт»",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -758,6 +866,7 @@
   {
     "id": "osm-node-2095798997",
     "name": "Hollywood",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -765,6 +874,7 @@
   {
     "id": "osm-node-2095798998",
     "name": "Атмосфера",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -772,27 +882,47 @@
   {
     "id": "osm-node-10792579695",
     "name": "Cook&Run",
+    "website": "https://cookn.run/",
     "imageUrl": "https://cookn.run/assets/template/img/1.webp",
     "imageSourceUrl": "https://cookn.run/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-way-209353599",
-    "name": "Фитнес-клуб \"Наутилус\" Южный",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-5235011021",
     "name": "Наутилус-Загородный",
+    "website": "https://nautilus-fitness.ru/",
     "imageUrl": "https://static.tildacdn.com/tild6465-6639-4139-b862-326334653564/12.png",
     "imageSourceUrl": "https://fcnautilus.ru/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-5555835122",
+    "name": "URBAN210",
+    "website": "https://urban210.ru/",
+    "imageUrl": "https://urban210.ru/wp-content/uploads/2026/04/promo_bg_3.jpg",
+    "imageSourceUrl": "https://urban210.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1345725853",
+    "name": "КСК Чистополье",
+    "website": "https://chistopolye.ru/",
+    "imageUrl": "https://static.tildacdn.com/tild6632-3661-4739-a433-666237336634/1.svg",
+    "imageSourceUrl": "https://chistopolye.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-209353599",
+    "name": "Фитнес-клуб \"Наутилус\" Южный",
+    "website": "https://www.nautilus-fitness.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-4807521922",
     "name": "Скалодром \"Феррум\"",
+    "website": "https://vk.com/ferrumfamily",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -800,6 +930,7 @@
   {
     "id": "osm-node-11958560257",
     "name": "Lady Stretch",
+    "website": "https://lady-stretch.online/khabarovsk",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -807,20 +938,15 @@
   {
     "id": "osm-node-12378249784",
     "name": "Lady Stretch",
+    "website": "https://ladystretch.com/khabarovsk",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-5555835122",
-    "name": "URBAN210",
-    "imageUrl": "https://urban210.ru/wp-content/uploads/2026/04/promo_bg_3.jpg",
-    "imageSourceUrl": "https://urban210.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-way-310906737",
     "name": "Арагон",
+    "website": "https://www.cowboy-town.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -828,27 +954,23 @@
   {
     "id": "osm-way-272536654",
     "name": "Спортивный комплекс \"Олимпия\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "website": "http://olimpia27.ru/",
+    "imageUrl": "https://olimpia27.ru/templates/ol/img/photo_dla_glavnoi/img_1.jpg",
+    "imageSourceUrl": "https://olimpia27.ru/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-way-272536655",
     "name": "Спортивный комплекс \"Олимпия\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1345725853",
-    "name": "КСК Чистополье",
-    "imageUrl": "https://static.tildacdn.com/tild6632-3661-4739-a433-666237336634/1.svg",
-    "imageSourceUrl": "https://chistopolye.ru/",
+    "website": "http://olimpia27.ru/",
+    "imageUrl": "https://olimpia27.ru/templates/ol/img/photo_dla_glavnoi/img_1.jpg",
+    "imageSourceUrl": "https://olimpia27.ru/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-3076533518",
     "name": "Пятый Элемент",
+    "website": "http://5element.khv.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -856,6 +978,7 @@
   {
     "id": "osm-node-10655583515",
     "name": "Миури-Мархаба",
+    "website": "http://sauna-marhaba.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -863,6 +986,7 @@
   {
     "id": "osm-node-7188746786",
     "name": "Баня на Ленинградской",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -870,6 +994,7 @@
   {
     "id": "osm-node-5651402565",
     "name": "Baden-Baden",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -877,6 +1002,7 @@
   {
     "id": "osm-node-2034084852",
     "name": "Аквамарин",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -884,6 +1010,7 @@
   {
     "id": "osm-node-4698326589",
     "name": "Бани на Облепиховой",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -891,6 +1018,7 @@
   {
     "id": "osm-node-1358380888",
     "name": "Баня",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -898,6 +1026,7 @@
   {
     "id": "osm-node-4742464122",
     "name": "Гран При",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -905,6 +1034,7 @@
   {
     "id": "osm-node-4481017400",
     "name": "Даль У Сауна",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -912,6 +1042,7 @@
   {
     "id": "osm-node-3634989899",
     "name": "Музей Энергетики",
+    "website": "https://www.dvgk.ru/ru/static/o-muzieie",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -919,6 +1050,7 @@
   {
     "id": "osm-node-11138113106",
     "name": "Амурариум (Рыбы Амура)",
+    "website": "https://vk.com/club39081755",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -926,6 +1058,7 @@
   {
     "id": "osm-node-2006160993",
     "name": "Дальневосточный художественный музей",
+    "website": "https://xn--b1adz9a.xn--p1ai/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -933,13 +1066,15 @@
   {
     "id": "osm-node-9953705395",
     "name": "Авторетро 100",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "website": "https://xn--100-5cdks6dbqbsd.xn--p1ai/",
+    "imageUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/images/c6_banner2.jpg",
+    "imageSourceUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-2495828812",
     "name": "Пожарно-техническая выставка",
+    "website": "https://www.27.mchs.gov.ru/dejatelnost/Muzej",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -947,6 +1082,7 @@
   {
     "id": "osm-way-32050191",
     "name": "Амурский Утëс",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -954,6 +1090,7 @@
   {
     "id": "osm-node-3634989902",
     "name": "Хабаровский тюремный замок",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -961,6 +1098,7 @@
   {
     "id": "osm-node-12887906701",
     "name": "Хэппи Дэй",
+    "website": "https://happydaykhv.ru/",
     "imageUrl": "https://static.tildacdn.com/tild6337-6534-4236-a235-636335616535/photo.png",
     "imageSourceUrl": "https://happydaykhv.ru/",
     "imageRights": "NEEDS_REVIEW"
@@ -968,6 +1106,7 @@
   {
     "id": "osm-way-242208334",
     "name": "Зоосад \"Приамурский\" имени В.П. Сысоева",
+    "website": "https://www.zoosad27.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -975,6 +1114,7 @@
   {
     "id": "osm-way-32063254",
     "name": "Арлекин",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -982,6 +1122,7 @@
   {
     "id": "osm-node-3257869796",
     "name": "Амурский утëс",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -989,6 +1130,7 @@
   {
     "id": "osm-node-8437296217",
     "name": "Бассейн ЦСКА",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -996,6 +1138,7 @@
   {
     "id": "osm-node-7856604787",
     "name": "Бременские музыканты",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1003,6 +1146,7 @@
   {
     "id": "osm-node-12662450594",
     "name": "Воронье Гнездо",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1010,6 +1154,7 @@
   {
     "id": "osm-node-6827545041",
     "name": "Дама с собачкой",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1017,6 +1162,7 @@
   {
     "id": "osm-node-9981829817",
     "name": "Дом доходный А.Ф. Вильневчица",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1024,6 +1170,7 @@
   {
     "id": "osm-node-9981839918",
     "name": "Дом доходный Б.Е. Кламбоцкого",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1031,6 +1178,7 @@
   {
     "id": "osm-node-9961878018",
     "name": "Дом доходный В.В. Петренко",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1038,6 +1186,7 @@
   {
     "id": "osm-node-9981837518",
     "name": "Дом доходный Н.А. Сыромятникова",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1045,6 +1194,7 @@
   {
     "id": "osm-node-9981890818",
     "name": "Дом доходный П.А. Малкова",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1052,6 +1202,7 @@
   {
     "id": "osm-node-9961907417",
     "name": "Дом жилой В.В. Дмитрие",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1059,6 +1210,7 @@
   {
     "id": "osm-relation-10519341",
     "name": "Парк Железнодорожников",
+    "website": "https://habinfo.ru/park-zheleznodorozhnikov-otdyhaem-na-vtorom-habarovske/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1066,6 +1218,7 @@
   {
     "id": "osm-way-881042573",
     "name": "Ботанический овраг",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1073,6 +1226,7 @@
   {
     "id": "osm-way-881044033",
     "name": "Сад Геологов",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1080,6 +1234,7 @@
   {
     "id": "osm-way-1366866267",
     "name": "Сквер Связь поколений",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1087,6 +1242,7 @@
   {
     "id": "osm-way-881039587",
     "name": "Барабашевский сквер",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1094,6 +1250,7 @@
   {
     "id": "osm-way-68195832",
     "name": "Дендрарий",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1101,6 +1258,7 @@
   {
     "id": "osm-node-5970921192",
     "name": "Детский замок",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1108,6 +1266,7 @@
   {
     "id": "osm-node-6824836534",
     "name": "Качели-карусели",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1115,6 +1274,7 @@
   {
     "id": "osm-way-282725702",
     "name": "Кошачий сквер",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1122,6 +1282,7 @@
   {
     "id": "osm-way-239849003",
     "name": "Парк «Динамо»",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1129,6 +1290,7 @@
   {
     "id": "osm-way-634029366",
     "name": "Парк Горького",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1136,13 +1298,15 @@
   {
     "id": "osm-node-6207350886",
     "name": "Студия звукозаписи Corpus",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "website": "https://tishina.pro/",
+    "imageUrl": "https://tishina.pro/wp-content/uploads/2024/01/IMG_9888.jpg",
+    "imageSourceUrl": "https://tishina.pro/foto/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-way-594415839",
     "name": "Броско Молл",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1150,6 +1314,7 @@
   {
     "id": "osm-way-1086866756",
     "name": "Броско Volna",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1157,6 +1322,7 @@
   {
     "id": "osm-way-553155581",
     "name": "Пушкина",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1164,6 +1330,7 @@
   {
     "id": "osm-way-87470131",
     "name": "центр_по_работе_с_населением_\"исток\"",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1171,6 +1338,7 @@
   {
     "id": "osm-way-122079627",
     "name": "Экодом",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1178,6 +1346,7 @@
   {
     "id": "osm-way-199584058",
     "name": "Южный Парк",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1185,6 +1354,7 @@
   {
     "id": "osm-way-241576818",
     "name": "Smile Mart",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1192,6 +1362,7 @@
   {
     "id": "osm-way-272280367",
     "name": "Smile Mart",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1199,6 +1370,7 @@
   {
     "id": "osm-way-185919088",
     "name": "Аквариум",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1206,6 +1378,7 @@
   {
     "id": "osm-way-67801177",
     "name": "Атриум",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1213,20 +1386,23 @@
   {
     "id": "osm-way-115698804",
     "name": "Большая медведица",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-11975223622",
-    "name": "Ichiban",
-    "imageUrl": "https://p.taplink.st/a/3/d/1/5/22eff7.jpg?118",
-    "imageSourceUrl": "https://taplink.cc/ichibankare",
-    "imageRights": "NEEDS_REVIEW"
+    "id": "osm-node-9805680194",
+    "name": "Do.Bro Coffee",
+    "website": "https://dobro-coffee.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-node-11975028914",
     "name": "Sushi Sea",
+    "website": "https://sushi-sea.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1234,6 +1410,7 @@
   {
     "id": "osm-node-11975028915",
     "name": "Sushi Sea",
+    "website": "https://sushi-sea.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1241,6 +1418,7 @@
   {
     "id": "osm-node-11975028916",
     "name": "Sushi Sea",
+    "website": "https://sushi-sea.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1248,6 +1426,7 @@
   {
     "id": "osm-node-3857899475",
     "name": "Hesburger",
+    "website": "https://www.hesburger.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1255,13 +1434,15 @@
   {
     "id": "osm-node-10013201138",
     "name": "Вкусно — и точка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "website": "https://vkusnoitochka.ru/",
+    "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
+    "imageSourceUrl": "https://vkusnoitochka.ru/company",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-9953971133",
     "name": "Додо Пицца",
+    "website": "https://dodopizza.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1269,6 +1450,7 @@
   {
     "id": "osm-node-12358099659",
     "name": "Додо Пицца",
+    "website": "https://dodopizza.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1276,6 +1458,7 @@
   {
     "id": "osm-node-12358114361",
     "name": "Додо Пицца",
+    "website": "https://dodopizza.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1283,6 +1466,7 @@
   {
     "id": "osm-node-12856304667",
     "name": "Rostic's",
+    "website": "https://www.kfc.ru/",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1290,6 +1474,7 @@
   {
     "id": "osm-way-1534451240",
     "name": "МК-спорт",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1297,6 +1482,7 @@
   {
     "id": "osm-node-12887937001",
     "name": "Чак чак",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1304,6 +1490,7 @@
   {
     "id": "osm-node-10655456483",
     "name": "Белый Барашка",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1311,6 +1498,7 @@
   {
     "id": "osm-node-6029556485",
     "name": "РЖД ОАО",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1318,6 +1506,7 @@
   {
     "id": "osm-node-7283823843",
     "name": "Хума. Дом восточной кухни",
+    "website": null,
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null

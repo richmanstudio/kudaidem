@@ -42,6 +42,11 @@ model Place {
   sourceUrl          String
   source              PlaceSource @default(OPENSTREETMAP)
   sourceUpdatedAt    DateTime?
+  twoGisId           String?      @unique
+  twoGisSourceUrl    String?
+  twoGisHasPhotos    Boolean?
+  twoGisUpdatedAt    DateTime?
+  twoGisMatchScore   Int?
   imageUrl           String?
   imageSourceUrl     String?
   imageSource        PlaceSource?
@@ -79,6 +84,7 @@ model Place {
   @@index([city, active])
   @@index([category])
   @@index([verifiedAt])
+  @@index([twoGisHasPhotos])
 }
 
 model PlacePhoto {

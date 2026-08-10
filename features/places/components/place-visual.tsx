@@ -1,3 +1,4 @@
+import { imageIsProductionApproved } from "@/features/places/domain/experience";
 import type { Place } from "@/features/recommendations/domain/types";
 
 function safeImageUrl(url: string | null) {
@@ -12,7 +13,7 @@ function safeImageUrl(url: string | null) {
 }
 
 function canDisplayPhoto(place: Place) {
-  if (place.imageRights === "APPROVED") return true;
+  if (imageIsProductionApproved(place.imageRights)) return true;
   return process.env.NODE_ENV !== "production" || process.env.NEXT_PUBLIC_ALLOW_REVIEW_PHOTOS === "1";
 }
 

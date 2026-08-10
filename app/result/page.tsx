@@ -4,12 +4,13 @@ import { EmptyState } from "@/components/ui/screen-state";
 import { Clock, Navigation, Sparkles, Users, Wallet } from "@/components/ui/icons";
 import { PlaceVisual } from "@/features/places/components/place-visual";
 import { CreateRoomButton } from "@/features/rooms/components/create-room-button";
+import { TrackOnMount } from "@/features/analytics/components/analytics-client";
+import { TrackedLink } from "@/features/analytics/components/tracked-link";
 import { filtersToSearchParams, parseSearchRecord } from "@/features/recommendations/domain/search-params";
 import { recommendWithLiveContext } from "@/features/recommendations/server/recommend-with-context";
 import type { WeatherKind } from "@/lib/context/types";
 
 type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
-
 const weatherLabels: Record<WeatherKind, string> = { clear: "ясно", cloudy: "облачно", rain: "дождь", snow: "снег", storm: "гроза", extreme: "экстремальная погода", unknown: "погода уточняется" };
 const daypartLabels = { morning: "утро", day: "день", evening: "вечер", night: "ночь" } as const;
 
@@ -21,16 +22,14 @@ export default async function ResultPage({ searchParams }: Props) {
   const filters = live.filters;
   const recommendation = live.recommendation;
   const ranked = recommendation.results;
-
   if (ranked.length === 0) return <div className="screen"><Topbar title="Результат" /><EmptyState title="Пока ничего не нашли" description="Измените параметры поиска — мы не будем показывать закрытое, слишком дорогое, далёкое или неподходящее по текущим условиям место только ради результата." actionHref="/" actionLabel="Изменить параметры" /></div>;
-
   const place = ranked[index % ranked.length];
   const nextIndex = (index + 1) % ranked.length;
   const base = filtersToSearchParams(filters);
   const weather = live.context.weather;
   const contextText = weather ? `${weatherLabels[weather.kind]}${weather.temperatureC != null ? ` · ${Math.round(weather.temperatureC)} °C` : ""} · ${daypartLabels[live.context.daypart]}` : `${daypartLabels[live.context.daypart]} · погода временно недоступна`;
-
   return <div className="screen">
+    <TrackOnMount type="RECOMMENDATION_SHOWN" placeId={place.id} metadata={{ index, match: place.match, mode: recommendation.mode }} />
     <Topbar title="Лучший вариант" />
     <PlaceVisual place={place} match={place.match} />
     <section className="result-copy">
@@ -48,7 +47,7 @@ export default async function ResultPage({ searchParams }: Props) {
       <div className="stat"><Navigation /> {place.travelMinutes != null ? `≈ ${place.travelMinutes} минут от вас` : (place.address || "Хабаровск")}</div>
     </div>
     <div className="button-row bottom-action">
-      <Link className="primary-button" href={`/place/${place.id}?${base.toString()}`}>Идём!</Link>
+      <TrackedLink className="primary-button" href={`/place/${place.id}?${base.toString()}`} eventType="RECOMMENDATION_ACCEPTED" placeId={place.id}>Идём!</TrackedLink>
       <Link className="secondary-button" href={`/result?${base.toString()}&i=${nextIndex}`}>Другой вариант</Link>
       <CreateRoomButton placeIds={ranked.slice(0, 6).map((item) => item.id)} />
     </div>

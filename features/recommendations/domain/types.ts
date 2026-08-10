@@ -1,3 +1,5 @@
+import type { LiveContext } from "@/lib/context/types";
+
 export type Mood = "eat" | "fun" | "calm" | "active" | "surprise";
 export type Budget = "low" | "mid" | "high";
 export type PlaceSource = "TWO_GIS" | "OPENSTREETMAP" | "WIKIMEDIA" | "OFFICIAL_SITE" | "MANUAL" | "OTHER";
@@ -61,6 +63,7 @@ export type SearchFilters = {
   excludeIds?: string[];
   seenPlaceIds?: string[];
   preferredCategories?: string[];
+  liveContext?: LiveContext;
 };
 
 export type ScoreBreakdown = {
@@ -69,6 +72,7 @@ export type ScoreBreakdown = {
   group: number;
   distance: number;
   availability: number;
+  context: number;
   quality: number;
   freshness: number;
   novelty: number;
@@ -94,6 +98,7 @@ export type RecommendationDiagnostics = {
   rejectedClosed: number;
   rejectedBudget: number;
   rejectedDistance: number;
+  rejectedContext: number;
   scored: number;
 };
 

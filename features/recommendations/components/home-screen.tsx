@@ -2,8 +2,9 @@
 
 import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowRight, ChevronDown } from "@/components/ui/icons";
+import { ArrowRight, ChevronDown, Navigation } from "@/components/ui/icons";
 import { haptic } from "@/lib/telegram/client";
+import { useLiveLocation } from "@/lib/location/use-live-location";
 import {
   filtersToSearchParams,
   DEFAULT_FILTERS,
@@ -30,6 +31,7 @@ export function HomeScreen() {
   const [party, setParty] = useState(DEFAULT_FILTERS.party);
   const [mood, setMood] = useState<Mood>(DEFAULT_FILTERS.mood);
   const [budget, setBudget] = useState<Budget>(DEFAULT_FILTERS.budget);
+  const geo = useLiveLocation();
 
   const go = (surprise = false) => {
     haptic("medium");
@@ -39,12 +41,33 @@ export function HomeScreen() {
       party,
       mood: surprise ? "surprise" : mood,
       budget,
+      at: new Date().toISOString(),
+      latitude: geo.location?.latitude,
+      longitude: geo.location?.longitude,
+      maxDistanceKm: geo.location ? 12 : undefined,
     });
 
     startTransition(() => {
       router.push(`/result?${query.toString()}`);
     });
   };
+
+  const handleLocation = async () => {
+    haptic();
+    if (geo.location) {
+      geo.clear();
+      return;
+    }
+    if (geo.permission === "denied") {
+      await geo.openSettings();
+      return;
+    }
+    await geo.request();
+  };
+
+  const accuracy = geo.location?.accuracyM != null
+    ? ` · ±${Math.max(100, geo.location.accuracyM)} м`
+    : "";
 
   return (
     <div className="screen">
@@ -63,6 +86,26 @@ export function HomeScreen() {
             <ChevronDown />
           </div>
           <span className="sr-only" id="city-note">На первом запуске доступен Хабаровск</span>
+          <button
+            className="match"
+            type="button"
+            disabled={geo.isRequesting || geo.permission === "unavailable"}
+            onClick={() => void handleLocation()}
+          >
+            <Navigation width={18} />
+            <span>
+              {geo.isRequesting
+                ? "Определяем геопозицию…"
+                : geo.location
+                  ? `Геопозиция включена${accuracy} · отключить`
+                  : geo.permission === "denied"
+                    ? "Разрешить геопозицию в настройках"
+                    : geo.permission === "unavailable"
+                      ? "Геопозиция недоступна"
+                      : "Учитывать, где я"}
+            </span>
+          </button>
+          {geo.message && <div className="notice">{geo.message}</div>}
         </div>
 
         <div className="field">
@@ -133,7 +176,7 @@ export function HomeScreen() {
         <button className="secondary-button" type="button" disabled={isPending} onClick={() => go(true)}>
           Решить за нас
         </button>
-        <div className="notice">Первый запуск — Хабаровск. Каталог пока демонстрационный.</div>
+        <div className="notice">Учитываем текущее время, погоду, открытые места и расстояние — если вы разрешили геопозицию.</div>
       </div>
     </div>
   );

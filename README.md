@@ -5,52 +5,101 @@
 
   **Не каталог мест. Движок принятия решения о том, куда идти прямо сейчас.**
 
-  `Хабаровск · Telegram Mini App · Next.js 16 · TypeScript · PostgreSQL · Prisma`
+  `v0.4 · Хабаровск · Telegram Mini App · Next.js 16 · TypeScript · PostgreSQL · Prisma`
 </div>
 
 ---
 
 ## Product
 
-**«Куда идём?»** убирает самую скучную часть вечера — бесконечное «ну и куда пойдём?». Пользователь задаёт город, размер компании, настроение и бюджет, а приложение возвращает небольшой набор действительно подходящих вариантов вместо сотен карточек каталога.
-
-Главный принцип продукта:
+**«Куда идём?»** убирает бесконечное «ну и куда пойдём?». Пользователь задаёт размер компании, настроение и бюджет, а приложение учитывает реальную ситуацию вокруг него и возвращает небольшой набор подходящих вариантов вместо сотен карточек каталога.
 
 > **Мы выбираем место, чтобы пользователю не пришлось.**
 
-Сейчас продукт сфокусирован на Хабаровске и работает поверх собственного live-каталога из **200 мест**.
+Текущий launch market — **Хабаровск**. Product baseline — собственный live-каталог из **200 мест**.
 
-## Recommendation Engine v2
+## Stage 4 · Geolocation & Live Context
 
-Stage 3 заменил простой сортировщик на объяснимый decision engine.
+Stage 4 делает рекомендации контекстными.
+
+```text
+optional user location
+        +
+current Khabarovsk time
+        +
+live weather
+        +
+opening hours
+        ↓
+Recommendation Engine v2.1
+        ↓
+short explainable result set
+```
+
+### Location
+
+В Telegram Mini App используется нативный `Telegram.WebApp.LocationManager` (Bot API 8.0+). Если он недоступен, приложение переходит на browser Geolocation API.
+
+- permission только после действия пользователя;
+- Telegram settings flow для ранее запрещённого доступа;
+- browser fallback;
+- session-only location cache на 10 минут;
+- координаты округляются до 3 знаков (~100 м);
+- геолокацию можно отключить прямо на Home screen;
+- без геолокации весь основной flow продолжает работать.
+
+Launch-area guard: **70 км от центра Хабаровска**. Если пользователь находится дальше, погода берётся по Хабаровску, а distance ranking выключается — удалённая позиция не превращает выдачу в пустой список.
+
+### Live weather
+
+Current weather приходит через Open-Meteo и нормализуется в продуктовые состояния:
+
+`clear · cloudy · rain · snow · storm · extreme · unknown`
+
+Weather provider является optional signal. При его сбое engine продолжает работу в degraded mode.
+
+### Context-aware behavior
+
+- дождь/снег повышают indoor варианты;
+- хорошая погода может повышать outdoor;
+- шторм/экстремальная погода hard-reject outdoor-only сценарии;
+- ночью outdoor-only понижается;
+- nightlife лучше ранжируется вечером и ночью;
+- утром nightlife получает штраф;
+- UI показывает текущую погоду, температуру и daypart.
+
+Полная спецификация: [`docs/STAGE-4.md`](./docs/STAGE-4.md).
+
+## Recommendation Engine v2.1
 
 Сначала применяются **hard constraints**:
 
-- место активно и относится к выбранному городу;
-- вмещает выбранное количество людей;
-- не подтверждено как закрытое в выбранный момент;
-- укладывается в максимальную дистанцию, если передана геолокация;
-- исключённые пользователем места не возвращаются через fallback.
+- active + выбранный город;
+- вместимость компании;
+- подтверждённо закрытые места исключаются;
+- optional max distance;
+- explicit exclusions;
+- outdoor-only места исключаются при severe live weather.
 
-После этого кандидаты ранжируются по восьми сигналам:
+Затем ranking считает девять сигналов:
 
 | Signal | Weight |
 |---|---:|
-| Mood match | 28% |
+| Mood | 25% |
 | Budget | 18% |
-| Group compatibility | 12% |
+| Group | 12% |
 | Distance | 12% |
 | Availability | 10% |
-| Quality | 10% |
-| Data freshness | 5% |
-| Novelty | 5% |
-
-Движок отдельно считает `score`, `match` и `confidence`. Если какого-то факта нет — например, не подтверждён средний чек или рейтинг — это уменьшает уверенность, а не заменяется выдуманным значением.
+| Live context | 8% |
+| Quality | 8% |
+| Freshness | 3% |
+| Novelty | 4% |
 
 Каждая рекомендация содержит:
 
 ```ts
 {
+  score,
   match,
   confidence,
   availability,
@@ -58,71 +107,70 @@ Stage 3 заменил простой сортировщик на объясни
   travelMinutes,
   reasons,
   warnings,
-  breakdown
+  breakdown: {
+    mood,
+    budget,
+    group,
+    distance,
+    availability,
+    context,
+    quality,
+    freshness,
+    novelty
+  }
 }
 ```
 
-Если строгая выдача пуста, engine может ослабить **только бюджет**. Ограничения города, размера компании, закрытого места и максимальной дистанции не снимаются.
-
-### Контекст, который уже понимает v2
-
-```text
-city
-party size
-mood
-budget
-current / requested time
-latitude + longitude
-maximum distance
-excluded places
-previously seen places
-preferred categories
-```
+Если строгая выдача пуста, engine может ослабить **только бюджет**. Город, размер компании, закрытые места, distance и severe-context constraints не снимаются.
 
 ## Live catalog
 
 Stage 2 создал воспроизводимый data layer для Хабаровска.
 
-**Текущий baseline:**
+**Baseline:**
 
 - 200 / 200 мест;
-- 200 / 200 media URL + source provenance;
-- координаты для каталога;
-- source URL и `verifiedAt`;
-- категории и recommendation tags;
-- PostgreSQL / Prisma data model;
-- automatic refresh, dedupe, media sanitizer и audit pipeline.
+- координаты;
+- media candidate + source provenance;
+- source URL + `verifiedAt`;
+- категории + recommendation tags;
+- PostgreSQL / Prisma model;
+- automatic refresh, dedupe, sanitizer и audits.
 
-Не все дополнительные поля одинаково полны. Телефоны, графики, сайты, чеки и рейтинги обогащаются независимо. Неподтверждённое поле остаётся `null`.
+Неподтверждённое поле остаётся `null`; UI не подменяет неизвестность выдуманной точностью.
 
 ### Media rights
 
-Все карточки имеют визуальный media candidate, но это **не означает**, что все изображения юридически очищены для публичного коммерческого использования.
+Public URL не считается разрешением на reuse.
 
-- изображения с подтверждённым происхождением могут иметь `APPROVED`;
-- search / third-party media сохраняются как `NEEDS_REVIEW`;
-- для каждого изображения сохраняется источник;
-- публичный URL сам по себе не считается разрешением на reuse.
-
-Production UI может ограничивать показ изображений по `ImageRights`.
+- `APPROVED` — подтверждённый источник/права;
+- `NEEDS_REVIEW` — media найдено, но reuse требует проверки;
+- source metadata хранится отдельно;
+- production UI может показывать только разрешённые изображения.
 
 ## Architecture
 
 ```mermaid
 flowchart TD
     TG[Telegram Mini App] --> NX[Next.js App Router]
-    NX --> API[/api/recommendations v2]
-    API --> ENG[Recommendation Engine v2]
+    TG --> LM[Telegram LocationManager]
+    BR[Browser] --> GEO[Geolocation API]
+    LM --> CTX[Live Context]
+    GEO --> CTX
+    WX[Open-Meteo] --> CTX
+
+    NX --> API[/api/recommendations v2.1]
+    API --> CTX
+    CTX --> ENG[Recommendation Engine]
     ENG --> CAT[200-place live catalog]
-    ENG --> CTX[Time · Budget · Party · Mood · Geo]
 
     CAT --> PG[(PostgreSQL)]
     PG --> PR[Prisma]
 
-    OSM[OpenStreetMap / Overpass] --> PIPE[Data enrichment pipeline]
+    OSM[OpenStreetMap / Overpass] --> PIPE[Data pipeline]
     WM[Wikimedia / Wikidata] --> PIPE
-    OFF[Official venue sources] --> PIPE
-    DG[2GIS Places API · optional] --> PIPE
+    OFF[Official sources] --> PIPE
+    DG[2GIS Places API optional] --> PIPE
     PIPE --> AUDIT[Sanitize · Dedupe · Audit]
     AUDIT --> CAT
 ```
@@ -130,32 +178,58 @@ flowchart TD
 Repository boundaries:
 
 ```text
-app/                          Next.js routes + API
-components/ui/                shared presentation primitives
-features/places/              live place catalog + place UI
-features/recommendations/     Recommendation Engine v2
-features/plans/               evening plan flow
+app/                          routes + APIs
+components/ui/                presentation primitives
+features/places/              live place catalog + UI
+features/recommendations/     ranking domain + server context enrichment
+features/plans/               evening-plan flow
 features/rooms/               group-room flow
+lib/context/                  weather, time, service-area context
+lib/location/                 Telegram/browser geolocation client
 lib/telegram/                 Telegram platform bridge
-lib/observability/            client/server diagnostics
-data/                          generated Khabarovsk catalog + reports
-prisma/                        PostgreSQL schema + migrations
-scripts/                       collection, enrichment and quality gates
+data/                          generated catalog + reports
+prisma/                        PostgreSQL schema
+scripts/                       collection + quality gates
 ```
 
-## API v2
+## API
 
-Basic request:
+### Live context
+
+```http
+GET /api/context
+GET /api/context?lat=48.48&lon=135.07
+```
+
+Response:
+
+```ts
+{
+  version: "live-v1",
+  context: {
+    daypart,
+    locationSource,
+    inServiceArea,
+    weather,
+    degraded,
+    warnings
+  }
+}
+```
+
+### Recommendations
 
 ```http
 GET /api/recommendations?city=Хабаровск&party=4&mood=fun&budget=mid
 ```
 
-Context-aware request:
+With optional location:
 
 ```http
-GET /api/recommendations?city=Хабаровск&party=4&mood=fun&budget=mid&lat=48.48&lon=135.07&maxDistanceKm=8&limit=5
+GET /api/recommendations?city=Хабаровск&party=4&mood=fun&budget=mid&lat=48.48&lon=135.07&maxDistanceKm=12&limit=5
 ```
+
+Response version: `v2.1`, context version: `live-v1`.
 
 Optional query parameters:
 
@@ -170,45 +244,39 @@ prefer=restaurant,bowling
 limit=1..20
 ```
 
-Response includes `version`, `mode`, diagnostics and explainable ranked results.
-
 ## Quality gates
 
-Recommendation Engine v2 has two test layers.
+Automated tests cover Stage 3 + Stage 4 behavior:
 
-**Unit suite:**
-
-- opening-hours parsing in Khabarovsk time;
-- party-size hard filtering;
+- opening-hours parser in Khabarovsk time;
+- party hard filter;
 - closed-place rejection;
 - controlled budget relaxation;
 - mood ranking;
 - geodistance filtering;
-- exclude safety.
+- exclude safety;
+- weather-code classification;
+- Khabarovsk service area;
+- daypart calculation;
+- rain preferring indoor;
+- severe weather outdoor rejection.
 
-**Live catalog audit:** 45 deterministic scenarios across all current moods, budgets and party sizes.
+Production-catalog audit remains mandatory:
 
 ```text
 5 moods × 3 budgets × 3 party sizes = 45 scenarios
 200-place production catalog
-45 / 45 category-diversity checks
+category-diversity checks
 0 empty baseline scenarios
 ```
 
-Run everything before merge:
+Full gate:
 
 ```bash
 npm run check
 ```
 
-Or recommendation checks separately:
-
-```bash
-npm run test
-npm run recommendation:audit
-```
-
-GitHub Actions additionally runs tests, recommendation audit, TypeScript, ESLint and production `next build` for every `agent/**` branch and PR to `main`.
+GitHub Actions runs tests, recommendation audit, TypeScript, ESLint and production `next build` on `agent/**`, PRs and `main`.
 
 ## Local development
 
@@ -220,17 +288,11 @@ cp .env.example .env
 npm run dev
 ```
 
-Database setup:
+Database:
 
 ```bash
 npm run db:generate
 npm run db:seed
-```
-
-Full project check:
-
-```bash
-npm run check
 ```
 
 ## Data operations
@@ -245,21 +307,13 @@ npm run data:validate
 npm run data:audit
 ```
 
-Strict catalog + media check:
-
-```bash
-REQUIRE_LIVE_DATA=1 REQUIRE_PHOTOS=1 npm run data:validate
-```
-
-The data pipeline deliberately prefers an unknown field over false precision.
-
 ## Product roadmap
 
 ```text
 Stage 1  Production foundation             ✅
 Stage 2  Live Khabarovsk data layer        ✅
 Stage 3  Recommendation Engine v2          ✅
-Stage 4  Geolocation & live context         →
+Stage 4  Geolocation & live context        ✅
 Stage 5  Production place experience        →
 Stage 6  Telegram rooms & group voting      →
 Stage 7  Analytics + closed beta            →
@@ -268,7 +322,7 @@ Stage 8  Khabarovsk public launch           →
 
 ## Stack
 
-`Next.js 16` · `React 19` · `TypeScript` · `PostgreSQL` · `Prisma 7` · `Telegram WebApp` · `GitHub Actions`
+`Next.js 16` · `React 19` · `TypeScript` · `PostgreSQL` · `Prisma 7` · `Telegram Mini Apps` · `Open-Meteo` · `GitHub Actions`
 
 ---
 

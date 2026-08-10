@@ -1,4 +1,5 @@
 import { places } from "@/features/places/data/catalog";
+import { haversineKm } from "@/lib/context/live-context";
 import type {
   AvailabilityStatus,
   Budget,
@@ -17,14 +18,15 @@ const budgetRanges: Record<Budget, [number, number]> = {
 };
 
 const WEIGHTS: ScoreBreakdown = {
-  mood: 28,
+  mood: 25,
   budget: 18,
   group: 12,
   distance: 12,
   availability: 10,
-  quality: 10,
-  freshness: 5,
-  novelty: 5,
+  context: 8,
+  quality: 8,
+  freshness: 3,
+  novelty: 4,
 };
 
 const MOOD_CATEGORY_HINTS: Record<SearchFilters["mood"], RegExp> = {
@@ -35,6 +37,7 @@ const MOOD_CATEGORY_HINTS: Record<SearchFilters["mood"], RegExp> = {
   surprise: /.*/,
 };
 
+const NIGHTLIFE_HINT = /(nightlife|bar|караоке|бар|клуб|бильярд|боулинг)/i;
 const clamp = (value: number, min = 0, max = 1) => Math.min(max, Math.max(min, value));
 const round = (value: number, digits = 0) => {
   const factor = 10 ** digits;
@@ -87,16 +90,6 @@ function freshnessCompatibility(verifiedAt: string | null, at: Date) {
   if (days <= 60) return { value: 0.88, known: true };
   if (days <= 180) return { value: 0.68, known: true };
   return { value: 0.45, known: true };
-}
-
-function haversineKm(aLat: number, aLon: number, bLat: number, bLon: number) {
-  const toRad = (value: number) => value * Math.PI / 180;
-  const earth = 6371;
-  const dLat = toRad(bLat - aLat);
-  const dLon = toRad(bLon - aLon);
-  const x = Math.sin(dLat / 2) ** 2
-    + Math.cos(toRad(aLat)) * Math.cos(toRad(bLat)) * Math.sin(dLon / 2) ** 2;
-  return earth * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x));
 }
 
 function distanceCompatibility(place: Place, filters: SearchFilters) {
@@ -193,6 +186,49 @@ function noveltyCompatibility(place: Place, filters: SearchFilters) {
   return 0.68;
 }
 
+export function contextCompatibility(place: Place, filters: SearchFilters) {
+  const context = filters.liveContext;
+  if (!context) return { value: 0.68, known: false };
+
+  let value = 0.74;
+  const weather = context.weather;
+  if (weather) {
+    const wet = weather.kind === "rain" || weather.kind === "snow" || weather.kind === "storm"
+      || (weather.precipitationMm ?? 0) >= 0.4;
+    const harsh = weather.kind === "storm" || weather.kind === "extreme"
+      || (weather.precipitationMm ?? 0) >= 2.5
+      || (weather.snowfallCm ?? 0) >= 1.5;
+
+    if (wet || harsh) {
+      if (place.indoor === true) value = 1;
+      if (place.outdoor === true && place.indoor !== true) value = harsh ? 0.05 : 0.2;
+    } else if (weather.kind === "clear" || weather.kind === "cloudy") {
+      if (place.outdoor === true) value = Math.max(value, 0.9);
+      if (place.indoor === true) value = Math.max(value, 0.8);
+    }
+  }
+
+  if (context.daypart === "night") {
+    if (place.outdoor === true && place.indoor !== true) value *= 0.55;
+    if (NIGHTLIFE_HINT.test(place.category)) value = Math.max(value, 0.95);
+  }
+  if (context.daypart === "morning" && NIGHTLIFE_HINT.test(place.category)) value *= 0.55;
+  if (context.daypart === "evening" && filters.mood === "fun" && NIGHTLIFE_HINT.test(place.category)) {
+    value = Math.max(value, 0.96);
+  }
+
+  return { value: clamp(value), known: weather != null };
+}
+
+function rejectForLiveContext(place: Place, filters: SearchFilters) {
+  const weather = filters.liveContext?.weather;
+  if (!weather || place.outdoor !== true || place.indoor === true) return false;
+  return weather.kind === "storm"
+    || weather.kind === "extreme"
+    || (weather.precipitationMm ?? 0) >= 2.5
+    || (weather.snowfallCm ?? 0) >= 1.5;
+}
+
 function weightedScore(breakdown: ScoreBreakdown) {
   return Object.entries(WEIGHTS).reduce((total, [key, weight]) => {
     return total + breakdown[key as keyof ScoreBreakdown] * weight;
@@ -203,18 +239,20 @@ function confidenceScore(input: {
   budgetKnown: boolean;
   distanceKnown: boolean;
   availabilityKnown: boolean;
+  contextKnown: boolean;
   qualityKnown: boolean;
   freshnessKnown: boolean;
 }) {
   const evidence = [
-    [0.28, true],
+    [0.25, true],
     [0.18, input.budgetKnown],
     [0.12, true],
     [0.12, input.distanceKnown],
     [0.1, input.availabilityKnown],
-    [0.1, input.qualityKnown],
-    [0.05, input.freshnessKnown],
-    [0.05, true],
+    [0.08, input.contextKnown],
+    [0.08, input.qualityKnown],
+    [0.03, input.freshnessKnown],
+    [0.04, true],
   ] as const;
   const known = evidence.reduce((sum, [weight, available]) => sum + (available ? weight : 0), 0);
   return round(clamp(known) * 100);
@@ -226,6 +264,13 @@ function explanation(place: Place, filters: SearchFilters, breakdown: ScoreBreak
   if (breakdown.mood >= 0.85) reasons.push("точно попадает в выбранное настроение");
   if (breakdown.budget >= 0.9 && place.price != null) reasons.push(`чек около ${place.price.toLocaleString("ru-RU")} ₽ на человека`);
   if (distanceKm != null && distanceKm <= 2.5) reasons.push(`рядом — около ${round(distanceKm, 1)} км`);
+  if (breakdown.context >= 0.92 && filters.liveContext?.weather && place.indoor === true
+    && ["rain", "snow", "storm", "extreme"].includes(filters.liveContext.weather.kind)) {
+    reasons.push("хорошо подходит под текущую погоду");
+  }
+  if (breakdown.context >= 0.92 && filters.liveContext?.daypart === "night" && NIGHTLIFE_HINT.test(place.category)) {
+    reasons.push("уместно для позднего времени");
+  }
   if (place.rating != null && place.rating >= 4.5) reasons.push(`высокая оценка ${place.rating.toFixed(1)}`);
   if (filters.mood === "surprise" && (place.uniquenessScore ?? 0) >= 4) reasons.push("необычный вариант для смены сценария");
   if (reasons.length < 2 && place.minParty <= filters.party && filters.party <= place.maxParty) reasons.push(`подходит для компании из ${filters.party}`);
@@ -264,6 +309,7 @@ function scorePlace(place: Place, filters: SearchFilters, at: Date): RankedPlace
   const budget = budgetCompatibility(place.price, filters.budget);
   const distance = distanceCompatibility(place, filters);
   const availability = availabilityAt(place, at);
+  const context = contextCompatibility(place, filters);
   const quality = qualityCompatibility(place);
   const freshness = freshnessCompatibility(place.verifiedAt, at);
   const breakdown: ScoreBreakdown = {
@@ -272,6 +318,7 @@ function scorePlace(place: Place, filters: SearchFilters, at: Date): RankedPlace
     group: 1,
     distance: distance.value,
     availability: availability === "open" ? 1 : 0.58,
+    context: context.value,
     quality: quality.value,
     freshness: freshness.value,
     novelty: noveltyCompatibility(place, filters),
@@ -281,6 +328,7 @@ function scorePlace(place: Place, filters: SearchFilters, at: Date): RankedPlace
     budgetKnown: budget.known,
     distanceKnown: distance.known,
     availabilityKnown: availability !== "unknown",
+    contextKnown: context.known,
     qualityKnown: quality.known,
     freshnessKnown: freshness.known,
   });
@@ -313,6 +361,7 @@ export function recommendFromCatalog(catalog: Place[], filters: SearchFilters): 
     rejectedClosed: 0,
     rejectedBudget: 0,
     rejectedDistance: 0,
+    rejectedContext: 0,
     scored: 0,
   };
 
@@ -338,6 +387,10 @@ export function recommendFromCatalog(catalog: Place[], filters: SearchFilters): 
     const distance = distanceCompatibility(place, filters);
     if (filters.maxDistanceKm != null && distance.distanceKm != null && distance.distanceKm > filters.maxDistanceKm) {
       diagnostics.rejectedDistance += 1;
+      continue;
+    }
+    if (rejectForLiveContext(place, filters)) {
+      diagnostics.rejectedContext += 1;
       continue;
     }
     base.push(place);

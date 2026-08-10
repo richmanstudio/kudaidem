@@ -9,6 +9,8 @@ datasource db {
 
 enum PlaceSource {
   TWO_GIS
+  OPENSTREETMAP
+  WIKIMEDIA
   OFFICIAL_SITE
   MANUAL
   OTHER
@@ -22,32 +24,37 @@ enum ImageRights {
 }
 
 model Place {
-  id                 String      @id
-  sourceId           String?     @unique
-  slug               String      @unique
-  city               String      @default("Хабаровск")
+  id                 String       @id
+  sourceId           String?      @unique
+  slug               String       @unique
+  city               String       @default("Хабаровск")
   name               String
   category           String
   subcategories      String[]
   tags               String[]
   description        String?
   address            String
-  latitude           Decimal?    @db.Decimal(9, 6)
-  longitude          Decimal?    @db.Decimal(9, 6)
+  latitude           Decimal?     @db.Decimal(9, 6)
+  longitude          Decimal?     @db.Decimal(9, 6)
   phone              String?
   website            String?
   bookingUrl         String?
   sourceUrl          String
-  source              PlaceSource @default(TWO_GIS)
+  source              PlaceSource @default(OPENSTREETMAP)
+  sourceUpdatedAt    DateTime?
   imageUrl           String?
   imageSourceUrl     String?
-  imageRights        ImageRights @default(NEEDS_REVIEW)
+  imageSource        PlaceSource?
+  imageRights        ImageRights  @default(NEEDS_REVIEW)
+  imageAuthor        String?
+  imageLicense       String?
+  imageLicenseUrl    String?
   priceMin           Int?
   priceMax           Int?
   averageCheck       Int?
-  minParty           Int         @default(1)
-  maxParty           Int         @default(10)
-  durationMinutes    Int         @default(90)
+  minParty           Int          @default(1)
+  maxParty           Int          @default(10)
+  durationMinutes    Int          @default(90)
   openingHours       Json?
   openingHoursText   String?
   closesAt           String?
@@ -62,12 +69,11 @@ model Place {
   activityScore      Int?
   uniquenessScore    Int?
   noiseLevel         Int?
-  active             Boolean     @default(true)
+  active             Boolean      @default(true)
   verifiedAt         DateTime?
-  scrapedAt          DateTime    @default(now())
-  sourceUpdatedAt    DateTime?
-  createdAt          DateTime    @default(now())
-  updatedAt          DateTime    @updatedAt
+  scrapedAt          DateTime     @default(now())
+  createdAt          DateTime     @default(now())
+  updatedAt          DateTime     @updatedAt
   photos             PlacePhoto[]
 
   @@index([city, active])
@@ -76,17 +82,20 @@ model Place {
 }
 
 model PlacePhoto {
-  id          String      @id @default(cuid())
+  id          String       @id @default(cuid())
   placeId     String
   url         String
   sourceUrl   String
   source      PlaceSource
-  rights      ImageRights @default(NEEDS_REVIEW)
+  rights      ImageRights  @default(NEEDS_REVIEW)
+  author      String?
+  license     String?
+  licenseUrl  String?
   width       Int?
   height      Int?
-  position    Int         @default(0)
-  createdAt   DateTime    @default(now())
-  place       Place       @relation(fields: [placeId], references: [id], onDelete: Cascade)
+  position    Int          @default(0)
+  createdAt   DateTime     @default(now())
+  place       Place        @relation(fields: [placeId], references: [id], onDelete: Cascade)
 
   @@index([placeId, position])
 }

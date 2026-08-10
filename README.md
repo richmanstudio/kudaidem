@@ -4,22 +4,65 @@ Telegram Mini App на Next.js, которое помогает компании
 
 ## Текущий статус
 
-Stage 1 — production foundation.
+Stage 2 — live Khabarovsk catalog.
 
-Работает основной MVP-сценарий:
+Основной MVP-сценарий:
 
 - выбор количества людей, настроения и бюджета;
-- рекомендация одного лучшего места;
-- следующий вариант без каталога;
-- карточка места и внешний маршрут;
-- план на вечер;
-- демо-комната с голосованием;
+- recommendation engine;
+- один лучший вариант и следующий вариант;
+- карточка места, актуальная фотография и источник данных;
+- внешний маршрут по координатам/адресу;
 - Telegram WebApp bridge и haptics;
-- API рекомендаций;
-- loading / empty / not-found / error states;
-- минимальное логирование client-side ошибок в server logs.
+- loading / empty / not-found / error states.
 
-> Каталог мест пока демонстрационный. Stage 2 заменит его на проверенную базу реальных мест Хабаровска.
+## Live data pipeline
+
+Каталог хранится в `data/khabarovsk-places.json` и воспроизводимо пересобирается crawler-ом. Цель Stage 2 — 200 актуальных мест Хабаровска с фотографией для каждого объекта.
+
+```text
+2GIS search / firm pages
+        │
+        ├── name / category / address
+        ├── rating / reviews / average check when exposed
+        ├── work time / contacts / coordinates when exposed
+        └── source URL
+        │
+        ▼
+official venue website ──► preferred photo
+        │
+        └── fallback: 2GIS gallery photo (rights review required)
+        │
+        ▼
+data/khabarovsk-places.json
+        │
+        ├── Next.js recommendation catalog
+        └── PostgreSQL importer / Prisma
+```
+
+Каждая запись содержит `sourceUrl`, `verifiedAt`, `imageSourceUrl` и `imageRights`. Мы не считаем пользовательские/агрегаторные фотографии автоматически лицензированными для коммерческого переиспользования: они остаются со статусом `THIRD_PARTY_UNKNOWN`, пока не будут заменены официальным материалом или явно одобрены.
+
+Запуск обновления вручную:
+
+```bash
+npm install
+npm run data:scrape
+REQUIRE_LIVE_DATA=1 npm run data:validate
+```
+
+GitHub Actions workflow `Refresh Khabarovsk places` выполняет тот же pipeline и коммитит обновлённый каталог обратно в рабочую ветку.
+
+## PostgreSQL / Prisma
+
+Stage 2 уже содержит production-ready модель данных в `prisma/schema.prisma`: `Place`, `PlacePhoto`, статусы источника/прав на изображение и журнал refresh-run.
+
+```bash
+cp .env.example .env
+npm run db:generate
+npm run db:seed
+```
+
+`db:seed` импортирует текущий проверенный JSON-каталог в PostgreSQL и деактивирует старые хабаровские записи, которых больше нет в свежем наборе.
 
 ## Архитектура
 
@@ -34,26 +77,35 @@ app/
 components/
   ui/                     общие визуальные примитивы
 
+data/
+  khabarovsk-places.json  generated verified catalog
+  scrape-report.json      generated coverage report
+
 features/
   places/
     components/
-    data/
+    data/catalog.ts       live catalog adapter
   plans/
-    components/
   recommendations/
-    components/
     domain/
   rooms/
-    components/
 
 lib/
-  observability/          клиентский error reporting
-  telegram/               изолированная Telegram WebApp интеграция
+  observability/
+  telegram/
+
+prisma/
+  schema.prisma
+
+scripts/
+  scrape-khabarovsk.ts
+  validate-places.ts
+  import-places.ts
 ```
 
-Правило: `app` связывает features, но бизнес-логика не живёт в route-файлах.
+Правило: неподтверждённое поле остаётся `null`; UI показывает «уточняется», а не выдумывает цену, график или расстояние.
 
-## Запуск
+## Запуск приложения
 
 ```bash
 npm install
@@ -66,11 +118,11 @@ npm run dev
 npm run check
 ```
 
-Она запускает TypeScript, ESLint и production build.
+Она генерирует Prisma Client, валидирует каталог, запускает TypeScript, ESLint и production Next.js build.
 
 ## Telegram
 
-Для production Mini App нужен HTTPS URL. Telegram SDK подключается в root layout. В обычном браузере приложение продолжает работать: Telegram-specific функции деградируют в безопасные browser fallback.
+Для production Mini App нужен HTTPS URL. Telegram SDK подключается в root layout. В обычном браузере приложение продолжает работать через безопасные browser fallback.
 
 ## API
 
@@ -78,15 +130,3 @@ npm run check
 GET /api/recommendations?city=Хабаровск&party=4&mood=fun&budget=mid
 POST /api/client-error
 ```
-
-Поисковые параметры нормализуются перед использованием — неизвестные mood/budget/city не попадают напрямую в recommendation engine.
-
-## Следующий этап
-
-Stage 2:
-
-1. PostgreSQL;
-2. модель `Place`;
-3. verified dataset Хабаровска;
-4. импорт/админ-редактирование;
-5. замена `features/places/data/demo-places.ts` на repository/data source.

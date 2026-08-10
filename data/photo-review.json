@@ -14,25 +14,11 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-4384833849",
-    "name": "Пекинская утка",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-12395371062",
     "name": "Харибу",
     "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
     "imageSourceUrl": "https://haribu.rest/",
     "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-5973897873",
-    "name": "Vdrova",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
   },
   {
     "id": "osm-way-181380618",
@@ -70,8 +56,22 @@
     "imageRights": null
   },
   {
+    "id": "osm-node-4384833849",
+    "name": "Пекинская утка",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-3523296343",
     "name": "Ichiban Sushi",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-5973897873",
+    "name": "Vdrova",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -280,25 +280,11 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-12395371058",
-    "name": "Кофемашина",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-11649000540",
     "name": "Мишка",
     "imageUrl": "https://mishkarestaurant.ru/wp-content/uploads/2019/05/PHOTO-2022-11-23-13-44-30-878x1024.jpg",
     "imageSourceUrl": "https://mishkarestaurant.ru/dopolnitelno/",
     "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-11110981905",
-    "name": "Столовая 8 минут",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
   },
   {
     "id": "osm-node-7832298087",
@@ -308,32 +294,11 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-12059180588",
-    "name": "Torro Grill",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-3857899474",
     "name": "Cinnabon",
     "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
     "imageSourceUrl": "https://cinnabonrussia.com/about/",
     "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-7747825751",
-    "name": "Корея",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-4381379720",
-    "name": "Хлебное место",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
   },
   {
     "id": "osm-node-12506476246",
@@ -357,8 +322,22 @@
     "imageRights": null
   },
   {
+    "id": "osm-node-12395371058",
+    "name": "Кофемашина",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-7670756981",
     "name": "Столовая",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11110981905",
+    "name": "Столовая 8 минут",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -378,6 +357,13 @@
     "imageRights": null
   },
   {
+    "id": "osm-node-12059180588",
+    "name": "Torro Grill",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-way-270539004",
     "name": "Кафема",
     "imageUrl": null,
@@ -385,8 +371,22 @@
     "imageRights": null
   },
   {
+    "id": "osm-node-7747825751",
+    "name": "Корея",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-4611366190",
     "name": "Синьор Помидор",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-4381379720",
+    "name": "Хлебное место",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -539,13 +539,6 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-9992569350",
-    "name": "Coffee Like",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-11975223622",
     "name": "Ichiban",
     "imageUrl": "https://p.taplink.st/a/3/d/1/5/22eff7.jpg?118",
@@ -553,7 +546,7 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-11975028915",
+    "id": "osm-node-11975028914",
     "name": "Sushi Sea",
     "imageUrl": null,
     "imageSourceUrl": null,
@@ -576,6 +569,13 @@
   {
     "id": "osm-node-13638767275",
     "name": "Бургер Кинг",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-12358147826",
+    "name": "Додо Пицца",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -777,13 +777,6 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-5235011021",
-    "name": "Наутилус-Загородный",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-5555835122",
     "name": "URBAN210",
     "imageUrl": "https://urban210.ru/wp-content/uploads/2026/04/promo_bg_3.jpg",
@@ -798,25 +791,18 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-way-272536655",
-    "name": "Спортивный комплекс \"Олимпия\"",
-    "imageUrl": "https://olimpia27.ru/templates/ol/img/photo_dla_glavnoi/img_1.jpg",
-    "imageSourceUrl": "https://olimpia27.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-1345725853",
-    "name": "КСК Чистополье",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-way-209353599",
     "name": "Фитнес-клуб \"Наутилус\" Южный",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
+  },
+  {
+    "id": "osm-node-5235011021",
+    "name": "Наутилус-Загородный",
+    "imageUrl": "https://static.tildacdn.com/tild6465-6639-4139-b862-326334653564/12.png",
+    "imageSourceUrl": "https://fcnautilus.ru/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-4807521922",
@@ -842,6 +828,13 @@
   {
     "id": "osm-way-310906737",
     "name": "Арагон",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-1345725853",
+    "name": "КСК Чистополье",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
@@ -1134,6 +1127,13 @@
     "imageRights": null
   },
   {
+    "id": "osm-way-67791761",
+    "name": "ЦУМ",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-6207350886",
     "name": "Студия звукозаписи Corpus",
     "imageUrl": "https://tishina.pro/wp-content/uploads/2024/01/IMG_9888.jpg",
@@ -1190,13 +1190,6 @@
     "imageRights": null
   },
   {
-    "id": "osm-way-272280367",
-    "name": "Smile Mart",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-way-185919088",
     "name": "Аквариум",
     "imageUrl": null,
@@ -1218,18 +1211,18 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-12358147826",
+    "id": "osm-node-12358152972",
     "name": "Додо Пицца",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
   },
   {
-    "id": "osm-node-12358152972",
-    "name": "Додо Пицца",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "id": "osm-node-9992569350",
+    "name": "Coffee Like",
+    "imageUrl": "https://coffee-like.com/img/preview/main2.png",
+    "imageSourceUrl": "https://coffee-like.com/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-9805680194",
@@ -1239,11 +1232,11 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-11975028914",
+    "id": "osm-node-11975028915",
     "name": "Sushi Sea",
-    "imageUrl": "https://sushi-sea.ru/static/main-screen-photo-widescreen.gif",
-    "imageSourceUrl": "https://sushi-sea.ru/",
-    "imageRights": "NEEDS_REVIEW"
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-node-11975028916",
@@ -1318,6 +1311,20 @@
   {
     "id": "osm-node-7283823843",
     "name": "Хума. Дом восточной кухни",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-6533501989",
+    "name": "Ясмина",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-190903428",
+    "name": "\"Автобаня\"",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null

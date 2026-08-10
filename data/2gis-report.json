@@ -2,5 +2,6 @@
   "status": "skipped",
   "reason": "DGIS_API_KEY is not configured",
   "places": 200,
-  "generatedAt": "2026-08-10T06:41:32.129Z"
+  "mediaRightsApproved": false,
+  "generatedAt": "2026-08-10T07:18:38.539Z"
 }

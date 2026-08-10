@@ -9,12 +9,11 @@ type Place = Record<string, unknown> & {
 };
 
 const UA = "KudaIdemDetailsEnricher/0.3 (+https://github.com/richmanstudio/kudaidem)";
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 const clean = (v: unknown) => typeof v === "string" ? v.replace(/\s+/g, " ").trim() : null;
 const num = (v: unknown) => { const n = Number(v); return Number.isFinite(n) ? n : null; };
 const obj = (v: unknown): Record<string, unknown> | null => v && typeof v === "object" && !Array.isArray(v) ? v as Record<string, unknown> : null;
 
-async function request(url: string, timeout = 10_000) {
+async function request(url: string, timeout = 8_000) {
   const c = new AbortController(); const t = setTimeout(() => c.abort(), timeout);
   try { return await fetch(url, { signal: c.signal, redirect: "follow", headers: { "user-agent": UA, "accept-language": "ru-RU,ru;q=0.9,en;q=0.5" } }); }
   finally { clearTimeout(t); }
@@ -47,7 +46,7 @@ async function enrichOfficial(place: Place): Promise<Partial<Place>> {
     const rating = obj(b.aggregateRating); const rv = num(rating?.ratingValue); const rc = num(rating?.reviewCount ?? rating?.ratingCount);
     if (place.rating == null && rv && rv >= 1 && rv <= 5) patch.rating = rv;
     if (place.reviewsCount == null && rc && rc >= 0) patch.reviewsCount = Math.round(rc);
-    const priceRange = clean(b.priceRange); const money = parseMoney(`${priceRange ?? ""} ${$('body').text().slice(0, 150000)}`);
+    const priceRange = clean(b.priceRange); const money = parseMoney(`${priceRange ?? ""} ${$('body').text().slice(0, 120000)}`);
     if (place.priceMin == null && money.length) patch.priceMin = Math.min(...money);
     if (place.priceMax == null && money.length) patch.priceMax = Math.max(...money);
     if (place.averageCheck == null && money.length) patch.averageCheck = Math.round(money.reduce((a,b) => a+b,0) / money.length);
@@ -71,23 +70,31 @@ async function searchOfficial(place: Place): Promise<string | null> {
   return null;
 }
 
+async function concurrent<T, R>(values: T[], limit: number, worker: (value: T, index: number) => Promise<R>) {
+  const out = new Array<R>(values.length); let cursor = 0;
+  async function run() { for (;;) { const i = cursor++; if (i >= values.length) return; out[i] = await worker(values[i], i); } }
+  await Promise.all(Array.from({ length: Math.min(limit, values.length) }, run));
+  return out;
+}
+
 async function main() {
   const path = "data/khabarovsk-places.json"; const places = JSON.parse(await readFile(path, "utf8")) as Place[];
   let officialSitesAdded = 0, detailPatches = 0;
-  for (let i = 0; i < places.length; i++) {
-    const p = places[i];
-    if (!p.website) { const site = await searchOfficial(p); if (site) { p.website = site; officialSitesAdded++; } await sleep(150); }
+  const updated = await concurrent(places, 8, async (original, i) => {
+    const p: Place = { ...original };
+    if (!p.website) { const site = await searchOfficial(p); if (site) { p.website = site; officialSitesAdded++; } }
     const patch = await enrichOfficial(p); if (Object.keys(patch).length) { Object.assign(p, patch); detailPatches++; }
     if ((i + 1) % 20 === 0) console.log(`Details ${i + 1}/${places.length}`);
-  }
+    return p;
+  });
   const coverage = {
-    total: places.length, phone: places.filter(p=>p.phone).length, website: places.filter(p=>p.website).length,
-    openingHours: places.filter(p=>p.openingHours || p.openingHoursText).length,
-    description: places.filter(p=>p.description).length, averageCheck: places.filter(p=>p.averageCheck != null).length,
-    rating: places.filter(p=>p.rating != null).length, reviewsCount: places.filter(p=>p.reviewsCount != null).length,
+    total: updated.length, phone: updated.filter(p=>p.phone).length, website: updated.filter(p=>p.website).length,
+    openingHours: updated.filter(p=>p.openingHours || p.openingHoursText).length,
+    description: updated.filter(p=>p.description).length, averageCheck: updated.filter(p=>p.averageCheck != null).length,
+    rating: updated.filter(p=>p.rating != null).length, reviewsCount: updated.filter(p=>p.reviewsCount != null).length,
     officialSitesAdded, detailPatches, enrichedAt: new Date().toISOString()
   };
-  await writeFile(path, JSON.stringify(places, null, 2) + "\n");
+  await writeFile(path, JSON.stringify(updated, null, 2) + "\n");
   await writeFile("data/details-report.json", JSON.stringify(coverage, null, 2) + "\n");
   console.log(coverage);
 }

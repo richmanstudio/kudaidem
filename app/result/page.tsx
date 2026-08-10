@@ -3,24 +3,44 @@ import { Topbar } from "@/components/ui/topbar";
 import { EmptyState } from "@/components/ui/screen-state";
 import { Clock, Navigation, Sparkles, Users, Wallet } from "@/components/ui/icons";
 import { PlaceVisual } from "@/features/places/components/place-visual";
-import { recommendPlaces } from "@/features/recommendations/domain/recommend";
 import {
   filtersToSearchParams,
   parseSearchRecord,
 } from "@/features/recommendations/domain/search-params";
+import { recommendWithLiveContext } from "@/features/recommendations/server/recommend-with-context";
+import type { WeatherKind } from "@/lib/context/types";
 
 type Props = {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
 
+const weatherLabels: Record<WeatherKind, string> = {
+  clear: "ясно",
+  cloudy: "облачно",
+  rain: "дождь",
+  snow: "снег",
+  storm: "гроза",
+  extreme: "экстремальная погода",
+  unknown: "погода уточняется",
+};
+
+const daypartLabels = {
+  morning: "утро",
+  day: "день",
+  evening: "вечер",
+  night: "ночь",
+} as const;
+
 export default async function ResultPage({ searchParams }: Props) {
   const raw = await searchParams;
-  const filters = parseSearchRecord(raw);
+  const initialFilters = parseSearchRecord(raw);
   const index = Math.max(
     0,
     Number(typeof raw.i === "string" ? raw.i : 0) || 0,
   );
-  const recommendation = recommendPlaces(filters);
+  const live = await recommendWithLiveContext(initialFilters);
+  const filters = live.filters;
+  const recommendation = live.recommendation;
   const ranked = recommendation.results;
 
   if (ranked.length === 0) {
@@ -29,7 +49,7 @@ export default async function ResultPage({ searchParams }: Props) {
         <Topbar title="Результат" />
         <EmptyState
           title="Пока ничего не нашли"
-          description="Измените параметры поиска — мы не будем показывать закрытое, слишком дорогое или неподходящее для вашей компании место только ради результата."
+          description="Измените параметры поиска — мы не будем показывать закрытое, слишком дорогое, далёкое или неподходящее по текущим условиям место только ради результата."
           actionHref="/"
           actionLabel="Изменить параметры"
         />
@@ -40,6 +60,10 @@ export default async function ResultPage({ searchParams }: Props) {
   const place = ranked[index % ranked.length];
   const nextIndex = (index + 1) % ranked.length;
   const base = filtersToSearchParams(filters);
+  const weather = live.context.weather;
+  const contextText = weather
+    ? `${weatherLabels[weather.kind]}${weather.temperatureC != null ? ` · ${Math.round(weather.temperatureC)} °C` : ""} · ${daypartLabels[live.context.daypart]}`
+    : `${daypartLabels[live.context.daypart]} · погода временно недоступна`;
 
   return (
     <div className="screen">
@@ -53,11 +77,18 @@ export default async function ResultPage({ searchParams }: Props) {
           <Sparkles width={20} />
           <span>Подходит вам на <strong>{place.match}%</strong></span>
         </div>
+        <div className="match">
+          <Clock width={18} />
+          <span>Сейчас: {contextText}</span>
+        </div>
         {place.reasons.length > 0 && (
           <p className="subline">Почему: {place.reasons.slice(0, 2).join(" · ")}</p>
         )}
         {recommendation.mode === "relaxed-budget" && (
           <p className="notice">Точных вариантов в бюджете не осталось — показываем ближайший разумный запасной.</p>
+        )}
+        {live.context.locationSource === "city-center" && initialFilters.latitude != null && (
+          <p className="notice">Вы сейчас вне зоны запуска Хабаровска — расстояние считаем не от вашей геопозиции.</p>
         )}
       </section>
 

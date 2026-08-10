@@ -1,12 +1,5 @@
 [
   {
-    "id": "osm-node-4481017690",
-    "name": "Luga",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-way-181380618",
     "name": "Торо",
     "imageUrl": "https://img02.rl0.ru/afisha/1064x1064i/s3.afisha.ru/mediastorage/49/b4/692b94b91bb041598cf988a9b449.jpg",
@@ -56,25 +49,11 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-12395371062",
-    "name": "Харибу",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-3523296343",
     "name": "Ichiban Sushi",
     "imageUrl": "https://plaza-ambarrukmo.co.id/wp-content/uploads/2024/05/ichiban-sushi-jpg.webp",
     "imageSourceUrl": "https://plaza-ambarrukmo.co.id/brand-tenant/ichiban-sushi/",
     "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-5973897873",
-    "name": "Vdrova",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
   },
   {
     "id": "osm-way-452568216",
@@ -159,13 +138,6 @@
     "imageUrl": "https://dslov.ru/img/geo/6192.jpg",
     "imageSourceUrl": "https://dslov.ru/geo/48/g48r_1.htm",
     "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-3726923703",
-    "name": "Al dente Горы",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
   },
   {
     "id": "osm-node-9953699239",
@@ -266,6 +238,34 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-4481017690",
+    "name": "Luga",
+    "imageUrl": "https://static.tildacdn.com/tild6232-3034-4838-b765-343635306564/1__1.jpg",
+    "imageSourceUrl": "https://www.lugarest.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12395371062",
+    "name": "Харибу",
+    "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
+    "imageSourceUrl": "https://haribu.rest/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5973897873",
+    "name": "Vdrova",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-3726923703",
+    "name": "Al dente Горы",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-way-302009332",
     "name": "Вилки-Палки",
     "imageUrl": "https://vilki-palki.ru/files/products/E9/gY/J9/1670385238_PivoTsingtao.jpg",
@@ -345,9 +345,9 @@
   {
     "id": "osm-node-12059180588",
     "name": "Torro Grill",
-    "imageUrl": "https://obozdv.ru/wp-content/uploads/2024/02/torro-grill-в-хабаровске-00031.jpg",
-    "imageSourceUrl": "https://saas.dvobozrenie.ru/news/914/",
-    "imageRights": "NEEDS_REVIEW"
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-way-270539004",
@@ -939,7 +939,7 @@
   },
   {
     "id": "osm-way-32050191",
-    "name": "Амурский Утёс",
+    "name": "Амурский Утëс",
     "imageUrl": "https://hkm.ru/wp-content/uploads/2021/05/aad_5664-1-scaled.jpg",
     "imageSourceUrl": "https://hkm.ru/building/amurskij-utes/",
     "imageRights": "NEEDS_REVIEW"
@@ -1043,13 +1043,6 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-12871735610",
-    "name": "Ясень \"Арсеньева\"",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-relation-10519341",
     "name": "Парк Железнодорожников",
     "imageUrl": "https://i2021.otzovik.com/2021/05/16/11932282/img/1913915_71424020.jpeg",
@@ -1085,13 +1078,6 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-way-68195832",
-    "name": "Дендрарий",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-5970921192",
     "name": "Детский замок",
     "imageUrl": "https://drevlandia.ru/wp-content/uploads/2024/04/Igrovoj-kompleks-Zamok-s-chasami-9-optimized.jpg",
@@ -1125,6 +1111,13 @@
     "imageUrl": "https://kartin.papik.pro/uploads/posts/2023-07/1689224502_kartin-papik-pro-p-kartinki-parki-khabarovsk-29.jpg",
     "imageSourceUrl": "https://kartin.papik.pro/park/42552-kartinki-parki-habarovsk-69-foto.html",
     "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-68195832",
+    "name": "Дендрарий",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
   },
   {
     "id": "osm-way-67791761",
@@ -1218,27 +1211,6 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-11975028914",
-    "name": "Sushi Sea",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-11975028915",
-    "name": "Sushi Sea",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-11975028916",
-    "name": "Sushi Sea",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
     "id": "osm-node-3857899475",
     "name": "Hesburger",
     "imageUrl": "https://assets.allcafe.ru/k/places/1920x1080/pic/places/15078/5cb083668b64ad60e2efab69548e7a81.jpeg",
@@ -1323,8 +1295,29 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-12857028778",
-    "name": "Фиши",
+    "id": "osm-node-11975028914",
+    "name": "Sushi Sea",
+    "imageUrl": "https://sushi-sea.ru/static/main-screen-photo-widescreen.gif",
+    "imageSourceUrl": "https://sushi-sea.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11975028915",
+    "name": "Sushi Sea",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-node-11975028916",
+    "name": "Sushi Sea",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
+    "id": "osm-way-1534451240",
+    "name": "МК-спорт",
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null

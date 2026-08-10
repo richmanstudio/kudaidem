@@ -1,7 +1,9 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const API = "https://catalog.api.2gis.com/3.0/items";
+const BY_ID_API = "https://catalog.api.2gis.com/3.0/items/byid";
 const KEY = process.env.DGIS_API_KEY?.trim() ?? "";
+const MEDIA_RIGHTS_APPROVED = process.env.DGIS_MEDIA_RIGHTS_APPROVED === "1";
 const UA = "KudaIdem2GISApiEnricher/0.2 (+https://github.com/richmanstudio/kudaidem)";
 
 type Dict = Record<string, unknown>;
@@ -17,6 +19,10 @@ type Place = Dict & {
   openingHoursText?: string | null;
   rating?: number | null;
   reviewsCount?: number | null;
+  imageUrl?: string | null;
+  imageSourceUrl?: string | null;
+  imageSource?: string | null;
+  imageRights?: string | null;
 };
 
 type Candidate = {
@@ -53,6 +59,17 @@ function normalize(value: string) {
     .replace(/[«»"']/g, "")
     .replace(/[^a-zа-я0-9]+/gi, " ")
     .trim();
+}
+
+function safeHttpUrl(value: unknown) {
+  const raw = text(value);
+  if (!raw) return null;
+  try {
+    const parsed = new URL(raw);
+    return ["http:", "https:"].includes(parsed.protocol) ? parsed.toString() : null;
+  } catch {
+    return null;
+  }
 }
 
 function haversine(lat1: number, lon1: number, lat2: number, lon2: number) {
@@ -129,6 +146,7 @@ async function search(place: Place) {
       "items.dates",
       "items.flags",
       "items.contact_groups",
+      "items.external_content",
     ].join(","),
   });
   const response = await fetch(`${API}?${params}`, {
@@ -143,6 +161,33 @@ async function search(place: Place) {
     .filter((item): item is Candidate => item !== null)
     .sort((a, b) => b.score - a.score);
   return candidates[0] && candidates[0].score >= 95 ? candidates[0] : null;
+}
+
+async function details(id: string) {
+  const params = new URLSearchParams({
+    key: KEY,
+    id,
+    locale: "ru_RU",
+    fields: [
+      "items.flags",
+      "items.external_content",
+      "items.schedule",
+      "items.description",
+      "items.reviews",
+      "items.dates",
+      "items.contact_groups",
+      "items.full_address_name",
+      "items.address",
+    ].join(","),
+  });
+  const response = await fetch(`${BY_ID_API}?${params}`, {
+    headers: { "user-agent": UA, accept: "application/json" },
+  });
+  if (!response.ok) throw new Error(`2GIS byid ${response.status}: ${await response.text()}`);
+  const payload = obj(await response.json());
+  const result = obj(payload?.result);
+  const items = Array.isArray(result?.items) ? result.items.map(obj).filter((item): item is Dict => item !== null) : [];
+  return items[0] ?? null;
 }
 
 function phone(raw: Dict) {
@@ -160,7 +205,18 @@ function phone(raw: Dict) {
 }
 
 function hasPhotos(raw: Dict) {
-  return obj(raw.flags)?.photos === true;
+  return obj(raw.flags)?.photos === true || Boolean(mainPhotoUrl(raw));
+}
+
+function mainPhotoUrl(raw: Dict) {
+  const external = Array.isArray(raw.external_content)
+    ? raw.external_content.map(obj).filter((item): item is Dict => item !== null)
+    : [];
+  for (const item of external) {
+    const url = safeHttpUrl(item.main_photo_url);
+    if (url) return url;
+  }
+  return null;
 }
 
 function reviewStats(raw: Dict) {
@@ -208,6 +264,7 @@ async function main() {
       status: "skipped",
       reason: "DGIS_API_KEY is not configured",
       places: places.length,
+      mediaRightsApproved: MEDIA_RIGHTS_APPROVED,
       generatedAt: new Date().toISOString(),
     };
     await writeFile("data/2gis-report.json", `${JSON.stringify(report, null, 2)}\n`, "utf8");
@@ -217,15 +274,25 @@ async function main() {
 
   let matched = 0;
   let hasPhotoCount = 0;
+  let mainPhotoCount = 0;
+  let promotedPhotoCount = 0;
   let errors = 0;
   const matches = await concurrent(places, 4, async (place, index) => {
     try {
       const candidate = await search(place);
       if ((index + 1) % 25 === 0) console.log(`2GIS enrichment ${index + 1}/${places.length}`);
       if (!candidate) return { place, match: null };
+      let raw = candidate.raw;
+      try {
+        const detailed = await details(candidate.id);
+        if (detailed) raw = { ...raw, ...detailed };
+      } catch (error) {
+        console.warn(`[2gis byid] ${place.name}: ${error instanceof Error ? error.message : error}`);
+      }
       matched += 1;
-      if (hasPhotos(candidate.raw)) hasPhotoCount += 1;
-      return { place, match: candidate };
+      if (hasPhotos(raw)) hasPhotoCount += 1;
+      if (mainPhotoUrl(raw)) mainPhotoCount += 1;
+      return { place, match: { ...candidate, raw } };
     } catch (error) {
       errors += 1;
       console.warn(`[2gis] ${place.name}: ${error instanceof Error ? error.message : error}`);
@@ -241,12 +308,17 @@ async function main() {
     const scheduleSummary = scheduleText(match.raw);
     const description = text(match.raw.description);
     const updatedAt = text(obj(match.raw.dates)?.updated_at);
+    const providerPhoto = mainPhotoUrl(match.raw);
+    const twoGisSourceUrl = `https://2gis.ru/khabarovsk/firm/${match.id}`;
+    const promotePhoto = Boolean(MEDIA_RIGHTS_APPROVED && providerPhoto && !place.imageUrl);
+    if (promotePhoto) promotedPhotoCount += 1;
 
     return {
       ...place,
       twoGisId: match.id,
-      twoGisSourceUrl: `https://2gis.ru/khabarovsk/firm/${match.id}`,
+      twoGisSourceUrl,
       twoGisHasPhotos: hasPhotos(match.raw),
+      twoGisMainPhotoUrl: providerPhoto,
       twoGisUpdatedAt: updatedAt,
       twoGisMatchScore: match.score,
       phone: place.phone || rawPhone || null,
@@ -256,6 +328,10 @@ async function main() {
       rating: place.rating ?? stats.rating,
       reviewsCount: place.reviewsCount ?? stats.count,
       address: place.address === "Хабаровск" && match.fullAddress ? match.fullAddress : place.address,
+      imageUrl: promotePhoto ? providerPhoto : place.imageUrl ?? null,
+      imageSourceUrl: promotePhoto ? twoGisSourceUrl : place.imageSourceUrl ?? null,
+      imageSource: promotePhoto ? "TWO_GIS" : place.imageSource ?? null,
+      imageRights: promotePhoto ? "APPROVED" : place.imageRights ?? null,
     };
   });
 
@@ -265,10 +341,16 @@ async function main() {
     total: places.length,
     matched,
     with2GisPhotosFlag: hasPhotoCount,
+    withMainPhotoUrl: mainPhotoCount,
+    promotedToAppPhotos: promotedPhotoCount,
+    mediaRightsApproved: MEDIA_RIGHTS_APPROVED,
     errors,
     generatedAt: new Date().toISOString(),
   }, null, 2)}\n`, "utf8");
-  console.log(`2GIS API matched ${matched}/${places.length}; ${hasPhotoCount} report photos available; ${errors} request errors`);
+  console.log(
+    `2GIS API matched ${matched}/${places.length}; ${mainPhotoCount} main photo URLs; ` +
+    `${promotedPhotoCount} promoted; ${errors} request errors`,
+  );
 }
 
 main().catch((error) => {

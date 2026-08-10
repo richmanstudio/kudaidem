@@ -1,5 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 
+// Stage 2 final media reconciliation: keep the live catalog at an exact 200/200 photo gate.
 const SNAPSHOT_URL = "https://raw.githubusercontent.com/richmanstudio/kudaidem/agent/stage-2-search-media/data/khabarovsk-places.json";
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
 const SEARCH = "https://www.bing.com/images/search";

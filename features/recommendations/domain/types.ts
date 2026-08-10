@@ -9,13 +9,25 @@ export type Place = {
   tags: Mood[];
   minParty: number;
   maxParty: number;
-  price: number;
+  price: number | null;
   duration: number;
-  closesAt: string;
+  closesAt: string | null;
   description: string;
-  travelMinutes: number;
+  travelMinutes: number | null;
   accent: string;
   isActive: boolean;
+  address: string | null;
+  latitude: number | null;
+  longitude: number | null;
+  imageUrl: string | null;
+  imageSourceUrl: string | null;
+  imageRights: "OFFICIAL_SOURCE" | "THIRD_PARTY_UNKNOWN" | "NEEDS_REVIEW" | "APPROVED" | null;
+  sourceUrl: string | null;
+  verifiedAt: string | null;
+  website: string | null;
+  phone: string | null;
+  rating: number | null;
+  reviewsCount: number | null;
 };
 
 export type SearchFilters = {

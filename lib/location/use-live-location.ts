@@ -18,14 +18,28 @@ export function useLiveLocation() {
   const [isRequesting, setIsRequesting] = useState(false);
 
   useEffect(() => {
-    const cached = readCachedLocation();
-    if (cached) {
-      setLocation(cached);
-      setPermission("granted");
-      return;
-    }
+    let active = true;
 
-    void detectLocationPermission().then(setPermission).catch(() => setPermission("error"));
+    void Promise.resolve().then(async () => {
+      const cached = readCachedLocation();
+      if (!active) return;
+      if (cached) {
+        setLocation(cached);
+        setPermission("granted");
+        return;
+      }
+
+      try {
+        const state = await detectLocationPermission();
+        if (active) setPermission(state);
+      } catch {
+        if (active) setPermission("error");
+      }
+    });
+
+    return () => {
+      active = false;
+    };
   }, []);
 
   const request = useCallback(async () => {

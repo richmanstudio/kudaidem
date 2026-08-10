@@ -8,6 +8,14 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-11649000544",
+    "name": "Дом",
+    "website": "https://restdom.ru/",
+    "imageUrl": "https://restdom.ru/wp-content/uploads/2021/09/mr-rakusa-scaled.jpg",
+    "imageSourceUrl": "https://restdom.ru/about/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-4384833849",
     "name": "Пекинская утка",
     "website": "https://pekinskaya-utka.ru/",
@@ -21,6 +29,14 @@
     "website": "https://haribu.rest/",
     "imageUrl": "https://static.tildacdn.com/tild3830-3163-4565-a363-346138613635/image_1_.jpg",
     "imageSourceUrl": "https://haribu.rest/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-5973897873",
+    "name": "Vdrova",
+    "website": "https://www.instagram.com/vdrova_rjworlds/",
+    "imageUrl": "https://static.cdninstagram.com/rsrc.php/v4/yD/r/R0fBIMurK8v.png",
+    "imageSourceUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvdrova_rjworlds%2F&is_from_rle",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -56,14 +72,6 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-11649000544",
-    "name": "Дом",
-    "website": "https://restdom.ru/",
-    "imageUrl": "https://restdom.ru/wp-content/uploads/2021/09/mr-rakusa-scaled.jpg",
-    "imageSourceUrl": "https://restdom.ru/about/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-node-3164098485",
     "name": "Ковбой",
     "website": "https://aragon27.ru/",
@@ -78,14 +86,6 @@
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
-  },
-  {
-    "id": "osm-node-5973897873",
-    "name": "Vdrova",
-    "website": "https://www.instagram.com/vdrova_rjworlds/",
-    "imageUrl": "https://static.cdninstagram.com/rsrc.php/v4/yD/r/R0fBIMurK8v.png",
-    "imageSourceUrl": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fvdrova_rjworlds%2F&is_from_rle",
-    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-way-452568216",
@@ -304,11 +304,35 @@
     "imageRights": null
   },
   {
+    "id": "osm-way-302009332",
+    "name": "Вилки-Палки",
+    "website": "https://vilki-palki.ru/",
+    "imageUrl": "https://vilki-palki.ru/files/products/E9/gY/J9/1670385238_PivoTsingtao.jpg",
+    "imageSourceUrl": "https://vilki-palki.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12887857002",
+    "name": "Келди",
+    "website": "https://keldi.shop/",
+    "imageUrl": "https://keldi.shop/cache/1741325000.png",
+    "imageSourceUrl": "https://keldi.shop/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-12395371058",
     "name": "Кофемашина",
     "website": "https://c-machine.ru/",
     "imageUrl": "https://c-machine.ru/wp-content/themes/cmachine/assets/img/og_cmachine.jpg",
     "imageSourceUrl": "https://c-machine.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-11649000540",
+    "name": "Мишка",
+    "website": "https://mishkarestaurant.ru/",
+    "imageUrl": "https://mishkarestaurant.ru/wp-content/uploads/2019/05/PHOTO-2022-11-23-13-44-30-878x1024.jpg",
+    "imageSourceUrl": "https://mishkarestaurant.ru/dopolnitelno/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -320,6 +344,14 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-node-7832298087",
+    "name": "Cinnabon",
+    "website": "https://cinnabonrussia.com/",
+    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
+    "imageSourceUrl": "https://cinnabonrussia.com/about/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-12059180588",
     "name": "Torro Grill",
     "website": "https://torrogrill.ru/",
@@ -328,15 +360,23 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-way-302009332",
-    "name": "Вилки-Палки",
-    "website": "https://vilki-palki.ru/",
-    "imageUrl": "https://vilki-palki.ru/files/products/E9/gY/J9/1670385238_PivoTsingtao.jpg",
-    "imageSourceUrl": "https://vilki-palki.ru/",
+    "id": "osm-node-3857899474",
+    "name": "Cinnabon",
+    "website": "http://www.cinnabonrussia.com/",
+    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
+    "imageSourceUrl": "https://cinnabonrussia.com/about/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-12887857002",
+    "id": "osm-node-4381379720",
+    "name": "Хлебное место",
+    "website": "http://hlebnoe-mesto.ru/",
+    "imageUrl": "https://img.reg.ru/news/p-domain-parking-shopfront__image-1.webp",
+    "imageSourceUrl": "http://hlebnoe-mesto.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-12506476246",
     "name": "Келди",
     "website": "https://keldi.shop/",
     "imageUrl": "https://keldi.shop/cache/1741325000.png",
@@ -358,14 +398,6 @@
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
-  },
-  {
-    "id": "osm-node-11649000540",
-    "name": "Мишка",
-    "website": "https://mishkarestaurant.ru/",
-    "imageUrl": "https://mishkarestaurant.ru/wp-content/uploads/2019/05/PHOTO-2022-11-23-13-44-30-878x1024.jpg",
-    "imageSourceUrl": "https://mishkarestaurant.ru/dopolnitelno/",
-    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-7670756981",
@@ -392,14 +424,6 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-7832298087",
-    "name": "Cinnabon",
-    "website": "https://cinnabonrussia.com/",
-    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
-    "imageSourceUrl": "https://cinnabonrussia.com/about/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-way-270539004",
     "name": "Кафема",
     "website": "http://kafema.ru/",
@@ -408,20 +432,12 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-3857899474",
-    "name": "Cinnabon",
-    "website": "http://www.cinnabonrussia.com/",
-    "imageUrl": "https://cinnabonrussia.com/upload/iblock/0d7/About_Us_CinnamonSpread_1440x512.jpg",
-    "imageSourceUrl": "https://cinnabonrussia.com/about/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-node-7747825751",
     "name": "Корея",
     "website": "https://korea27.ru/",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "imageUrl": "https://korea27.ru/templates/korea_main/images/kafe.jpg",
+    "imageSourceUrl": "https://korea27.ru/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-4611366190",
@@ -430,22 +446,6 @@
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
-  },
-  {
-    "id": "osm-node-4381379720",
-    "name": "Хлебное место",
-    "website": "http://hlebnoe-mesto.ru/",
-    "imageUrl": "https://img.reg.ru/news/p-domain-parking-shopfront__image-1.webp",
-    "imageSourceUrl": "http://hlebnoe-mesto.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-node-12506476246",
-    "name": "Келди",
-    "website": "https://keldi.shop/",
-    "imageUrl": "https://keldi.shop/cache/1741325000.png",
-    "imageSourceUrl": "https://keldi.shop/",
-    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-way-934124462",
@@ -544,6 +544,30 @@
     "imageRights": null
   },
   {
+    "id": "osm-node-12070992815",
+    "name": "Япона ролл",
+    "website": "https://yaponaroll.ru/",
+    "imageUrl": "https://yaponaroll.ru/admin/uploads/072a9a6c6e931390fccf401c3654897ae67a871ebanner-na-sajt_sety-hanami_hana.jpg",
+    "imageSourceUrl": "https://yaponaroll.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-9954298509",
+    "name": "Вкусно — и точка",
+    "website": "https://vkusnoitochka.ru/",
+    "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
+    "imageSourceUrl": "https://vkusnoitochka.ru/company",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-node-1378096668",
+    "name": "Золотая птичка",
+    "website": "https://golden-life.ru/",
+    "imageUrl": "https://www.golden-life.ru/assets/images/banners/slide-01.webp",
+    "imageSourceUrl": "https://www.golden-life.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-13420909860",
     "name": "Суши-Маркет",
     "website": "https://sushi-market.com/",
@@ -608,11 +632,11 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-12070992815",
-    "name": "Япона ролл",
-    "website": "https://yaponaroll.ru/",
-    "imageUrl": "https://yaponaroll.ru/admin/uploads/072a9a6c6e931390fccf401c3654897ae67a871ebanner-na-sajt_sety-hanami_hana.jpg",
-    "imageSourceUrl": "https://yaponaroll.ru/",
+    "id": "osm-node-10013201138",
+    "name": "Вкусно — и точка",
+    "website": "https://vkusnoitochka.ru/",
+    "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
+    "imageSourceUrl": "https://vkusnoitochka.ru/company",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -632,14 +656,6 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-9954298509",
-    "name": "Вкусно — и точка",
-    "website": "https://vkusnoitochka.ru/",
-    "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
-    "imageSourceUrl": "https://vkusnoitochka.ru/company",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
     "id": "osm-node-12358147826",
     "name": "Додо Пицца",
     "website": "https://dodopizza.ru/",
@@ -648,19 +664,11 @@
     "imageRights": null
   },
   {
-    "id": "osm-node-12358152972",
-    "name": "Додо Пицца",
-    "website": "https://dodopizza.ru/",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
-  },
-  {
-    "id": "osm-node-1378096668",
-    "name": "Золотая птичка",
-    "website": "https://golden-life.ru/",
-    "imageUrl": "https://www.golden-life.ru/assets/images/banners/slide-01.webp",
-    "imageSourceUrl": "https://www.golden-life.ru/",
+    "id": "osm-node-11649000536",
+    "name": "Винотека",
+    "website": "https://vinotekabar.ru/",
+    "imageUrl": "https://vinotekabar.ru/wp-content/uploads/2021/07/IMG_7632.jpg",
+    "imageSourceUrl": "https://vinotekabar.ru/",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -672,11 +680,11 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
-    "id": "osm-node-11649000536",
-    "name": "Винотека",
-    "website": "https://vinotekabar.ru/",
-    "imageUrl": "https://vinotekabar.ru/wp-content/uploads/2021/07/IMG_7632.jpg",
-    "imageSourceUrl": "https://vinotekabar.ru/",
+    "id": "osm-node-2392277758",
+    "name": "Mozart",
+    "website": "http://mozart-club27.ru/",
+    "imageUrl": "https://mozart-club27.ru/images/stories/forsite/111.jpg",
+    "imageSourceUrl": "https://mozart-club27.ru/index.php/about-us",
     "imageRights": "NEEDS_REVIEW"
   },
   {
@@ -710,14 +718,6 @@
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
-  },
-  {
-    "id": "osm-node-2392277758",
-    "name": "Mozart",
-    "website": "http://mozart-club27.ru/",
-    "imageUrl": "https://mozart-club27.ru/images/stories/forsite/111.jpg",
-    "imageSourceUrl": "https://mozart-club27.ru/index.php/about-us",
-    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-12151045373",
@@ -904,6 +904,22 @@
     "imageRights": "NEEDS_REVIEW"
   },
   {
+    "id": "osm-way-272536654",
+    "name": "Спортивный комплекс \"Олимпия\"",
+    "website": "http://olimpia27.ru/",
+    "imageUrl": "https://olimpia27.ru/templates/ol/img/photo_dla_glavnoi/img_1.jpg",
+    "imageSourceUrl": "https://olimpia27.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
+    "id": "osm-way-272536655",
+    "name": "Спортивный комплекс \"Олимпия\"",
+    "website": "http://olimpia27.ru/",
+    "imageUrl": "https://olimpia27.ru/templates/ol/img/photo_dla_glavnoi/img_1.jpg",
+    "imageSourceUrl": "https://olimpia27.ru/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-1345725853",
     "name": "КСК Чистополье",
     "website": "https://chistopolye.ru/",
@@ -950,22 +966,6 @@
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
-  },
-  {
-    "id": "osm-way-272536654",
-    "name": "Спортивный комплекс \"Олимпия\"",
-    "website": "http://olimpia27.ru/",
-    "imageUrl": "https://olimpia27.ru/templates/ol/img/photo_dla_glavnoi/img_1.jpg",
-    "imageSourceUrl": "https://olimpia27.ru/",
-    "imageRights": "NEEDS_REVIEW"
-  },
-  {
-    "id": "osm-way-272536655",
-    "name": "Спортивный комплекс \"Олимпия\"",
-    "website": "http://olimpia27.ru/",
-    "imageUrl": "https://olimpia27.ru/templates/ol/img/photo_dla_glavnoi/img_1.jpg",
-    "imageSourceUrl": "https://olimpia27.ru/",
-    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-3076533518",
@@ -1040,6 +1040,14 @@
     "imageRights": null
   },
   {
+    "id": "osm-node-9953705395",
+    "name": "Авторетро 100",
+    "website": "https://xn--100-5cdks6dbqbsd.xn--p1ai/",
+    "imageUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/images/c6_banner2.jpg",
+    "imageSourceUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/",
+    "imageRights": "NEEDS_REVIEW"
+  },
+  {
     "id": "osm-node-3634989899",
     "name": "Музей Энергетики",
     "website": "https://www.dvgk.ru/ru/static/o-muzieie",
@@ -1062,14 +1070,6 @@
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
-  },
-  {
-    "id": "osm-node-9953705395",
-    "name": "Авторетро 100",
-    "website": "https://xn--100-5cdks6dbqbsd.xn--p1ai/",
-    "imageUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/images/c6_banner2.jpg",
-    "imageSourceUrl": "https://xn--100-5cdks6dbqbsd.xn--p1ai/",
-    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-2495828812",
@@ -1392,6 +1392,14 @@
     "imageRights": null
   },
   {
+    "id": "osm-node-12358152972",
+    "name": "Додо Пицца",
+    "website": "https://dodopizza.ru/",
+    "imageUrl": null,
+    "imageSourceUrl": null,
+    "imageRights": null
+  },
+  {
     "id": "osm-node-9805680194",
     "name": "Do.Bro Coffee",
     "website": "https://dobro-coffee.ru/",
@@ -1411,9 +1419,9 @@
     "id": "osm-node-11975028915",
     "name": "Sushi Sea",
     "website": "https://sushi-sea.ru/",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageRights": null
+    "imageUrl": "https://sushi-sea.ru/static/main-screen-photo-widescreen.gif",
+    "imageSourceUrl": "https://sushi-sea.ru/",
+    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-11975028916",
@@ -1430,14 +1438,6 @@
     "imageUrl": null,
     "imageSourceUrl": null,
     "imageRights": null
-  },
-  {
-    "id": "osm-node-10013201138",
-    "name": "Вкусно — и точка",
-    "website": "https://vkusnoitochka.ru/",
-    "imageUrl": "https://vkusnoitochka.ru/upload/iblock/3b4/x2g6o1ci2gj26tgg7dg6fxp0fgdifqai/about_bg_mobile.jpeg",
-    "imageSourceUrl": "https://vkusnoitochka.ru/company",
-    "imageRights": "NEEDS_REVIEW"
   },
   {
     "id": "osm-node-9953971133",

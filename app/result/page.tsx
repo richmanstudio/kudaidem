@@ -3,7 +3,7 @@ import { Topbar } from "@/components/ui/topbar";
 import { EmptyState } from "@/components/ui/screen-state";
 import { Clock, Navigation, Sparkles, Users, Wallet } from "@/components/ui/icons";
 import { PlaceVisual } from "@/features/places/components/place-visual";
-import { rankPlaces } from "@/features/recommendations/domain/recommend";
+import { recommendPlaces } from "@/features/recommendations/domain/recommend";
 import {
   filtersToSearchParams,
   parseSearchRecord,
@@ -20,7 +20,8 @@ export default async function ResultPage({ searchParams }: Props) {
     0,
     Number(typeof raw.i === "string" ? raw.i : 0) || 0,
   );
-  const ranked = rankPlaces(filters);
+  const recommendation = recommendPlaces(filters);
+  const ranked = recommendation.results;
 
   if (ranked.length === 0) {
     return (
@@ -28,7 +29,7 @@ export default async function ResultPage({ searchParams }: Props) {
         <Topbar title="Результат" />
         <EmptyState
           title="Пока ничего не нашли"
-          description="Измените параметры поиска — мы не будем показывать случайное место только ради результата."
+          description="Измените параметры поиска — мы не будем показывать закрытое, слишком дорогое или неподходящее для вашей компании место только ради результата."
           actionHref="/"
           actionLabel="Изменить параметры"
         />
@@ -52,6 +53,12 @@ export default async function ResultPage({ searchParams }: Props) {
           <Sparkles width={20} />
           <span>Подходит вам на <strong>{place.match}%</strong></span>
         </div>
+        {place.reasons.length > 0 && (
+          <p className="subline">Почему: {place.reasons.slice(0, 2).join(" · ")}</p>
+        )}
+        {recommendation.mode === "relaxed-budget" && (
+          <p className="notice">Точных вариантов в бюджете не осталось — показываем ближайший разумный запасной.</p>
+        )}
       </section>
 
       <div className="stats">
@@ -60,10 +67,10 @@ export default async function ResultPage({ searchParams }: Props) {
           <Wallet /> {place.price != null ? `≈ ${place.price.toLocaleString("ru-RU")} ₽ / чел` : "Средний чек уточняется"}
         </div>
         <div className="stat">
-          <Clock /> {place.closesAt ? `Открыто до ${place.closesAt}` : "График — в карточке места"}
+          <Clock /> {place.availability === "open" ? "Открыто сейчас" : (place.closesAt ? `График до ${place.closesAt}` : "График — в карточке места")}
         </div>
         <div className="stat">
-          <Navigation /> {place.travelMinutes != null ? `${place.travelMinutes} минут от вас` : (place.address || "Хабаровск")}
+          <Navigation /> {place.travelMinutes != null ? `≈ ${place.travelMinutes} минут от вас` : (place.address || "Хабаровск")}
         </div>
       </div>
 

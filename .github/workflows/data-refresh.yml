@@ -17,6 +17,7 @@ on:
       - scripts/enrich-2gis-api.ts
       - scripts/enrich-place-details.ts
       - scripts/enrich-search-details.ts
+      - scripts/enrich-2gis-public.ts
       - scripts/sanitize-photo-catalog.ts
       - scripts/validate-places.ts
       - scripts/audit-catalog.ts
@@ -100,6 +101,11 @@ jobs:
         continue-on-error: true
         run: npx tsx scripts/enrich-search-details.ts
 
+      - name: Enrich rating, check, hours and contacts from matched public 2GIS pages
+        id: dgis_public
+        continue-on-error: true
+        run: npx tsx scripts/enrich-2gis-public.ts
+
       - name: Remove invalid, non-raster and unmatched provider media
         id: sanitize_photos
         run: npm run data:sanitize-photos
@@ -160,6 +166,7 @@ jobs:
           echo "- licensed 2GIS API enrichment: ${{ steps.dgis.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- official-site details enrichment: ${{ steps.details.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- search details enrichment: ${{ steps.search_details.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- public 2GIS details enrichment: ${{ steps.dgis_public.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- media sanitizer: ${{ steps.sanitize_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- exact 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- catalog audit: ${{ steps.audit.outcome }}" >> "$GITHUB_STEP_SUMMARY"

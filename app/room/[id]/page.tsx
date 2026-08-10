@@ -7,14 +7,15 @@ export const dynamic = "force-dynamic";
 
 export default async function RoomPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const room = getRoom(id);
+  let room = null;
+  try { room = await getRoom(id); } catch { room = null; }
   if (!room) notFound();
 
   return <div className="screen">
     <Topbar title="Комната" />
     <div className="eyebrow">Совместный выбор</div>
     <h1 className="room-title">{room.title}</h1>
-    <p className="subline">Голосуйте независимо. Лидером становится вариант с лучшим общим балансом голосов.</p>
+    <p className="subline">Голосуйте независимо. Комната синхронизируется между участниками и автоматически закрывается через 24 часа.</p>
     <LiveRoomClient initialRoom={room} />
   </div>;
 }

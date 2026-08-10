@@ -3,7 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 const API = "https://kudago.com/public-api/v1.4/places/";
 const USER_AGENT = "KudaIdemKudaGoEnricher/0.2 (+https://github.com/richmanstudio/kudaidem)";
 const CENTER = { lat: 48.4802, lon: 135.0719 };
-const RADIUS_METERS = 80_000;
+const RADIUS_METERS = 30_000;
 
 type Dict = Record<string, unknown>;
 type Place = Dict & {
@@ -239,6 +239,7 @@ async function main() {
   report.imagesNeedingReview = reviewImages;
   report.kudagoCandidates = candidates.length;
   report.kudagoAdded = added;
+  report.kudagoRadiusMeters = RADIUS_METERS;
   report.kudagoEnrichedAt = new Date().toISOString();
 
   await writeFile("data/khabarovsk-places.json", `${JSON.stringify(updated, null, 2)}\n`, "utf8");

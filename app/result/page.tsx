@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Topbar } from "@/components/ui/topbar";
 import { EmptyState } from "@/components/ui/screen-state";
 import { Clock, Navigation, Sparkles, Users, Wallet } from "@/components/ui/icons";
+import { PlaceVisual } from "@/features/places/components/place-visual";
 import { rankPlaces } from "@/features/recommendations/domain/recommend";
 import {
   filtersToSearchParams,
@@ -42,12 +43,7 @@ export default async function ResultPage({ searchParams }: Props) {
   return (
     <div className="screen">
       <Topbar title="Лучший вариант" />
-
-      <div className="place-visual">
-        <div className="visual-lines" />
-        <div className="visual-tag">{place.match}%</div>
-        <div className="visual-word">{place.accent}</div>
-      </div>
+      <PlaceVisual place={place} match={place.match} />
 
       <section className="result-copy">
         <div className="eyebrow">{place.category}</div>
@@ -60,9 +56,15 @@ export default async function ResultPage({ searchParams }: Props) {
 
       <div className="stats">
         <div className="stat"><Users /> {filters.party} человека</div>
-        <div className="stat"><Wallet /> ≈ {place.price.toLocaleString("ru-RU")} ₽ / чел</div>
-        <div className="stat"><Clock /> Открыто до {place.closesAt}</div>
-        <div className="stat"><Navigation /> {place.travelMinutes} минут от вас</div>
+        <div className="stat">
+          <Wallet /> {place.price != null ? `≈ ${place.price.toLocaleString("ru-RU")} ₽ / чел` : "Средний чек уточняется"}
+        </div>
+        <div className="stat">
+          <Clock /> {place.closesAt ? `Открыто до ${place.closesAt}` : "График — в карточке места"}
+        </div>
+        <div className="stat">
+          <Navigation /> {place.travelMinutes != null ? `${place.travelMinutes} минут от вас` : (place.address || "Хабаровск")}
+        </div>
       </div>
 
       <div className="button-row bottom-action">

@@ -36,14 +36,14 @@ jobs:
           node-version: 22
       - run: npm install --no-audit --no-fund
 
-      - name: Enrich places from open and official photo sources
-        id: photo_enrich
-        continue-on-error: true
-        run: npm run data:collect
-
       - name: Finalize exactly 200 current places
         id: finalize
         run: npm run data:finalize
+
+      - name: Enrich finalized places from open and official photo sources
+        id: photo_enrich
+        continue-on-error: true
+        run: npm run data:collect
 
       - name: Validate 200-place catalog
         id: validate
@@ -85,8 +85,8 @@ jobs:
         shell: bash
         run: |
           echo "## Khabarovsk data refresh" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Open/official photo enrichment: ${{ steps.photo_enrich.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-place finalizer: ${{ steps.finalize.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Open/official photo enrichment: ${{ steps.photo_enrich.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-photo gate: ${{ steps.photo_gate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           if [ -f data/scrape-report.json ]; then

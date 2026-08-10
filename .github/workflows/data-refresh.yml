@@ -8,6 +8,7 @@ on:
     paths:
       - package.json
       - scripts/collect-khabarovsk.ts
+      - scripts/deep-official-photos.ts
       - scripts/finalize-khabarovsk-catalog.ts
       - scripts/validate-places.ts
       - .github/workflows/data-refresh.yml
@@ -22,7 +23,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
     env:
       TARGET_PLACES: "200"
       TARGET_PHOTOS: "200"
@@ -40,10 +41,15 @@ jobs:
         id: finalize
         run: npm run data:finalize
 
-      - name: Enrich finalized places from open and official photo sources
+      - name: Enrich finalized places from open and official metadata sources
         id: photo_enrich
         continue-on-error: true
         run: npm run data:collect
+
+      - name: Deep scan official sites for venue photography
+        id: official_photos
+        continue-on-error: true
+        run: npm run data:official-photos
 
       - name: Validate 200-place catalog
         id: validate
@@ -86,7 +92,8 @@ jobs:
         run: |
           echo "## Khabarovsk data refresh" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-place finalizer: ${{ steps.finalize.outcome }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Open/official photo enrichment: ${{ steps.photo_enrich.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Open/official metadata enrichment: ${{ steps.photo_enrich.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Deep official photo scan: ${{ steps.official_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-photo gate: ${{ steps.photo_gate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           if [ -f data/scrape-report.json ]; then

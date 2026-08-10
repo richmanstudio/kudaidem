@@ -33,9 +33,14 @@ type InputPlace = {
   bookingUrl: string | null;
   sourceUrl: string;
   source: keyof typeof PlaceSource;
+  sourceUpdatedAt: string | null;
   imageUrl: string;
   imageSourceUrl: string;
+  imageSource: keyof typeof PlaceSource;
   imageRights: keyof typeof ImageRights;
+  imageAuthor: string | null;
+  imageLicense: string | null;
+  imageLicenseUrl: string | null;
   priceMin: number | null;
   priceMax: number | null;
   averageCheck: number | null;
@@ -68,7 +73,7 @@ function nullableJson(value: unknown) {
 async function main() {
   const raw = await readFile("data/khabarovsk-places.json", "utf8");
   const places = JSON.parse(raw) as InputPlace[];
-  if (places.length === 0) throw new Error("Catalog is empty. Run npm run data:scrape first.");
+  if (places.length === 0) throw new Error("Catalog is empty. Run npm run data:collect first.");
 
   for (const place of places) {
     const data = {
@@ -88,9 +93,14 @@ async function main() {
       bookingUrl: place.bookingUrl,
       sourceUrl: place.sourceUrl,
       source: PlaceSource[place.source],
+      sourceUpdatedAt: place.sourceUpdatedAt ? new Date(place.sourceUpdatedAt) : null,
       imageUrl: place.imageUrl,
       imageSourceUrl: place.imageSourceUrl,
+      imageSource: PlaceSource[place.imageSource],
       imageRights: ImageRights[place.imageRights],
+      imageAuthor: place.imageAuthor,
+      imageLicense: place.imageLicense,
+      imageLicenseUrl: place.imageLicenseUrl,
       priceMin: place.priceMin,
       priceMax: place.priceMax,
       averageCheck: place.averageCheck,
@@ -128,8 +138,11 @@ async function main() {
         placeId: place.id,
         url: place.imageUrl,
         sourceUrl: place.imageSourceUrl,
-        source: PlaceSource[place.source],
+        source: PlaceSource[place.imageSource],
         rights: ImageRights[place.imageRights],
+        author: place.imageAuthor,
+        license: place.imageLicense,
+        licenseUrl: place.imageLicenseUrl,
         position: 0,
       },
     });

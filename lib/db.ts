@@ -12,3 +12,9 @@ export function getDb() {
   if (process.env.NODE_ENV !== "production") globalDb.__kudaidemPrisma = prisma;
   return prisma;
 }
+
+export function requireDb() {
+  const db = getDb();
+  if (!db) throw new Error("DATABASE_URL is required for this operation");
+  return db;
+}

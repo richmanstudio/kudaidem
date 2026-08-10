@@ -34,6 +34,11 @@ type InputPlace = {
   sourceUrl: string;
   source: keyof typeof PlaceSource;
   sourceUpdatedAt: string | null;
+  twoGisId?: string | null;
+  twoGisSourceUrl?: string | null;
+  twoGisHasPhotos?: boolean | null;
+  twoGisUpdatedAt?: string | null;
+  twoGisMatchScore?: number | null;
   imageUrl: string | null;
   imageSourceUrl: string | null;
   imageSource: keyof typeof PlaceSource | null;
@@ -101,6 +106,11 @@ async function main() {
       sourceUrl: place.sourceUrl,
       source: PlaceSource[place.source],
       sourceUpdatedAt: place.sourceUpdatedAt ? new Date(place.sourceUpdatedAt) : null,
+      twoGisId: place.twoGisId ?? null,
+      twoGisSourceUrl: place.twoGisSourceUrl ?? null,
+      twoGisHasPhotos: place.twoGisHasPhotos ?? null,
+      twoGisUpdatedAt: place.twoGisUpdatedAt ? new Date(place.twoGisUpdatedAt) : null,
+      twoGisMatchScore: place.twoGisMatchScore ?? null,
       imageUrl: place.imageUrl,
       imageSourceUrl: place.imageSourceUrl,
       imageSource,

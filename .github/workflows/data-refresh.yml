@@ -15,6 +15,7 @@ on:
       - scripts/enrich-kudago.ts
       - scripts/deep-official-photos.ts
       - scripts/enrich-2gis-api.ts
+      - scripts/enrich-place-details.ts
       - scripts/sanitize-photo-catalog.ts
       - scripts/validate-places.ts
       - scripts/audit-catalog.ts
@@ -88,6 +89,11 @@ jobs:
         continue-on-error: true
         run: npm run data:2gis
 
+      - name: Enrich contacts, hours, descriptions, prices and ratings
+        id: details
+        continue-on-error: true
+        run: npx tsx scripts/enrich-place-details.ts
+
       - name: Remove invalid, non-raster and unmatched provider media
         id: sanitize_photos
         run: npm run data:sanitize-photos
@@ -113,6 +119,7 @@ jobs:
           path: |
             data/khabarovsk-places.json
             data/scrape-report.json
+            data/details-report.json
             data/photo-review.json
             data/2gis-report.json
           if-no-files-found: error
@@ -123,7 +130,7 @@ jobs:
         run: |
           git config user.name "kudaidem-data-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/khabarovsk-places.json data/scrape-report.json data/photo-review.json data/2gis-report.json
+          git add data/khabarovsk-places.json data/scrape-report.json data/details-report.json data/photo-review.json data/2gis-report.json
           if git diff --cached --quiet; then
             echo "No catalog changes"
           else
@@ -145,12 +152,13 @@ jobs:
           echo "- KudaGo coordinate match: ${{ steps.kudago.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- deep official photo scan: ${{ steps.official_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- licensed 2GIS API enrichment: ${{ steps.dgis.outcome }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- details enrichment: ${{ steps.details.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- media sanitizer: ${{ steps.sanitize_photos.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- exact 200-place gate: ${{ steps.validate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- catalog audit: ${{ steps.audit.outcome }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- 200-photo gate: ${{ steps.photo_gate.outcome }}" >> "$GITHUB_STEP_SUMMARY"
-          if [ -f data/scrape-report.json ]; then
+          if [ -f data/details-report.json ]; then
             echo '```json' >> "$GITHUB_STEP_SUMMARY"
-            cat data/scrape-report.json >> "$GITHUB_STEP_SUMMARY"
+            cat data/details-report.json >> "$GITHUB_STEP_SUMMARY"
             echo '```' >> "$GITHUB_STEP_SUMMARY"
           fi

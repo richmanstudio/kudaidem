@@ -1,3 +1,41 @@
 # Куда идём?
 
-Bootstrap commit for the MVP. Full application is developed on the `agent/mvp` branch and merged through a pull request.
+Telegram Mini App на Next.js, которое за несколько действий подбирает место для компании и помогает собрать план на вечер.
+
+## MVP
+
+- Apple-like mobile UI без визуального шума.
+- Фильтры: город, количество людей, настроение, бюджет.
+- Локальный recommendation engine с ранжированием и match score.
+- Экран одного лучшего варианта вместо каталога.
+- Карточка места и переход в Яндекс Карты.
+- Автоматический план на вечер.
+- Комната друзей с голосованием и Telegram-share.
+- Telegram WebApp bootstrap: `ready`, `expand`, safe UI, haptics.
+- API `GET /api/recommendations` для будущего бота/клиента.
+
+> Текущий каталог — демонстрационный MVP для Хабаровска. Цены, часы и конкретные места должны быть подключены к актуальному источнику данных перед коммерческим запуском.
+
+## Запуск
+
+```bash
+npm install
+npm run dev
+```
+
+Проверка перед релизом:
+
+```bash
+npm run check
+```
+
+## Telegram
+
+1. Развернуть приложение по HTTPS.
+2. Создать бота через `@BotFather`.
+3. Настроить Main Mini App URL на адрес деплоя.
+4. Открывать приложение из профиля бота или direct-link.
+
+## Следующий этап
+
+PostgreSQL + админ-панель заведений, live-availability/hours, реальные координаты, погода, персональные профили и shared rooms с серверной синхронизацией.

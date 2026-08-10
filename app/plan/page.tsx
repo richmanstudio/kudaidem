@@ -43,12 +43,6 @@ export default async function PlanPage({ searchParams }: Props) {
   }
 
   const filters = parseSearchRecord(raw);
-  const total = (place.price + 850 + 950) * filters.party;
-  const items = [
-    { time: "19:00", title: "Ужин", price: 850 },
-    { time: "20:30", title: place.name, price: place.price },
-    { time: "22:30", title: "Финальная точка", price: 950 },
-  ];
 
   return (
     <div className="screen">
@@ -58,20 +52,28 @@ export default async function PlanPage({ searchParams }: Props) {
         <span>{filters.city}</span>
         <span className="dot">•</span>
         <span>{filters.party} человека</span>
-        <span className="dot">•</span>
-        <span>≈ {total.toLocaleString("ru-RU")} ₽</span>
+        {place.price != null ? (
+          <>
+            <span className="dot">•</span>
+            <span>≈ {(place.price * filters.party).toLocaleString("ru-RU")} ₽ на компанию</span>
+          </>
+        ) : null}
       </div>
 
       <div className="timeline">
-        {items.map((item) => (
-          <article className="timeline-item" key={item.time}>
-            <div className="timeline-time">{item.time}</div>
-            <div className="timeline-title">{item.title}</div>
-            <div className="timeline-price">
-              ≈ {item.price.toLocaleString("ru-RU")} ₽ на человека
-            </div>
-          </article>
-        ))}
+        <article className="timeline-item">
+          <div className="timeline-time">Основная точка</div>
+          <div className="timeline-title">{place.name}</div>
+          <div className="timeline-price">
+            {place.price != null
+              ? `≈ ${place.price.toLocaleString("ru-RU")} ₽ на человека`
+              : "Стоимость уточняется у заведения"}
+          </div>
+        </article>
+      </div>
+
+      <div className="notice">
+        Полный маршрут из нескольких проверенных точек будет добавлен на отдельном этапе. Здесь не используются вымышленные цены или места.
       </div>
 
       <SharePlanButton placeName={place.name} />

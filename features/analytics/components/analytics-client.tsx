@@ -5,7 +5,7 @@ import { getTelegramInitData } from "@/lib/telegram/client";
 
 const SESSION_KEY = "kudaidem-analytics-session";
 
-function sessionId() {
+export function getAnalyticsSessionId() {
   const existing = sessionStorage.getItem(SESSION_KEY);
   if (existing) return existing;
   const next = crypto.randomUUID();
@@ -19,7 +19,7 @@ export async function track(type: string, data: Record<string, unknown> = {}) {
       method: "POST",
       headers: { "content-type": "application/json", "x-telegram-init-data": getTelegramInitData() },
       keepalive: true,
-      body: JSON.stringify({ type, sessionId: sessionId(), path: location.pathname, ...data }),
+      body: JSON.stringify({ type, sessionId: getAnalyticsSessionId(), path: location.pathname, ...data }),
     });
   } catch {}
 }

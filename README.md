@@ -10,12 +10,10 @@ Stage 2 — live Khabarovsk catalog.
 
 - 200/200 актуальных мест Хабаровска;
 - 200/200 записей с координатами и provenance источника;
-- 93 места с указанным website/contact source;
-- 112 мест с `opening_hours`;
-- 33/200 мест с найденной реальной фотографией;
-- 11 изображений уже имеют открытую лицензию и статус `APPROVED`;
-- 22 изображения требуют проверки прав;
-- остальные места используют брендированный fallback до photo-enrichment.
+- до 93 мест с указанным website/contact source;
+- до 112 мест с `opening_hours`;
+- photo coverage считается только после media-sanitizer;
+- изображения без подтверждённого права повторного использования не показываются публично по умолчанию.
 
 Основной MVP-сценарий:
 
@@ -47,24 +45,33 @@ OpenStreetMap / Overpass API
         ▼
 balanced exact 200-place catalog
         │
+        ├── optional licensed 2GIS Places API metadata enrichment
+        │
         ▼
 photo enrichment
         ├── Wikimedia Commons / Wikidata P18
         │     └── author + license metadata
         └── official venue website
               └── NEEDS_REVIEW until reuse rights are confirmed
+        │
+        ▼
+media sanitizer
+        └── rejects HTML URLs, SVG/system assets and inaccessible non-raster media
 ```
 
 OpenStreetMap data is attributed in the user-facing place page and linked to the ODbL/copyright notice. Wikimedia photos store author/license/source metadata. A URL being publicly accessible is not treated as proof of commercial reuse rights.
 
-Public 2GIS HTML pages are **not scraped** by the production pipeline. If 2GIS is added as a provider, it must use the official Places API/Data product with an appropriate access key/subscription and contract-compatible display rights.
+Public 2GIS HTML pages are **not scraped** by the production pipeline. The optional 2GIS integration uses the official Places API and activates only when `DGIS_API_KEY` is configured.
 
 ## Data commands
 
 ```bash
 npm install
-npm run data:finalize   # builds a balanced exact 200-place current catalog and saves media hints
-npm run data:collect    # enriches those exact 200 records with open/official photo sources
+npm run data:finalize          # balanced exact 200 current places + media/provider hints
+npm run data:2gis              # optional licensed metadata enrichment; skips without DGIS_API_KEY
+npm run data:collect           # Wikimedia/Wikidata and official-site metadata/photo enrichment
+npm run data:official-photos   # deeper gallery/about scan on official venue sites
+npm run data:sanitize-photos   # validate that retained media URLs are real raster images
 REQUIRE_LIVE_DATA=1 npm run data:validate
 ```
 
@@ -80,7 +87,7 @@ Full photo-rights gate:
 REQUIRE_LIVE_DATA=1 REQUIRE_PHOTOS=1 REQUIRE_APPROVED_PHOTOS=1 npm run data:validate
 ```
 
-GitHub Actions workflow `Refresh Khabarovsk places` first finalizes the balanced 200-place catalog, then enriches those exact records with photo sources, validates the base catalog and checks photo coverage separately. It preserves `khabarovsk-places.json`, `scrape-report.json` and `photo-review.json` as an artifact and commits the base catalog once the 200-place gate is green.
+GitHub Actions workflow `Refresh Khabarovsk places` runs the same pipeline, preserves `khabarovsk-places.json`, `scrape-report.json`, `photo-review.json` and `2gis-report.json` as artifacts, and commits the base catalog once the 200-place gate is green. Photo coverage is reported separately and is measured after sanitization.
 
 ## Photo review
 
@@ -96,7 +103,7 @@ Do not enable this flag in public production before rights review.
 
 ## PostgreSQL / Prisma
 
-Stage 2 contains `Place`, `PlacePhoto`, provenance fields, photo author/license metadata and refresh history in `prisma/schema.prisma`.
+Stage 2 contains `Place`, `PlacePhoto`, source provenance, optional licensed 2GIS match metadata, photo author/license metadata and refresh history in `prisma/schema.prisma`.
 
 ```bash
 cp .env.example .env
@@ -123,6 +130,7 @@ data/
   khabarovsk-places.json  generated 200-place catalog
   scrape-report.json      generated coverage report
   photo-review.json       generated photo backlog / rights queue
+  2gis-report.json        optional official API enrichment report
 
 features/
   places/
@@ -142,7 +150,10 @@ prisma/
 
 scripts/
   finalize-khabarovsk-catalog.ts
+  enrich-2gis-api.ts
   collect-khabarovsk.ts
+  deep-official-photos.ts
+  sanitize-photo-catalog.ts
   validate-places.ts
   audit-catalog.ts
   import-places.ts
